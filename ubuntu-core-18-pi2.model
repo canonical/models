@@ -1,0 +1,23 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: ubuntu-core-18-pi2
+architecture: armhf
+base: core18
+display-name: Ubuntu Core 18 (pi2)
+gadget: pi=18-pi2
+kernel: pi-kernel=18-pi2
+timestamp: 2018-08-13T09:00:00+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCW7fZFwAKCRDgT5vottzAEmPXD/9I1I6V/DX2+iQu+JAkVwpvZn7H5S+uclff
+qZG7RD8ojF8XrOJzT+m96xd5XvIrhx7GtdRuzKd6WSC3B8Xn4nmWs9m4RGjHvOLs2YvAGPA9nBd4
+rYGKU046AhrOq/PzjcZt7IhZrMKhtTch1Jc8AJK/hSsa70AHvpRFtcGadMD3pX23RcfIi7EUteIH
+JURipgYo3Z66kLTE7hbIvK38OpSPKjYi5AxXwhF34cPekfoM9AQJcVTXYqaR8YCzNudKhMFm3lZx
+YMl5CM2tKwmSwomN1hWyHAUFDGgcZoo4WzO3UENsmUgjePcMPciFe2gcXBTBzGKP4gzsNWGmMPe8
+rdu6sYruhDNSJIi16Tse9JcLwz5JwegsJDOkedehfBpDwJGXWxVGtDLJ8A/DZrmLKoIiVy0iadUx
+C+2/fhjtZh5hEMYVzphQEHm8uRI35Gf//vunor2Zfiufrk0PWC92Ukl7WYSTCef7DmHbE+wLAm3p
+h34ufMoL5w5GftBjR8NN/BDC8Wlc/el6WjjrsePgNY7ybVWBsTv4PO2VcpSJtCj2S7R/8JHqSSzZ
+SqIs56NpkWkV2oyc/jGD59nFISuu+D8mDR1O89QVM2lwBE9YDVUhiQyJthsY0oeBLNm6ulfMzJm8
+Nn/2q0K4F0oaNGtt/4m3B6gvaxs8iSqqC0ZtcbV5UQ==
