@@ -12,7 +12,7 @@
         {
             "name": "pc",
             "type": "gadget",
-            "default-channel": "20/edge",
+            "default-channel": "20/stable",
             "id": "UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH"
         },
         {
@@ -24,7 +24,7 @@
         {
             "name": "core20",
             "type": "base",
-            "default-channel": "latest/edge",
+            "default-channel": "latest/stable",
             "id": "DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q"
         },
         {
