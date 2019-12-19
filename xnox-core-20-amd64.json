@@ -18,7 +18,7 @@
         {
             "name": "pc-kernel",
             "type": "kernel",
-            "default-channel": "20/edge",
+            "default-channel": "20/stable",
             "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
         },
         {

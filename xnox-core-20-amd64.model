@@ -13,7 +13,7 @@ snaps:
     name: pc
     type: gadget
   -
-    default-channel: 20/edge
+    default-channel: 20/stable
     id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
     name: pc-kernel
     type: kernel
@@ -30,13 +30,13 @@ snaps:
 timestamp: 2019-11-14T07:13:24.0Z
 sign-key-sha3-384: liNgNg92gwg3w61oxMVVqJAZU2c2xuxk3CUDdDENXyqA4fWFpzgdyZZ779tBcXzl
 
-AcLBXAQAAQoABgUCXfo7yQAKCRBmad7QGSpsZ43yD/4uTNZTiffLfzFz06W7At0KjvhRx1IXjeh/
-VnOhUx6nhrdmnUb42cK5J1oAmYbvu8KS+7/m+x15d2oZQmrC8Y2F4aDjo4Ml8gPHj5asUb/zKKAF
-KYo67m6e9G0DbbcIekQDiFmo14ZVIh8m3Ga23LGywC8bwKomSpCuYf9pBmoFFuxihMis3NAAHV47
-JeTZkNG0Jhw+hVZcSLBgpHxZ1JbGf7X4J/YnTFesVb0z7Cq2mZHholWPJvgGADJz1LWhuwEIIw1g
-pbHKrUU/1H8EJDCN/mfaMEaDSAyI0LEIcvT2WFAFjhuri7kv+JQItMSa/eX1qB0l0m2LyurIuPOh
-Wem4/XOL1yRaaDzTYlknuUouvYAtd9o7Wuf5fB/ZO78YqMGxmKQOAHu/a9z/OCZ+J29Y0lOAvoH5
-bSb9rLgPxT6H5FxIi73aU4YG3fiythXSOcUkz1JHsSyvkvZOeXTG8nrzkycU5CB2effZyaB4Z5zz
-IXhopS/J1J7+LLEX+orx+xVJygikS3Wr3wEgapbkgT0Ki3Rwc3QY96YV/1Bh56IMlPJj1hgddOoX
-TPlvYRtNIURe+i2RBo7/lJYug2aV8TmSX1bWdN/dSVubG3ChcPUhLaVBFNzB04p9NduD+4l9pKkL
-kbDBU5cVLY+ER3kexLAYIw4PNA8XPNHiDsLCNLr84Q==
+AcLBXAQAAQoABgUCXftk+wAKCRBmad7QGSpsZ2VhD/44BQjqZ5rGwFg9QSzNh8TWIYan5i+VQs7w
+mfSe6R+d1vvqFR+x7Sv2ATVWve9XTGeSWdLNGgUUXa6x8JXWxtHaj/2m7OxFBOWX1lyfGylVoTSU
+ab4ML6XQ1jBbqpqcjIreun1HMqTa7hhxgoWOyOYe54Fv8jQTvwNFF/o4jTaxl7QJGbZOTV//A7d/
+uwzPlxg2OCGGmhSO85Y/ydSZmtGZzPIDuZQKvLnKhux1B8u53aKwFLuzWbQ/1nongkTYa+pQWvrs
+MPvc1JszfO3QUnwv9/+s0ftQnvQjipf5LhoJPX7oWIPPS05HP7KzokmgIARF5uvnl3oguI6qM7qa
+kwj8XNrxaYZX3qRzRMd+/x719FHCgxvwGw6bJtwuU9h70KHRTESwQeJ126vq4U0qh0ABBnnx/BQ0
+X6cNYkXMWvEAM+miE0Zbr1G/buL+z/5AQ01AoXnFH/eZrLOFwoQnwxYcVqZdPtkMpIDS0eMvjF0N
+EG2En8biCytDEjWBYlWeeX15Z0rbXX35CR1ssDgyTbO0WFX9btdOl8L9CKKyablIVKPecWjRfeM4
+iYfOp5qqSeD/aeO/CMHisZOr51NXVwGwFiFkrEsgvh778n5A4POmB2NaT+63mfZhIAFLfjcydxVy
+pWUm6b94oskhJKcJ5ZhTUPYzZHa2pwu6ImPIYsGSbA==
