@@ -3,7 +3,7 @@
     "series": "16",
     "authority-id": "canonical",
     "brand-id": "canonical",
-    "model": "ubuntu-core-20-amd64",
+    "model": "ubuntu-core-20-amd64-beta",
     "architecture": "amd64",
     "timestamp": "2020-01-13T15:47:00.0Z",
     "base": "core20",
