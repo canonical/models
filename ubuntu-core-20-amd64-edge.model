@@ -1,0 +1,42 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: ubuntu-core-20-amd64-edge
+architecture: amd64
+base: core20
+grade: signed
+snaps:
+  -
+    default-channel: 20/edge
+    id: UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH
+    name: pc
+    type: gadget
+  -
+    default-channel: 20/edge
+    id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
+    name: pc-kernel
+    type: kernel
+  -
+    default-channel: latest/edge
+    id: DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q
+    name: core20
+    type: base
+  -
+    default-channel: latest/edge
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+timestamp: 2020-01-13T15:47:00.0Z
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCXiaATwAKCRDgT5vottzAEm01D/4y1T3s12W4iaKAJzIXl3ERQGnxwUAxcxJ1
+HG2Iz+odcURQBDHd4S2PDRbbXlnHuFR8XAQ4VCLCVgcw6iYg0b0PaQAV6KBhT+A7nXOjCbS3QsJQ
+Qe8FPdbbPSQTqP5VZR2eS/zUpoK8ii+UygqArhwL5tqGcLwvIQFFkI8aHQhATMHLUL2swSXgnzlK
+IFutPp/n1FzbEfoIVvYVdgH4qwdQILF0MoD8cETSBgl+7RoCIidORz1pV4QKb024301sbXJcY9gF
+06c1EGpugj0z10avAZrW/7ZXkXjVOceeh0M6fqPA4L0Dv7pw4UZS7CVav9oCbC8dNf66WDOFMPbM
+RcLo3YMMYLRQUWzMG4w/7vihhiWdeM/A6G8pfwdIWPTRdW55cD+RBMMV+4n/PoOGHp9MolLtw1p7
+Hh//IxOrvrB1V5mGR8kSdcP9Kv1UAnXVry0m/ZQINsbNuALDkn/ArLe8C6qaMvNx/Y42x2vY/hlg
+OQBBgInbNzJjZBPXb/fBMaHacpWcwcKA6CcsCGEA+/VoQehgVeXULKGd7jSSBQ/LZE+yqcjRSKKn
+lxP/4YYH3GcBbhK2lvol1kXqMBIsZ4aZf8jnTDZqUcB9zI1gh1ne+ZVF/k82NjlT9FQJ2wI9+zvI
+sFqZNArbX8XBjtwsuaC4DyvhgNPOLbGeW9gMZNttqA==
