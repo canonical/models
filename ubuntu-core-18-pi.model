@@ -1,0 +1,23 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: ubuntu-core-18-pi
+architecture: armhf
+base: core18
+display-name: Ubuntu Core 18 (pi generic)
+gadget: pi=18-pi
+kernel: pi-kernel=18-pi
+timestamp: 2020-01-22T08:35:30+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCXjCTnwAKCRDgT5vottzAEpy3D/4nJwY3EuxR3JwJ/51nRzaANk54SPNRJ9PH
+OLGSDoz65wt4c2mZS+zzlh5ss2bOfUBXt0NkCDQq2H1g3cldT/0j23qJICUp5G1HheihcVSCcTBL
+s+s37s2m8VLVQMJBqWnD0Dz4z66E0rTpto1EXEcQ3LXaaU06uetQz6VsgP96M5mz/X8iafpQaggw
+/8ENq4g5uD14kg27+o1oYJupbtqhcVywmDzpuZ2cm3y7kuE6uMOquvWPkYMIVbKl6vrTZ8QV+oe3
+p448lrL35mm92bFSbp+nO0j4q4HGUuzmXgKh9WQvBvu2drdFo2dGyCqnsNBXrzmfGoFCz7Z67b7n
+tmthSjyRO7UpYM7xYpnX5E1NZf1CQwxF2X19OWsypzB0Yv+zgvJvDFEgmRNpEtPsv4+inSremyJT
+F4ROaLXGZs+ptt+ATcS9/6sgddJKtsFGN06VE6D9CsfAn3Zy9DzmV3ZF5dUkdikrA6wz3Hhp8fSc
+n1+bYSycmreXLTrmDIiu2XMt7Be3rVyZ4T1RxP4WT/mF0wyScpxok6x0CS8w66d1Pi+eU93OyMS3
+lkbZl12w2NT7fj8ZzNRPScCUIQ2Ia2JT4ZbGkgBoo8RLW68EVdWF681v1eyQzRXu7n/XfIDPkZdY
+pC9LvR4OXbO+SRVZ1R70VA+vQZ0NGd9wXM7wFAH8hg==

@@ -1,0 +1,13 @@
+{
+  "type": "model",
+  "authority-id": "canonical",
+  "brand-id": "canonical",
+  "series": "16",
+  "model": "ubuntu-core-18-pi",
+  "display-name":"Ubuntu Core 18 (pi generic)",
+  "architecture": "armhf",
+  "base": "core18",
+  "gadget": "pi=18-pi",
+  "kernel": "pi-kernel=18-pi",
+  "timestamp": "2020-01-22T08:35:30+00:00"
+}
