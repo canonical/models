@@ -18,7 +18,7 @@
         {
             "name": "pi-kernel",
             "type": "kernel",
-            "default-channel": "20-pi3/edge",
+            "default-channel": "20/edge",
             "id": "jeIuP6tfFrvAdic8DMWqHmoaoukAPNbJ"
         },
         {

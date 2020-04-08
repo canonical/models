@@ -18,7 +18,7 @@
         {
             "name": "pi-kernel",
             "type": "kernel",
-            "default-channel": "20-pi3/candidate",
+            "default-channel": "20/candidate",
             "id": "jeIuP6tfFrvAdic8DMWqHmoaoukAPNbJ"
         },
         {

@@ -18,7 +18,7 @@
         {
             "name": "pi-kernel",
             "type": "kernel",
-            "default-channel": "20-pi3/beta",
+            "default-channel": "20/beta",
             "id": "jeIuP6tfFrvAdic8DMWqHmoaoukAPNbJ"
         },
         {

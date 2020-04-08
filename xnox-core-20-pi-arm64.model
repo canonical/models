@@ -13,7 +13,7 @@ snaps:
     name: pi
     type: gadget
   -
-    default-channel: 20-pi3/edge
+    default-channel: 20/edge
     id: jeIuP6tfFrvAdic8DMWqHmoaoukAPNbJ
     name: pi-kernel
     type: kernel
@@ -30,13 +30,13 @@ snaps:
 timestamp: 2019-11-14T07:13:24.0Z
 sign-key-sha3-384: liNgNg92gwg3w61oxMVVqJAZU2c2xuxk3CUDdDENXyqA4fWFpzgdyZZ779tBcXzl
 
-AcLBXAQAAQoABgUCXkVdnQAKCRBmad7QGSpsZ96xD/9sWcxFrd4L13hENqcTvas4xjVowGuvFS9O
-c3R9B0deIy3l4EQcYa45K1GUuHOAR64lOW4Vfln6EnyIfWJnea1ytur8d8VxNFUEYJrNlfYUufNn
-WVBnXsc4Ku+CQDgEiCRD24rrGa1Ud+YRGrKTUog27aqMtanoBpvpZYxs9CdaCtZ4+q9xL8XwQ5yD
-iuhTPRHqa7LbIPyjeBw3TkgajP6KdpmwfuAaPr61z6M1NmEXyWgb4TJKwsIkaJhLFHuAthkH2aZj
-6sHF1KzUJetkYwxQ2K7YXK5tyhOGjJwt3czHUvDQGpzrL7EfOB699jzjc9SZ7wSJbKcqGUhS2Rgx
-btivlS8IqAhJS6nMhqtCqMbu74nwKEr+5cSPy9FvExgLcBPtjMPF6vgO75az7EdQ+9wf+hR4lrKQ
-CymoP23Lbp1VeFASdXfuo4WBtTavYkUBhuIn59V5qYTpk2m4gFZk5hX4zW3OhJu+UmNOHwR3OBSa
-bRse2O+2te3ew9NcheubMcT8SIooMZfyCPWHZ9pME3MLk6/eL5Bpkajia54rEiToi5qhs9tM2ffy
-30HKW1BX+h2GSwCvQtz6pMDYWhpgZN+6IgazixMHg1EstFKvfEQkAh2Gmpm9SA4D0pHXUzqVwetW
-5PC7tdIgQiL9Ig3MrMiJaqLuCd4npax5GUUEveb3CQ==
+AcLBXAQAAQoABgUCXo4UgQAKCRBmad7QGSpsZ/RYD/wJPcsNlwrrCMFD0LiQBcpLkrldJmFwFbyv
+ze9EEV8qMyFLGJNNibohi9s/p9AqWGQ2yCWW440xlLfFA73E7M/Rtv5nLRUQXTZNYohqQ6Vbp12z
+0nhT4uwMrgXxpC4rAXthicITrfTXJ0Cw/OIYgkI0vVjtVIG46dcbZUB3DAWMQislFI26vcqxlf1i
+Js2eVb5BezYIGN7AOuXqWWhADzBuJMXXEZqN+GaQVL4lO0hgPCTvc2lgLKFj0nfWKA4cPkMLDio/
+hOzo7YNa/KOwPkUfG6fT1MFLoPPtiRoj2lvZUfNtyOdYhOcrRuefM8dH3bjcpUy3x/8emkhFxlTq
+zK3a39JdBu/W+zCueamv47W2wc1Lx3u2qBZfFKOaezi1OB7kelgoYb8/pSkEW6Is1F8SNs82acPu
+t9LByWbUf0J8I/hAcAHX4LeZfOzqmtXfAnadxVb0j6/jii3ljTVPjAeLiejyl42MoPhj0lDCQQk2
+xlEWc4MmQikMXNOHANXqD7Kmy5azdXckpRvLa2YGn6//UMWR/Pgw/K6K0DQkCTGaePeyfGb/CQGF
+GKG6e2pbWz4gMXGb8sOCuqmbZILi6NuSZmIxX6hAKdEP8y4aLKadPv+RhQrolQA61ukXk9IJ12CP
+Cit/G+rbq8McXg3jSpNpYNQkFiaw/9nEfDqp47R9Bw==
