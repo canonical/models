@@ -8,7 +8,7 @@ base: core20
 grade: dangerous
 snaps:
   -
-    default-channel: 20-pi/edge
+    default-channel: 20/edge
     id: YbGa9O3dAXl88YLI6Y1bGG74pwBxZyKg
     name: pi
     type: gadget
@@ -30,13 +30,13 @@ snaps:
 timestamp: 2019-11-14T07:13:24.0Z
 sign-key-sha3-384: liNgNg92gwg3w61oxMVVqJAZU2c2xuxk3CUDdDENXyqA4fWFpzgdyZZ779tBcXzl
 
-AcLBXAQAAQoABgUCXo4UgQAKCRBmad7QGSpsZ/RYD/wJPcsNlwrrCMFD0LiQBcpLkrldJmFwFbyv
-ze9EEV8qMyFLGJNNibohi9s/p9AqWGQ2yCWW440xlLfFA73E7M/Rtv5nLRUQXTZNYohqQ6Vbp12z
-0nhT4uwMrgXxpC4rAXthicITrfTXJ0Cw/OIYgkI0vVjtVIG46dcbZUB3DAWMQislFI26vcqxlf1i
-Js2eVb5BezYIGN7AOuXqWWhADzBuJMXXEZqN+GaQVL4lO0hgPCTvc2lgLKFj0nfWKA4cPkMLDio/
-hOzo7YNa/KOwPkUfG6fT1MFLoPPtiRoj2lvZUfNtyOdYhOcrRuefM8dH3bjcpUy3x/8emkhFxlTq
-zK3a39JdBu/W+zCueamv47W2wc1Lx3u2qBZfFKOaezi1OB7kelgoYb8/pSkEW6Is1F8SNs82acPu
-t9LByWbUf0J8I/hAcAHX4LeZfOzqmtXfAnadxVb0j6/jii3ljTVPjAeLiejyl42MoPhj0lDCQQk2
-xlEWc4MmQikMXNOHANXqD7Kmy5azdXckpRvLa2YGn6//UMWR/Pgw/K6K0DQkCTGaePeyfGb/CQGF
-GKG6e2pbWz4gMXGb8sOCuqmbZILi6NuSZmIxX6hAKdEP8y4aLKadPv+RhQrolQA61ukXk9IJ12CP
-Cit/G+rbq8McXg3jSpNpYNQkFiaw/9nEfDqp47R9Bw==
+AcLBXAQAAQoABgUCXo+B9QAKCRBmad7QGSpsZ4LwD/4q2c7CFRkUpkU7jLZ6e3sSHlW5GsM4e7cX
+0DdqMtIBz4crP+u8qJMMmpB8npJVtT4imgIIqadZeo0b0yxOj3HXp5tJgfCsBEGL2tWiBgwCvZeV
+s7i277JhU05EfF/fMsfmaN69TVJ0zSCfdi4GHzDUjX0gR6hz5I/U3VDFVHevz04lNNXAx/fo5uD8
+bQABkv9ZZmN0DcMgnFkNOV9ZyMF47S4TVoUyEQSQIHoBip55DjejfArqVyRDcX1rf6zaN6opB3g/
+LgzDIWhkgTAXtkKsbAWT5Na942hib8Z4kJDHEZeb2wj/hp/a2kvzV3DgGnsIpf/loNbbIPa2ciPk
+Qsr6dKo1lQmXww4YIJqOJnW/jJsFBrqL0D1zo+HZbVQW5LvbV3HNp+DJXfLvKT7NSI03dvdrxV8x
+KAZMDcekirDGYLcGQO/NP9S8/sW+qMSEPT2XhRoLeHyXD7mWrda7MLjjCB92za/FgLmvJutGJyij
+IZkOssaAulef9LtanjSH2BzyUSd7+C36MNa+OWZrsYILErzGj0+gBMLk4l5O2CPtt8cTjDfKATTe
+9XuMlEyfRxF/q8ciJs5uz68tsKTmITmiqoEQM3CDSUDsyX5IUPsSO37AucOzkYIPxZCEs/CVfjEL
+Z87y3gJTwlcxaczVcFABhmUCKkDNLVsl+i/6AiCqVQ==

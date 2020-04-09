@@ -12,7 +12,7 @@
         {
             "name": "pi",
             "type": "gadget",
-            "default-channel": "20-pi/stable",
+            "default-channel": "20/stable",
             "id": "YbGa9O3dAXl88YLI6Y1bGG74pwBxZyKg"
         },
         {
