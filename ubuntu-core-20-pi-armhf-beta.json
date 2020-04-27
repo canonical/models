@@ -1,0 +1,37 @@
+{
+    "type": "model",
+    "series": "16",
+    "authority-id": "canonical",
+    "brand-id": "canonical",
+    "model": "ubuntu-core-20-pi-armhf-beta",
+    "architecture": "armhf",
+    "timestamp": "2020-03-31T12:00:00.0Z",
+    "base": "core20",
+    "grade": "signed",
+    "snaps": [
+        {
+            "name": "pi",
+            "type": "gadget",
+            "default-channel": "20/beta",
+            "id": "YbGa9O3dAXl88YLI6Y1bGG74pwBxZyKg"
+        },
+        {
+            "name": "pi-kernel",
+            "type": "kernel",
+            "default-channel": "20/beta",
+            "id": "jeIuP6tfFrvAdic8DMWqHmoaoukAPNbJ"
+        },
+        {
+            "name": "core20",
+            "type": "base",
+            "default-channel": "latest/beta",
+            "id": "DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q"
+        },
+        {
+            "name": "snapd",
+            "type": "snapd",
+            "default-channel": "latest/beta",
+            "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        }
+    ]
+}
