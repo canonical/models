@@ -10,5 +10,5 @@
   "gadget": "pc=18",
   "kernel": "pc-kernel=18",
   "required-snaps": ["nextcloud"],
-  "timestamp": "2020-05-07T14:01:13+00:00"
+  "timestamp": "2020-05-07T20:01:13+00:00"
 }
