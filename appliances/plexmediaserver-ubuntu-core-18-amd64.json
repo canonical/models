@@ -10,5 +10,5 @@
   "gadget": "pc=18",
   "kernel": "pc-kernel=18",
   "required-snaps": ["plexmediaserver"],
-  "timestamp": "2020-05-07T013:59:11+00:00"
+  "timestamp": "2020-05-07T13:59:11+00:00"
 }

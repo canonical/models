@@ -10,5 +10,5 @@
   "gadget": "pc=18",
   "kernel": "pc-kernel=18",
   "required-snaps": ["openhab"],
-  "timestamp": "2020-05-07T014:02:07+00:00"
+  "timestamp": "2020-05-07T14:02:07+00:00"
 }
