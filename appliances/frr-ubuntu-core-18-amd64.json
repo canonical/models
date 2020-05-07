@@ -1,0 +1,14 @@
+{
+  "type": "model",
+  "authority-id": "ubuntu",
+  "brand-id": "ubuntu",
+  "series": "16",
+  "model": "frr-ubuntu-core-18-amd64",
+  "display-name": "FRRouting Ubuntu Core 18 Appliance (amd64)",
+  "architecture": "amd64",
+  "base": "core18",
+  "gadget": "pc=18",
+  "kernel": "pc-kernel=18",
+  "required-snaps": ["frr"],
+  "timestamp": "2020-05-07T014:04:53+00:00"
+}
