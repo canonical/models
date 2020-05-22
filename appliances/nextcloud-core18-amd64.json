@@ -3,12 +3,13 @@
   "authority-id": "ubuntu",
   "brand-id": "ubuntu",
   "series": "16",
-  "model": "nextcloud-ubuntu-core-18-amd64",
-  "display-name": "Nextcloud Ubuntu Core 18 Appliance (amd64)",
+  "model": "nextcloud-core18-amd64",
+  "display-name": "Nextcloud core18 Appliance (amd64)",
   "architecture": "amd64",
   "base": "core18",
   "gadget": "pc=18",
   "kernel": "pc-kernel=18",
   "required-snaps": ["nextcloud"],
-  "timestamp": "2020-05-07T20:01:13+00:00"
+  "serial-authority": ["generic"],
+  "timestamp": "2020-05-21T20:01:13+00:00"
 }
