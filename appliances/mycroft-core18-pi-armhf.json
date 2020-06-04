@@ -1,0 +1,15 @@
+{
+  "type": "model",
+  "authority-id": "ubuntu",
+  "brand-id": "ubuntu",
+  "series": "16",
+  "model": "mycroft-core18-pi-armhf",
+  "display-name": "Mycroft AI core18 Appliance (pi armhf)",
+  "architecture": "armhf",
+  "base": "core18",
+  "gadget": "pi=18-pi",
+  "kernel": "pi-kernel=18-pi",
+  "required-snaps": ["mycroft", "gnome-3-28-1804", "gtk-common-themes"],
+  "serial-authority": ["generic"],
+  "timestamp": "2020-06-04T12:04:31+00:00"
+}
