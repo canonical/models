@@ -26,7 +26,7 @@
             "name": "core22",
             "type": "base",
             "default-channel": "latest/edge",
-            "id": "DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q"
+            "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
         },
         {
             "name": "snapd",
