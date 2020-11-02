@@ -3,7 +3,6 @@
     "series": "16",
     "authority-id": "canonical",
     "brand-id": "canonical",
-    "revision": "1",
     "model": "ubuntu-core-22-amd64-dangerous",
     "architecture": "amd64",
     "timestamp": "2020-10-06T11:18:00.0Z",
