@@ -1,0 +1,15 @@
+{
+  "type": "model",
+  "authority-id": "ubuntu",
+  "brand-id": "ubuntu",
+  "series": "16",
+  "model": "frr-core18-pi",
+  "display-name": "FRRouting core18 Appliance (pi arm64)",
+  "architecture": "arm64",
+  "base": "core18",
+  "gadget": "pi=18-pi",
+  "kernel": "pi-kernel=18-pi",
+  "required-snaps": ["frr"],
+  "serial-authority": ["generic"],
+  "timestamp": "2020-05-21T20:04:53+00:00"
+}

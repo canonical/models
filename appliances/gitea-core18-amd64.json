@@ -1,0 +1,15 @@
+{
+  "type": "model",
+  "authority-id": "ubuntu",
+  "brand-id": "ubuntu",
+  "series": "16",
+  "model": "gitea-core18-amd64",
+  "display-name": "Gitea core18 Appliance (amd64)",
+  "architecture": "amd64",
+  "base": "core18",
+  "gadget": "pc=18",
+  "kernel": "pc-kernel=18",
+  "required-snaps": ["gitea"],
+  "serial-authority": ["generic"],
+  "timestamp": "2020-09-22T15:42:05+00:00"
+}

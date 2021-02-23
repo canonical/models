@@ -1,0 +1,15 @@
+{
+  "type": "model",
+  "authority-id": "ubuntu",
+  "brand-id": "ubuntu",
+  "series": "16",
+  "model": "adguard-home-core18-amd64",
+  "display-name": "AdGuard Home core18 Appliance (amd64)",
+  "architecture": "amd64",
+  "base": "core18",
+  "gadget": "pc=18",
+  "kernel": "pc-kernel=18",
+  "required-snaps": ["adguard-home"],
+  "serial-authority": ["generic"],
+  "timestamp": "2020-05-21T19:59:11+00:00"
+}
