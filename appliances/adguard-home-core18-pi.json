@@ -9,7 +9,7 @@
   "base": "core18",
   "gadget": "pi=18-pi",
   "kernel": "pi-kernel=18-pi",
-  "required-snaps": ["adguard-home"],
+  "required-snaps": ["adguard-home", "core20"],
   "serial-authority": ["generic"],
-  "timestamp": "2020-05-21T19:59:11+00:00"
+  "timestamp": "2021-02-23T11:13:16+00:00"
 }
