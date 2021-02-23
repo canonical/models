@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: rocketchat-core18-amd64
+architecture: amd64
+base: core18
+display-name: Rocket.Chat Server core18 Appliance (amd64)
+gadget: pc=18
+kernel: pc-kernel=18
+required-snaps:
+  - rocketchat-server
+serial-authority:
+  - generic
+timestamp: 2020-09-03T10:02:58+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCX1IW4QAKCRAvoVVWbaDsgUHfEACWmbeMYmIyi9gDfRiD3a0boa3y80d3IbCg
+WghT4v+ElifC2Itb57WydCo7t+3X07xjDBC/cOJeIibjm71dsAQj+xRMeIFdooPF/53fd1Qyv+/a
+rta1UJCl7YqXFD53HWP81+8rA0eCHuoiOrh0hQoC1mpm9V111Y4vqKi9F7bSwncB8wTIiOn96bhC
+U1FsA+/0PTot0K2MkYlXrQSQUaA/juJeEeQ10g9DOADeMmra8oTvadOi7eHZhBEGqiQspvhPYbbS
+KNrC/BrjtLvWK95k9N8pFaIyIoKTyNUjR6JuewCIZl+yUkZgypq0Z80mugR9dtbVxpaFkRV+PYqB
+JHL7s6c7bxBQ01P9etixbRtZqUU8/Bb7A7lFpbXFHak2/LPxNCUExTAvgwStKJ3vNOhOnZjf8jCo
+HkePXhehJo/A9Wk0UMZppypRELaNtTG6Z/tNUgnktT37O8nb/ZGrppPGspXMC0tEfxzd1zLyyel1
+ZYg8H4VPHq1nieJWwm3nUy/+op4XGZ4lDlMvgEGxOpVUfaUx3+VgWwWiMwyLlKDBWt2S+rl19kGB
+KQ/hCWK2vpYOxgpDRAxQw0PWf+1zXokZh9WG6HpydBUd3tJg3Tfw+mW5zb+cINHpdw9oQUoRwqAO
+HzZ9wQYo3b6EVcpjOR7c9j+jMWW4euLWbznVPYZklA==

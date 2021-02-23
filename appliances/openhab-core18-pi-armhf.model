@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: openhab-core18-pi-armhf
+architecture: armhf
+base: core18
+display-name: openHAB core18 Appliance (pi armhf)
+gadget: pi=18-pi
+kernel: pi-kernel=18-pi
+required-snaps:
+  - openhab
+serial-authority:
+  - generic
+timestamp: 2020-05-21T20:02:07+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXtlodgAKCRAvoVVWbaDsgZDBEACYTB+5zn/DgcMsNROv3edGY8VwxLhB5DW0
+ZfON8N+XvcP+hjN8GXlj3XPKBeoiTUrzHiW2tKQUJBqW/1obJAYESh6wz9a4Djj/1gI9/l4DPqlw
+k+RASduE/qdreG+2F1LF6G6B8FndKHe2psHcIRzB2Lm+PqDqQxWOFxH0uSssB0CFPvuGaZKXj4w4
+tJ7MfH7FnE4OalWuCWQHlmCvlRUU69MDJcDAgYuIno5P8XvIsQNZdzx/26zGyAUrT4zdNc8xpsCJ
+uNPiOWimuW87Q11QxNc/tbOLsyYtwkNiCQaZr9jrXhWJWN9FWz7n8MbBvH8i2rDqcU19nJfvJ3Nz
+CuEzZfmh/BdZAIuVQQl5HLQhqEzqS9cVtA3ViwKaI6NAR/2VJ7Qn5Pz6Hc669s2+QkCNwNNUOeqx
+BCikxApcaoUzZLTvg//3+0W/CRYv8e5LJJZOgWBwu5cEHozN9N/6YWF5QbYVjjI0WSPKcL//SYG4
+EPtz3LEQhu8ckbnwTbVvW9lZzlorppvyT2OaCAtEj0y9oP0KB9FgoJsptPFI3/9VREhY6szwg/vH
+/4NHUIEt7SNo4P8JAf/vKUoGvSQzje7upWcjnfrg7ISNQtAh9iZL9dzvdlz3Z4EirRqXUTYWJtMr
+wFfFrdg4J1Y2jSBjp3N4L2lFGl0b3xacRzBoh/z3gA==

@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: nextcloud-core18-amd64
+architecture: amd64
+base: core18
+display-name: Nextcloud core18 Appliance (amd64)
+gadget: pc=18
+kernel: pc-kernel=18
+required-snaps:
+  - nextcloud
+serial-authority:
+  - generic
+timestamp: 2020-05-21T20:01:13+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXsfdSwAKCRAvoVVWbaDsgZLBD/0QLkOpfy0Aq3IognuCWxIvgwulFCGduk6N
+Bja4ya7jEXLLp7SWucIB87F/wgX+Li0ZuvLBteN7qzhdkIjEBaLTYa+izJjTlp2cETzhm5PvP0V9
+UC6+O7kiy5IrEupulwDt/h2YR6zzMpI6J8PuLEsnBt8XuPrq6Euzt4x7Q7Ow/jljTWQec4DVa3k6
+3BoFrfj0ZXb2MeRGYPo07axIZK43ipvLfE4NMryOR6fEmrsb2kxUW9ILr4Af+CRFdn2CXHaR/H7J
+QpT03PsX3OMrGmj/wodBmg8q5xN5av1GKtkPSvnnjOPdO2BQRkaVai8S0N4Ilrxg8r1/ikbAtStB
+MXbVuAjXcW8KMoYx9Jyd5YydkihudCAuNdHza8ssHQiCFA0UYlc6GpEUHvSrBx84wQYWsKOmNTpO
+9/bLaD+iyKjJLMiyfA+DmmFcK89htQmrWVZ6/T4ah53vr0yzXWiRsWw26zGrhHkNg63GIl5fTrO0
+Yr0LXxX5p7Y9zpNROZEnBqspLO1DCrp/3CBLfF0MKLXOzZ+qiI5WU+OGYCEnu3W12LFsVu1q56Cc
+TXYLVidv4K9kOuuoD8e4NgMwf0qwB/ztq35IdAzGLtVrzPxLR2EMUOOk0MJHaAWXCBaUA19RaZtW
+BkhnwK3Up5bYu5jPWpKa9o71In8iy4ahQDvw7ZKQMQ==

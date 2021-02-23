@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: rocketchat-core18-pi
+architecture: arm64
+base: core18
+display-name: Rocket.Chat Server core18 Appliance (pi arm64)
+gadget: pi=18-pi
+kernel: pi-kernel=18-pi
+required-snaps:
+  - rocketchat-server
+serial-authority:
+  - generic
+timestamp: 2020-09-03T10:02:58+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCX1IW8QAKCRAvoVVWbaDsgVv5D/4rIJRzOsK4PuCRAIbKL8gkH/aG7xDjloEY
+B49leIew/ywEumP9g1CRKcy//1rDvx8nGj7vu5cby//Mjj8ntVx4+mFfQS/CHEMGfbFJAZmuX+I/
+9aZqIwHY8te/XGvfKYbtEE/w1g0f53skFDH8jFhvAiRGcZAR4kYuBMCSrr80ThqeN1HgllDu6KLH
+CdlRFCWf58wfXQX842vw8i/Wd/ZL1eRmveW3lAtln3U3qeHiCocTIk5S4MSnfCeMw37OYEw9SNLE
+Y/ZUAgBLVMnfXqslIVc19+jOfUWXeDHtk3m98Oe8+ftQTEYH1O+/l8FPtuNrAh0tDkGPJdhqCpLc
+RN4cmbfksXKyB7P4Pf9byZcqt0x78C8N/au0AyITKh3oZ72z6QefX/5xAD3bk/tPrq6c77+8lFr7
+y9FMvrpWwqtfOgyC68SaK6W+rxcnPNNDFVPgsgCwNGglmPxA/7KB10sfJzy7t1n6cAa/UkK7W8ek
++aesDR90Wumzms3fGbAsbcZu75qOqj5c0Ne0ue74KRiAtRdUZdj0mXFa+sSmptz1rerWFk4jDurN
+MiBqFUvrDcEHt3CAqulr/IhOmXFJehZCuDi45rSwPV+TCBhVyXlWWjwj4mrpfybH3XAjrsuDL7CV
+dKzLFyOwyTUO0M1A+LGTj5eDWJu5Nku5tSiTR0c5Nw==

@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: plexmediaserver-core18-pi-armhf
+architecture: armhf
+base: core18
+display-name: Plex Media Server core18 Appliance (pi armhf)
+gadget: pi=18-pi
+kernel: pi-kernel=18-pi
+required-snaps:
+  - plexmediaserver
+serial-authority:
+  - generic
+timestamp: 2020-05-21T19:59:11+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXtlodgAKCRAvoVVWbaDsgfI2EACTqO1GuHLNtNgJbru+2mAYz+z8j38JRKsg
+ul/1AbuyPfKkaSU3JJr7gYwdFmJZHBxN329F+H/TDQ3khVWFXrpLyFUqUjs700tcqhQ4Zfz52J4G
+IU6AU49pfmBwev15iT4uaI3OcuerPUyg+z41UkdXWY2rpWDYMgAWr5wbxANlPYjMmsyv30AZio0E
+okbk0zXOjZjabZq88aZHp3HCt4AYVnlDZKdmUw8Eajjf8eAKLLcNw5JW5wDonwXkfkK6/b2N74n4
+6mKzuCWitDD6Zv7eXnoDmWo2Y7H1/4i0u4LD8yqyBJwMUB8X5pK4i80E+8RhG19LDvgo7mcl0/0w
+09LSkptKMbENi213eyraLu6HnCi2LyBQTMZq5X6c8Y9Miol1o2bTyi5q83xHBQ8GLaWcUgJ18+K4
+Snc1OQk5v/y9eT9N/0viesQC1JsCbbH7HZFehWc0tL8kQ/oPZ3Aln+j+HuWH5vxlgL+OOnk696Ba
+bUGv0EWcopYeSetgZBdiXd9UVpUYxenov4ZmeokGo0NZELKJjuLlbS0XAmWj1G60U9Kk5L2RrFXL
+5BpaNNL5pNUdLyEmuN2PB7D0HypxnDGk9XbaGLS5OKJVkTQVIk9La+sjKzgYBjEkdmV3H7AoiAoI
+Vc1qQ5aFar6v2nw9VYFIL+zUj9h73F7m9mzrNLCbuA==

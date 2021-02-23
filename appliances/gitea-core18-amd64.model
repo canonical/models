@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: gitea-core18-amd64
+architecture: amd64
+base: core18
+display-name: Gitea core18 Appliance (amd64)
+gadget: pc=18
+kernel: pc-kernel=18
+required-snaps:
+  - gitea
+serial-authority:
+  - generic
+timestamp: 2020-09-22T15:42:05+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCX2o5cgAKCRAvoVVWbaDsgepSEAC0V32jetLAkwSnkhFHPQ/sLFoycZFTK5E2
+R9n/QoaAenCuuiKvwnwGyLMyw8c0QiQPwKIONMwRW2fOBoguQpViMaWTYrSTxFNGN5ALypdwqe+F
+55NEBG/3Hl3oXmwGu+NzqCm06EIG5mClEB0RSI+1TKUvMPzEx0GIc3B2PNnrfCs7v7wXvTqY/+n2
+MG2MYSCqDym2xJ3uSQpshtdHUk6PG7f7040V4PeIqb/6j7tQgedwPQdPhvC/x0gxio9F3VoapnTD
+XMHoww4ujiqYJZYUBuZs//NlXslVV1STwLblU9dijYz67Vs36LiaU7QR3Mrv7Dt0ueUmdmKr40hf
+hEkwfqgFFJV9hp3qNm7tLu8hL6FttW6WgeWJPqOPMz7wOWBEe68k6rNsuuKi0NXISOT1dH6vvcea
+0KCmc6Peq47ZQfD7sQKqPaZpMnBLyVtfqeMW3N/j3P7dAFxkU8gtJgcmiHlA+0OACD+KNi0BewMy
+kKVguBeplCU0Kf5XmxUV9UGRIL680Xu2yc+6CHPdsAJtaq5nXBSxXmw/HoJpr9FZtsyRyIGiG9Gw
+vHUkjVhJ6PBiwH39vsQBLqjYGZMW5NpY+ad8cRavEGeQFscpQ5u6kzOEfCTLar0qM7kMVzWOhf4C
+mrPYgV06FegjLgTURI7KD2LJcFTw3hJQe4cyWSUp0w==

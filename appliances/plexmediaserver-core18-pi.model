@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: plexmediaserver-core18-pi
+architecture: arm64
+base: core18
+display-name: Plex Media Server core18 Appliance (pi arm64)
+gadget: pi=18-pi
+kernel: pi-kernel=18-pi
+required-snaps:
+  - plexmediaserver
+serial-authority:
+  - generic
+timestamp: 2020-05-21T19:59:11+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXsfdTQAKCRAvoVVWbaDsgY0wEACwALVxzfhBQXHgIGkewNw2dlABCCyOaLSo
+FkaBSHLfeo0aJwYxSVdgf/GHXJ5AuDxrTiOaUJGbnmWpAqER7DIgMTvFh0HoKd53JB1SVOnhScOr
+s/jzTG9KGGSUubxdxHi+reXvTUDvvwCQZ7Ld1uysjL+JBIvqXJnaP+ErGVXmF+GBjqDtPYlPsq8w
++Pzsy/SEQeOsTZXNC3/MdCSLW3LT6nHlPFWzvh/gEGqIdMdm3ppSKd2sL6ZEeFthWpjpjLlu5uJw
+fCRKtvaf5xyAp8NkUY4JASbRhEwFtyUlZI+vmAPEBkO3km0BZwdbrOP00Tzckj8L55h9gTzoG5ZE
+gZ6Mlu9ZDqRtOcwFObdunPjUizocx4IuaBYy5s1wJo5aZco6AwyVISYFfrSmzVBwj7wfGGHb1xiG
+CPuTuZaqj3/dmNvjOdlNqVAypt68CahSokpY2Z0O/a5qF0IRIBIhBWOe9j789SoQtJF4L7EZkCnD
+wDIRgO7E2PS82S/uKJYWCGFxVUpfNsO7M06NIpFCTjQjBeYIwm7Oy5u27TuxEoCBwCewv0S61/BR
+dI//FGixqxG27TJamWsu4y6flYve/rc0WIF1+pT/th6Z7a+ufrhq9m3XCRQg2g2RMFX1c+250Jrc
+MOsM4rWevXFihm7LICHb4apf02g1Uyg2aONKfVvB/g==

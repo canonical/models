@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: lxd-core18-amd64
+architecture: amd64
+base: core18
+display-name: LXD core18 Appliance (amd64)
+gadget: pc=18
+kernel: pc-kernel=18
+required-snaps:
+  - lxd
+serial-authority:
+  - generic
+timestamp: 2020-07-07T13:08:52+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXwwXFQAKCRAvoVVWbaDsgdHxEACGCYbjnBWUxgZ1ZoSpwgmX4sMZOlbv5YLN
+2cPCiLCGGBh+4bYj7Y0xg01U+SCeBS/Mnh0z2fDjcXFzauyP2Uf+O2vq2Hik5J/NhMbw0mnnTF1s
+v1+X3xgpghoL8xvavrwkQUBRIrw6mqzVBWfOB7d9PbTZqV5QRvUn4JgxhYwV1GKhb1o9yC0FtHcN
+oOF6Afn3qWrE+0wOCtVBBR9CF/EFipRnwWCy9q7LbMyLGpDapRjWCC0i2aB4qsoSFdmeVJF+veCd
+O4CtfxLnAn2Cpv/GJ/wrZGaWchMmdfTKMNhFI419+n3JZR5nxRqCAN70nJPXxnQuWChNqeG9+xUk
+PEjIt+cDc5x14NoSUE6bVFWwSFVxUbCwhy87uC30Z4qr3ayu781Xru8XSekuU23fBtD8p18uZyvI
+mNSBUqiQ2VmeONH1rWOz4oqq039ULeG9WojfuoseMVADBJG9xVivXSN5+5RqlgzODqVYVkzWBoEJ
+PiNTjzMwtC0kJOEEHV8L7RA3wRk2tvQfrKMG//EbsILzsvA9tRNTHboHyRKP3Tf88nQUctK9WKQ1
+Fss9tlMpYeSZG61jZPnMmlJGAIiKg3zX6yuuqi3T6x+jLkug6SUMzdHN3DmFf7OopAiTPBXxBTim
+IH0TVeYd4io9DioqH/wrQiHnoomKOmDhJNMPhLJTXg==

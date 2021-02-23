@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: frr-core18-amd64
+architecture: amd64
+base: core18
+display-name: FRRouting core18 Appliance (amd64)
+gadget: pc=18
+kernel: pc-kernel=18
+required-snaps:
+  - frr
+serial-authority:
+  - generic
+timestamp: 2020-05-21T20:04:53+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXsfdSwAKCRAvoVVWbaDsgR5tD/4jMTaRrZoQMNCkQVISvYIjufzXYe3ZLwvI
+DgdO/Qb/+E6k1zl+G+z82q31FWRpjZzQF6Cw2RSgR+yczyJYt/CNDAbfx6E8zXJc+bO75EyrpkkY
+BJ4pJvP2tiOj3gX/ElI4h4KYooLd+QXl43nBHQ9G3SFreE31OP3rAQFzLM3hvourZgpvYxPYA3Mq
+gxPdkYcpKw+wSnRLjzLDPKgrPlsuCXW7cM9M+3dAQMe3/rR9uTaar+es2bVh92FEuIQDCH09ooxS
+bz9akfL3eYn7lCIEVtRM3TNCUE4auBQIPgYQj1/QFqUAljr9qDQfw4WOzAhD0fCxOztD47pQRm38
+u9pOxyGJLVk2cf/FNmMxft1JobbOL2MA77unEVcSnX5VCZUWok8X4oJa+9uy5VsqkR6cQevw2E0Y
+OKBh+UPf3dLqNXUBmeLoAbWlqb0LsZpF3OviAq6UOD/qavQy2x2ryPT1zp5O56RT1ebZQrEnt5Cl
+IpBC7eYvbdRZqZNVPOv2hA25/WVZLKsZbmmz+Zw9TudO//8127ItSr91n+sJ0UqtnArYqTF8m3Jw
+7SJTHA7zQbS2Np6y0tFcfy2Dob4mTwcZZJvhQL3g16mIhKYcK+mp+V5Vegil5wYLbLIq78W9+afU
+R5v/MihogVFCm5dMwss1+khVhbSoX+0UFQ5mejnWQg==

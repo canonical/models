@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: lxd-core18-pi
+architecture: arm64
+base: core18
+display-name: LXD core18 Appliance (pi arm64)
+gadget: pi=18-pi
+kernel: pi-kernel=18-pi
+required-snaps:
+  - lxd
+serial-authority:
+  - generic
+timestamp: 2020-07-07T13:08:52+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXwwXMwAKCRAvoVVWbaDsgS5yD/98tfusLbU+ERL1JNshRGgooI5F25g2C+kc
+lFAD2MwQo9f65i6culPV3XWsD5ZHtv+eYR6In3QY++YV33c5HFtE7rsHoStgJm78HH3ueZBIfPiH
+t/a00uMQ20FB0az2Ynn8qYsgikQq1pHnqgn3nxNaVK1Yw5q9kbaNC1Rh7J946Rlw3j5rAjyLtD6z
+AaZe58YZVGPtVLn+tTYWfq5mpKBUG9juwgEoRKlZ8zzXc0TkflCZGMCw5IqGWDyjqiXtbF+TwDTW
+ntEmS1hIJyYWKxlf79BH3KfaILdAYhdALkV90qDxN7UrAyO8ZIlvI/c1rVMvfjvtRq6LUIMcStAi
+dsmB/o0m+AaYYACuCQO5SKzToUjEgOIWnGeiZyyXWccZKIpGRbG+u4AHT59sgf634f1LgYgy3jmL
+Y2Nyuu70fh/wPC5Q3xSMbHAps9t2NTQsiKx/CLx9jwHlY3k1uTMQfICZ0wv1nTxGF/FerseU/61a
+Qxq3PkrxgjYZt2X9nt65c1QghYnmcMjaffNv6MX1OZkpA2ir0rzYfE5pMDOWxllMSadhrRaxduvm
+yIUq4VF1Miw4sSphmMsTCpLrRz1KX/5TNkYEPOb7YhwGSn5BNGh1d7tVPyHFaB6iswYDlubGuBYE
+Mi6dRIy93OlQLQF1cx67iI9sM1Atw1f/8IZdloSdww==

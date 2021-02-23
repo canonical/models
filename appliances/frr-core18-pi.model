@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: frr-core18-pi
+architecture: arm64
+base: core18
+display-name: FRRouting core18 Appliance (pi arm64)
+gadget: pi=18-pi
+kernel: pi-kernel=18-pi
+required-snaps:
+  - frr
+serial-authority:
+  - generic
+timestamp: 2020-05-21T20:04:53+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXsfdSwAKCRAvoVVWbaDsgTiCD/9PEMO2LICH7n4/HlYr/jk3EL33WZcFosl6
+8frEJ9ivendClSWKLxEFyj+oEFUTG0Es4N3WwLG/G2gSxg/c7TBDsSiPYkLZlW5R835lYqLoTJDs
+/hS8qzcMmQK1xRas5dHLmucuFPsUnlqzuqiMX8iVNELEOlN9GA4WbNPTI8dnn02CWCj37hkP19q3
+tZneCffsj4Ougx0FHGgrc+cLHLeVYcMJmh3BswhgdoJ9VBaxS70WZbBFrDvHTRuBEpm17q0IPhX6
+PmTuDK57kp6GyHUnpejpq9FOXEaIIAqZXCjf30/QWNzK/pJRt9wSosyPIxmWLXbXOMhXY6McWrDF
+NhTMHp1q1nbEsVL45nj/KBuVNyJ8p+tOlHrHAPw4MjLHDM0c2x0+UbVgXu8bfan+XP4Zq1TJbAM9
+GMR1ytFWiEZjrgw4+CJedZzRWfFiWXtogwBefwWcOLyn/7LLKU68RhzrHl3FnWmxQ5JtcpT5QMc0
+zGUQXgIvV8rqYUsYrsLLBD9tRaJ3zsfrffexp0oqBsWKoGwH6HlM7RfnYhqcsAq0B10tl+dLl91U
+MpJ1P6rDqoDvHSDKiQW2F5dHGgrHi85Y0jVD+2uy0Z/VJ52WutRV6mojHD6is6HtsObwux8n25rt
+MSAIYglomazywMePr+/GbKOw1z7A2YmXaaQfE8soaQ==

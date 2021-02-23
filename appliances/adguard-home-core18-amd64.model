@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: adguard-home-core18-amd64
+architecture: amd64
+base: core18
+display-name: AdGuard Home core18 Appliance (amd64)
+gadget: pc=18
+kernel: pc-kernel=18
+required-snaps:
+  - adguard-home
+serial-authority:
+  - generic
+timestamp: 2020-05-21T19:59:11+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXsfdSgAKCRAvoVVWbaDsgaLID/wP0RA401eN5BI59229n56vcMDTKlyHZBaa
+FwhA0+PKfl1PF2qjJE5VibEMCypZmXPdmY/u0ILJ6ZpwTfKuk7YOzLcWLeQOuGRyDzr9CuCWLR5z
+4tniPG0vNKAfXNrmCHOsn/+W+YC3Lmn2IdMxsATE6RtQvffMDQ116WDr7Y7aq3KDRKE6nw2L0bMU
+KYKYcbVLe/3p8PUDX0HU5QiacdB8LNExwZRYSVtWmleuw3whJjs4gYEuUxLcHKAFYVSf/RTpi8DJ
+S3gOE1AXQkuHUEV0hlefSPgXyj8WGw8wcp6Uvz/EtsbfpLXNaiyZL/g66KDzuIG7pCxTE7OnICUy
+OGOUBM13e5IOVEW2jKCInKAUax4SGSBiFJj9oqfVt0p0rGCRQ84q3euNjsbwxqvLjJhu+qEWADBG
+1bUgjzym3wDAdAfjqq3X9pQQ0V2YZYKxX6uCkt9q+AiQQztC+CSomqDRCQD3wguqsJKdx7pSYUb2
+hIIcHs/qzUUQlYXg5LeVNBCNuh4wbTCJZb3C61D+iE8iUKcfO0DzeGPU1bO4u0t15KbYUDt04N0f
+2iAi0Z0KS7CYN1kEF7Qsv77FKIMKqv8EtWUW3dszbLa25X2pXy9gQKB6qZHSkUzR50A1FWA0For7
+yUUICfSbdbkTtgr4KBKCdtshLiCPU5ckIa8pRvrzZg==

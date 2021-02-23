@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: nextcloud-core18-pi
+architecture: arm64
+base: core18
+display-name: Nextcloud core18 Appliance (pi arm64)
+gadget: pi=18-pi
+kernel: pi-kernel=18-pi
+required-snaps:
+  - nextcloud
+serial-authority:
+  - generic
+timestamp: 2020-05-21T20:01:13+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXsfdSwAKCRAvoVVWbaDsgaHwD/9UoeE9lP94K/gQpXrL2JqQdyEXe6yQzXE0
+Q5bQg6ehWuVBQ2656ylxvz/QJm2+qBeAcJezSlr2h2n1cQ27VAvA1bcd6Q2Y7tQd6YKmLDIIzqsJ
+ycyJcxptoDE3Bd/Nlx2VXU8czSs8vBiflEMmF0PVU8pPB6YOs3NsQNG3kVfoHWkpVD0cv6RggGkI
+Q+ZR1Y3TOi4UdaORFrgPK63Oqo0PcLPA3Ib7QeELeX14f1aOIVfmSns+VpusoSr8LWHMkaEK4Fcx
+/QiL8JGSNJcqBhsm5gf5As5Dfk/pcGayo7Njdn9criPWd7wfrDUO4xOBqFA4K0m4iN60N9cAVflQ
+V8aafAQBZN4zz56J98Ora4DFMnzoMccK7EpI6AJvXrgX5MjSITPGXM6TxN1XJ6pBwsodWfZ/GKkk
+eWQjOpn5z9UBoPtjt2raFJL+T2CIOQ/JalMPW2v881U2EVVlp7DYxYgrn2wde13z/jMtvI2CsDke
+LYAf5QKC4cpEc2SNhv0DuKWct4sr8uIaTBRx7ih5Z/TBFA4ciNONMAfvEYVJpfoltQaTAhnzHb70
+l5IgGZqS8JNnDRRCXOxFjDG7FSvrYRtKR7sW4TJ3hQnz48GKu99UnfHjqsBjLBdIYQ9x2RcPArAp
+4QE0jL0PwDPaxI8LORPjYm0b/Eaf7MJj8Sx6aSWbMQ==

@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: mosquitto-core18-pi
+architecture: arm64
+base: core18
+display-name: Mosquitto core18 Appliance (pi arm64)
+gadget: pi=18-pi
+kernel: pi-kernel=18-pi
+required-snaps:
+  - mosquitto
+serial-authority:
+  - generic
+timestamp: 2020-06-04T12:04:31+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXtlodQAKCRAvoVVWbaDsgYD4D/950T9ZEX9QH1QKbgSUE7QLS5cG6HkTMSjN
+ZJrTViEltw9YfEaKDeaHbBt60BXVZxXPXDn64AIwF4vSvxIDltCl5axc/dEMKuaQAaGDwi71var9
+DvtW19hU9YdvT90HHja2aWg4wiJV++cCBfhe+lNxYNLYGh2GTcFYWtoQwBAATHBVvrnb3Dh6+CTP
+OiHhDYcIxfsb5Uo7UNItK7j/1U3g3E0qCd0l//p3F6AhTqKeu9VsNyVlyEmXbPfpEEuf+IH2uqEj
+Rd2bGthQPnrqm1h31m0+CLWCFl6hxomfAlonHdtY+C56/TYwoZ4oM0Ji1oODEwfApUpmlGIPTkKh
+T8gB5cYGGbTxSszNyJaCxAobWff0Z3ooPR0S12vXV/x1IHCMMmB4zyWDQ876EYnJQCbZwvOl6rBL
+nZsNZU1KuLv3ENpxuE8+GTPV0LfVz66SaV+rbbg2ShxKuCQhGbTee7dooaTsVW2RUh6Rnr2oQmXN
+Wgx5u1pfPSneyAoRHO7bcfCr9TajT9kaRG3u1eksoyKEBtwVcii+6rCl7z0nXtb1FGgsygbz2tBL
+PTZ+K1samWfWo1Gu/fBOUpAy37EpNx+arVgSuctDmFG3b3SZdNY8bnZ0oPj98+f43tYYTV1RYTkZ
+SHEV2NY3rjWvoe7cdPD/lfM/h8GRBiGb5Jnm+YT4Xg==

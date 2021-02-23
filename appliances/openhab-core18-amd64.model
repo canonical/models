@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: openhab-core18-amd64
+architecture: amd64
+base: core18
+display-name: openHAB core18 Appliance (amd64)
+gadget: pc=18
+kernel: pc-kernel=18
+required-snaps:
+  - openhab
+serial-authority:
+  - generic
+timestamp: 2020-05-21T20:02:07+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXsfdSwAKCRAvoVVWbaDsgbKWEACfOO1leUgRIN4q0XX5vvyoXXOfvZuY5m0M
+EEA3n9KRHlX9ulhuhebXLVY9MhYx2g5Hx+fuBk3OwXJsuRWtFtMvbSw7h73n89ttAsflnNCFtcNI
+NXAoD1qLICjKywYKUT9NnuIJ/XHA3k4UjgqWaMJA6celyWe98Unvs+8J21RDGOU37VAOOo5653sz
+1HIX7VnCY0E9njlPAdtUiz3AkokWzJ06GzipDATm2HaS7+HPQs5kninJOvR2BWlebPvI0rjHnyLk
+pt39Oaz7bFKH/hG2cDoPEr9oACFZKUxwLpmbrBWRfawSbYoWDboIg9sDxrdMsuvXRtkksoPbwWbs
+6LeWjXRjXNRy0H8Llz8z6cZ4sQr59QWQNeUGEzpBfVZ5LZrtgFzeBd/CStWVkFrYvJul72lY1+WN
+ODCUrBs/RVop0e5DTtDLnufolD6s7GqDNii2oFxImEdYMS5dYk4/2/U1lpDopbhB48Ab4CR1fNzC
+XA2CBIUH0i1V8bvFXtfX/iVWa+Fv7z7VKPmOthrENxyapx2pOYHr2opa/OTwLYhomfUtRWdh15z+
+wFIQrQpE9iJOJZk6KNa/SNyL0F5msEcWvUPHSezrFIU5K/dZQWz4L2OFlU8XXi1EWKAhw8z57UDo
+xQSZ7Bt5DOOF/yEalkm5U38nazdkRb5ybdmrAhrNJg==

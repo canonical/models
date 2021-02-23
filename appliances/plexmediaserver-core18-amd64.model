@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: plexmediaserver-core18-amd64
+architecture: amd64
+base: core18
+display-name: Plex Media Server core18 Appliance (amd64)
+gadget: pc=18
+kernel: pc-kernel=18
+required-snaps:
+  - plexmediaserver
+serial-authority:
+  - generic
+timestamp: 2020-05-21T19:59:11+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXsfdTAAKCRAvoVVWbaDsgWz+D/0cTe0nj2m8dSFCwDlSnWUqbvqZ6fRjpqLV
+zWEvvtKuSmxv5WN2yG5i3VW/oxEWJ0aAf4iQWYZW3xBdGNpLlEnIC/4MyaQsR0nlaxFbk1Xgix+t
+6YaJ8RlyfN9n04BDiFGGXn502Fn7eXa9SNCwrcITEEmBKrbz3RUsSOcIOa6NMEQAd2bqTbQDdD1m
+sgHj65kXWJe2cq3zuluVPrHykqmTavVHdFza/6URhEvrr6B3ANy7iWuztOEKeK0/Qq2s/SPBT2lu
+evR+2s4CgwsKWsCwIqjVr2ontZnTPocjei8tTKHK5J0eb9nCE/562wef1TYg5fDbqWz4pDV9itkD
+RWqOUfS2tcTecTDqswP9YG/ht2XdnIhLBruGpMUrR2Lhh2UaoNf1jqITQYSlrK2dqUHkV+f1HQgU
++GXZ71ge7H/AWKc5bIO0yUE4adTgbdwqjERwSavoH7d8lbuKeAW3qDq9/0QkiLwHrSRnfSMV8Oz4
+py7++hh2HpInvWNRoM4Gcut66mPS/gBScaexNVPiUazSE0HtcaSXX4QHcWWBxAiyeeBTfsEPoq6C
+85McVQYvtheWAVdmTk5faXkddy0fq/WhyyHDlk/psaviIf85PNuQM3CTJt5A3nfILnA0ZJT3LVwk
+ZNr1NhLEsLVtsM5j3XASx1xUU4b9hansj+2476LTxw==

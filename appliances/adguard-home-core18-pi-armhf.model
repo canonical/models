@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: adguard-home-core18-pi-armhf
+architecture: armhf
+base: core18
+display-name: AdGuard Home core18 Appliance (pi armhf)
+gadget: pi=18-pi
+kernel: pi-kernel=18-pi
+required-snaps:
+  - adguard-home
+serial-authority:
+  - generic
+timestamp: 2020-05-21T19:59:11+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXtlodAAKCRAvoVVWbaDsgWliEACS+BCCfSqHRk90Zu4PaRHJ1DQGhfEBX2O7
+cUtEeHaq82Cs3F1AvD8K+Pwg68XRXpRV0EeejA0v2sBNIdLpf9OoLFiPoSgb+y5iQTDV8DSmWrl+
+evVQjoLjiE4BR7CtSEmo5jKcFks4ykVChH8WF1ZAIP+ckk8GQRrHtzQB5lM0svo7k6y+EdlhAOka
+kC1gjru/CCi0CTD5LxscwbQXtaR9oHneGpRyb7n+p+OQizwnT3q4Ab3pbxbc8T0kcgEk2N0OiThe
+ltrgUNxg9lMXoVqwnMLNYeqhMO8f12clQNakMNmE/45uVVzzNqA+QHBEsbb968/3+ab9XMKnr70z
+2YoWkthBQ+FPsKJF2HGGBor5hZwewcKqcAyTrxapyDe0uT6igf0nC3yD1zInGpGiCnJ5T+sH2IBs
+OAWLc5ZK7v73QaGrdXiSxE8Lz6G6a4rfaGsohievqyeq+C4p+RX0DBVTHkbSgqxwsSW5gLTjheRq
+cxDNRdiz0tEkJnHMvI5mPCBrmX+DU+5yI+JUr1A62HBagjsOXIVU7SlruI8tU1dq9Y3Os98eFbK3
+tqT/4pZNA/2oC07XZ6BRE7ghnyEBGivyiiA5uv2Qz766UINa+XaV8jo3XmqGg6HZo7j5m3qUR3fl
+vDDCIg3qHl3eynZdJYtQo1IrQMZWkalf2R3JiApvQg==

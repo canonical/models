@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: gitea-core18-pi-armhf
+architecture: armhf
+base: core18
+display-name: Gitea core18 Appliance (pi armhf)
+gadget: pi=18-pi
+kernel: pi-kernel=18-pi
+required-snaps:
+  - gitea
+serial-authority:
+  - generic
+timestamp: 2020-09-22T15:42:05+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCX2o5rwAKCRAvoVVWbaDsgXJmD/sGkb5tORpL7JKb0kEuIoqtbULondHBeiFw
+GnhZ4ii/8OnsEXtpemPI9MHhAXmvma9tc+uG7KnMdfSJ8PqTRDMzwOdotoqeATBausumfcJVbU3X
+an6Ymx1sNlr0VczZf4w55fKEy7U7t0i7YXIi37sAAWOTuhbQF/Dp8WwJ+eUZT+L80chPajkrDkR0
+ltlAxws0w3skwqPXWQTsK9hChfCW9ACrQs1rwDPXuVHHpwCz9QGIrlT/QKvg7wmdte1UTWDf1i0q
+op1XFHYVfe9w/1wzGbjNzPvnhNdO4qyYIiwK8GWmg5Y6e29k39/PKeDMqY4LhHUSAc533MPGxpj4
+DYc1fdE6JEO1ulaDARrMBgUuT9lOnCPmA8EKW7SYgSVJM0H3ykBEZTygdIjm+SCgY9BYXrK9GXAp
+c0BhLcoFSR7SwUtHDJYmfK2V7fsTmknVtMj3RfIBgR1uF4FyKPT0E36lpFaLd1GvKC6CmHA/KSzi
+NsB3Ld00AnwgXy13VABAiXZoCQygeRdWqOf7KGCw75cBn2I4vcfmJxztNdfEaPrKRiGJjsHxB1H1
+TgliEsk5y5Pn7+w+8uJLvOm+OLu5KRReiBdOoyb/pvYaKWrlrlzyMgI+fWt5vA/AiwEEuGvx4+Vu
+ff6g9qdA14UlyV2g38gYr5LEcfQ3W2LEaf5KhJfFSA==

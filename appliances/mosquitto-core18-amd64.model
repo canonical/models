@@ -1,0 +1,27 @@
+type: model
+authority-id: ubuntu
+series: 16
+brand-id: ubuntu
+model: mosquitto-core18-amd64
+architecture: amd64
+base: core18
+display-name: Mosquitto core18 Appliance (amd64)
+gadget: pc=18
+kernel: pc-kernel=18
+required-snaps:
+  - mosquitto
+serial-authority:
+  - generic
+timestamp: 2020-06-04T12:04:31+00:00
+sign-key-sha3-384: vFwb6rRQsPBMp11YGJx5klqbY0xz2Z04nu9Y6RbARSSNWa2YivC-hI-gB4-ejIEw
+
+AcLBXAQAAQoABgUCXtlodQAKCRAvoVVWbaDsgdUDD/0XQ8erDGdj7edBwf0R7E1ax7Ie5Jbri06H
+oPw0Vy3/qoM+GNPnF+F/l9opDFVNUxuhRVHUkTyZkq57eX5WsGZf++z3Szcjz0juBYZ8J4MGZ3ap
+5fTI3UHSJcL/EHt4E4JH06G0NiI/liRZEayNOH2Q0fvwpRGUUYNw+Y7HiJxPLDtFsF+rHzNdF//b
+apuCRtdAk/zI4HnoFVb3urx53JpXjEecNuM3e4foeKogjyv5Qk0oPyzQz/0LuJ8nhvs20CQb8ZHy
+SHqzlqOWsQvYCBRxL2vNHMZA0Enjgrs97vz90MvPGkBTfjyexG/N5rOBnGcU/M2pV0zFRyIXQ9Q7
+a7UuPheId2y4qNCWIb/AF0xKdEynlIZPNsFzdpNm7e5gXzzBiikg3H/5IVlOP3iCWRmgQaepG6hH
+xQyUFhyWxJLS6A7cYQGlCtWyK77fLposVTL0GIgzpPadNGmJDutAlTJv8aYWOsI3uMWORBgTpEGx
+r9lMoIrL1sO40/J0bxG+QS1K8Gbem59PoogmlSNeuc3JUB0hD+dsn38qDRXeZ6USrSSZhU1I8thW
+ewshk0/JWV6RTNXhA9LdNti0Z9CzhqpPLcakk/+88xjCMuj56yHMpGLW11N0l6z1dRrM8RHbTAsx
+QA4wC6XKBojRRMmb+Kp0JHnqI008MnPemua4rZrhvA==
