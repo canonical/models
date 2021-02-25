@@ -11,5 +11,6 @@
   "kernel": "pi-kernel=18-pi",
   "required-snaps": ["adguard-home", "core20"],
   "serial-authority": ["generic"],
-  "timestamp": "2021-02-23T11:13:16+00:00"
+  "timestamp": "2021-02-23T11:13:16+00:00",
+  "revision": "1"
 }
