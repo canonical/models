@@ -4,7 +4,7 @@
     "authority-id": "canonical",
     "brand-id": "canonical",
     "revision": "1",
-    "model": "ubuntu-core-20-intel-iotg-amd64-candidate",
+    "model": "ubuntu-core-20-amd64-intel-iotg-candidate",
     "architecture": "amd64",
     "timestamp": "2021-06-29T19:37:37+00:00",
     "base": "core20",
