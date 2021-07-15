@@ -1,0 +1,42 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: ubuntu-core-20-intel-iot-candidate
+architecture: amd64
+base: core20
+grade: signed
+snaps:
+  -
+    default-channel: 20/candidate
+    id: UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH
+    name: pc
+    type: gadget
+  -
+    default-channel: 20/candidate
+    id: eKpzfdgTkbItdivsTeTx1EnDTpfZ1Ua4
+    name: intel-kernel
+    type: kernel
+  -
+    default-channel: latest/candidate
+    id: DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q
+    name: core20
+    type: base
+  -
+    default-channel: latest/candidate
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+timestamp: 2021-06-29T19:37:37+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBWwQAAQoABgUCYPCWxgAKCRDgT5vottzAEtKZD/iO8uz3JBUUbQWI0/mMm4sMiXHQJGaQqKEJ
+tnM9mgPnbzCvImkgy2pZsj3BNDSTuE3a2F6om0rIXS6RGJDS4d1N+xUD+qkNaFiRryZJb92hF12G
+AiwPiyBRq8NyiUjQPr+dvHvA75YpimimGZMWseCet/Y9NXoT5P4o1HHp04IXB4ARYozWB7KWb/0i
+ZcsFKTp5diddhTaqeTz/HXwHEbNgY+JZGN3Vq62suwATqZHu/xQuWPOFjPJW/K/7Xmu68MprgbSQ
+wqZgh12NhNG0QW7LUKunPwBb+7RcRkoEQvd2DxA4Y57pKuuNmazOFrsILVfPkrCxplwXctHkRV1k
+XDmcyFK3QzhZASMamQPdyx+/UGfDrYBdyWj3pei2Zl+/QZ1xFrecUz+XRUjRPIwx1xEAw/IzXrgO
+eokAl565Qu5ErQ3sIYjg3JpMI9ilhx0N1Mg3fDpv5lLZwijGPcjSZPkf31X1M0xsHPh3mYPnK5TZ
+8cAOr7sfN0KO9Mbn6k4Tx9SwZObq5QVJgf7APhj1LwSU1Urk2fgDjaZ7ecZaGo7wHQ6pHqX9PTAb
+6G9H75+w5fS3qfiL8uOmZit17Z2YscYQARQjRLWnkOGCeG/FLGbR1j8+vlhlAunBCUSZhPhuvDBV
+yxtD9q7nFm+sGtGXP9h+wJXkWoxErVF+PyLalImG
