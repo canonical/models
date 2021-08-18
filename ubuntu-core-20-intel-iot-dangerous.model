@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 1
 series: 16
 brand-id: canonical
 model: ubuntu-core-20-intel-iot-dangerous
@@ -27,16 +28,17 @@ snaps:
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
+storage-safety: prefer-unencrypted
 timestamp: 2021-06-29T19:37:37+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCYPCW1AAKCRDgT5vottzAEosZEACUHaZF3YLnIaH0t8CNLvtHlN300g720+MA
-tXV7Y8rNkYbMJ0BVJWxh7inwt+SzoyLDibpySD0MQbSh7i0pWGpFzFE82TBPU+kBWT4aQPvpY+CP
-224DVdK7l0Kz2SMmygxrbsys1ekq3Xgg6sfcKsp9LWRZ9Wk3GeujLJQxFrUBOqnCqoNUKbUMc0hx
-61CUdZ39hZHiZvEXWixt0F/dZYG0P4UocA+FzCFfObIdIx2vwSfvC2ttxlkBDcog8hIRVYKVU6Hn
-tSxJAZcPBMWi/o6CWyeJFTXowk35dl5+4Kd7GXru5pN6CALv0h4HcXlSF5uqmafCsGCGbJ5ZhBvy
-TqbiGWJeRQ7X++Fd3JXKhwxKLlPZVRdzlH07GIZuyMRVcLZydbPb3+71BYVf166n2jt31RppTMLv
-gt6GKiObvOJWWR+MOdRljVvUUktRj8eQsPppHCxgfQmzyeZv9S/6iM9Uz3aXUYt/bzYQNdJgqjs5
-DXBOoS+99GFtO90NgdYrGzMCV3kfcoblB/uKpigf5XxEEt5Y1eSMY1EjfMZ1mtk/FoLECzPUBvUW
-ED/cxsNeq9/EIKMHHHVZUgswDNxZLQ1Orf1ixWBRusM4euWZpSdTpWvYRHMYHvINNmCc8dnmvlNq
-+ILbtJYon8zWyXlbGZSs5UyNjh6qUMpbgxIdBMI0gQ==
+AcLBXAQAAQoABgUCYRq4QgAKCRDgT5vottzAEkQVD/4h9qbKCCsXpJ15dmb5NVdnR8vF1hUR3Lpy
+Y8aHH92VZh5o/LveWpJ20FGEYDIUW9L9YKqW8goCOlK64dSp8anZ5TUAH5k3H4xUrmu2IrUONj7y
+i/Mt3PxpaoZ2YiKE55j5bCDVSfqo+kNgJWoM9Ix/F0ZgcfB4DYZe7fp+hyTo5j1Rx8EvZPui/VXQ
+F59/JrOccvtEWuzW+Aa8BaS6xXs2bmMMSGDJ+w2jee4FMpYYFXTE5P4Pu9akfwGuNurUP1ggxPof
+3zxyVPStXkvmTd75dUco9gj5Uh4xo2ia/F/cfJWTeRNug/U2B4ki3c7FOPBWiGC2YCEJcBtKLY/m
+1+ANQAGQ6GTspAL2m7PVx7R7I4V21ydxZ7R6RWX5XQYwlg8NnLKKr0fvHAoMiT+QMyXnfLkR6Kro
+5ZhGRoEhSg4hTvK6ObbmC/PIpZi5hwUajj4o6rz2mwuSm//DlplzKVpW8nPGYQN+85imsIZIB+Wf
+vDWQwtvs4GEeJrxCEDTDLlwLtolFiUqhpkhNMqhpkBwdU/W5wIxr9keZf8VF7hOQRfabGdqJ9rl/
+ouRZcHE2yM+6/jU0mK1vC/Pagj5vncs1+aaX0wEGlZUPyjqLbac+wGy9Mh+9sAOKyGBKXb3hAKKF
+nTIx/qIo3BhuVM8RSe0FtqRUhmCCe/KJVfHE/wRA3w==
