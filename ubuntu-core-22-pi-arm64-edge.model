@@ -1,0 +1,42 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: ubuntu-core-22-pi-arm64-edge
+architecture: arm64
+base: core22
+grade: signed
+snaps:
+  -
+    default-channel: 22/edge
+    id: YbGa9O3dAXl88YLI6Y1bGG74pwBxZyKg
+    name: pi
+    type: gadget
+  -
+    default-channel: 22/edge
+    id: jeIuP6tfFrvAdic8DMWqHmoaoukAPNbJ
+    name: pi-kernel
+    type: kernel
+  -
+    default-channel: latest/edge
+    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    name: core22
+    type: base
+  -
+    default-channel: latest/edge
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+timestamp: 2022-04-04T10:40:41+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCYkumqwAKCRDgT5vottzAEjVED/0XKfparoO1WrdoluUG3Pan8HCMshGOujtW
+zzUHSL+cfk5uKFzUA38d9akEuTmmXTpeLLULLxatWK/MIVjStrl1b7xdo3eEdYGY1yDVbL4GlLfo
+qDlNzmcPAYkox6fnAkNPOzUx7M8SFhRz3YxnI37tJmPz3fMTEB3XbDxPU6nIJlIBnsgwqtLQTYQ/
+lR1bqlqcnnUQPd73oNu9iWevkiDhavmc7Wr5tjdg8dP7i3s26NJFFGpU5hJuSJN2VFV6wbY0ubbj
+I0DvJvAGJTAkrypz7ZsEAXICIq11WEXRh9+XXC5WjyZN7cfB5vlf9eSbImyNjzYH1kdZdQTwgtmf
+XzEXl3CsKE60Cf3cuo9+0Zs/uY1+R/WM3do8n05naOwclFr7s4kSyfGxUQ7whnv0P/+9Vns7C43K
+v9jjs2wzCo4f2Ovv/YmhN4cclll+GbrFAZ4ZioTDqqpnkZ7yGL4UkLlrxbIyH1hLzKJMfRZAV0fJ
+dYnmTGpxBnl7HivP7udFtXM2KYFb5qDgE9V1OaqRx72YJm0DFPglHsv+1ujeBTPuJXoO0/PGVT01
+Wu1f1GSZioZsO3M32EXBYiGjQJEk9zoa2IrIwT7j3ZKiB60AT2+D7QZkT9QM7Ea4y1V2VtcqDKSs
+dbwVjlwizc8bjO9H1EhvckqPeo2khCMrnXKD8GZStQ==
