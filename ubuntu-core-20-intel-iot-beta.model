@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: ubuntu-core-20-intel-iot-beta
@@ -14,8 +15,8 @@ snaps:
     type: gadget
   -
     default-channel: 20/beta
-    id: eKpzfdgTkbItdivsTeTx1EnDTpfZ1Ua4
-    name: intel-kernel
+    id: v7evc8smSqgPwL0KCjpGJf3KuucG2Yap
+    name: intel-iotg-kernel
     type: kernel
   -
     default-channel: latest/beta
@@ -27,16 +28,16 @@ snaps:
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
-timestamp: 2021-06-29T19:37:37+00:00
+timestamp: 2022-07-04T12:31:19+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCYPCWrgAKCRDgT5vottzAEtRrD/9q3OQtQuMmuC6eTb7F/iGPo1sAcrFarVPT
-GSs5gQ1Doi/65F7QTh0SrH34U9tmIX1xutzvDsSsyaRl0HGbMfZXhJT9W6PWwwsnwnFLfBwI0W5Q
-iOVotQRRougzb2CcmZGZTw4aIkswkORduuRQ1V3QoS0JTkepYIMaE9fOqliKyjdnW++96ZtJ9L+a
-kh8ucK2ifjB9IELsIwIMEeOnMS19eTiOXLcE37J4Xnry6FZUvhortJTglFxY8jecBRXT07x4GesE
-pnmPTCaHFebpqmCUdLjvrf/Uid1HjRLqYJqn6x9AUiAz/YfDdP7A+89dgu6G6UyDUWMMB+oLY8VY
-isacDKzN1FuhRaLTQrkxNLhTLYWQHNaP6ibJsjlsguUYksk9zBnpl4Z3w1QT5CNYET56qPwX74CI
-WH8JpnZbc40GnFqFLnA9aaKGgrwppCChfWCJKkMemXZgpKNhCPl6s06xF7jJi6/ZmeXZE0EroJf9
-bSO4crmA21tVIPwF00Lz0+yIVHAxofIy2u7yM50jTFvst/cwKJKRi/Xhh7FfCxuaFIjpuYmrvJKd
-uNLzm7i+Lv17QxN4AdXWcfYzdaKzqfPsF/+ecfAFXOpy9ckYIgIrkY3GMie9JwA0nFz0usUVsWlQ
-snH2LoTYM3f9mpAY4BEhWO2aAEWIsshPt+FH6K7QRQ==
+AcLBXAQAAQoABgUCYsRwWgAKCRDgT5vottzAEiIbEACgqEd/cTIvozezmY8HjQYcZVs09lApl0tP
+cT0RbD68+4boO9IKxVjqoLbvmVJIC9+Iy20I14Bm3Z+7ZG1EOrbMYdeyyiOBy2P6YulQDUVFuYg8
+zwkZeWPqiEVEoUeenFbJnz54dtRYwHl6lyrQoKg9doXpiqDSSfoLpyFEdubaCbM5DKbsZLxfVvNR
+SiGlSqZazrFFkMITxT4qT5+9zM/zT5cJIuMIcyeY0GtszU3nbExXY6rlYXEqT7YWSMoLKek4o+bh
+R2jlwWUkaXsN9Enk2RZXPQpWVoeFhBKTU2aOK82sAFwu0+NB/sDj+WPz1097URtqr5c8EhDSHAet
+dOcOn60YrBo5PyBpSscFPgxe7/O/5oQGu0oipg6KsRx+LPMuE/7pfzwBTmWwazYd5g61D3ClJfC/
+2TSXF61CIp0BZwNlMMV4FHY4omUrDcxYnX6bMBzjBKZSxrMMKc66z95kg/nElf67+mKxzutBi4AU
+2C7UwDQ+wLTdTTR02i7ftaOPOdoSpyGsPTHxaugpsgNggKinAmkHE8k7nzFgP3g5p/1YUrh1c10U
+vDq2TPEV596vfjiq95RAp3G0j8mIn8qCQ0ZYarIAC13xLthYuRsc9clA0ccUq9NdX+ebaDl9gFGS
+papuxefgJmZWYN06EfqCnEEfiB737Hit24sGX7Qq3A==
