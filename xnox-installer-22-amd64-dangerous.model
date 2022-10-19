@@ -1,0 +1,39 @@
+type: model
+authority-id: 7InnfhhgqHTy1GnKMw83FDcBinWaYKbJ
+series: 16
+brand-id: 7InnfhhgqHTy1GnKMw83FDcBinWaYKbJ
+model: xnox-installer-22-amd64-dangerous
+architecture: amd64
+base: core22
+classic: true
+distribution: ubuntu
+grade: dangerous
+snaps:
+  -
+    default-channel: latest/edge
+    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    name: core22
+    type: base
+  -
+    default-channel: latest/edge
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: latest/edge
+    id: YUMEkaDm5azo24a5d52wYPtMdxvMYEom
+    name: muinstaller
+    type: app
+timestamp: 2022-10-03T12:00:00.0Z
+sign-key-sha3-384: liNgNg92gwg3w61oxMVVqJAZU2c2xuxk3CUDdDENXyqA4fWFpzgdyZZ779tBcXzl
+
+AcLBXAQAAQoABgUCY0/cJQAKCRBmad7QGSpsZ1otD/9dtNlxbR8pAO/5d//s6Q7DNt3UHN2vA3HR
+zn1sdNaxcvVSDiF1Bfrn3bb+X4QlRdrigWVyc4PFRdjA1RqQzppcBwfkYxmHH3204vC1NUQ8a6r3
+iVZtm14HfN1KzFH1oFsEoq0X5JF0TQu41fbqZK2ExeGBJFdlumszgpzjSvcSZKPZRf53gCEI6ZcF
+VlMYSlyd2bXxgUx8ggSv/qQVszqJIAY+dtKEiO9Mcb2O/jQSRcSL96tmf7qmvVSVC/ywoQVoZNrw
+onqUVzeXpXK3n9WtaHshTWhOg/5LitdUdL0bLG0ACZp1DgRLKBDWerXGUZ2RmqBHY3yJGobozBiT
+X4I90zDcWwLIqkVdcaYqFo5Aitj4SEpk4GFpHL6epqSvOKEd0aXWRcTJ551I7nbElWt2MLwhKeYD
+8SpwW8aAqHxVlimUqLrdP0iPcuVRyslMTO81CzjI9wElNHYgwYRIByws4qtVnHD/Totih6liNzd9
+27h+FBdstOPZ/3ZbGg58KGcw28/Cb/eGAc4sFVV8L53Twnh+Sz9RZOdWk9ypmL/pdXGwIMhT9AZl
+xr1eeK3pOMKsllf8UzF41EAf3RjV6RG32yuk7dGbbIa1S8EkyptQ2Fh70cq3rw8g3qXyX5yjTCz/
+zVCztuj9dy+C6wtnH0kZGin7ERU9sFJTi0uqcLZQ1g==
