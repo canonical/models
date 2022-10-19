@@ -3,11 +3,11 @@
     "series": "16",
     "authority-id": "canonical",
     "brand-id": "canonical",
-    "model": "ubuntu-core-22-xinyi-amd64-dangerous",
+    "model": "xinyi-classic-22-amd64-edge",
     "architecture": "amd64",
     "timestamp": "2022-10-03T12:00:00.0Z",
     "base": "core22",
-    "grade": "dangerous",
+    "grade": "signed",
     "classic": "true",
     "distribution": "ubuntu",
     "snaps": [

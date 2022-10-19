@@ -3,7 +3,7 @@
     "series": "16",
     "authority-id": "canonical",
     "brand-id": "canonical",
-    "model": "ubuntu-core-22-xinyi-amd64-candidate",
+    "model": "xinyi-classic-22-amd64-stable",
     "architecture": "amd64",
     "timestamp": "2022-10-03T12:00:00.0Z",
     "base": "core22",
@@ -14,25 +14,25 @@
         {
             "name": "xinyi-pc-classic",
             "type": "gadget",
-            "default-channel": "22/candidate",
+            "default-channel": "22/stable",
             "id": "4HMogT8P79Du9pQLtBVwEDCPs2VvMOl7"
         },
         {
             "name": "pc-kernel",
             "type": "kernel",
-            "default-channel": "22/candidate",
+            "default-channel": "22/stable",
             "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
         },
         {
             "name": "core22",
             "type": "base",
-            "default-channel": "latest/candidate",
+            "default-channel": "latest/stable",
             "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
         },
         {
             "name": "snapd",
             "type": "snapd",
-            "default-channel": "latest/candidate",
+            "default-channel": "latest/stable",
             "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
         }
     ]

@@ -1,13 +1,13 @@
 {
     "type": "model",
     "series": "16",
-    "authority-id": "canonical",
-    "brand-id": "canonical",
-    "model": "ubuntu-core-22-xinyi-amd64-edge",
+    "authority-id": "7InnfhhgqHTy1GnKMw83FDcBinWaYKbJ",
+    "brand-id": "7InnfhhgqHTy1GnKMw83FDcBinWaYKbJ",
+    "model": "xnox-classic-22-amd64-dangerous",
     "architecture": "amd64",
     "timestamp": "2022-10-03T12:00:00.0Z",
     "base": "core22",
-    "grade": "signed",
+    "grade": "dangerous",
     "classic": "true",
     "distribution": "ubuntu",
     "snaps": [
