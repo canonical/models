@@ -51,31 +51,31 @@
         {
             "name": "firefox",
             "type": "app",
-            "default-channel": "latest/edge",
+            "default-channel": "latest/stable/ubuntu-22.04",
             "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
         },
         {
             "name": "gnome-3-38-2004",
             "type": "app",
-            "default-channel": "latest/edge",
+            "default-channel": "latest/stable/ubuntu-22.04",
             "id": "rw36mkAjdIKl13dzfwyxP87cejpyIcct"
         },
         {
             "name": "gtk-common-themes",
             "type": "app",
-            "default-channel": "latest/edge",
+            "default-channel": "latest/stable/ubuntu-22.04",
             "id": "jZLfBRzf1cYlYysIjD2bwSzNtngY0qit"
         },
         {
             "name": "snap-store",
             "type": "app",
-            "default-channel": "latest/edge",
+            "default-channel": "latest/stable/ubuntu-22.04",
             "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
         },
         {
             "name": "snapd-desktop-integration",
             "type": "app",
-            "default-channel": "latest/edge",
+            "default-channel": "latest/stable/ubuntu-22.04",
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
         }
     ]
