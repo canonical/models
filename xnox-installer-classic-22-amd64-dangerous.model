@@ -1,0 +1,46 @@
+type: model
+authority-id: 7InnfhhgqHTy1GnKMw83FDcBinWaYKbJ
+series: 16
+brand-id: 7InnfhhgqHTy1GnKMw83FDcBinWaYKbJ
+model: xnox-installer-classic-22-amd64
+architecture: amd64
+base: core20
+classic: true
+distribution: ubuntu
+grade: dangerous
+serial-authority:
+  - generic
+snaps:
+  -
+    default-channel: latest/stable
+    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    name: core22
+    type: base
+  -
+    default-channel: latest/stable
+    id: DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q
+    name: core20
+    type: base
+  -
+    default-channel: latest/stable/xinyi-22.04
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: latest/stable/xinyi-22.04
+    id: ba2aj8guta0zSRlT3QM5aJNAUXPlBtf9
+    name: subiquity
+    type: app
+timestamp: 2022-10-03T12:00:00.0Z
+sign-key-sha3-384: liNgNg92gwg3w61oxMVVqJAZU2c2xuxk3CUDdDENXyqA4fWFpzgdyZZ779tBcXzl
+
+AcLBXAQAAQoABgUCY3e1HQAKCRBmad7QGSpsZ33DD/95gWoUQQWhRhlZnbof6QWM9q/vLHNve7MY
+XF6QMzWLjNeQNHGK0+N29K+zt60E3J/4x5xpMUA9kx3qI8RuMB7rOqRsipao61cYDraKaf514Ttw
+/e9Dm+ynppP0YXnLGlkLoAcjcixmirhvoDwGt1gueBYqBm0lPSJsx/8g+I1d1PBQcjF5TMHyWO/5
+4IZKm0633iJg4eia3sOe4uxpthP6HkjG409xNrn8P8g6OYHnwZAe51iACJtWi3pAjY9MJIBKAmq7
+gUDls36VIv8Veb2zGMNW1eGT3wUvcz/oq4HPXz71f/uwcSpyzth6vSqtbI/ndt5x+LtmYhvzefcr
+MnxP3FfoqjfkcIeBY73brz4AfpM3GAyb86W7JY/plHhR0tDZ94V6sKjwWF/Tr+y/kYh8UbPOlpLv
+lRwD2IIZxJZrABlZBJk3eufAV32MHICMJIiNKeCGNEvvg9jCTDMGpWh2aIilM8mrwRSDUuNzjPtd
+rE5Tt/nDysQ7/bDalltuxEBOa7cKhCbKRRdo7qP1iGQXzcCGKSfc21DWOE5yFLFPSEqqOzx5iyJV
+falSx2ampB+Hld96kHVVB9rpABI2YNu97xCRQjmjlkHUEJM1JveHKfaeUcdcDMWrQ790bk3gii2M
+nYN+MyL8JihoEVTo1p20Mxk62ETES2QOe73So2Rqqw==
