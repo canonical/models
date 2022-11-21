@@ -33,6 +33,7 @@
         {
             "name": "subiquity",
             "type": "app",
+            "classic": "true",
             "default-channel": "latest/stable/xinyi-22.04",
             "id": "ba2aj8guta0zSRlT3QM5aJNAUXPlBtf9"
         }

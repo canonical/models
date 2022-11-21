@@ -27,6 +27,7 @@ snaps:
     name: snapd
     type: snapd
   -
+    classic: true
     default-channel: latest/stable/xinyi-22.04
     id: ba2aj8guta0zSRlT3QM5aJNAUXPlBtf9
     name: subiquity
@@ -34,13 +35,13 @@ snaps:
 timestamp: 2022-10-03T12:00:00.0Z
 sign-key-sha3-384: liNgNg92gwg3w61oxMVVqJAZU2c2xuxk3CUDdDENXyqA4fWFpzgdyZZ779tBcXzl
 
-AcLBXAQAAQoABgUCY3u/wwAKCRBmad7QGSpsZ5RoEACdLbTBye4bG1BJ5yRIS7887MzkWT6Ktf+Q
-IID3bpzWDEWhFVvAaTPCNDOv26UUqw1wdkgJzu1j+hBojgbrbN33FpsHfjUjZw0h3E3M56V5rdmG
-VZzzTRNkgFRae6hmTnJrOXsHLV0/xWhRqBxt+eN5V42FgS7tMuszNUpXzA59lHQheywptNWK3xmk
-7Ea5CMMyK5Pw1njusYcj2gQlEWY1tuIdymLY807q9Exu6yGg/UzhCKAh92iRii1mqvIutbz6GrIh
-XzHtaprA+uMVhl2juikpjDw/gIM8TZ75cGjYTNrmpxY5dPOITmm0kN3WQvpyE1jmGn/b42U2g6WY
-ZEIOfaePA25tE45YMgIHt7tXmxqtZlGWdg8AIuvYQoPZhzCwU6oXn5U4NeSeXwQAAaAUDoUWtb2B
-mTx+iQuISF2o0+05TZiIHiSLkSZTuiS+98QZpZvKqh/jO81FsmvxTEvFoCHWu9nVwJ1M2r0PCU1+
-k7/73pTliQM5olCYPNrAeeciGncjJZz4RnLyxWM128+/+wNKTo/aD0EaulcCkz68FLtP02ooAnOG
-ZhqSG3NhqZeXEmFN90ipSGTF2KKihGNkCiwUa7jlea9BrcPs2FeEdqGpF/FkKRFeQPqEydQLWd4h
-mSdRiDdtEJRqG2kABWd/HvssvJbPBWvzDkC4kzPQkw==
+AcLBXAQAAQoABgUCY3vEmQAKCRBmad7QGSpsZ664EACQUun7S8aZmlNj4u4itqztp3uARVprj041
+DciLbzI38hoOnYJjehLMUA2ez7gmprFP3Hbc8duGnsKk7iY1BR/2Z9+sCEz0rVk8j/j86+U4qcBh
+GVF5S36oWB7xjhOR20bFIdT1JTbOEZXrQUjSPmwbv4owQd+nNjfcYIbWlvN9UofVCuaZV8DvHHBV
+hCVo5iRyrIR0T3npkboFFRKOQe/PRBCtpw8HqyxszceLL5WJ2T+QffpeWYasC9i8AN+ODm3OqZPu
+Q/mHcx3NPLs/Ew+VlHAEaa7te/an/wLqlSwViBmPBHtCXG8sd2e0RzB1BH1WwCGHiuJj8nmTDvzt
++TlXbqFDmPWhqpQoysUG6gg+QQ2rL2iqoO13BMcapnrKrDmvH1Zwcphx1kByfZfcybaN3rO/o6ET
+tubsZbjwRn8a63Kmy5C7JMJ6P/WZ4URyuDqBg1bBs9EtRdgDXgft8SgbCcsv8w2RSOMrwmdECTMs
+QdYIhgvnMMCfNkHqiA5LgaCDnISJoC2DVsYJB0bIGHpdd/bLXiEJeM44kTZqk9IUo2E/IbFiusR7
+mNrZGlBAnsltOzbhsehbnq0QYBxLHl+KUOP7Tip+j9NL9Bb8BZlNTsRje2iJ/Kpr8SyFqz+KM6bY
+LshxNVHC9h/GtGZHC6vtaT0lPlZB4v6HHsEvFlN09A==
