@@ -1,0 +1,45 @@
+type: model
+authority-id: 7InnfhhgqHTy1GnKMw83FDcBinWaYKbJ
+series: 16
+brand-id: 7InnfhhgqHTy1GnKMw83FDcBinWaYKbJ
+model: xnox-core-22-arm64
+architecture: arm64
+base: core22
+grade: signed
+serial-authority:
+  - generic
+snaps:
+  -
+    default-channel: 22/stable
+    id: UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH
+    name: pc
+    type: gadget
+  -
+    default-channel: 22/stable
+    id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
+    name: pc-kernel
+    type: kernel
+  -
+    default-channel: latest/stable
+    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    name: core22
+    type: base
+  -
+    default-channel: latest/stable
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+storage-safety: prefer-unencrypted
+timestamp: 2023-03-02T02:03:23+00:00
+sign-key-sha3-384: liNgNg92gwg3w61oxMVVqJAZU2c2xuxk3CUDdDENXyqA4fWFpzgdyZZ779tBcXzl
+
+AcLBXAQAAQoABgUCZADcOQAKCRBmad7QGSpsZ/4FEAChuA1A/RPCGHuDgfkLB3m9sw4mus8sR0w/
+ZnazpQtrU4x/Q6pVx7Ys5PZ5BIfte2oB02t8gcJka0m7bMank8QnoVRqSgKETxSirDK28chYWGoo
+VvuqSe7Do+kRc5TcfUTdxh69jyjrJMeg3q9a8SCmueF4nU272iSjHOxHCAeRo8xkRZ8BsVhP+BvY
+NU32HovlJkQQwfoSaRcWUzOLuRo6Elm6Nwoysa/SrQxomvLKYxqtFjJSBN9zxxrKCd1yWSgJwe8N
+2ZSV73njD1nARwmEIxYN2MsHvx2znxvCWqohNCSTYdeT07i0ChLWMw384yx38cwZzt34yYS0nOvB
+u60pXy6fg79nm//2e4igi+BkLtgGNjyU1wiK57HrsKQTle2MiYqI2n/GWW5tnc/ULpSOc4wXjvja
+d5gELci6QtylZYb65rJYejKpGpMRImFMM6CiDTR0VOyE6eI5td17PH1xdREiJRYiJ2dn5UX7nUyI
+ZQtD+wwSLXFB+E8q+UIKiZieatTOZUuLUgVufHWJNpGi8Da/BpBXPSJ4JFBoATeRwhjMbB2g+PAw
+ML8N2rSLjoIQN3L2vVlvZWGw5jDl28YF4uWYpcBRAnVUuGEHeWeVjNcxyZcTmGxq/IrMcs492PSg
+8i4KL22EZpxgHJUs55eKkIwmsdkVYp4MyyC90qubVA==
