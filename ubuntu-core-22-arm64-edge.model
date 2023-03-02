@@ -1,0 +1,43 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: ubuntu-core-22-arm64-edge
+architecture: arm64
+base: core22
+grade: signed
+snaps:
+  -
+    default-channel: 22/edge
+    id: UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH
+    name: pc
+    type: gadget
+  -
+    default-channel: 22/edge
+    id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
+    name: pc-kernel
+    type: kernel
+  -
+    default-channel: latest/edge
+    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    name: core22
+    type: base
+  -
+    default-channel: latest/edge
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+storage-safety: prefer-unencrypted
+timestamp: 2023-03-02T02:03:23+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCZAD4UAAKCRDgT5vottzAEm8BD/91zfI+l0kNneuvpUkaGqYc7FBE8ANkODqM
+hmiPfgMyd80hLnkf9K9HTx6UAXGJc9rREqheJQLEdlYbzj7gT3k1jG7hMiXmj3fGuNZtQMqlcDTd
+JkeFSPcftAAD8giPv8COnbcPE42pE6/8Lr/h/JC3zDzyepS0S4PeQrmzqqKCIEM5p26nlpDu0AZC
+8CrX1lZffZkLhI3bwfdzidNsBS3MgVwzegdfUiSVfndjtY27BJTdHkCZSeKD3FX5U5FfQBM1gD3t
+SWhtkglrRzWj0KSem2M1/pYgo0Q9sxE/Tz3rQkB/FYOQSiBZQvswAwy3oYQs7Ten26evUor4UYlz
+AlMV/tbkbGeHC7TZI1kxZ39+e0hFeUYMPMsFGaEfICd1icZwrKouGwNoEoPPC/OQW3d4hWnsJ6cp
+hQc900ZLALpSZB1xL9jZ9XNlEEnz7fknkSbBkZE0cv+2aQIdkXh3Jya1TiKArNbJMH2mX88aw+1H
+TwJ0b8pzGjKUZ1j8WuZXPhKH+wL/XLvWxnCQWRVvf7jVVf3OXBbmNlRSqn1LyBGCQ9MnmyEgq1AV
+n+QP3TVluq7PCvP7OWrsYreFzp74Cuex84GhP7Zqx9gj0V+GrRCvYZ9JHgUIVIDqQB89vUs833Jb
+2amDKEA39pglEg1gdvyECr8r3xfw5s57Y1yPlsYHKA==
