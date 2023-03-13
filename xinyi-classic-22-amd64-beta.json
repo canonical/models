@@ -6,6 +6,7 @@
     "model": "xinyi-classic-22-amd64-beta",
     "architecture": "amd64",
     "timestamp": "2022-10-03T12:00:00.0Z",
+    "revision": "2",
     "base": "core22",
     "grade": "signed",
     "classic": "true",
@@ -58,6 +59,12 @@
             "type": "app",
             "default-channel": "latest/stable/ubuntu-22.04",
             "id": "rw36mkAjdIKl13dzfwyxP87cejpyIcct"
+        },
+        {
+            "name": "gnome-42-2204",
+            "type": "app",
+            "default-channel": "latest/stable/xinyi-22.04",
+            "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
         },
         {
             "name": "gtk-common-themes",
