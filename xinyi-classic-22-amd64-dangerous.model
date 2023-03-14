@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: xinyi-classic-22-amd64-dangerous
@@ -50,6 +51,11 @@ snaps:
     name: gnome-3-38-2004
     type: app
   -
+    default-channel: latest/stable/xinyi-22.04
+    id: lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3
+    name: gnome-42-2204
+    type: app
+  -
     default-channel: latest/stable/ubuntu-22.04
     id: jZLfBRzf1cYlYysIjD2bwSzNtngY0qit
     name: gtk-common-themes
@@ -67,13 +73,13 @@ snaps:
 timestamp: 2022-10-03T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCY1MG+wAKCRDgT5vottzAErVRD/9n2EQ2+CvxGaTb6rVYnLON8jSDNknG56oF
-msx+x0FmFGe5Em4Bq8aLgUze3xnYD7xSpg22EgfnlP4U4xSHWCDTOcdgqkkANIR72q830WTkSYAA
-ebljFAq1G+i2zX4oqAYjHFH3SdAewO9mXiIoe1+ULf+925NGUh9E/mCmiUArRZBB1Tqz0Gn17T5r
-dIAMsy480dzVAxugO5R2nSU2v9UG4os1k27FKEV6phFb9UHJJLEGTwOn4CjZJr1h84eK0qUK+6bg
-LFT7bI5dRcAGfrUi9uQemFAqmt3xXxtEwl70z450XzinmtkMGdfu+XZPjC898hDi2FPRJyVkvzr0
-xZuyTK6x5luotjYKBIhRZHkA3j2evzEaCODbQddkLBQhWatdLA8QJnB/L8035ZNmKNKMSqHsK8mq
-lOEGaN5QWKqDKE3TJzPXlWs4Win1+QaO8LmnAhChER/FkOAFVzS/INPHpQoLHgAfBkd7kYBjzFUd
-YfGanNNx46leK44J/mPCgnTm5O8L+q3BhXVxOBl/CpAz9zDJdWzVazN6ixbebXzKB0q48nr3V5/E
-sodnvU0OQfLH2BWZ7KEK6D7MHhbO+tKCUW3gD6Keyyd/kRBAI3SA0uxhkpIUgYZWbMUomRWMoGj0
-fAkof7OeWGGJv6DEPP8+tSuj0wzxbB+UNApCK32O9w==
+AcLBXAQAAQoABgUCZA+kQAAKCRDgT5vottzAEhTKEAC8+MEs6tUQjQCCIDT03YHaglJSX0XGsoEQ
+gxGuaEFsisbBILCtygF0r0JnTCB+x++B/I+imu4dufCjkFEGKG6w0n23OWG6ZbD7jnwq5Nbz4q8Z
+wWnZ+YqnHpUO7dZ1XVEtycBjJXXrc+iaOjzKx7j2eGFT7sN7zoIUCG5ZPTRFZ8ljq36uJtIaIZPY
+FD/KbS+ydsT9Hw4jbo0Mbw6299qloBu08xgEL/YlXuZT2DjTrSJNIKkL+YqQc5xtscGfjQlMKaEe
+MfZ6KoVzplutGvbcecqoMQQQjVpd1hsiOtQjFoiMU4J6F5ccfV+ybxQmjRERTyKqUbv/SgCVLWtX
+T6rHqsisdhIfDoXWxZxEicT5AjTZq0xZW0Oyc727rX42NWZN6IJA7M/H863BOL19imPrIGiiX5rP
+0OU4WjZnISuDdwgh18CGWhib3TB3zOyOIZvXwhU2LGGV1lPyoQoyPM/AgHWvqNvGM1wRqhruuAqz
+qygJlbODsTdx2pDuzuVrkcPqgl7aF18+FtAfprkXAkxQSnw2aqUYt+X+i1uqEJ9MrM9kngOSDOM3
+yZo6Jt25uo32yPl6FqNIl1Gz0gJugRhxo8Ka5ODxDZHPqUmLUnjElEoH4taOJe4ioDvGWq7lFQlo
+il7P7fA21R/lYsJTyX3TUFclcaBj3KTfQzal7ZIs0w==

@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: xinyi-classic-22-amd64
@@ -51,6 +52,11 @@ snaps:
     type: app
   -
     default-channel: latest/stable/xinyi-22.04
+    id: lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3
+    name: gnome-42-2204
+    type: app
+  -
+    default-channel: latest/stable/xinyi-22.04
     id: jZLfBRzf1cYlYysIjD2bwSzNtngY0qit
     name: gtk-common-themes
     type: app
@@ -67,13 +73,13 @@ snaps:
 timestamp: 2022-10-03T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCY3fFqwAKCRDgT5vottzAEmB0EAC1ksa3p1wr4J0ItoTYM8YAYgBOVvS6601T
-VG8SWPt/XoyncwF+9BwRNU5WkXyQqKtsPsB8BJnuZB/oDTzCqQkL97tBMaMfhFZn68ipUzm6VWBf
-B4BtXpd90Y961IXGSNyem0x0L4JaMCJvMth539l3+VJr4BmTnifIPYBI9+ie7BDIEv2QsRetfoe/
-DqWZfLpd21lKyFexWGteie9cOlCc/96/HNkMsZ/lADAepn/UQo6WhO54Sg/GKZ0k6b/z/XuRj+KW
-en9ClQcatANXFASfjn1jGwnj7gjHxWtmoNLcJz+u/5RkFLtOMhpDfH2JXOxE2vJofFI/FeOtruk2
-E4EgiirH/pGhTWsuvsWqrxXanZvWDAve4TJ0TVrJMhsVpefV0qeDppT1m6sXUDB7DkKfwhoIPTLX
-cfh0ipkArn6Pgm/dnZvWGme3yVj+ylSN9h7AkFAWMPwzQnYSgs2Lt/T/K5qaKnAVNQ2s8Oguv0z4
-LXzdKu3RWRTje5OZPZVTuiLEprbbkmx0bDUGja287x+AWayFvt1cEnpmnEHxWTccPoHI8FftjZzP
-6Rmq1Cnt3DMaHUSIsiP5TAElMkaC/g23wb2HNUX06Tx5x4ewnn8pJCZ3ziRk1gA43v2e3NBHGrOr
-TyrDyDLGOdXyUzDygRR2aQC7hEewOO61sUwwXaEftw==
+AcLBXAQAAQoABgUCZA+kQAAKCRDgT5vottzAEo6cEAC2GqVVgP7TXxOcDLNDmApcKymLkjbXdvfY
+MomIVVaFV9maQWQF0nv45irCxJ4gAGOElNdY7mQUI1qCkBZAi218FgIdJFV0ulcmvJDWnqAZPeHG
+5tV+469zZd6VRqU3lemQjscTPcpj1+7nXlpeanBVn9QxtLJBWdXyK1ICBGZWls0YZGXfHpSP14OB
+QntiwMdhKodKurWECP+ln/5vVcbn0/d0IYpIjjYjovgXcvKIF9dML68tLWzKloMsaX+emxtKSCUY
+co7919z9S4NQvMnRnePJj3wavNIB/BPYPPBlOQB5vO1b65447r3lrave5JP0FElUq2ifaDbY7IVL
+lItcGMj8cBTAvbLaY547AFRlAesOBZlXxV706cGIwFcFrywRIq2IqsCjOk8h8ap8lLRMw4rwLqyk
+gZFD66tdhRbDMwH6d9QTOP4glN8UXMx8FOIzShFPiYuUXUPDkGqLPpExLdcnKP6UMC01/pwwVkvk
+I/DIxLQNWueWjzuTOXDjlMxn5XEjcfEXl0ggRCsoTUDB4Obs3JGw7d8noEmGJypblFJN+vMe+0If
+6DK9bJIhoGoQbT+Mt9yRfABpxmwwl2Ky2BQsmbypF2+K7Pn06gtChCMv83zZQTkyM9f9XTfbcOi+
+valX17a+V9cd2ffZCNAkLjyDhhe50QQxhClbEf9ESw==
