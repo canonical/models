@@ -15,7 +15,7 @@
             "name": "pc",
             "type": "gadget",
             "default-channel": "23.04/stable",
-            "id": "4HMogT8P79Du9pQLtBVwEDCPs2VvMOl7"
+            "id": "UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH"
         },
         {
             "name": "pc-kernel",
