@@ -27,7 +27,7 @@
             "name": "subiquity",
             "type": "app",
             "classic": "true",
-            "default-channel": "latest/stable/canary",
+            "default-channel": "latest/stable/canary-23.04",
             "id": "ba2aj8guta0zSRlT3QM5aJNAUXPlBtf9"
         },
         {
