@@ -14,7 +14,7 @@
         {
             "name": "pc",
             "type": "gadget",
-            "default-channel": "23.04/stable",
+            "default-channel": "classic-23.04/stable",
             "id": "UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH"
         },
         {
