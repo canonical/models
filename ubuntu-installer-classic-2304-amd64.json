@@ -3,7 +3,7 @@
     "series": "16",
     "authority-id": "canonical",
     "brand-id": "canonical",
-    "model": "ubuntu-installer-classic-23.04-amd64",
+    "model": "ubuntu-installer-classic-2304-amd64",
     "architecture": "amd64",
     "timestamp": "2023-03-19T12:00:00.0Z",
     "base": "core22",
