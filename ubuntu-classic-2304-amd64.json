@@ -54,6 +54,12 @@
             "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
         },
         {
+            "name": "gnome-3-38-2004",
+            "type": "app",
+            "default-channel": "latest/stable",
+            "id": "rw36mkAjdIKl13dzfwyxP87cejpyIcct"
+        },
+        {
             "name": "gnome-42-2204",
             "type": "app",
             "default-channel": "latest/stable",

@@ -46,6 +46,11 @@ snaps:
     type: app
   -
     default-channel: latest/stable
+    id: rw36mkAjdIKl13dzfwyxP87cejpyIcct
+    name: gnome-3-38-2004
+    type: app
+  -
+    default-channel: latest/stable
     id: lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3
     name: gnome-42-2204
     type: app
@@ -67,13 +72,13 @@ snaps:
 timestamp: 2023-03-19T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZBxqbQAKCRDgT5vottzAEudYD/49FlV7VOhnZ1+c/jxQgu6ucGNjjOsZdmqi
-2tJEz7tGyStMe2yDnBOjEBb6yvghzzXZX+gLIolHReXYWzrdB0UScPdXJvSRhngeAgn70hEC2H5S
-Pb3/r3tXl3QQs0hd+5Szg31qICoW8ASOsvM/ymULTECOWOemCDnFRJ8wpAleNQ0LEACY/RD2814F
-mmkunA6yXto1OhUySpaH5xXWoHjfvZsq/nXd4P1aI42aPxkB1JBHBwIl0ECVbzofCvh4f8NbbvgA
-FuGfvFrNa9ifUh7m0L3XwZML9sVZKvLviG6tANHWl8sCJ02W+Hw4Lq93OC6rN5Kfii+1zhapFE8Q
-tF0KtN6HPp69PzOzhYB52J66i1hrmWRkdoB4lqxOzpANYEXGCKopwTDP+eX3xIjiLft+sMmIHzXn
-ITA2WLD31AxLXk4IKBWBLh3NgJa/A7tRjGnOhZaEfRA1clSsvSA45PXCDY9fuH3ejMvgi1qvO/TW
-m2S+MgKSvJL6n5KRs5amBiiLqVuAs+WFOIr6c1d6PR6DoM4D7WJxR31jOJdAPh/VeT+DbOkFYybg
-PXNB7cgStSAyvustnx6T8UgueAXy1QknO7TMco06R2MXS9DMWSOMMfyCJAbKvx9epkSXWpL487ag
-h88GPKYhsiv85hZNB65Cpnz7MJJVWg0WIhGMwG9clg==
+AcLBXAQAAQoABgUCZC4CDgAKCRDgT5vottzAEiFvEACU9KsUFmAcShhpIz+NRGVP6d1Z+bW1FcUf
+Cxl2UParnXR7Kv12htnw5u837MZjI3gG8kti2L2SxRcg/fy3iJLkTRBEaR/q6rY4O0fkasJUKxHh
+z6xx2jaNhsUqnplU5gba9xmmaI5AQp4yf1ktF71HAeM4OzUFrCkjXNTbf7xfkKENxuAOfsPetu5c
+6Xc8UtQymtYnjsyvtaLNoXl9vVN59nqk/sxWkwJRtYrFX+Fjt1R/ft4Fo1U7x/OeUX1qpFHSEgnR
+NPxzJQ0uzaCamXY1qu1iq6R925eah22auOQM2m/CTzOMdI3IuRAqnLsrk9HpGXz2gWKLS/UEfAlr
+OMOoV64DHnQ6k8pwjiYt4K9zNxNKK1MB9hnUBOWYb69pgqoQ2djo6codlxknANN4g3zsUH8KDHb8
+9wNEu7WuYS8JIDpdrNGB5XKo+N5+WswfqX0Oh1mtPMw+DqIA8GkxJFC452Afv7+VDQUZs5wIe7OX
+oQ5Q/u5X7WyKpqTdRi0J4/Eq61HidYOOW26Vc8MNArn1u0eabZBtHrxMOHCxu0hmsLHaXQSBljdr
+Ekm0W8qT4AT0GSk5CY8kx+UvCn6FLxMuv8xjWoX3OLcQx31yO6Uy6c2LN6nSlovDghKP5V1KvlKl
+WiXM9CPKCZv/Es3uOp/ke0wWL7v0MZhzUJ+QhOtTNg==
