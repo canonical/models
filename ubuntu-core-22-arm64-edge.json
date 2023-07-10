@@ -2,13 +2,13 @@
     "type": "model",
     "series": "16",
     "model": "ubuntu-core-22-arm64-edge",
+    "revision": "2",
     "architecture": "arm64",
     "authority-id": "canonical",
     "brand-id": "canonical",
     "timestamp": "2023-03-02T02:03:23+00:00",
     "base": "core22",
     "grade": "signed",
-    "storage-safety": "prefer-unencrypted",
     "snaps": [
         {
             "name": "pc",
