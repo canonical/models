@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: ubuntu-core-22-arm64-candidate
@@ -27,17 +28,16 @@ snaps:
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
-storage-safety: prefer-unencrypted
 timestamp: 2023-03-02T02:03:23+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZAD4UAAKCRDgT5vottzAEux3D/9UzjgHhw2S/Lcp+gX3ADYZmEQaYv1HoMgp
-QLUOwD9XvCFrdI9KDnhxk9jYbXRfEeFWUGqVCXiL1b2aTzCPxpWpRZydaWqOhgQOLyL5I6fCwbM7
-HFlC/AFYGlwNxZmUxLwwtI04cndJvXg+hQoAPru4bUlG8ll1lEqnNYu3lfQGy637SH+pJj2C70MI
-Ozpn68b1xmVFzT8xQcqf0T83KB2OL0SDKoXJm7EnTCbKV0AjtrlxbExIj+4ZNBrIG7nK8GJ2Xi4V
-KQcpYgpHUAyb0LxVhG568TUqulJeYDvHQLa9OmX9yhtPeyS+ktG9AVgkGUfNcCNmEWL7xgTvmxNB
-uXaf8MSW6HAhAVRsyQNaAOEDqhdlCoMj9BFygBP2kA5Xl+SKIpZMv15JMHShj3Ad2/Xhcr893Qmd
-s2LOl+K7n5oWhb+FjrFqNiNhdgmN/vnw523sPkYk2dusBqjGwpqvp/cKHmqiBR7wSYFd8WkZXqKQ
-0/8lZZ3MioH2EFdXJ5Xb0NZZnIMa1fJYPOmsyY0IEpC5gXce5ne5E57Kwm5ZOBCazWdeQ/pOyvNi
-iBn3SgxYom6qgUgjgYemwYs3H4TejsWTOrheoRMJ6wDkp40NRB9O4BOQplx6kA7KVAVHbWd+ZiiD
-ryLhIbvzMu0nqojGqQ30GKW+4586S7oWTraLesGKNg==
+AcLBWwQAAQoABgUCZKo7sAAKCRDgT5vottzAEgRRD/iIGUXurEoyWkAiEM3kR6oe5kqpds0+yg4u
+9RvgQvrgA3Zl5INFvZuFtPPCz+TQ4MaFO+WfRt411TuvplFcZWVpoQ9ZUSofzBAaWeBwIlypE71h
+qOl6jON/wcM9tTgy0ZIrLONtg3pLlwdRIzD7MiB9ePCiPipypB3Ca0k7h7XC0nqg/uo6gjMo1BUG
+ZO4dzg1+5Uxm2Vj76fQyCe7I94XKVuPstp3/hftGOR5/K+T6ASAIvLAhkkiBTeEgjo2gI3hwhUTS
+K2HeF1rMpNhBPUWR/2wfZcYQ3+de8acu83LhGLjyIP+iA372vmdzZwkIjJHf/RAi0pykz9HPukz0
+gHO8bK6v+gN4BzFsJ4lR4cxsQE4cACNH7CCHydR/cmbN3bk8aVlbWOrSBBSXSVe1EOLGjKtisgNX
+y2EGU7RTT17vVph0bnzGAyjc1sl3K7lgMMtRkSm+ls09taM0YirMSd2KaogH8eU/9lmKuOoJfY8F
+T6ql4rsfHkh4s43FB+pkw9Li4pstKl8FX8KVmrQ9F59aMedVnIhAnYMz1SPhep9MtxZuvTypDzVK
+QdXq7/HUse2KIBqxPtD4d6V5v5W+mCaTuXu/FsW+++InG3qd0YQqZgyvmMeXz6yfF7uqjbUHUO7A
++NzM5O3Zpz55GyXdxSnUS3tFNVbIxMBDheCnI7aY
