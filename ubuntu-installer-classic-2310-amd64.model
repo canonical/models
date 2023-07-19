@@ -1,0 +1,40 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: ubuntu-installer-classic-2310-amd64
+architecture: amd64
+base: core22
+classic: true
+distribution: ubuntu
+grade: signed
+snaps:
+  -
+    default-channel: latest/stable
+    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    name: core22
+    type: base
+  -
+    default-channel: latest/stable
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    classic: true
+    default-channel: latest/stable/canary-23.10
+    id: rQm0TtMOYOtEslvEXgxQDhgy1JNn38Wz
+    name: ubuntu-desktop-installer
+    type: app
+timestamp: 2023-07-18T12:00:00.0Z
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCZLa6iQAKCRDgT5vottzAEh+hEACxb8nNg/2yznOanHsCY69miFDHvxLf2AGB
+qeE+XJ9pyN05/JkvrDhODL0DCknFuvgo5kl+FhrS+mPdviytc3Ppm3kHSnPuwfzuO4t8PM1mRMOZ
+8djtgzbStKAzwKyYiK/pon4/Wtu1+6/tTp8Ji/pH12aRoFBub6mtQD81hC/xVxdcKz8KvzGsD5co
+H1TLfhKACVQJHZp7ErShkB6Ka6nVQy1c8/4sDPadKb2mqraIVMJmmHlYAHMfGl6f1dElheAjWXmz
+0Roz4fh4lvjM0GmYTlsmhEj10F0pdwY/C2jB+6VFBJEZax65mRjs6Jaqxa150a26sOVFcMkS0ifO
+pkB+KHrnilJ0/PyXZCoQcL65wTBEnfI0X/nzhvuE+9dXz5EUlusWeMvEhJ4QNOacCPARSd76M7QB
+gUhMrz4Vf68V6tlfbXxgoEJFoVJo4i7gymMPnZDg0uAGQFYK+SSVEO/VtLDQvwRBU80IdA0kaIsn
+afaqwYP8ACNPWpTztVYd/X6mvpdDz8MsW9pAEmJ4EN6JWcEu4ii5qXlzLK3s3HaCS5XNj+TpPEU+
+9Nh9ePmCfE+KxR0cgfTbxP3KerYSd/xQHxgMLcMAGq20+1i/FmksKD6cSNYJRoqwTPwP+D9p42wF
+3qGR3KEYbIij4hk/fZMCNzUEWt41OLLUVKm81oOixg==

@@ -3,7 +3,7 @@
     "series": "16",
     "authority-id": "canonical",
     "brand-id": "canonical",
-    "model": "ubuntu-classic-2304-amd64-dangerous",
+    "model": "ubuntu-classic-2310-amd64-dangerous",
     "architecture": "amd64",
     "timestamp": "2023-07-18T12:00:00.0Z",
     "base": "core22",
@@ -14,7 +14,7 @@
         {
             "name": "pc",
             "type": "gadget",
-            "default-channel": "classic-23.04/edge",
+            "default-channel": "classic-23.10/edge",
             "id": "UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH"
         },
         {
