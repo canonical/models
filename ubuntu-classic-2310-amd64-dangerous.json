@@ -4,6 +4,7 @@
     "authority-id": "canonical",
     "brand-id": "canonical",
     "model": "ubuntu-classic-2310-amd64-dangerous",
+    "revision": "2",
     "architecture": "amd64",
     "timestamp": "2023-07-18T12:00:00.0Z",
     "base": "core22",
@@ -20,7 +21,7 @@
         {
             "name": "pc-kernel",
             "type": "kernel",
-            "default-channel": "24-hwe/edge",
+            "default-channel": "23.10/edge",
             "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
         },
         {
