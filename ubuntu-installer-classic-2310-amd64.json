@@ -5,7 +5,8 @@
     "brand-id": "canonical",
     "model": "ubuntu-installer-classic-2310-amd64",
     "architecture": "amd64",
-    "timestamp": "2023-07-18T12:00:00.0Z",
+    "timestamp": "2023-08-09T12:00:00.0Z",
+    "revision": "2",
     "base": "core22",
     "grade": "signed",
     "classic": "true",
@@ -27,7 +28,7 @@
             "name": "ubuntu-desktop-installer",
             "type": "app",
             "classic": "true",
-            "default-channel": "latest/stable/canary-23.10",
+            "default-channel": "latest/stable/ubuntu-23.10",
             "id": "rQm0TtMOYOtEslvEXgxQDhgy1JNn38Wz"
         }
     ]
