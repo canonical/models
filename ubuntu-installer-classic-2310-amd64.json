@@ -30,6 +30,54 @@
             "classic": "true",
             "default-channel": "latest/stable/ubuntu-23.10",
             "id": "rQm0TtMOYOtEslvEXgxQDhgy1JNn38Wz"
+        },
+        {
+            "name": "core20",
+            "type": "base",
+            "default-channel": "latest/stable",
+            "id": "DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q"
+        },
+        {
+            "name": "bare",
+            "type": "base",
+            "default-channel": "latest/stable",
+            "id": "EISPgh06mRh1vordZY9OZ34QHdd7OrdR"
+        },
+        {
+            "name": "firefox",
+            "type": "app",
+            "default-channel": "latest/stable",
+            "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
+        },
+        {
+            "name": "gnome-3-38-2004",
+            "type": "app",
+            "default-channel": "latest/stable",
+            "id": "rw36mkAjdIKl13dzfwyxP87cejpyIcct"
+        },
+        {
+            "name": "gnome-42-2204",
+            "type": "app",
+            "default-channel": "latest/stable",
+            "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
+        },
+        {
+            "name": "gtk-common-themes",
+            "type": "app",
+            "default-channel": "latest/stable",
+            "id": "jZLfBRzf1cYlYysIjD2bwSzNtngY0qit"
+        },
+        {
+            "name": "snap-store",
+            "type": "app",
+            "default-channel": "latest/stable",
+            "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
+        },
+        {
+            "name": "snapd-desktop-integration",
+            "type": "app",
+            "default-channel": "latest/stable",
+            "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
         }
     ]
 }
