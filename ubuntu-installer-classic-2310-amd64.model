@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: ubuntu-installer-classic-2310-amd64
@@ -21,20 +22,60 @@ snaps:
     type: snapd
   -
     classic: true
-    default-channel: latest/stable/canary-23.10
+    default-channel: latest/stable/ubuntu-23.10
     id: rQm0TtMOYOtEslvEXgxQDhgy1JNn38Wz
     name: ubuntu-desktop-installer
     type: app
-timestamp: 2023-07-18T12:00:00.0Z
+  -
+    default-channel: latest/stable
+    id: DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q
+    name: core20
+    type: base
+  -
+    default-channel: latest/stable
+    id: EISPgh06mRh1vordZY9OZ34QHdd7OrdR
+    name: bare
+    type: base
+  -
+    default-channel: latest/stable
+    id: 3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk
+    name: firefox
+    type: app
+  -
+    default-channel: latest/stable
+    id: rw36mkAjdIKl13dzfwyxP87cejpyIcct
+    name: gnome-3-38-2004
+    type: app
+  -
+    default-channel: latest/stable
+    id: lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3
+    name: gnome-42-2204
+    type: app
+  -
+    default-channel: latest/stable
+    id: jZLfBRzf1cYlYysIjD2bwSzNtngY0qit
+    name: gtk-common-themes
+    type: app
+  -
+    default-channel: latest/stable
+    id: gjf3IPXoRiipCu9K0kVu52f0H56fIksg
+    name: snap-store
+    type: app
+  -
+    default-channel: latest/stable
+    id: IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu
+    name: snapd-desktop-integration
+    type: app
+timestamp: 2023-08-09T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZLa6iQAKCRDgT5vottzAEh+hEACxb8nNg/2yznOanHsCY69miFDHvxLf2AGB
-qeE+XJ9pyN05/JkvrDhODL0DCknFuvgo5kl+FhrS+mPdviytc3Ppm3kHSnPuwfzuO4t8PM1mRMOZ
-8djtgzbStKAzwKyYiK/pon4/Wtu1+6/tTp8Ji/pH12aRoFBub6mtQD81hC/xVxdcKz8KvzGsD5co
-H1TLfhKACVQJHZp7ErShkB6Ka6nVQy1c8/4sDPadKb2mqraIVMJmmHlYAHMfGl6f1dElheAjWXmz
-0Roz4fh4lvjM0GmYTlsmhEj10F0pdwY/C2jB+6VFBJEZax65mRjs6Jaqxa150a26sOVFcMkS0ifO
-pkB+KHrnilJ0/PyXZCoQcL65wTBEnfI0X/nzhvuE+9dXz5EUlusWeMvEhJ4QNOacCPARSd76M7QB
-gUhMrz4Vf68V6tlfbXxgoEJFoVJo4i7gymMPnZDg0uAGQFYK+SSVEO/VtLDQvwRBU80IdA0kaIsn
-afaqwYP8ACNPWpTztVYd/X6mvpdDz8MsW9pAEmJ4EN6JWcEu4ii5qXlzLK3s3HaCS5XNj+TpPEU+
-9Nh9ePmCfE+KxR0cgfTbxP3KerYSd/xQHxgMLcMAGq20+1i/FmksKD6cSNYJRoqwTPwP+D9p42wF
-3qGR3KEYbIij4hk/fZMCNzUEWt41OLLUVKm81oOixg==
+AcLBXAQAAQoABgUCZN94uAAKCRDgT5vottzAEvtpEACfnxMEKTBZPbwZxNEXA+W4zUIKLyZKNQ8J
+dnS4WoarMLqbAOHLPyWyHK/R5+Q9cxX1M+9SlR7oKwL/yP6eUMl/olsDMfv6+rGqg5VBLijkUSfu
+ZoF8Cjev3lQfuuYqSXsZHQnz3SfMdL2RpXWSd0BuHeW96MG7uGLA9NM4sz5vbY+eVZpVC0LxFfeK
+njAvCslALtcWChVig1IUTAPz22pEBpkQO6wEkjkccpsZLGwQSvYIpPX1HMLKvMo/LzX9Dxp/Xnlt
+gcvwHTRHD1NO0qgrx5eKthXbbFTigxOA8l1hkhMM7p9trTXzHUchsKCjzlx+sdT9GfEzSqJsekH5
+m878xIMaP2UXhBNMZkXr8/vFxHsBdW2FMhJULNT8eyO+5C/I22/DwCFLJESqA5wA/hm8q5PH6tP2
+HOzbN9mxK7Y+J37JUFrLjz76ECxf/IVktTbDrBOvk40lsomlSE9VngFKbzxVHz7wn6m+lnqy4UDt
++1QJr0GlzZYhJPccqqj9skdtkBdgTe2hogty8KsERneUpJ9wtV5UuOr2DU83Plh9yFjYhl4s7XGP
+FjN6SMO3hL8nnoF7rANFTNMkyMl2IbyX4wfmi3pjAGubpQPDc00rc5KcwKdNwgAMB9XrvB/dEzKg
+v0vszO82HG1XGXT8Em6DGLDTpyn7ABl0MAnjDFmLEw==

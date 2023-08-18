@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: ubuntu-classic-2310-amd64-dangerous
@@ -15,7 +16,7 @@ snaps:
     name: pc
     type: gadget
   -
-    default-channel: 24-hwe/edge
+    default-channel: 23.10/edge
     id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
     name: pc-kernel
     type: kernel
@@ -72,13 +73,13 @@ snaps:
 timestamp: 2023-07-18T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZLesFgAKCRDgT5vottzAEoVtD/9ov/tedXwUfMfz12IwRViDKY3Ck26fNL5p
-xPQmxTlrAESY0b9fGCWllGPF28oFT1UP9g35MgyM3AwCrGWzPXiTzdWuu0kJBJqTsBdWQkDgo4mN
-vT3tSfLzk2pNZDLW5Lt1316wDFtFAZaOw4xG0hKxpjd45oCz5Krrct3XHzA7T09sTDAkOZe7yfPv
-n1pUfFaOnPHETbQSmoC1aDIsP363h92Q8fNAd1pDxV5rMFXloQCcm1IzY6wVeP5zL5cINQ2d+Fen
-JRy+n3n5FDuUetimaQGHq7E8xl/f2G8fuQe6etM+GZx0uL9vrZHT+++RZuHqcr6LoDbmorQcEDkp
-z+9g/AzQlSiYqTUO9LyJrFq7vekoICZl2KFMYviMoKhCAZpq6/hzqjMzdcZq797XjGAk5k0iVRPN
-IOI30La/zGZAcozAYRoY3fzr62oNCbNH/OScuVJxMf2kBCogKOSDA5u7ll8VAfmaMV8HWr8lR2S0
-EAvIDSl407bFZZuZkGMZfR/3X7edpD3fL9vuDcZQjlROobieHepUZszMDIAvIp4+ZwHNR7W2Qqfe
-pOimUc9VyxsZ79Kw5TFxHi3/S7+Nqjx3Fm3VXiQzKnPzre+rF2CWo6I7eKVGMHuS7hepMwx2PsSa
-q9YRTFKH7bMzHkP3cNCYBtHkkFWcoVaXiHJGuOyk7Q==
+AcLBXAQAAQoABgUCZN94twAKCRDgT5vottzAEqiPEACuuihGeGgYOrHmyF9aTb0s7QyetdPk2m15
+qgoHfJIEts+NxShBO1KSTLHkNiSNHUgXxo4us4d9WpD1Ns4R/yb1qvUbB8jLAdGnl48Iv/CaaIPF
+kCtTZn8Q+JXnmVpYr0YTDUv5BvcWclZTt7QrJNDvhtuB/OHwPiMx3tykmTUgO4RnndSYm5lOTK5i
+qhIm0NBi6PHhTXHY91D75HnxOhSUVwMfHe1Z6dKgZB60JG7MqSt9wVwKsj15RTeOwr+uXwSRSy7y
+bj6Hu6MVLDgkOimI3ZUyrOxgx0tCmQlovg/Tsa7pJrtoJDrEqlSKYElwWKb4bM0v573GnstRzntO
+ldYYscCtXBV67Y7xtCEBD3zRuOTRWk9r8TVSNIyTymHY8ryxtOCB5iRxeePvzRo7aW8phMbJatYC
+IsciqG7/Ab5mUtKGpGSKCxV9Q16bn/eeD8J4uRmv7zVQ9qh+yPr7IQNBVhAcVBrynJkNIj0/4WK8
+YQAryOAGK4NntcSI8duh81gcqfUsP3FbbkhZ1pEviO2NFCF0qalQs3HGPbEw6mlll1BNLBDjOHHk
+dIkowzi7gRkmlEV018VEMsyiw4XlQOBC6xYm4EpgF88BiKQLu4LCk3rs70x3bNPGrZMaZ0jQjiej
+52jLjflwF65AP3SpZqXX7cQ5fy8leph7yAFB0OusJA==
