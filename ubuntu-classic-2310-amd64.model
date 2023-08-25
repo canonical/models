@@ -1,6 +1,6 @@
 type: model
 authority-id: canonical
-revision: 2
+revision: 3
 series: 16
 brand-id: canonical
 model: ubuntu-classic-2310-amd64
@@ -32,54 +32,74 @@ snaps:
     type: snapd
   -
     default-channel: latest/stable
-    id: DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q
-    name: core20
-    type: base
-  -
-    default-channel: latest/stable
     id: EISPgh06mRh1vordZY9OZ34QHdd7OrdR
     name: bare
     type: base
   -
-    default-channel: latest/stable
+    default-channel: latest/stable/ubuntu-23.10
     id: 3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk
     name: firefox
     type: app
   -
-    default-channel: latest/stable
-    id: rw36mkAjdIKl13dzfwyxP87cejpyIcct
-    name: gnome-3-38-2004
-    type: app
-  -
-    default-channel: latest/stable
+    default-channel: latest/stable/ubuntu-23.10
     id: lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3
     name: gnome-42-2204
     type: app
   -
-    default-channel: latest/stable
+    default-channel: latest/stable/ubuntu-23.10
     id: jZLfBRzf1cYlYysIjD2bwSzNtngY0qit
     name: gtk-common-themes
     type: app
   -
-    default-channel: latest/stable
+    default-channel: latest/stable/ubuntu-23.10
     id: gjf3IPXoRiipCu9K0kVu52f0H56fIksg
     name: snap-store
     type: app
   -
-    default-channel: latest/stable
+    default-channel: latest/stable/ubuntu-23.10
     id: IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu
     name: snapd-desktop-integration
     type: app
-timestamp: 2023-07-18T12:00:00.0Z
+  -
+    default-channel: latest/stable/ubuntu-23.10
+    id: m1eQacDdXCthEwWQrESei3Zao3d5gfJF
+    name: cups
+    type: app
+  -
+    default-channel: latest/stable/ubuntu-23.10
+    id: d1yehor45vFG9GdKjmgdqbnBuKtR0Qa4
+    name: ghostscript-printer-app
+    type: app
+  -
+    default-channel: latest/stable/ubuntu-23.10
+    id: 3wnSvqxn6OqPBuioytBcdnR2UBaUzvPC
+    name: gutenprint-printer-app
+    type: app
+  -
+    default-channel: latest/stable/ubuntu-23.10
+    id: PPjo7KVjJvmdYUeUt9LqmKRrgmGdWPyM
+    name: hplip-printer-app
+    type: app
+  -
+    default-channel: latest/stable/ubuntu-23.10
+    id: WJKWBUuCDufOFw2p24tvkbbw02plGkbd
+    name: ipp-usb
+    type: app
+  -
+    default-channel: latest/stable/ubuntu-23.10
+    id: 5xUmM1J4qSfki63gfpEDcrr1wU1FdP2k
+    name: ps-printer-app
+    type: app
+timestamp: 2023-08-22T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZN94uAAKCRDgT5vottzAEsahEAC4oL47eK46gqSIE/enKgWrg1LCg+hP6ebL
-fz/JoNduCsLR9JkJtFL4QoqLPqD/KQ+CxpSRUkewvY+QyoeHbJHBa3B9dWM6LGMtvZFIgKNWmqHB
-J/lMMlmzlerGOj6Yi2qipW6pS9xU2BEErZGqCUsiR1qaQnqkJjLJm6ygPOEuuOVgdq5H+pv10Wvl
-gRTSlUYW9wzs6vt1r9/r2a06m7pYp5zWXRS5+HTAxfnL3iZwvtOlMH+Hwr2ZCZjSMpuz05uuweak
-sVtbLqXB5W5zT1s7RH7xZ9Ba4RwyFZZB4omv9aDwc+EtNMKjhGRzIBkAUjU4KQwyiDVXD5dVtWUP
-PxTOowURNgnbICtf+p5sVWSYjwl9Z05Q6D/e3humQ/sXkTU5kIGdnI/W9O7A+n/ttBHIQ71EscnH
-s5teT1wjbxk4OeHwINuma/ktQt6bMoWrOiRZAm//qW7599lOJKr7TEL3aA3oT/RES0SswQ0XAGEs
-j7qO6rAERTYB2zO8OAUnL2vAUoTKa5G+WP3B9brrI1UaLHaDZUWg1kjubZzkeBLNdyoNFna8OInO
-YGanAa0HbNj/oM94GMwFKPFTeyNfGgdEprJgqwetDRc5FndSefquUdLRhrQG+ophqKz2ehSRMsZL
-OSI99bh1PCSxmNargEoWv/sXFGgLcbLOjd3gv1fTvg==
+AcLBXAQAAQoABgUCZOTCgQAKCRDgT5vottzAEkN9D/9CM4jsP7D6j5CIMM2t4P7A5Hcq+LB/+wEi
+h9uqr6CbsJazgPS6Y4nZnu5NRz/irwxFyzWLiqbwqdyNgu7Y+2G0PPzo3MgCzjV93hRkPlOmLXHd
+dtDw6XOXThMLBVSriAft8lKLhzYoX2qw2fP7Wys1NUlRIMYHvJMdHdrVQgoAz+W8qAlbSQ9VSTSc
+xaMConnt5rtOJ9Aw8Er3NZEx5wfpzriGJ1L7T9qUsijVq6On4W4aCUJtKHplsV2LRsn+HSLLae7h
+ULCCpUy88D3uNOoAPBRjY9Vm64/gtvMpYOztqhukT7OMDigH6RD6g0qfgS8aC4x/Ok6OIZpNnP0f
+Iy4cx5DepdIR4sMlBtfQhenkG49gkNyUxtbN1XeS1N21cBsNysBL8CSBucR3plPOWYSthrwWgRpD
+qv0DA/SIzntFxRUFh34f0ESLSJja/WrmEbSzk7EfloauY/2gWQ7B+NHnddTI/uBKpssi+rhJlUq8
+Hec1La/U+fv0WOWg3tD71lbNqFCQv02vi5az15NfRxI9K2K72rWvmhaUuQQUZPBitBTmTX8rG3pb
+Aw00idWo5/hAgSpcOIoEhntkxfgLpoK2s8EX1USPk5XW+9XITEsKFyC3UVBgsRDqRMLWn1Eketyv
+ejP1SS6R9LyritULe9w7lcxRlg8f4G+scUYSyBjLDA==
