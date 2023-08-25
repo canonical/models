@@ -4,9 +4,9 @@
     "authority-id": "canonical",
     "brand-id": "canonical",
     "model": "ubuntu-classic-2310-amd64-dangerous",
-    "revision": "3",
+    "revision": "4",
     "architecture": "amd64",
-    "timestamp": "2023-08-22T12:00:00.0Z",
+    "timestamp": "2023-08-24T12:00:00.0Z",
     "base": "core22",
     "grade": "dangerous",
     "classic": "true",
@@ -71,42 +71,6 @@
             "type": "app",
             "default-channel": "latest/edge",
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
-        },
-        {
-            "name": "cups",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "m1eQacDdXCthEwWQrESei3Zao3d5gfJF"
-        },
-        {
-            "name": "ghostscript-printer-app",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "d1yehor45vFG9GdKjmgdqbnBuKtR0Qa4"
-        },
-        {
-            "name": "gutenprint-printer-app",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "3wnSvqxn6OqPBuioytBcdnR2UBaUzvPC"
-        },
-        {
-            "name": "hplip-printer-app",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "PPjo7KVjJvmdYUeUt9LqmKRrgmGdWPyM"
-        },
-        {
-            "name": "ipp-usb",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "WJKWBUuCDufOFw2p24tvkbbw02plGkbd"
-        },
-        {
-            "name": "ps-printer-app",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "5xUmM1J4qSfki63gfpEDcrr1wU1FdP2k"
         }
     ]
 }
