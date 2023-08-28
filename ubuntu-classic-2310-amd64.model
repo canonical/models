@@ -1,6 +1,6 @@
 type: model
 authority-id: canonical
-revision: 3
+revision: 4
 series: 16
 brand-id: canonical
 model: ubuntu-classic-2310-amd64
@@ -60,46 +60,16 @@ snaps:
     id: IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu
     name: snapd-desktop-integration
     type: app
-  -
-    default-channel: latest/stable/ubuntu-23.10
-    id: m1eQacDdXCthEwWQrESei3Zao3d5gfJF
-    name: cups
-    type: app
-  -
-    default-channel: latest/stable/ubuntu-23.10
-    id: d1yehor45vFG9GdKjmgdqbnBuKtR0Qa4
-    name: ghostscript-printer-app
-    type: app
-  -
-    default-channel: latest/stable/ubuntu-23.10
-    id: 3wnSvqxn6OqPBuioytBcdnR2UBaUzvPC
-    name: gutenprint-printer-app
-    type: app
-  -
-    default-channel: latest/stable/ubuntu-23.10
-    id: PPjo7KVjJvmdYUeUt9LqmKRrgmGdWPyM
-    name: hplip-printer-app
-    type: app
-  -
-    default-channel: latest/stable/ubuntu-23.10
-    id: WJKWBUuCDufOFw2p24tvkbbw02plGkbd
-    name: ipp-usb
-    type: app
-  -
-    default-channel: latest/stable/ubuntu-23.10
-    id: 5xUmM1J4qSfki63gfpEDcrr1wU1FdP2k
-    name: ps-printer-app
-    type: app
-timestamp: 2023-08-22T12:00:00.0Z
+timestamp: 2023-08-24T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZOTCgQAKCRDgT5vottzAEkN9D/9CM4jsP7D6j5CIMM2t4P7A5Hcq+LB/+wEi
-h9uqr6CbsJazgPS6Y4nZnu5NRz/irwxFyzWLiqbwqdyNgu7Y+2G0PPzo3MgCzjV93hRkPlOmLXHd
-dtDw6XOXThMLBVSriAft8lKLhzYoX2qw2fP7Wys1NUlRIMYHvJMdHdrVQgoAz+W8qAlbSQ9VSTSc
-xaMConnt5rtOJ9Aw8Er3NZEx5wfpzriGJ1L7T9qUsijVq6On4W4aCUJtKHplsV2LRsn+HSLLae7h
-ULCCpUy88D3uNOoAPBRjY9Vm64/gtvMpYOztqhukT7OMDigH6RD6g0qfgS8aC4x/Ok6OIZpNnP0f
-Iy4cx5DepdIR4sMlBtfQhenkG49gkNyUxtbN1XeS1N21cBsNysBL8CSBucR3plPOWYSthrwWgRpD
-qv0DA/SIzntFxRUFh34f0ESLSJja/WrmEbSzk7EfloauY/2gWQ7B+NHnddTI/uBKpssi+rhJlUq8
-Hec1La/U+fv0WOWg3tD71lbNqFCQv02vi5az15NfRxI9K2K72rWvmhaUuQQUZPBitBTmTX8rG3pb
-Aw00idWo5/hAgSpcOIoEhntkxfgLpoK2s8EX1USPk5XW+9XITEsKFyC3UVBgsRDqRMLWn1Eketyv
-ejP1SS6R9LyritULe9w7lcxRlg8f4G+scUYSyBjLDA==
+AcLBXAQAAQoABgUCZOjUagAKCRDgT5vottzAEgUCD/9ZjBDGZZv7cbIvPWUpqx42XeespLf6xJK6
+iadXGNJD910+RkzMPrxAtoo8tmYYIrrbw2Q9lbNOcMfl2akxV+TJzYez2J6V/6wvaPraCFbIdKhr
+d+bI3e1QTxdlejfc3Nu4ImhKlFEsYrYJZIwAcm7btvmoidoQBXSoUxc7lDt5vdv4mN+bVvVOhew9
+/FG7U+G5w4yZzkW5rH1lhBGIZX76D6+/3AVlC/R69mBUPDNDeGj48IUT8iV58cYYprchMbw4LIU6
+l92wqbhl3uQveoWUqirHbQYa8q7D85XnvlukaPb3LQL6rJzuAU1G1jmLPkMz5mqQsRBBuhC9skR4
+UWHK7TWsKSlWmCfZAVn9wZezPZ4M+dQv8QNb7JpCmVNZ4GL/uMOds213FTeNJhowVfqgT1sMv9LP
+H8mPIB1COn50+6XpZPUj49i2yiVN+BeuhRG9BDdstDie8gNOMvJgyvh0WmfgmIQcCuRgzheqj/co
+0a8WuqYLsmyQCERP1fhuR/27d5+Dxg7DuiwocZwgXjtRkhUJrCnNWJnY//03sVXilFitEdlLVPt7
+WVhBSGHlrIaayLiOmCshvLqKZN5Cum9hXZ+wxWI/liG27eXOwaMDKPg/KeyxsHWNrXyuT5ZrTL7w
+eAEuriz8mNgmJtzImEkhymjuAuSTL284F1WpeW/cIg==
