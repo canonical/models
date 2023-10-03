@@ -1,6 +1,6 @@
 type: model
 authority-id: canonical
-revision: 4
+revision: 5
 series: 16
 brand-id: canonical
 model: ubuntu-classic-2310-amd64
@@ -60,16 +60,21 @@ snaps:
     id: IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu
     name: snapd-desktop-integration
     type: app
-timestamp: 2023-08-24T12:00:00.0Z
+  -
+    default-channel: latest/stable/ubuntu-23.10
+    id: EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP
+    name: firmware-updater
+    type: app
+timestamp: 2023-10-03T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZOjUagAKCRDgT5vottzAEgUCD/9ZjBDGZZv7cbIvPWUpqx42XeespLf6xJK6
-iadXGNJD910+RkzMPrxAtoo8tmYYIrrbw2Q9lbNOcMfl2akxV+TJzYez2J6V/6wvaPraCFbIdKhr
-d+bI3e1QTxdlejfc3Nu4ImhKlFEsYrYJZIwAcm7btvmoidoQBXSoUxc7lDt5vdv4mN+bVvVOhew9
-/FG7U+G5w4yZzkW5rH1lhBGIZX76D6+/3AVlC/R69mBUPDNDeGj48IUT8iV58cYYprchMbw4LIU6
-l92wqbhl3uQveoWUqirHbQYa8q7D85XnvlukaPb3LQL6rJzuAU1G1jmLPkMz5mqQsRBBuhC9skR4
-UWHK7TWsKSlWmCfZAVn9wZezPZ4M+dQv8QNb7JpCmVNZ4GL/uMOds213FTeNJhowVfqgT1sMv9LP
-H8mPIB1COn50+6XpZPUj49i2yiVN+BeuhRG9BDdstDie8gNOMvJgyvh0WmfgmIQcCuRgzheqj/co
-0a8WuqYLsmyQCERP1fhuR/27d5+Dxg7DuiwocZwgXjtRkhUJrCnNWJnY//03sVXilFitEdlLVPt7
-WVhBSGHlrIaayLiOmCshvLqKZN5Cum9hXZ+wxWI/liG27eXOwaMDKPg/KeyxsHWNrXyuT5ZrTL7w
-eAEuriz8mNgmJtzImEkhymjuAuSTL284F1WpeW/cIg==
+AcLBXAQAAQoABgUCZRxdbAAKCRDgT5vottzAEhE1D/9tkrF4Zsq3YI4TpnNrXIlRoA8xF8E1ldPQ
+R8J3HTs85/VudYEg4yhnfny9NwngSUHYPrUdMDPlG03QF+hsp5jMcTCnHnwWaHAFTmSp4YlkKww/
+cBn8NAEKni9JL9K1y8A7fMUxojZ3QV/XI3fQl/cuLrWb0MJNl/aaC740DINqY+ZGaRwjPD/RNiGg
+iD90xDn2it0YMOw1qe/tg8EKNe45PXDKUARc3tL8vYVmzSXLkUMwjJeZMRR3LcUWeFLFrctOXnc3
+EFFp8r2WDssdGbgI1qHp4lGykbHH/yE0f3g+eBWv7etogmmOVqwoCp9+rYn6LbyW6aNY8Gcv77ak
+DuSaJwiGkkxaCtb3CnCj6i+YVn55DVBLFEgfGBL7/yVtCSfcNYYAgjFa3cEz35pwtLQ47R5c+wwD
+VQ47fVL1VdWjQ2HHkbmhUq9OgkjdadLRuqrX2u64ZcO69sP2uQAjhYdd62rR4A8L6mF4dQ/99kTE
+3x9ivIhQkBXh6hzBIdDDx0OcWS/Ia7DsM2QXYRtgfE0tgRmflxWjSVGuCUUHE/ZL+7h/fCeylAxz
+QtDdGTG8gi/RhIyXdgfQXUGwOyKl7EgRYenhH0wQngc6PsZKE6vQNyV7CFESRbgReQJ4bmCEuiDW
+/mJmiy3rAhZHfq8Sz9+jj44zTzqf+2ZZ8tDze4gyZw==
