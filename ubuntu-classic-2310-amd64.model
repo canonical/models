@@ -1,6 +1,6 @@
 type: model
 authority-id: canonical
-revision: 4
+revision: 5
 series: 16
 brand-id: canonical
 model: ubuntu-classic-2310-amd64
@@ -60,7 +60,12 @@ snaps:
     id: IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu
     name: snapd-desktop-integration
     type: app
-timestamp: 2023-08-24T12:00:00.0Z
+  -
+    default-channel: latest/stable/ubuntu-23.10
+    id: EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP
+    name: firmware-updater
+    type: app
+timestamp: 2023-10-03T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
 AcLBXAQAAQoABgUCZOjUagAKCRDgT5vottzAEgUCD/9ZjBDGZZv7cbIvPWUpqx42XeespLf6xJK6
