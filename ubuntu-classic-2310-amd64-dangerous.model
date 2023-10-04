@@ -1,6 +1,6 @@
 type: model
 authority-id: canonical
-revision: 4
+revision: 5
 series: 16
 brand-id: canonical
 model: ubuntu-classic-2310-amd64-dangerous
@@ -60,16 +60,21 @@ snaps:
     id: IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu
     name: snapd-desktop-integration
     type: app
-timestamp: 2023-08-24T12:00:00.0Z
+  -
+    default-channel: latest/edge
+    id: EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP
+    name: firmware-updater
+    type: app
+timestamp: 2023-10-03T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZOjUagAKCRDgT5vottzAEuP2D/0VXTkTME3kF+eF5P3uUdnfJ0nTyLM5bzNF
-wkh/rQ4/RIB5Lj0Kxc3BaX27TAvSapXLkvW/o6sA56d+JxjQk9msLo3DaPO0nIT4bKt3y9r45aKp
-c0SckHHJcILY6tsdWcSDjSNbRrkcvOY89/Fyb2Nlw+7o+/kySkAyOEteGE2OijB1mgBm6VnuaCAJ
-QGVdbJ45u+tWWQTjeXwkKYxrKYVW+WByNiuuVhLBTHBORHEYOdQSAogSlL5UxduhJAhrs9nj+d+u
-nCE5o7cusFrHoGm9Z68HhDdfZNFvUoQVIzu0VYb0u1EBXMO9tHXEhUBofT7Ep+fO6rIQejIANLez
-0AvT1+sr4zyqA9iNYWlJY730xcEtSovbXtB/TogRIjlURD8sHOwPrRf6ukUSTvvh40web8Toxnek
-lAc5nBo6bIjnLIGAx/MDIqQBKVxlGf35DDP4lEvRwF+4mYv2gWaGz2O0jJNLHbWCEr0wqXVIvd4G
-I3NbkYZ9jKa7m4ssRAp3O7qjUVsb7N2BiQAXTs2pzmM94c6MQvA9DtcrTc3AqMj/Mf7/jWc4Ovmq
-tqJsArwcII53MfAgIG2BK9iYfhlxmkuCR4HzTgVx/8JXlkIBJdnz/U621DGUz896nDNz698Tf9tt
-hjRKfd37gZ4hyT2CcMULE+nZnDzfOLy9PP3TdLQFow==
+AcLBXAQAAQoABgUCZRxdbAAKCRDgT5vottzAErlfD/0aE1x47iViFoUpHBDiBQCiTt0usoM2SjvL
+TyvMuOHpUMF+8KXVnWMF4tKerXGXYZrHdlEr9987KbGtTqYH13ggWRpAXWBNXZCAA2Bdi8gcRiPU
+hD07kNnB/u2VEJvOWALXBH/HbF76cIGkp2Q6K0wLngvU6/yltyzCDpRR8yzsqqBKyhzlJ41PskQf
+DWR7NDeUDFmFcYu97HhaZGg6vSlMecDEcgUQpMNMb86LqrAIsOd0EuhktLNn/BLY71i24chvn8ZU
+Euqc7iQwfOzoUl8kIxVLX3X9VxMh0Xg59X1GWbC6B1JoNAQNZfFQEaNVZDKYiPdg0PIQY8YjIOlQ
+84mpvZ/J7LI4ls5fy5diQ608c3GdyZnviY8z0A+G+/ZoYkh4Rxh6zauqKgplna5MTNpHU6i3CLai
+qksOIu1GD1ss2vsE5gdf2CrRH12/scJPEcRqt7HBl5z9j6c0c7oXU9JoSL0XE5W4LqXfdHNg6LgG
+ublVhR8qDJ44gpuBsveGgD3FT5SIqITXv/O5l5MFGZWblNunizG8iTYzt2HNjbRCJ+1lFzpVt0u3
+dGGcryc0nUG1g5bkWncBZweqjWIw4gYZ9nC5oKhHTYLt9YnMzHdi/la7LNvUhit/UGsFoHEHaPRZ
+7v+161ZmTscw3eQ/ZVczy8YCgfIUHRJC0XZjS5EX7g==
