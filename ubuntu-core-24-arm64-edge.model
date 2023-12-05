@@ -13,13 +13,13 @@ snaps:
     name: pc
     type: gadget
   -
-    default-channel: 24/edge
+    default-channel: 24/beta
     id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
     name: pc-kernel
     type: kernel
   -
     default-channel: latest/edge
-    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
     name: core24
     type: base
   -
@@ -27,16 +27,16 @@ snaps:
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
-timestamp: 2023-11-09T12:22:51+00:00
+timestamp: 2023-12-08T12:22:51+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZUzxNAAKCRDgT5vottzAEmtMEACiVNzbFJ+qRNjkFOari4AwYlC7KnKX2f0C
-LlwHxrtSx4TncZnT3G2TwuN2BwR9OAO//vCnUYM0RST7qJ/whR1ZyQmvMNh6DEejGMxoUUY+UTSi
-QR7Y9Gc52Zs1pzzZ7iT2+7BtEdVBcp2TvFjx9w7B4NY93y5DB1AyZ+j5uBgdtJOgv1GOMSeqvzDs
-uWm7Tm+33hQUdiYe8UQpcEUv5bbwflvSnLYUqXqvjDIH6crRsIai2PG61Esywi4YlAIs/CNTcHsq
-XnQgzwr+nZNcnkl/xa2fgVnQ1TWVS8M4k8HNgy+jvNqBTevHE/hFC4CJQrDKyLXXpH8CljqKVV4X
-j1TtudRfT4Tgcc2eKda4S+JWNAZuuvSpSvmTxsP7ZmrQr2/+iy8w9UuGHEoVi1LzcwUyw/jHuvyk
-AXlzpez03vK/x1TfmTLSlMpDUS90t/3GMvOW3Gt/xK0WKgAz9vxjuTq1SJSImIS4hGpNyJo8H5Fl
-t6cAKx4yMrwLZacrUpYWqDDg6Kwa6lbepwD20h/2om6ZyS+Dv6oOlF1Du11RGYwcStHB1x5JsqfS
-FkytpNww86Me+gB0+LgtowoWcOivfSUJ6X5g1TecHkfgV3KLZceemTIv/1788SDVlXF1tD4xnNHG
-Fu+chAJrf6yqEvnCZLc+Yi31ufc2xdzoDXZ3ZcqVcg==
+AcLBXAQAAQoABgUCZW4VNAAKCRDgT5vottzAEm3LD/9EcjWuJ7Rs7pVy3/w2upAzWm0Vv9ZL58NA
+jEG7FRkUrEVPNJQQp3Erxe/8Xovn20JVsnXVbtX9UeCoBm82PyOZGfzxygduNNt3314Z2aBDAwJF
++MWqlw8Q9cVsekMSNAG8aFnMrYfLAG59svxejoML+N/9Lb2dRP0eLfHXNqG//dIbgjVRCPtdA5Vl
+J3QdkiuImMDsxha42NzwkmO/RcYjmKPKmRfa+ntwgEuRQJWu7qONfzqR/vYCDhQ30pF2pnzNwsNW
+Zb+gECRncI9HHao9xzqzbD9KdM24QLjYi0obIH9qMwCObHVILTnQlO4GGvg33UhwtC3zHZIPRP9V
+m3kuYyBXwWpEXGk4RUgl8PDB1GijMPmI/rd8O0AbjnaLEb1VrWSS9zDRZmX7JTo2xsaVqGQ/7Cg0
+vlGt0wNrkboflrzZ/jFG+Gz5xrcuUhsKfKL5pQvsK4lMPZYbV1vejj2RTHax9VGlR8K+BfNH2thg
+9ebgKen6mvEX7zXpFkya60d4GgBBOHDpWdDhriFbumTWb40n1YNi7U0WO9iA1xrqLnmbE6s7hRQU
+sTf2pASKIP3wjLsTtaj0ndvlSyYFyboVslRfn+meJEL1Csqry6GeBvzHBrgZOeldzbq5x7XRiSYn
+t6wt5/aQc0sz1MDB5GZOpRk042BerDjYGY8YoezkCQ==
