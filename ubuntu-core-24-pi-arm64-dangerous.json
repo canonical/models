@@ -5,7 +5,7 @@
     "brand-id": "canonical",
     "model": "ubuntu-core-24-pi-arm64-dangerous",
     "architecture": "arm64",
-    "timestamp": "2023-11-09T12:22:51+00:00",
+    "timestamp": "2023-12-08T12:22:51+00:00",
     "base": "core24",
     "grade": "dangerous",
     "snaps": [
@@ -18,14 +18,14 @@
         {
             "name": "pi-kernel",
             "type": "kernel",
-            "default-channel": "24/edge",
+            "default-channel": "24/beta",
             "id": "jeIuP6tfFrvAdic8DMWqHmoaoukAPNbJ"
         },
         {
             "name": "core24",
             "type": "base",
             "default-channel": "latest/edge",
-            "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
+            "id": "dwTAh7MZZ01zyriOZErqd1JynQLiOGvM"
         },
         {
             "name": "snapd",

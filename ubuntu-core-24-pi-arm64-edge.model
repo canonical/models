@@ -13,13 +13,13 @@ snaps:
     name: pi
     type: gadget
   -
-    default-channel: 24/edge
+    default-channel: 24/beta
     id: jeIuP6tfFrvAdic8DMWqHmoaoukAPNbJ
     name: pi-kernel
     type: kernel
   -
     default-channel: latest/edge
-    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
     name: core24
     type: base
   -
@@ -27,16 +27,16 @@ snaps:
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
-timestamp: 2023-11-09T12:22:51+00:00
+timestamp: 2023-12-08T12:22:51+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZUzxNAAKCRDgT5vottzAEpntD/90G/tqvLVb6EoUW0XV7YFLzxmAUhQgAs7/
-4CZ27+j8Vj8ZbwS/Lml/kWCTDsK6TbnbVGReUHdjQuAhvcL4PZawFf/ZZFynScLLvXfPFSirGboG
-DUUQZp8wIVbLruRPKEqdfotgfpraEhkyoX6dzGjvaRg8yFvhuSrZN6egbV0UT0RBMrehm9Jwyk10
-QklVk3W6jp8mNitIBHRbT6mRmeVGKfDa5hIKqeEr7Zx2716nbGp0FdNJNuWIRl33fzQtdFSnQKVG
-Nca6dlqwz3L+L8LpdNyELIpD/AFQVEBh/xJKtRH09mjkqOWGMMS31kHAuIAgHsSgKl6WCEIZ+H+u
-sdj2GBiUz35lwLPhk/2J8U1znwk+QyzRRrs/st3cZ6VbFW3PX6X4jC2akZ0wpyTw3Y7gdzKxOflO
-YDasYYhQAB1YEbl7kQEftaJx5wK2FF5Ga0SxFtje+LXCOFWJnt4MWfrNpRsaudERP/AoqjEn2OBV
-imoSoCJW8220NugP4XqXaN1oHRemwwe/q8/6IKziQb68k6s0T3Lnmw4HPxSO86oUr9J9X+V4svmB
-PSsCAN4E03/SD78x+uHr0Tq5tLmRpG8xAARxiXFlHw2NgKfh6dpYGYS3DTlYir+I+PdMYiUR8uZA
-tkKPwV+VV1jRJ7HGU19M32c1DqS7GQlcwhXNbNy6UA==
+AcLBXAQAAQoABgUCZW4VNAAKCRDgT5vottzAEjoyD/9Q8/HsIs1GBGd/L0CUvf6S8JG4N2yiTjFf
+mLFI18n984pixT7g8507zP8xyGUs+eMU8+6glJCBEci6S+y3gDNc1gSN6/o2Vfsw5gLf8qXE1wVb
+UC3oJ3Bfz6Rg36kYgWQx3RzYb9lrJSOco/E0wdcrzC1GPp+1MVY9nkhEz3rt2FYHaKM/X+QYBsXH
+GUDK11JbqGA1G+aEwPcmUQy786A1XnAfVmSkvh7d763MxfTf58d217zkWOzTb6cFqbomAl4mIOzD
+oxuus65fuvHMhtVi5eIuRbe6rC0Cq7tN69q6yaX4N0ydSs/NlHSPb+eIGdIJJyFfEzJzVRiNepXp
+wsUaFbV75CdmpdwYQP9veQqRxVsi1XeKz5d5BONVvIbUNIn9brauyUmxvsyLD/rcIyXCelUx9lw1
+6fOeRng/hEslzQmSEh7VJB0SGECezyzAN+5zJV2NB09WOKpHL38OEZ1xC9h6fXQPG2+1cOiY4D5H
+mpFM0p8W/eG7S8QUCm9mdo022yEzen+HNotbcnL+KI1cKX4x2em3kIQboF4WDiyE2I5azjaXBBqn
+YwHTMKShy0TTRqzkpOx4snKDDxFLUofRzuluBMNGThUK+IgAuoLflLrDbPQISp360pkseRq3bf5t
+GLPYhBq1Y+nH3KOWISqyMj/yWJMnUz2B36gWBB9apg==

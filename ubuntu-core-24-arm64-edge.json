@@ -5,7 +5,7 @@
     "architecture": "arm64",
     "authority-id": "canonical",
     "brand-id": "canonical",
-    "timestamp": "2023-11-09T12:22:51+00:00",
+    "timestamp": "2023-12-08T12:22:51+00:00",
     "base": "core24",
     "grade": "signed",
     "snaps": [
@@ -18,14 +18,14 @@
         {
             "name": "pc-kernel",
             "type": "kernel",
-            "default-channel": "24/edge",
+            "default-channel": "24/beta",
             "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
         },
         {
             "name": "core24",
             "type": "base",
             "default-channel": "latest/edge",
-            "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
+            "id": "dwTAh7MZZ01zyriOZErqd1JynQLiOGvM"
         },
         {
             "name": "snapd",

@@ -13,13 +13,13 @@ snaps:
     name: pi
     type: gadget
   -
-    default-channel: 24/edge
+    default-channel: 24/beta
     id: jeIuP6tfFrvAdic8DMWqHmoaoukAPNbJ
     name: pi-kernel
     type: kernel
   -
     default-channel: latest/edge
-    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
     name: core24
     type: base
   -
@@ -27,16 +27,16 @@ snaps:
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
-timestamp: 2023-11-09T12:22:51+00:00
+timestamp: 2023-12-08T12:22:51+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZUzxNAAKCRDgT5vottzAEkTAEACrRRmbIkbtNU6RwWZafVsFKbbtzYo//yc4
-MQ505d+Vu4Cugpq3ZDM9/4piY1AkaMZymmmBKwdl0YdQkTLSDHG7fgYiCpmi7U8FnmKmNWCZSkdG
-9ucSVHScb2xTa4Wvz9Iz48nBpTTgEZc9V1qMFvDmmpOYyR2TEEzynBhek1aLX4qBDbMNPoCWpTp5
-NqQCEp02AG1xds0xxCoXQfgWaNHYcJvOgC0HaRbiuyXCmOD5a1EN6xFOCsKpbYVQDy+UBG6VjHkg
-eZqGkO5nW4vKwH6+D/8KuCTvIB1+tK6iGimwGLB7AoVN91dO5w3CvN7PnL8d7QEW3KzFm791BO3I
-4nO2ggb7Tb4RvZDxqTqdKgd4es3JK6B9zSKy3eWTPJLvjx9Y4zqKWbGn/M/CCychZ+66buCIMkmK
-/xf9/RYspZrGSzvdSacChj6O9H+0fiNt4K6sZW97WMOb6kNumNBEQPVVAH7Kp4SypQtxZZ25zgJi
-j1YS4gJDm3ev9uHbuhbs6IjPKzAIo6G2MT01LQGJqBiRn3DYs+gr8oCFwSo2oHyFFX7uNqACrAXk
-aKHRyPue3MjTPj+N4Q4OTQnl+H5sPO2GzT8ZiAdZlN8On94Rz63TaINV09f+bKICo3rg7G07nOfC
-9QvHdaZ+dih3dtutDebhVL+Vgxm+bsdB/CNdgJkjjw==
+AcLBXAQAAQoABgUCZW4VNAAKCRDgT5vottzAEvD0EACW2GN54FK8KfdeApGdoLUGbXFmWe72TEKD
+DTyr5H5EZ2YRuYkSwKzrHDi+DpjFFW+61b/LztBpbGgWjGdOrjxSXIUkTKQfLsGpHw9mzopZBfqb
+zyojuNFO3/LB/d5nrx8a89Mz/Wu/ptxqaUicTxm2uzSTFBivKjQKQfz8UjipSEUcQ3Cflvdm80Ub
+F7EF0Sf+zNpcqS6lfgLoWDbVr4J3EcYinjIQHQo7IkKAVaS/PrZ3SvmcEyWS1/6AALdiI5U/PX1B
+RBnGv9wyrMZqSRhP7rD8l8NbdVVJ4lMgLowqSDT00P0ATB2heAxqBLDnVPIiDl/N3daKerdpgcYb
+ZuuAEle3yHRSk92sDJzXIa/8us7Ib+wz2MIwDBwHDCpUo60cZPEejof9tpg9K+gW6z3sYMi1uIRI
+pH/si47VGV0idZg+s5lHoO9FmGVr3M55aBZLWM15Wod8yS+f2XojHMFI3ZLOiJfmmjCjxRgVJJvy
+Lat0Ozpuzp5H7LFa76gQdjsUpUIFDLtdep0vAjSZdz3HsWoesyChjDLfPlYGOP+kXhOsUb/IWZ3p
+woCcm/IVhR3kl/vuJRTMlXyRfc9lP7u7rR3kvBzdzTVLGXKFmplU8gjlArF4C9FKNAyWI+z6NF8f
+TnKxu1s1i5bnwdkQWLDAeV4QvOfk14NIwoULEwIrXA==
