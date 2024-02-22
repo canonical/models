@@ -32,6 +32,13 @@
             "type": "snapd",
             "default-channel": "latest/edge",
             "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        },
+        {
+            "name": "console-conf",
+            "type": "app",
+            "default-channel": "latest/edge",
+            "id": "ASctKBEHzVt3f1pbZLoekCvcigRjtuqw",
+            "presence": "optional"
         }
     ]
 }

@@ -27,16 +27,22 @@ snaps:
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
+  -
+    default-channel: latest/edge
+    id: ASctKBEHzVt3f1pbZLoekCvcigRjtuqw
+    name: console-conf
+    presence: optional
+    type: app
 timestamp: 2023-12-08T12:22:51+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZW4VNAAKCRDgT5vottzAEm3LD/9EcjWuJ7Rs7pVy3/w2upAzWm0Vv9ZL58NA
-jEG7FRkUrEVPNJQQp3Erxe/8Xovn20JVsnXVbtX9UeCoBm82PyOZGfzxygduNNt3314Z2aBDAwJF
-+MWqlw8Q9cVsekMSNAG8aFnMrYfLAG59svxejoML+N/9Lb2dRP0eLfHXNqG//dIbgjVRCPtdA5Vl
-J3QdkiuImMDsxha42NzwkmO/RcYjmKPKmRfa+ntwgEuRQJWu7qONfzqR/vYCDhQ30pF2pnzNwsNW
-Zb+gECRncI9HHao9xzqzbD9KdM24QLjYi0obIH9qMwCObHVILTnQlO4GGvg33UhwtC3zHZIPRP9V
-m3kuYyBXwWpEXGk4RUgl8PDB1GijMPmI/rd8O0AbjnaLEb1VrWSS9zDRZmX7JTo2xsaVqGQ/7Cg0
-vlGt0wNrkboflrzZ/jFG+Gz5xrcuUhsKfKL5pQvsK4lMPZYbV1vejj2RTHax9VGlR8K+BfNH2thg
-9ebgKen6mvEX7zXpFkya60d4GgBBOHDpWdDhriFbumTWb40n1YNi7U0WO9iA1xrqLnmbE6s7hRQU
-sTf2pASKIP3wjLsTtaj0ndvlSyYFyboVslRfn+meJEL1Csqry6GeBvzHBrgZOeldzbq5x7XRiSYn
-t6wt5/aQc0sz1MDB5GZOpRk042BerDjYGY8YoezkCQ==
+AcLBXAQAAQoABgUCZdeFgQAKCRDgT5vottzAEn64D/0RbxXDknAQFNb/2t2wxTi5bb8MnGm9SyqD
+Uha+SCCoeq5J6qbhu1Ss5GLe+7k0j1US8dLYjMdCEETw/J1x2rgZ3p+Kmmx6G0ZmRHtNDV25lUqn
+MecgwlibsFNZDsaJAbSpNcNrk/xes+avxlFVYJQGoIwonrGJ2qYCsronfn6XwG3vJnfiSPV/izOz
+7mjl4D67GfHqQzkNHrYsWA7eHWkOGVBLV+tSWxjZOZQ5LyhyOG+BiAp4PXSIEoYTsLFmemuaH6ii
+HuxlypnBrdCYupjzR+txP5wm66f2MBzZCUYQM5G2wpXB9skyKzhiHdnNtzx5D4gdXqlCncpyEoZv
+abg4/EZyGS2EsJJkse50NCfI/K0JZ2ADc8BPDFiC3KrjbhKh+wjDXAR9njOECiIXFpQradVMPkLW
+oL4fS+13BBewgVIA5GWd/QUk7hxM9yJVHZ1OMHgoG+v8KkvpUqT63+yd52jjxt+ZEOahkd0ejc/I
+qVbclR5vQcSm87+JSymPXuOK0hHoT2jCi2MHx4YIHIg376FrWKcgzl9chiWQVN4KZaj2bm9T4YIE
++JGFcra0EWjqiEj8aCJFkVHOLvpLkonsMSrqqs8FtDjkZDf8Wbi4Keavt2P83xwmd6yvGXF3LDhC
+nZRfP5zfNgQSB+EoLsEVlQnT2WDbLNyhb4KaYx4wLg==
