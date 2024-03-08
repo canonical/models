@@ -28,7 +28,7 @@ snaps:
     name: snapd
     type: snapd
   -
-    default-channel: latest/edge
+    default-channel: 24/edge
     id: ASctKBEHzVt3f1pbZLoekCvcigRjtuqw
     name: console-conf
     presence: optional
@@ -36,13 +36,13 @@ snaps:
 timestamp: 2023-12-08T12:22:51+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZdeFgQAKCRDgT5vottzAEuypEACVevClAft+ApAOkBJ+g2ZBmRkyv8L6Gjn3
-9R77w/FYPdgPanGwGcBgF51L2tnJ5kp/IMDtNqdQ1vUofFzEhC4D/+DC1LY4qJhdjeimFAv2PAaB
-px+aiMkr6kx/lwFycsniNZusPG/TLZrMt0IF0bOrMP5gdY4DGMSnmwRXymdg0tzGt9B4I7PkyB3e
-mB/WNi+kkj51wOQ1G5qVPzh5m1X5GafYnx0P+keUCZgBwpIWTE1TOo/vulau/n1j7ktc7SIK1HLr
-ooS92lKsNjSTN5Wwi9A2b1sUbADZBaXJhSLX8Vz7bETCchfVR8PyaV9VGd12uhV2upMeHCF5S14f
-3P9i+jFIdLX/skUCLXedxslc8rRC7y1nGAdvdfQHSDItYdsBvUaAYrHf3+SCuN7QBgAe/sFPGRRS
-WGnITjOmgJOlMZYiTlI+qRLh4KoPtuifMkx056+RxLaml0t7PeBKod0N0TBd+CKNKrwFNqaPKePN
-BSdnPhRLH+s2ZD+QCkqa+KqgCV9zBd46nEg05ANus0o8ZMlnH+hbI/Psuy4mMj9MgALbgMpaxl4e
-5XHj7MKqsokdMgwjgopJNi+Kh3dfDhdlhZCpxGHLQsgG6IQAl5uSWyHTJSp931eQVbA6uQdmbii8
-bpPT75fnoZePTSxDG3Q5XltcZA3vzgAFNiPe8n63Kg==
+AcLBXAQAAQoABgUCZeny/AAKCRDgT5vottzAEhcOD/4wdy2KD8cZU5cJlh7UT0wU02KCHGqLzH6e
+I12DeA/pkCv7GDW7ihjYaliFfGiZDBJDzZKH2CpsDKFegmGyHCgZmHJ5tqiKsLDuzwVUKZwhPbdu
+aKIslawA1HRLvXSJDDg1dbZbObIgOHs8iZvWox4a7U7x+rPN6CTBvVVE5cGXX5kIsOiXdI6RO8JS
+PHRm4r4ZlgvWOK/xsCQk7UT1FWoJIJmXiGNbR7EuYp0fkmDU63ND9ncTyQYQTI3Rjo3EVQs2Dwne
+jEdZirhYWOyl6XWc68JmsJ2SZlDGB/6KPLEKbSUT//6AQHVyLe/T7uRMXd4NL97terYd1WYSqCOT
+Q5IV2/bMspGfySjaxXK3vrB3+HZj7xLjKUJfhNmwFvNiWlQBUQTR8YmPRam523U1ovpNdYZlt0du
+vcVRMruW8lx3hTdgerpqqXvxZm8FHk5LUgEj/h59zvd7ZsmSfSQbTom07ON81wX4mkIPTx+mbelw
+kDgX5BER2tO4oapzq9pPiUT+hGKGW36Pni9S2e8dIM6wvlPRWhGqNuZ0nUBNhg5DAQGE4z31DUBK
+sAgee/Wia+J16FZGvr0Ni9o9eiPyay6GDdi5bvU9fLq/Jus4nWOWKCpv7pM0SMnjybaG6URj0E2i
+TnEpXi4Y7HHPQMUtmfhwr1+hymT2MBI28g3jFGwtTQ==

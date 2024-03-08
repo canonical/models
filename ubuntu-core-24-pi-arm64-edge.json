@@ -36,7 +36,7 @@
         {
             "name": "console-conf",
             "type": "app",
-            "default-channel": "latest/edge",
+            "default-channel": "24/edge",
             "id": "ASctKBEHzVt3f1pbZLoekCvcigRjtuqw",
             "presence": "optional"
         }
