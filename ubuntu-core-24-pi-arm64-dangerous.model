@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: ubuntu-core-24-pi-arm64-dangerous
@@ -27,16 +28,22 @@ snaps:
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
-timestamp: 2023-12-08T12:22:51+00:00
+  -
+    default-channel: 24/edge
+    id: ASctKBEHzVt3f1pbZLoekCvcigRjtuqw
+    name: console-conf
+    presence: optional
+    type: app
+timestamp: 2024-03-12T08:42:32+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZW4VNAAKCRDgT5vottzAEvD0EACW2GN54FK8KfdeApGdoLUGbXFmWe72TEKD
-DTyr5H5EZ2YRuYkSwKzrHDi+DpjFFW+61b/LztBpbGgWjGdOrjxSXIUkTKQfLsGpHw9mzopZBfqb
-zyojuNFO3/LB/d5nrx8a89Mz/Wu/ptxqaUicTxm2uzSTFBivKjQKQfz8UjipSEUcQ3Cflvdm80Ub
-F7EF0Sf+zNpcqS6lfgLoWDbVr4J3EcYinjIQHQo7IkKAVaS/PrZ3SvmcEyWS1/6AALdiI5U/PX1B
-RBnGv9wyrMZqSRhP7rD8l8NbdVVJ4lMgLowqSDT00P0ATB2heAxqBLDnVPIiDl/N3daKerdpgcYb
-ZuuAEle3yHRSk92sDJzXIa/8us7Ib+wz2MIwDBwHDCpUo60cZPEejof9tpg9K+gW6z3sYMi1uIRI
-pH/si47VGV0idZg+s5lHoO9FmGVr3M55aBZLWM15Wod8yS+f2XojHMFI3ZLOiJfmmjCjxRgVJJvy
-Lat0Ozpuzp5H7LFa76gQdjsUpUIFDLtdep0vAjSZdz3HsWoesyChjDLfPlYGOP+kXhOsUb/IWZ3p
-woCcm/IVhR3kl/vuJRTMlXyRfc9lP7u7rR3kvBzdzTVLGXKFmplU8gjlArF4C9FKNAyWI+z6NF8f
-TnKxu1s1i5bnwdkQWLDAeV4QvOfk14NIwoULEwIrXA==
+AcLBXAQAAQoABgUCZfBvFwAKCRDgT5vottzAElwRD/9kvDyjS0W+w57xCdnZnAKb4lVJfbXfi8oU
+S0WKJH7TrNGsc1vX/ta1iVurMd7/zpEE2QFQjw8TCElItDpoe+1eEFnEpuIeiwn6Lax/eaISAQUv
+9+fjZYlD1DeQ9Yg3ZI2CRaDPCkO1KzL6A7jgaqsmS9/EM3PGrWtkvv5edJ0208vtY6zJkjXq0Gku
+xFwu6r8PTozG8SUqr3U5uDWsP2ROjIifrgEZbiWrlFT+eEIldBxSuWhMs+DlMZjttUABkSMv7DnC
+Q97OzXgzoMgI0YbY69Fw5Arz+Ng5+9naSXMuigyWc8vdklRcefsJTfxINBLak1pK2hjSrb2Sz3PN
+mw5FMtFQzDgLdLyPVmdldSSk0am+aCyKVvCl9Jc1Mvu2r/fQ86d/sxRBx7ePTYD1Uita/rkED8IM
+3aNp3fjEV6U7K+/h5GlcnUnKsIcy3fpCO0W7R+GiXS6EzC/xm/ikW3Oh/EhSZ2H8uVS5N7BulLmo
+DYZHhBvj3Jq0VLmb/ORizrP28zBQ6QqtcGoDymLNxEl3cElWkgyRfkbEc8vI/RLee5+uRfRQ91zZ
+HptZ0UBxNGzTiQOmGPOH3S/CpARFiKDy5IxbccVj94plWD6DITCbjoAUda60x06n0+qJiDXmLGD1
+cyQQV18rRgqEWhmABpZ/KJ06WWSx1xgF09wmLilL/A==
