@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: ubuntu-core-24-pi-arm64-edge
@@ -33,16 +34,16 @@ snaps:
     name: console-conf
     presence: optional
     type: app
-timestamp: 2023-12-08T12:22:51+00:00
+timestamp: 2024-03-12T08:42:32+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZeny/QAKCRDgT5vottzAEjH7D/wM+EDU4BsUEQSYXpJvhl3AHdHJYnpJo2fG
-dV4C0qKWRRVaikNx3LmMubkYydO6q4pjcJnZQ54QguNHixccZViUFd/Z819Rezhj4BGwuz4r9kl9
-CBG2DAwFz4bBqRvYo38RwqB+TjCspQ9H3WfrmYNWiPmAZ6fURA60otjkiNsI8PyypyoRv0VekuBR
-1bSDBWNfJRVjyK8eySAnxUWxyc+aKbac/9B6i56OfkVWQ6V+Pp5tVsGszVsIB3qGn6irVimT/Qvs
-3VnU9Ht7whqJV8y8vvjlOEAOKcOEgt86a5tpzcVixa7UgouJS4hOeLRrN/PxHfEcilCvVX6KcIP2
-WVpQ8HHuCuq/XteXv6qsuXjJQdvyCDxWsqnd9Pu4zCX1tiFRnyY5Eu7BIMTlyXWAmZUomKk+5RDU
-Z5cOhtwgzVdgsWP5X/KzTBAeAcgzPhoUz2I4rIEwa4MwYr5UGUB6EB2iYl0JeIpUZZsiim3/aWQ+
-y7F1dB2AViqJFODKiTI22dAQkzmmcaCgHG0xEigK5gOk6afWgk7ijDoil3Rigrc/T8rLtHsWFQTX
-FmcvJSPydMlhSXTgDWPhGiQc5Sow3xbkvD6w4dL7d+pLkOPzapKwlljr+FdjGjhs6Y2h3fD/Mx22
-xjVzTHpz4Yxb6n0tTjj9AeqJ4K4N8qsv89CWWzDABw==
+AcLBXAQAAQoABgUCZfBvFwAKCRDgT5vottzAEpCiD/wKkwUNYgrWStXeABwFUijAhljvcEfY6XQ7
+uBC3tACXXipqMAORwf5FS5kJCF06X9fjiv6/xPPKv9h7nEvXxVu+cSNL/Kr8Ov8mqylfIROxJOi8
+BCELCnOgeU7/vDniOIwdqWamgnoFoswKrmWJ06zptfsPiRHSOYd/KUiRgyE2tQHAykdP0RriCO+o
+VIzZRHL4eT5IMBCZrtP9d4eS0sVy5vhZHMhSJTAmNVYxVY03XzrBO0RibQMZbq2de1BzoIQcbXhN
+9gnLoJgtysnEL6rDe6xJDncivJADbj44C9x07/IqfN1Yq4iwmiORuliM3VNzdr6okpJCMR+OmrIr
+WdHtgIT8vzfX+opUfFZZGt0W2Q35+/IDr8zq5o+NwHq9gJOhEd5CUf3k7UrXW1yBaYKePzxyMlpY
+nygQdr7uYXJxHAWEpjWBCpFXcccONuQfZ99LTqb8g/e7bFrG2eP0g+1dQZTshHl2XbsiEn2L9MY1
+HpjtaFuv3FiaFmMIkbzyes+DWSJj6geoA04h1qZYUwrM7FrMnZEmXcT/MaHpFQYv3yfaHhZgNeko
+eBt0hYhzpdwbR8SEQolQjE1c85IuGA7GkADMtc48q8bb0H4qOgOGZcRFdEV+UBtE9uhtGLP+DB5c
+xytUJfn5Ir+G2Zek75ELCq8waYTh1yi2mturSnW1Xg==

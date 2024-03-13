@@ -2,10 +2,11 @@
     "type": "model",
     "series": "16",
     "model": "ubuntu-core-24-arm64-edge",
+    "revision": "2",
     "architecture": "arm64",
     "authority-id": "canonical",
     "brand-id": "canonical",
-    "timestamp": "2023-12-08T12:22:51+00:00",
+    "timestamp": "2024-03-12T08:42:32+00:00",
     "base": "core24",
     "grade": "signed",
     "snaps": [
