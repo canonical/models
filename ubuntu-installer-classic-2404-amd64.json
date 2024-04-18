@@ -24,11 +24,11 @@
             "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
         },
         {
-            "name": "ubuntu-desktop-installer",
+            "name": "ubuntu-desktop-bootstrap",
             "type": "app",
             "classic": "true",
             "default-channel": "latest/stable/ubuntu-24.04",
-            "id": "rQm0TtMOYOtEslvEXgxQDhgy1JNn38Wz"
+            "id": "dLfoSWlQziHta7kJaco3IhnPwGVJ3bIt"
         },
         {
             "name": "bare",
