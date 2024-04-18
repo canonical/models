@@ -1,0 +1,87 @@
+{
+    "type": "model",
+    "series": "16",
+    "authority-id": "canonical",
+    "brand-id": "canonical",
+    "model": "ubuntu-classic-2404-amd64",
+    "architecture": "amd64",
+    "timestamp": "2024-04-18T12:00:00.0Z",
+    "base": "core22",
+    "grade": "signed",
+    "classic": "true",
+    "distribution": "ubuntu",
+    "snaps": [
+        {
+            "name": "pc",
+            "type": "gadget",
+            "default-channel": "classic-24.04/stable",
+            "id": "UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH"
+        },
+        {
+            "name": "pc-kernel",
+            "type": "kernel",
+            "default-channel": "24/stable",
+            "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
+        },
+        {
+            "name": "core22",
+            "type": "base",
+            "default-channel": "latest/stable",
+            "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
+        },
+        {
+            "name": "snapd",
+            "type": "snapd",
+            "default-channel": "latest/stable",
+            "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        },
+        {
+            "name": "bare",
+            "type": "base",
+            "default-channel": "latest/stable",
+            "id": "EISPgh06mRh1vordZY9OZ34QHdd7OrdR"
+        },
+        {
+            "name": "firefox",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-24.04",
+            "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
+        },
+        {
+            "name": "thunderbird",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-24.04",
+            "id": "k1Ml1O9GzSO2QftV0ZlWSbUfQ78nN460"
+        },
+        {
+            "name": "gnome-42-2204",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-24.04",
+            "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
+        },
+        {
+            "name": "gtk-common-themes",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-24.04",
+            "id": "jZLfBRzf1cYlYysIjD2bwSzNtngY0qit"
+        },
+        {
+            "name": "snap-store",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-24.04",
+            "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
+        },
+        {
+            "name": "snapd-desktop-integration",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-24.04",
+            "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
+        },
+        {
+            "name": "firmware-updater",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-24.04",
+            "id": "EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP"
+        }
+    ]
+}

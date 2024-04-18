@@ -1,0 +1,70 @@
+{
+    "type": "model",
+    "series": "16",
+    "authority-id": "canonical",
+    "brand-id": "canonical",
+    "model": "ubuntu-installer-classic-2404-amd64",
+    "architecture": "amd64",
+    "timestamp": "2024-04-18T12:00:00.0Z",
+    "base": "core22",
+    "grade": "signed",
+    "classic": "true",
+    "distribution": "ubuntu",
+    "snaps": [
+        {
+            "name": "core22",
+            "type": "base",
+            "default-channel": "latest/stable",
+            "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
+        },
+        {
+            "name": "snapd",
+            "type": "snapd",
+            "default-channel": "latest/stable",
+            "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        },
+        {
+            "name": "ubuntu-desktop-installer",
+            "type": "app",
+            "classic": "true",
+            "default-channel": "latest/stable/ubuntu-24.04",
+            "id": "rQm0TtMOYOtEslvEXgxQDhgy1JNn38Wz"
+        },
+        {
+            "name": "bare",
+            "type": "base",
+            "default-channel": "latest/stable",
+            "id": "EISPgh06mRh1vordZY9OZ34QHdd7OrdR"
+        },
+        {
+            "name": "firefox",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-23.10",
+            "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
+        },
+        {
+            "name": "gnome-42-2204",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-23.10",
+            "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
+        },
+        {
+            "name": "gtk-common-themes",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-23.10",
+            "id": "jZLfBRzf1cYlYysIjD2bwSzNtngY0qit"
+        },
+        {
+            "name": "snap-store",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-23.10",
+            "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
+        },
+        {
+            "name": "snapd-desktop-integration",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-23.10",
+            "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
+        }
+    ]
+}
