@@ -1,0 +1,48 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: ubuntu-core-24-pi-arm64
+architecture: arm64
+base: core24
+grade: signed
+snaps:
+  -
+    default-channel: 24/stable
+    id: YbGa9O3dAXl88YLI6Y1bGG74pwBxZyKg
+    name: pi
+    type: gadget
+  -
+    default-channel: 24/stable
+    id: jeIuP6tfFrvAdic8DMWqHmoaoukAPNbJ
+    name: pi-kernel
+    type: kernel
+  -
+    default-channel: latest/stable
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
+    name: core24
+    type: base
+  -
+    default-channel: latest/stable
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: 24/stable
+    id: ASctKBEHzVt3f1pbZLoekCvcigRjtuqw
+    name: console-conf
+    presence: optional
+    type: app
+timestamp: 2024-04-19T08:42:32+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCZiJx+AAKCRDgT5vottzAErW0D/49QiZy+wAnL1MJ70L2uEvWR30LGT9BmfVk
+1AhRanCJNog8IszWrnqqcSitCqMkxJbAjd3L1a8+yCxdRAE83Rkkegv1ErJM+tBdmwxmOynqXUtv
+68rIHo2GyJ4ikTApf+ANxGYNgTGlLcWbisZlkb9bZgmCdSfxfRQWvgt6BjIcYHtwM5m4kzwo5sKu
+/Oj9QsLFMsbBlw+8QnLtNVj8TK/0kcCkmgA399K7zgvDzN0mUigjzKTkRzyTcn0rEsjwLsC5uGHG
+wCrcnVVXoxopb8anTZ+7Uzl+oUNiyfbdzHMUqChkkkIM1BkcQaoUWiJ6i4AbAuVIhzhFzdOT+Gnv
+UQlqEwH4qGKNnXCyvQZT/IM25DWrThgdwtnzKPdH8kdMxcg1Y4XnzUB9TLwIUJvoBnbaidOkJ0Nb
+du+ysfblcvXeDCaEn1/RS86ngqaWh+eOLTn1eYO1jm3Uo7qndNJiCZaIjKkMIXjZ3Sd8azBSRQPz
+Hyonj6dzxRivnKH294FYulPG7L7XIqEJhf1jN+vtFtuTOH4NKhc57sFb6eIsOuj2LGzAa7Y9gWmG
+PD2tLDsTGTKWxs010DtTCwYv9QcteiHsvMTs0SgwSoc5kBbpnKRm8kwcqh5uMzhGVHrA92F1kZSF
+Dj2chGtdjHJWmrk1Rx0DfPUoO00bnBDkweEuYMI7TA==
