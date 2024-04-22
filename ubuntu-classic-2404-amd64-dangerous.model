@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: ubuntu-classic-2404-amd64-dangerous
@@ -41,11 +42,6 @@ snaps:
     type: app
   -
     default-channel: latest/edge
-    id: k1Ml1O9GzSO2QftV0ZlWSbUfQ78nN460
-    name: thunderbird
-    type: app
-  -
-    default-channel: latest/edge
     id: lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3
     name: gnome-42-2204
     type: app
@@ -69,16 +65,16 @@ snaps:
     id: EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP
     name: firmware-updater
     type: app
-timestamp: 2024-04-18T12:00:00.0Z
+timestamp: 2024-04-21T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZiFOmwAKCRDgT5vottzAEjqQD/9Up38r98xR0GTJhgJm7sokLeHj7BsR+c4H
-1nJhMaXX5AUyDGeDKRmrRsKLjS9UV8uaB10ZIDOcJhXH5sKTPyXM7d42wchgxGVomazndQBf1L7F
-VHHaCyA5THlW+amyMVgvPa+iE31637K9e9Aqq+c99IHIVc6QiBcnfuf9+2qclbrxAYWmwHSorC81
-T+u2NNBykuXPHSq3QMnu8xOR75q7IHfD6AmtLqa6Xy21sSdu3C2fZVYrqu1lRrLMc8X0aUsh2M6l
-RCVke5OeEltdrUJbYB3ZYrGGbZpNKSH1npuRyIc3C4b2Ia7NKx1l00cRLeYQgxkAJRl+prdma0QS
-Kacjs0/eV0E2xuNkfBbntHW8VMXVqNISdMEt1HheFwck9Uw4Jmb9QiwwESlAyQxosc5Cp5FGFWj6
-BgWYCyR/+5/NCsndCyhRTsLFgKBZDF2UNs7ibEDyxf5RrzM0F94ofYQzm/aPh3lz4UMtisRb1J+N
-mgTvjjTyeZNYxEjGXYLcGUPnqZE6P5V21Y/e2IdF3cOWUuuX5Rxc7ZcbHStogwcrNKn8W7RppAYY
-LOorld/B4guhz3d+0moUQRl0Yd1FdlrAAx0G1c3wqg7CW47UrFp03MmkPFWqvbRI/vCQJmYcKI5e
-zWyLfnSjYZlRYqvxFpCsvtHLlEFFmVYoMJsxEYj2lA==
+AcLBXAQAAQoABgUCZiZYsQAKCRDgT5vottzAEnGHEACksKy9/L3nzzy9NZ/nv3K2b1OscTiD9qOM
+JCO+DWoLupNYWrtG5easclbN2z5HqGsiFrAFgrLx+RHO9xNU+4ioHreY8+Et3Iah7lLtqNsp9dD+
+6XJof9bMvqPT/Ju4T7w+N9WepwE0pxf+yYRFHpUAMqH/c6Sp4gy0XaoFAwZMVQbB2NtMv+7HsvTr
+iln5UBfJ0UEtc5aLPjpLUlnc9H/AzznqzuhA0lYN+ymBgakdiokv+RQJVMH9pWJ4PSyTcUnb8GxQ
+wQYXzDL6Xl3S/mcIz9F3KREyJE+wAg3fi9DZS3gZo79LRAl2kpeZYWoQFextSoFCWo26J/YlBgWP
+dIgnY+AhnFA6/hOn20AH4IuojmI3A4g4VQS6I8+20h21RiI8LVTW27MLCtD3Xm8jMF1gGBKPWVTN
+uJFgdzOI36WSVrS0zf1WBaRtcOdfQM2AIVq5wVX1RbKIvYa05G1GNEmY4dCkwpQAwib2YZUu3CoI
+c29Zlhmvb+W69lZ8hTPdUfErNH/NjZYujz7rSGMWH7ExzR3uTNWWMo6jEnYRWpxB7WOuMv/C13rY
+F3E4wThmZiO0WebXaSkHz6SHBVJOgvynKxtjhLsNP0sXe6qDk3jFb8xrn4SdKA5K3b9q5zKNE17X
+niRibUwo5y86J2vaxxGJt/002FrneoYlyNNhxRg4jA==
