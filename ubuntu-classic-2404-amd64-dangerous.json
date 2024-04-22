@@ -5,7 +5,8 @@
     "brand-id": "canonical",
     "model": "ubuntu-classic-2404-amd64-dangerous",
     "architecture": "amd64",
-    "timestamp": "2024-04-18T12:00:00.0Z",
+    "timestamp": "2024-04-21T12:00:00.0Z",
+    "revision": "2",
     "base": "core22",
     "grade": "dangerous",
     "classic": "true",
@@ -46,12 +47,6 @@
             "type": "app",
             "default-channel": "latest/edge",
             "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
-        },
-        {
-            "name": "thunderbird",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "k1Ml1O9GzSO2QftV0ZlWSbUfQ78nN460"
         },
         {
             "name": "gnome-42-2204",
