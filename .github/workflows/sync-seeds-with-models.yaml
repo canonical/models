@@ -1,0 +1,64 @@
+name: Sync Ubuntu seeds with classic model assertions
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync-seeds-with-models:
+    name: Sync Ubuntu seeds with classic model assertions
+    runs-on: ubuntu-latest
+    container:
+      image: ubuntu:rolling
+    outputs:
+      has-changes: ${{ steps.update-seeds.outputs.has-changes }}
+      skip-pr: ${{ steps.check-pr-exists.outputs.has-pr }}
+    steps:
+      - name: Install git and dependencies
+        run: |
+          export DEBIAN_FRONTEND=noninteractive
+          apt update
+          apt install -y git python3 python3-requests distro-info gh jq
+      - name: work around permission issue with git vulnerability (we are local here). TO REMOVE
+        run: git config --global --add safe.directory /__w/models/models
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Check if a PR already exists
+        id: check-pr-exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          count=$(gh pr list -H update-seeds --json id | jq length)
+          echo "$count"
+          if [ "$count" != "0" ]; then
+            echo "has-pr=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Pull the existing changes from the existing PR
+        if: ${{ steps.check-pr-exists.outputs.has-pr == 'true' }}
+        run: |
+          # If we can't ff the branch, that's fine. We'll just redo it
+          git pull --ff-only origin update-seeds || true
+      - name: Update the seeds, if needed
+        id: update-seeds
+        shell: bash
+        run: |
+          echo "::set-output name=has-changes::false"
+          python3 ./scripts/sync-snap-seeds -m . noble || echo "::set-output name=has-changes::true"
+          true
+      - name: Add any changes to git
+        if: ${{ steps.update-seeds.outputs.has-changes == 'true' }}
+        run: |
+          git add .
+      - name: Create Pull Request
+        if: ${{ steps.update-seeds.outputs.has-changes == 'true' }}
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Update model assertion snaps per seed changes
+          title: Update model assertion snaps per seed changes
+          labels: automated pr
+          body: "Auto-generated pull request by GitHub Action"
+          branch: update-seeds
+          token: ${{ secrets.GITHUB_TOKEN }}
+          delete-branch: true

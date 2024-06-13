@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+if [ -z "$*" ]; then
+    set -- discover tests
+# the eval shenanigans finds the last argument
+elif [ $(eval echo \$$(echo $#)) = "run-tests" ]; then
+    set -- discover tests
+fi
+
+PYTHONPATH=lib python3 -m unittest "$@"
