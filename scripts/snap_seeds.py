@@ -35,9 +35,15 @@ def add_implicitly_seeded_snaps(release, seeded_snaps):
     implicit = {"noble": {"snapd", "bare", "core22"}}
     seeded_snaps.update(implicit.get(release, set()))
 
-def get_latest_series():
-    return subprocess.check_output(
-        ["distro-info", "--devel"]).decode().strip()
+def get_supported_model_series():
+    all = subprocess.check_output(
+        ["distro-info", "--all"]).decode().strip().splitlines()
+    supported = set(subprocess.check_output(
+        ["distro-info", "--supported"]).decode().strip().splitlines())
+    # Get the list of all series from mantic onward.
+    mantic_index = all.index("mantic")
+    mantic_onward = all[mantic_index:]
+    return [s for s in mantic_onward if s in supported]
 
 @lru_cache
 def get_series_version(release):

@@ -5,7 +5,10 @@ import json
 
 from unittest.mock import patch
 
-from snap_seeds import fetch_model_assertion, fetch_snaps_from_model_assertion, fetch_snaps_from_seed, add_snaps_to_model_assertion
+from snap_seeds import (
+    fetch_model_assertion, fetch_snaps_from_model_assertion,
+    fetch_snaps_from_seed, add_snaps_to_model_assertion,
+    get_supported_model_series)
 
 
 def mock_get_snap_info(snap):
@@ -64,6 +67,23 @@ class TestSnapSeeds(unittest.TestCase):
         with open("tests/testdata/ubuntu-classic-2404-amd64-new.json") as f:
             new_model = json.load(f)
         self.assertDictEqual(model, new_model)
+
+    @patch('subprocess.check_output')
+    def test_get_supported_model_series(self, mock_check_output):
+        # The regular, normal case.
+        mock_check_output.side_effect = [
+            b"jammy\nkinetic\nlunar\nmantic\nnoble\noracular\n",
+            b"jammy\nmantic\nnoble\noracular\n"
+        ]
+        supported = get_supported_model_series()
+        self.assertListEqual(supported, ["mantic", "noble", "oracular"])
+        # Mantic no longer supported case.
+        mock_check_output.side_effect = [
+            b"jammy\nkinetic\nlunar\nmantic\nnoble\noracular\n",
+            b"jammy\nnoble\noracular\n"
+        ]
+        supported = get_supported_model_series()
+        self.assertListEqual(supported, ["noble", "oracular"])
         
 
 if __name__ == '__main__':

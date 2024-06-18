@@ -2,7 +2,7 @@
 
 from optparse import OptionParser
 import sys
-from snap_seeds import check_snap_seeds, get_latest_series
+from snap_seeds import check_snap_seeds, get_supported_model_series
 
 
 def main():
@@ -14,11 +14,11 @@ def main():
     parser.add_option(
         "--dry-run", dest="dry_run", action="store_true")
     opts, args = parser.parse_args()
-    # If no series are specified, check the latest series.
+    # If no series are specified, check all supported series.
     if len(args) > 0:
         series = args
     else:
-        series = get_latest_series()
+        series = get_supported_model_series()
     # Run the check for every defined series.
     return_value = 0
     for series in args:
