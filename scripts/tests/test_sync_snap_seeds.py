@@ -18,6 +18,10 @@ def mock_get_snap_info(snap):
 
 
 class TestSnapSeeds(unittest.TestCase):
+    def test_fetch_model_assertion_no_model(self):
+        model = fetch_model_assertion("xenial", "tests/testdata/", "amd64")
+        self.assertIsNone(model)
+
     @patch('snap_seeds.requests.get')
     def test_fetch_snaps_from_seed(self, mock_get):
         # Mocking the response

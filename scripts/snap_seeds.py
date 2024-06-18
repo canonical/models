@@ -53,6 +53,10 @@ def get_model_assertion_name(release, arch="amd64"):
 
 def fetch_model_assertion(release, repository=".", arch="amd64"):
     model_assertion = get_model_assertion_name(release, arch)
+    if not os.path.exists(os.path.join(repository, model_assertion)):
+        print("Model assertion %s for %s not found" % (
+            model_assertion, release))
+        return None
     # Load the model assertion json.
     with open(os.path.join(repository, model_assertion), "r") as f:
         model = json.load(f)
@@ -123,6 +127,9 @@ def check_snap_seeds(release, repository=".", arch="amd64", dry_run=False):
     model_snaps = set()
     changed = False
     model = fetch_model_assertion(release, repository)
+    # If the model assertion does not exist yet, skip.
+    if not model:
+        return False
     for seed in seeds:
         fetch_snaps_from_seed(release, seed, seeded_snaps)
     # Some snaps don't apprear in the seeds. Most of the time this needs
