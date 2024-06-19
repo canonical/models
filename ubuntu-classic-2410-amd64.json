@@ -70,12 +70,6 @@
             "type": "app",
             "default-channel": "latest/stable/ubuntu-24.10",
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
-        },
-        {
-            "name": "firmware-updater",
-            "type": "app",
-            "default-channel": "latest/stable/ubuntu-24.10",
-            "id": "EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP"
         }
     ]
 }
