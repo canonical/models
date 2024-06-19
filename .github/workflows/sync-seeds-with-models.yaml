@@ -45,7 +45,7 @@ jobs:
         shell: bash
         run: |
           echo "::set-output name=has-changes::false"
-          python3 ./scripts/sync-snap-seeds -m . noble || echo "::set-output name=has-changes::true"
+          python3 ./scripts/sync-snap-seeds -m . || echo "::set-output name=has-changes::true"
           true
       - name: Add any changes to git
         if: ${{ steps.update-seeds.outputs.has-changes == 'true' }}
