@@ -70,6 +70,12 @@
             "type": "app",
             "default-channel": "latest/edge",
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
+        },
+        {
+            "name": "firmware-updater",
+            "type": "app",
+            "default-channel": "latest/edge",
+            "id": "EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP"
         }
     ]
 }
