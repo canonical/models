@@ -21,8 +21,8 @@ def main():
         series = get_supported_model_series()
     # Run the check for every defined series.
     return_value = 0
-    for series in args:
-        if check_snap_seeds(series, opts.models_path, dry_run=opts.dry_run):
+    for s in series:
+        if check_snap_seeds(s, opts.models_path, dry_run=opts.dry_run):
             return_value = 1
     return return_value
 

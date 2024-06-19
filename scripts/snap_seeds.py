@@ -9,7 +9,7 @@ import subprocess
 from functools import lru_cache
 
 SEED_BASE_URL = "https://ubuntu-archive-team.ubuntu.com/seeds/ubuntu.%s/%s"
-MODEL_ASSERTION_JSON = "ubuntu-classic-%s-%s.json"
+MODEL_ASSERTION_JSON = "ubuntu-classic-%s-%s%s.json"
 
 
 def get_seed_url(release, seed):
@@ -32,7 +32,8 @@ def fetch_snaps_from_seed(release, seed, seeded_snaps):
 def add_implicitly_seeded_snaps(release, seeded_snaps):
     # Sometimes some snaps are implicitly seeded in the images. Let's add
     # them to the list.
-    implicit = {"noble": {"snapd", "bare", "core22"}}
+    implicit = {"noble":  {"snapd", "bare", "core22"},
+                "mantic": {"snapd", "bare", "core22"}}
     seeded_snaps.update(implicit.get(release, set()))
 
 def get_supported_model_series():
@@ -52,24 +53,43 @@ def get_series_version(release):
         ).decode().strip().removesuffix(" LTS")
 
 @lru_cache
-def get_model_assertion_name(release, arch="amd64"):
+def get_model_assertion_name(release, arch="amd64", dangerous=False):
     series = get_series_version(release)
     series = series.split(" ")[0].replace(".", "")
-    return MODEL_ASSERTION_JSON % (series, arch)
+    return MODEL_ASSERTION_JSON % (
+        series, arch, "-dangerous" if dangerous else "")
 
-def fetch_model_assertion(release, repository=".", arch="amd64"):
-    model_assertion = get_model_assertion_name(release, arch)
+def fetch_model_assertions(release, repository=".", arch="amd64"):
+    model_json = None
+    model_json_dangerous = None
+    # Main model.
+    model_assertion = get_model_assertion_name(release, arch, False)
     if not os.path.exists(os.path.join(repository, model_assertion)):
         print("Model assertion %s for %s not found" % (
             model_assertion, release))
-        return None
-    # Load the model assertion json.
-    with open(os.path.join(repository, model_assertion), "r") as f:
-        model = json.load(f)
-    return model
+    else:
+        # Load the model assertion json.
+        with open(os.path.join(repository, model_assertion), "r") as f:
+            model_json = json.load(f)
+    # Dangerous model.
+    model_assertion_dangerous = get_model_assertion_name(release, arch, True)
+    if not os.path.exists(os.path.join(
+            repository, model_assertion_dangerous)):
+        print("Model assertion %s for %s not found" % (
+            model_assertion_dangerous, release))
+    else:
+        # Load the dangerous model assertion json.
+        with open(os.path.join(
+                repository, model_assertion_dangerous), "r") as f:
+            model_json_dangerous = json.load(f)
+    return model_json, model_json_dangerous
+    
 
 def save_model_assertion(model, release, repository, arch):
-    name = get_model_assertion_name(release, arch)
+    if not model:
+        return
+    dangerous = True if "dangerous" in model["grade"] else False
+    name = get_model_assertion_name(release, arch, dangerous)
     with open(os.path.join(repository, name), "w") as f:
         json.dump(model, f, indent=4)
         # We like the final newline.
@@ -102,12 +122,17 @@ def is_in_sync_exclude_list(snap, info=None):
     return False
 
 def remove_snaps_from_model_assertion(model, snaps):
+    if not model:
+        return
     for snap in model["snaps"]:
         if (snap["name"] in snaps and
                 not is_in_sync_exclude_list(snap["name"])):
             model["snaps"].remove(snap)
 
 def add_snaps_to_model_assertion(model, snaps, release):
+    if not model:
+        return
+    dangerous = True if "dangerous" in model["grade"] else False
     series = get_series_version(release)
     core_regex = re.compile(r"^core(\d\d)?$")
     for snap in snaps:
@@ -124,6 +149,9 @@ def add_snaps_to_model_assertion(model, snaps, release):
         if core_regex.match(snap) or snap == "bare":
             entry["type"] = "base"
             entry["default-channel"] = "latest/stable"
+        # If the model is dangerous, we override to edge.
+        if dangerous:
+            entry["default-channel"] = "latest/edge"
         model["snaps"].append(entry)
         
 
@@ -132,9 +160,10 @@ def check_snap_seeds(release, repository=".", arch="amd64", dry_run=False):
     seeded_snaps = set()
     model_snaps = set()
     changed = False
-    model = fetch_model_assertion(release, repository)
+    print("Checking updates for %s" % release)
+    model, model_dangerous = fetch_model_assertions(release, repository)
     # If the model assertion does not exist yet, skip.
-    if not model:
+    if not model and not model_dangerous:
         return False
     for seed in seeds:
         fetch_snaps_from_seed(release, seed, seeded_snaps)
@@ -143,7 +172,8 @@ def check_snap_seeds(release, repository=".", arch="amd64", dry_run=False):
     add_implicitly_seeded_snaps(release, seeded_snaps)
     # Now snaps contains all the snaps in the seeds. Let's compare it with
     # the model assertion snap list.
-    model_snaps = fetch_snaps_from_model_assertion(model)
+    model_snaps = fetch_snaps_from_model_assertion(
+        model if model else model_dangerous)
     # Now we have the list of snaps in the model assertion. Let's compare it
     # with the seeded snaps.
     added_snaps = seeded_snaps - model_snaps
@@ -156,12 +186,15 @@ def check_snap_seeds(release, repository=".", arch="amd64", dry_run=False):
     if removed_snaps:
         print("Removed snaps: %s" % ", ".join(removed_snaps))
         remove_snaps_from_model_assertion(model, removed_snaps)
+        remove_snaps_from_model_assertion(model_dangerous, removed_snaps)
         changed = True
     if added_snaps:
         print("Added snaps: %s" % ", ".join(added_snaps))
         add_snaps_to_model_assertion(model, added_snaps, release)
+        add_snaps_to_model_assertion(model_dangerous, added_snaps, release)
         changed = True
     if changed and not dry_run:
-        print("Saving updated model assertion")
+        print("Saving updated model assertion(s)")
         save_model_assertion(model, release, repository, arch)
+        save_model_assertion(model_dangerous, release, repository, arch)
     return changed
