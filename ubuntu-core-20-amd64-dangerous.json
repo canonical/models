@@ -3,10 +3,10 @@
     "series": "16",
     "authority-id": "canonical",
     "brand-id": "canonical",
-    "revision": "1",
+    "revision": "2",
     "model": "ubuntu-core-20-amd64-dangerous",
     "architecture": "amd64",
-    "timestamp": "2020-04-29T11:18:00.0Z",
+    "timestamp": "2024-08-01T11:18:00.0Z",
     "base": "core20",
     "grade": "dangerous",
     "snaps": [
@@ -19,7 +19,7 @@
         {
             "name": "pc-kernel",
             "type": "kernel",
-            "default-channel": "20/edge",
+            "default-channel": "20/beta",
             "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
         },
         {

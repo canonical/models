@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: ubuntu-core-22-intel-iot-dangerous
@@ -13,7 +14,7 @@ snaps:
     name: pc
     type: gadget
   -
-    default-channel: 22/edge
+    default-channel: 22/beta
     id: v7evc8smSqgPwL0KCjpGJf3KuucG2Yap
     name: intel-iotg-kernel
     type: kernel
@@ -27,16 +28,16 @@ snaps:
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
-timestamp: 2022-08-09T11:15:46+00:00
+timestamp: 2024-08-01T11:18:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCYvKhLAAKCRDgT5vottzAEocZD/0eUkVIln/KyVZ4a7AaLU7L7G4IWQiItTVC
-OyUA30MhuuiZhnP2qM0yLPMTWfBhLixdPVJlo8zb0lTBoZJU/6CwLb7G+T/BSCRrjJfXdW2zhc9p
-7JaVzedWbCaxIzkM89asH5NfK8K4IpQfl9+aFJ+2zNYK8PC7+hNc6dv28s+xTrabOISm6pakaRuk
-JNI/nE0DG8rCSvgwSII15noVlVq+/nnE/JfiBI7PcDMcHULAhuWwetEeQ2N/+fkZzaAX6C6PXDz5
-25gknrvU/HGe2gMBo+SWGFZQYDHOa787cMs/k3yyFOKKIAGn278iHCR6eNGo95XFqZDrTt+o6RkD
-T1Lgm0OPvMR7eL5SS4UBWRpSp9wJbycBRXdIk9JyMrIDr+HNK7qtzkHjNDvPOhLs9S9HrSEF2DQm
-obioDTBJ+7oY9Kn1HfCqG5HeeQZ3y2D35eM8j2zen7h/V1jfmU2xDW7mr1+78uZ8lWYIjoMp7Rlo
-RCXowNPv6I2mCgnXMlo+/00oRMsF3P7BgJ6uz2Gdwf8aXhBsOF/U4NJ3XukLQCHJu36BPcoi8nld
-0ToEC2LGnCCXTZB5SxRc/0sx6jz1Bjyh6XDSp/h5ksBw+YEyTGe7LqZDrJ1nMpeYXOqUd8tNtTv4
-1yF7ieUXCsrHUEFHJDoYquaRnWBp3y4a5MBx9pfSYg==
+AcLBXAQAAQoABgUCZq/3cgAKCRDgT5vottzAEqf9D/9EcMPKALFMIkX4BS/DqyCbcFV7mQX8Syij
+LwWlgx2T7UPIJ0xtTjBk+EUfcgn0xcZezKrkDaydrm6y4CMx3dh9FgEA9mO9OBwvNpSM+2UYS5yF
+MN+5OrisPIb09W3RwN39dUnQcEGwlWVBoptmsEXtya4WylbLqMTFYbdkHhWADIcpnHSVKdjVyaYQ
+Hu8nwwtYDHAvBUvKGZbfgIZbaTTjY/jfllyNdy+xXr62lxQHGjAqnWGct8y9OHF+3xai1fEMwY1R
+HePV2HJR+dlDpG4wh7ZkrDLforqLjZUus1Xjw6y08rvhFcfMeqaByD/F/0WdHmxsDgJkMfsjhZUs
+nDc1/BFU9JBa4NriXWlsImQVM2GlHCuMujwZ4CM8kjhKvZvhU4iMCmw5+JLQmTnQetQ0tEAj7eFR
+WERdm6fEmxROHDRpBdJP0knKil4OnCFMg/wNup63Hhv1J2NycjGiHwGCORqhhnB+NU7VdrrKfDBU
+JlGuSC/hxLN+1rNIX4VX7fIbtK+0A8wNcfmRY9cSRpmtL3/N3NyjIXuPQLtaVWCw5wwDx1j6eYs+
+QCpiJnOObugJRYIxBu66Kmqi6dQLXN34o7OvSNGriqOIgC68VfkHfPccN3R6q3ygDzHXniV4G85m
+M2Luf/RGqD5F0ewlcFflxqc/ojuNfJXrdI4BuHtI8g==
