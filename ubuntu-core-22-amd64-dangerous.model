@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: ubuntu-core-22-amd64-dangerous
@@ -13,7 +14,7 @@ snaps:
     name: pc
     type: gadget
   -
-    default-channel: 22/edge
+    default-channel: 22/beta
     id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
     name: pc-kernel
     type: kernel
@@ -27,16 +28,16 @@ snaps:
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
-timestamp: 2020-10-06T11:18:00.0Z
+timestamp: 2024-08-01T11:18:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCX6ArRQAKCRDgT5vottzAEgMcD/sEHSh9hRbJ1dbrk6+Ey5imVRPUuP0QV5fp
-HyNGmqwOJ10mEHMUqMTGvriwSO+JpOWtoUxX+sHLVeVDr40qey2cmjtz0pHcaqfO/VD4GXUU53ef
-sudVwmqY4SoW60Q0xHItNVB2wlxOCXHNfm9HBTpG3orXGhHqZEHTnC6BnDCoD+kDyrNd9iHFtcej
-lw0qtYd4O9qhxWI6w59h7egcljB2Gc1SFvCyVE13JUMghMLpZeqK0EtrKuXashLLXwF4Kkb85OqJ
-mv1rS1BwyjV2n++zjE8BXzUz6vSbQwEydXPj8cPZNF/1SG01HROu90nrjIeSn6xBipNVeDcuwErm
-6tHhC+TYxiTG3YPZGwqO1xIYfTJfGLZ2EFpb0oW7DZ0JxNtuDg7Cqaa1Kr4YUulcSbOpgCUmHTVI
-/1z/grnoDVU++WFuNOWXSQdiKBy1DyLAfXYWCI8UvNiqEQi7+GyVKiyUSivyFzCXXj2hdKVt5rCo
-YIu/9nXlHtJLtEFWyXEtYtNCbrMs2YgR8BxNEGaisFE3HLFS/2EVtG+s9deYEEo62B0qaZj+nJ35
-BxJyUe2el12B1VIEWy3npJ7KGwvbFz0iTh4W0+jio9QSJ7KyXZTLKGx4en37ZCYuPnjI6Il1KUjH
-VRhqFX10Uts0unZphiNZxuSGNIUf7Gn0Vl5z+3iKsg==
+AcLBXAQAAQoABgUCZq/3cgAKCRDgT5vottzAEv/JD/9UtJW98ugihzkonKylHaapsiBCZj9A/d06
+ZrHL90AUaBXmjwMUtL53S8aXxHFlq9TPNv+Qvj2I6r9pPuJzMyDMpG5F6wjAjsnbLq43u2r69f+C
+nJNF9DuDxQ8SokSchpVuWCLXwKH4P3xvNfhdNiDEkddVPRlt1+ViUofH6NP/9Fz1wRm2h34x9JT8
+h58vXvHDszQSqWn1L4SEOsFindtQRH4kR0NJyIfz6T3cEH1Y3BLLIQ3+ypLmj2LUmGkv8XDS2WFI
+MJ5lOrnC+07cg1slRy+j2igGlAsJHPdhzmCMS2UD9rXq8v07ON0THExk/isUswJkrcWRVluzrGyp
+ZuACkJg713eHUL2p7Yku7d5N4AkPbit9OkOZhyqpFtnKsyiI1VK57iQNy13lTTJnDdYRfCGNXN04
+uQc8KlISecqYpnk+3iPwdOq5gTrY7UKFFAfMmkkxOARjB33pzGN1scdhTNJVvHJ/ewp/XV8dsGHc
+2L/iGJGmoANgOS0fRx6S/3w+P16qjYqn0hoDSrKf46zOfrriV9RL7bxROh/IlW+tB+kpy7vzjmyY
+MtcWaTI/Oz17s6pOqbLhxp7FLaVxwHCCLbXagb7odXMn85vsqcYLLN5zOu/4/RQnnj+wdKDLpXXE
+sxbA1nsHQafmCAR767ogiRr9wLDmhF1iKg50F+sZKg==

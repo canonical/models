@@ -1,6 +1,6 @@
 type: model
 authority-id: canonical
-revision: 1
+revision: 2
 series: 16
 brand-id: canonical
 model: ubuntu-core-20-amd64-dangerous
@@ -14,7 +14,7 @@ snaps:
     name: pc
     type: gadget
   -
-    default-channel: 20/edge
+    default-channel: 20/beta
     id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
     name: pc-kernel
     type: kernel
@@ -28,16 +28,16 @@ snaps:
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
-timestamp: 2020-04-29T11:18:00.0Z
+timestamp: 2024-08-01T11:18:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCXqmLygAKCRDgT5vottzAEjtpD/976igsvImmT56zho47BLbkJYPuC/lgvI+8
-84Z9Oi3Oq7oRapm9Fn8AnpKu+0K98XWv4okdjgRrp0fo2ClXcWfQLjMKAtT9dm003hVEjB1IEk1n
-SJ2kwmIDvnmFLNA//tteZ5DsAIOUNS6Ug9jEsyMNCgKCKGe2Lprxeukn2VcqrVym1d0chGPsz/VT
-Jtwm9WGkUrBqLWj8vfzOaEToqLBDxC7AU5SnrsQpNwgsrnnjFJfY8CBYbcktCC1T7x4Vo+5qEqmA
-B99nQPBBHLgT4lA4pQwW/n4h1qJPQvt5SMwtYjPfFpaVSM+Qvs8j4ZBOli0xeP4oIDNJ2qRZ6nkb
-hdr2abPWh7wQlmLW04qfJRN7iMBX8vCMWRBlJzFADzfdYHtKs00MSbQoUEtF6mB3Aq84TUdZ40RG
-g4ylkYgG5XGAQch3vYwS4LTlqXosXWoPhiMHvrYWlJQBeqyUXD+onK/J1QNM9ff5twH15jy11v9F
-ODVTufUV42f70aA6y43cv4Kt8uc0GmHEmMhwYq3NBiOZuLEjKI2IFLJcZchYsZck3/NLMbVi2KrN
-aMzgJqkgefM4WbuOpVR+PhfMx5vTnL7b4IFMH6z4tsXKkIRxX+wUgrSIhjE1Dpl4jnHuQM2pF2oq
-pbrXk+N/WD0PgoPFDXilYqpqj3kw0B/jVUiWhUZXBA==
+AcLBXAQAAQoABgUCZq/3cQAKCRDgT5vottzAEuODEACSsiz+IpWRLkqMhNNPs4V6omm5H3uvY0pR
+w5pEobNru3wDUzPYZ6oX/GSb0lmhBmXV6g4t8g5KmOtEVMY4yQWVx+miF8ZtZJ5jDZY1qsm8QytY
+ZMR4J1rRcNElgqJUdY+G0aFF2htMemU1sj3cRxLzbncWP8aohnASDA2mnD7c5jy/GtckchY+VbXP
+7Kk8k7dCXm6w8mhu5dNRZCAcxHYF7ItUhW3H6YdkwjrKaoSnJP3P8M7l8UCLN1db+HkG69lGebHF
+ZvMYxV5xMtqpEuowZrI5SX0f4qGyGX0yRROzuGiTopJPKyYlygMrXiDQofF8uXvlKc9OkYeL0NwJ
+kkRIoZy29/Xa3uZh5OFHLP9qudthtKp/Xz/04VLoywqUxWSPJhZrPQusVgCJAXc2mvGblp1nu3vc
+O4AhzWTJ87acNOmaF7k4/AHKX6XXfwBmPk7LPxqTy4IPdq34gKwlTdyVRRboWiQRmPoIL8n2bBEY
+X8DW/N0hnTCU9w9AilXh0Tw5nzU3JJqtz98aGUeiigznY8tbLq65d0Oj4dX1tQ+jY8HjjEpGGvMk
+g0VdvtSZH5onun/p+D6hXloeZpr9CWc24CEDP+7sPus7IV9ADAsI+nCYDrpC2XlPlqv0vuggvD5a
+ut1T6TsWU9tlAtwDO8W518FfF2hSCfaA3Wed/QgptQ==

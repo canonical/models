@@ -5,8 +5,8 @@
     "brand-id": "canonical",
     "model": "ubuntu-core-20-intel-iot-dangerous",
     "architecture": "amd64",
-    "timestamp": "2022-07-04T12:31:19+00:00",
-    "revision": "2",
+    "timestamp": "2024-08-01T11:18:00.0Z",
+    "revision": "3",
     "base": "core20",
     "grade": "dangerous",
     "storage-safety": "prefer-unencrypted",
@@ -20,7 +20,7 @@
         {
             "name": "intel-iotg-kernel",
             "type": "kernel",
-            "default-channel": "20/edge",
+            "default-channel": "20/beta",
             "id": "v7evc8smSqgPwL0KCjpGJf3KuucG2Yap"
         },
         {

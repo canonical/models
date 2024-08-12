@@ -1,6 +1,6 @@
 type: model
 authority-id: canonical
-revision: 2
+revision: 3
 series: 16
 brand-id: canonical
 model: ubuntu-core-20-intel-iot-dangerous
@@ -14,7 +14,7 @@ snaps:
     name: pc
     type: gadget
   -
-    default-channel: 20/edge
+    default-channel: 20/beta
     id: v7evc8smSqgPwL0KCjpGJf3KuucG2Yap
     name: intel-iotg-kernel
     type: kernel
@@ -29,16 +29,16 @@ snaps:
     name: snapd
     type: snapd
 storage-safety: prefer-unencrypted
-timestamp: 2022-07-04T12:31:19+00:00
+timestamp: 2024-08-01T11:18:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCYsRwWgAKCRDgT5vottzAEpTbD/0QSuXYDhzA0kQ0s9xP9zuVCavKqAv1T1IJ
-74AelIp52tgmbnRewjgP3i6kRizFkwpI7XxYNgS5lfpSkL4JaW0SYxrSok9Rz4dzn078cJji2l2y
-Py4qh7odDK39WDxUk2JpFBtNYoGqnuLaX7ND2LXtZ7TMzYEg6eKhY4cttLQfNJVJh8JthsnzeyED
-a4WDrgh3WS7k2zme5qfMr6eEN84dUtj6iJ3d+sUbTWjmR8cLySrpjwBOzc2bWwxrynnwId8CnaXy
-naC1+fFW62OrNDOUUVtwVZKW6M/p6eWzKTCvzNMwzQ5M4uqbTFGj/LsAXQl7/ZnIZieH3Q0l8WuY
-zqek1LD3WAj0jIhRhNrjP9X0B3hSh7QMiYRifPRVgm6H5z+80kvLzkDWLkd4TO8OV8hWj1dHI1fY
-n7j6HZFEGFOQNH+JGfHcTERlwW7JoEfN3NkHeZioCt5Hb431G6KAkL+1quparQ8Lexa8aAAfbBet
-2aoDyx++r1f4OpEt4oyZDfRu6TdEKs8PJZxiYrkM6H9QTLFrnjdPjNfxU4CVyOYupCS+u3wWF+EY
-S5z6oonekLA58NmDtlNpdxVZ+THFlum95+3WtZTHfhF8WYvXYa4iMezauLPRr37MnP189meZB+Gj
-UzQ3iAE21RXNYKLFHAOscwVBlhfpmKWbbkmDvMnOrQ==
+AcLBXAQAAQoABgUCZq/3cgAKCRDgT5vottzAEn+fD/45mr3bhEpwJDL+8jKEvH6ytKpJXi6Gkw3I
+/no4aBuF4OJu/ouR47PGt4+QSa4HZ5VXzHsKCe4OcHTIfKzwuUWrSFCF7tQ6wcRLiZYmFyiAQ/JG
+gl6nZvCkqycO6VPT8RsmeUFWpBUtqH/Oh/vaQyhd7xjG83upNKMJNuxVv22Dx8SrvjjctCOT3X0e
+QSFOqLpbR0mPSP28pUWMKXrcypykO+x7OCqOzvaQRwco+Gq2mzZs5ZZPTxgxyHmRLaLBYwNfcgub
+mz6HC6ggYZgGiGk1A6ViqhZTphUb1PuYfDEzIkJqH6TvOs8bdyv+tbWigg/wPxfD60kInBrP4ROG
+fe4HFfy3psqyuSK/buPv0h5jXXVcgBi7KCRZ3EpZUy7ZY8S8rmIuTla5RRjJ1JTAM8DYSBZIbUli
+QmapkunNhzzW/LGQxsxBL9Hbtv4xjDHf4WTzRTN5yfPFUdI7dM2er8LEls10nBQ+LaEPbuMRDsoM
+QU+Jv7w0uPArZYEHs/pHpYIm1SF3Uic0jYHc+mK1t+zd3LjlJIfVJrLwmMzONWdgJNdwIjq2itvb
+/zI6lD7AFs7Nrxbsl7o+2f26uBW1wfslZRoJyATatPu1rFBo1Qky15dcaHpBeUEPriB0iRaomuaR
+fwTEkW4h8+AzV7BkEs7hvya6mEsRo7sLYZZPaLnMPg==

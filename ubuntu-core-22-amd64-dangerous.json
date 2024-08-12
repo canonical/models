@@ -4,8 +4,9 @@
     "authority-id": "canonical",
     "brand-id": "canonical",
     "model": "ubuntu-core-22-amd64-dangerous",
+    "revision": "2",
     "architecture": "amd64",
-    "timestamp": "2020-10-06T11:18:00.0Z",
+    "timestamp": "2024-08-01T11:18:00.0Z",
     "base": "core22",
     "grade": "dangerous",
     "snaps": [
@@ -18,7 +19,7 @@
         {
             "name": "pc-kernel",
             "type": "kernel",
-            "default-channel": "22/edge",
+            "default-channel": "22/beta",
             "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
         },
         {
