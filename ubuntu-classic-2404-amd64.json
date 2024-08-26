@@ -5,8 +5,8 @@
     "brand-id": "canonical",
     "model": "ubuntu-classic-2404-amd64",
     "architecture": "amd64",
-    "timestamp": "2024-04-21T12:00:00.0Z",
-    "revision": "2",
+    "timestamp": "2024-08-26T12:00:00.0Z",
+    "revision": "3",
     "base": "core22",
     "grade": "signed",
     "classic": "true",
@@ -63,7 +63,7 @@
         {
             "name": "snap-store",
             "type": "app",
-            "default-channel": "latest/stable/ubuntu-24.04",
+            "default-channel": "2/stable/ubuntu-24.04",
             "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
         },
         {
@@ -75,7 +75,7 @@
         {
             "name": "firmware-updater",
             "type": "app",
-            "default-channel": "latest/stable/ubuntu-24.04",
+            "default-channel": "1/stable/ubuntu-24.04",
             "id": "EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP"
         }
     ]
