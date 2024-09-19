@@ -60,22 +60,46 @@
             "id": "jZLfBRzf1cYlYysIjD2bwSzNtngY0qit"
         },
         {
-            "name": "snap-store",
-            "type": "app",
-            "default-channel": "latest/stable/ubuntu-24.10",
-            "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
-        },
-        {
             "name": "snapd-desktop-integration",
             "type": "app",
             "default-channel": "latest/stable/ubuntu-24.10",
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
         },
         {
-            "name": "firmware-updater",
+            "name": "gnome-46-2404",
             "type": "app",
             "default-channel": "latest/stable/ubuntu-24.10",
+            "id": "ew7OxpbRTxfK7ImpIygRR85lkxvU7Pzt"
+        },
+        {
+            "name": "firmware-updater",
+            "type": "app",
+            "default-channel": "1/stable/ubuntu-24.10",
             "id": "EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP"
+        },
+        {
+            "name": "desktop-security-center",
+            "type": "app",
+            "default-channel": "1/stable/ubuntu-24.10",
+            "id": "FppXWunWzuRT2NUT9CwoBPNJNZBYOCk0"
+        },
+        {
+            "name": "prompting-client",
+            "type": "app",
+            "default-channel": "1/stable/ubuntu-24.10",
+            "id": "aoc5lfC8aUd2VL8VpvynUJJhGXp5K6Dj"
+        },
+        {
+            "name": "snap-store",
+            "type": "app",
+            "default-channel": "2/stable/ubuntu-24.10",
+            "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
+        },
+        {
+            "name": "mesa-2404",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-24.10",
+            "id": "HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj"
         }
     ]
 }
