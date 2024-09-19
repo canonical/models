@@ -12,10 +12,83 @@ SEED_BASE_URL = "https://ubuntu-archive-team.ubuntu.com/seeds/ubuntu.%s/%s"
 MODEL_ASSERTION_JSON = "ubuntu-classic-%s-%s%s.json"
 
 
+core_regex = re.compile(r"^core(\d\d)?$")
+
+
+class SeededSnap:
+    def __init__(self, series, name, track, channel, branch, is_classic=False):
+        self.name = name
+        self.track = track if track else "latest"
+        self.channel = channel if channel else "stable"
+        # If the branch is not set, we default to the series. But if the
+        # branch is empty "", we keep it as empty.
+        self.branch = branch if branch != None else "ubuntu-%s" % series
+        self.is_classic = is_classic
+        if (not track and not branch and core_regex.match(name) or
+                name in ("bare", "snapd")):
+            self.branch = None
+
+    @classmethod
+    def from_seed_line(cls, series, line):
+        # The format of the seed line is: "name/classic=track/channel/branch"
+        # But all elements besides the name are optional.
+        # The name is mandatory.
+        snap_regex = re.compile(
+            r"\s*(?P<name>[a-zA-Z0-9_\-.]+)"
+            r"(?:/(?P<classic>classic))?"
+            r"(?:=(?:(?P<track>[a-zA-Z0-9_\-.]+))"
+            r"(?:/(?P<channel>[a-zA-Z0-9_\-.]+))"
+            r"(?:/(?P<branch>[a-zA-Z0-9_\-.]+))?)?")
+        match = snap_regex.match(line)
+        if not match:
+            print("Failed to extract snap data from line: %s" % line)
+            return None
+        snap_data = match.groupdict()
+        if snap_data["channel"] and not snap_data["branch"]:
+            # A special case, since the branch is optional, so in that case
+            # we do not want to go with the 'defaults', but use no branch
+            # instead.
+            snap_data["branch"] = ""
+        return cls(
+            series,
+            snap_data["name"],
+            snap_data["track"],
+            snap_data["channel"],
+            snap_data["branch"],
+            snap_data["classic"] is not None)
+
+    def snap_default_channel(self):
+        return "%s/%s%s" % (
+            self.track, self.channel,
+            ("/%s" % self.branch) if self.branch else "")
+
+    def seed_format(self):
+        return "%s%s=%s" % (
+            self.name,
+            "/classic" if self.is_classic else "",
+            self.snap_default_channel())
+
+    def __str__(self):
+        return "%s (%s)" % (
+            self.name, self.snap_default_channel())
+
+    def __repr__(self):
+        return self.__str__()
+
+    def __eq__(self, other):
+        if not isinstance(other, SeededSnap):
+            return False
+        return self.seed_format() == other.seed_format()
+
+    def __hash__(self):
+        return hash(self.seed_format())
+
+
 def get_seed_url(release, seed):
     return SEED_BASE_URL % (release, seed)
 
 def fetch_snaps_from_seed(release, seed, seeded_snaps):
+    series = get_series_version(release)
     url = get_seed_url(release, seed)
     response = requests.get(url)
     if response.status_code != 200:
@@ -23,11 +96,12 @@ def fetch_snaps_from_seed(release, seed, seeded_snaps):
         return
     for line in response.text.splitlines():
         line_stripped = line.strip()
-        # TODO: This would be better and safer done as a regex.
         if line_stripped.startswith("* snap:"):
             # We can do this as we already make sure that the string starts
             # with only one whitespace.
-            seeded_snaps.add(line_stripped[7:].split(" ")[0])
+            snap = SeededSnap.from_seed_line(series, line_stripped[7:])
+            if snap:
+                seeded_snaps.add(snap)
 
 def add_implicitly_seeded_snaps(release, seeded_snaps):
     # Sometimes some snaps are implicitly seeded in the images. Let's add
@@ -35,7 +109,9 @@ def add_implicitly_seeded_snaps(release, seeded_snaps):
     implicit = {"oracular": {"snapd", "bare", "core22"},
                 "noble":    {"snapd", "bare", "core22"},
                 "mantic":   {"snapd", "bare", "core22"}}
-    seeded_snaps.update(implicit.get(release, set()))
+    series = get_series_version(release)
+    for snap in implicit[release]:
+        seeded_snaps.add(SeededSnap(series, snap, None, None, None))
 
 def get_supported_model_series():
     all = subprocess.check_output(
@@ -84,7 +160,6 @@ def fetch_model_assertions(release, repository=".", arch="amd64"):
                 repository, model_assertion_dangerous), "r") as f:
             model_json_dangerous = json.load(f)
     return model_json, model_json_dangerous
-    
 
 def save_model_assertion(model, release, repository, arch):
     if not model:
@@ -96,24 +171,39 @@ def save_model_assertion(model, release, repository, arch):
         # We like the final newline.
         f.write("\n")
 
-def fetch_snaps_from_model_assertion(model):
+def fetch_snaps_from_model_assertion(release, model):
+    series = get_series_version(release)
     snaps = set()
     for snap in model["snaps"]:
-        snaps.add(snap["name"])
+        name = snap["name"]
+        track = None
+        channel = None
+        branch = None
+        channel_split = snap["default-channel"].split("/")
+        if len(channel_split) == 3:
+            track, channel, branch = channel_split
+        elif len(channel_split) == 2:
+            track, channel = channel_split
+            branch = ""
+        elif len(channel_split) == 1:
+            channel = channel_split[0]
+        snaps.add(SeededSnap(series, name, track, channel, branch))
     return snaps
 
-def get_snap_info(snap):
+def get_snap_info(snap_name):
     headers = {"Snap-Device-Series": "16"}
     result_json = requests.get(
-        "https://api.snapcraft.io/v2/snaps/info/%s" % snap,
+        "https://api.snapcraft.io/v2/snaps/info/%s" % snap_name,
         headers=headers).json()
     if "error-list" in result_json:
-        print("Snap %s not found" % snap)
+        print("Snap %s not found" % snap_name)
         return None
     return result_json
 
 def is_in_sync_exclude_list(snap, info=None):
     # We don't want to sync gadgets and kernels.
+    if isinstance(snap, SeededSnap):
+        snap = snap.name
     if not info:
         info = get_snap_info(snap)
     if info:
@@ -126,30 +216,29 @@ def remove_snaps_from_model_assertion(model, snaps):
     if not model:
         return
     for snap in model["snaps"]:
-        if (snap["name"] in snaps and
-                not is_in_sync_exclude_list(snap["name"])):
+        found = False
+        for s in snaps:
+            if s.name == snap["name"]:
+                found = True
+                break
+        if (found and not is_in_sync_exclude_list(snap["name"])):
             model["snaps"].remove(snap)
 
 def add_snaps_to_model_assertion(model, snaps, release):
     if not model:
         return
     dangerous = True if "dangerous" in model["grade"] else False
-    series = get_series_version(release)
-    core_regex = re.compile(r"^core(\d\d)?$")
     for snap in snaps:
         entry = {
-            "name": snap,
+            "name": snap.name,
             "type": "app",
-            "default-channel": "latest/stable/ubuntu-%s" % series,
+            "default-channel": snap.snap_default_channel(),
             "id": None,
         }
-        snap_info = get_snap_info(snap)
-        if is_in_sync_exclude_list(snap, snap_info):
+        snap_info = get_snap_info(snap.name)
+        if is_in_sync_exclude_list(snap.name, snap_info):
             continue
         entry["id"] = snap_info["snap-id"]
-        if core_regex.match(snap) or snap == "bare":
-            entry["type"] = "base"
-            entry["default-channel"] = "latest/stable"
         # If the model is dangerous, we override to edge.
         if dangerous:
             entry["default-channel"] = "latest/edge"
@@ -174,6 +263,7 @@ def check_snap_seeds(release, repository=".", arch="amd64", dry_run=False):
     # Now snaps contains all the snaps in the seeds. Let's compare it with
     # the model assertion snap list.
     model_snaps = fetch_snaps_from_model_assertion(
+        release,
         model if model else model_dangerous)
     # Now we have the list of snaps in the model assertion. Let's compare it
     # with the seeded snaps.
@@ -185,12 +275,14 @@ def check_snap_seeds(release, repository=".", arch="amd64", dry_run=False):
     removed_snaps = \
         {s for s in removed_snaps if not is_in_sync_exclude_list(s)}
     if removed_snaps:
-        print("Removed snaps: %s" % ", ".join(removed_snaps))
+        print("Removed snaps: %s" % ", ".join(
+            [str(s) for s in removed_snaps]))
         remove_snaps_from_model_assertion(model, removed_snaps)
         remove_snaps_from_model_assertion(model_dangerous, removed_snaps)
         changed = True
     if added_snaps:
-        print("Added snaps: %s" % ", ".join(added_snaps))
+        print("Added snaps: %s" % ", ".join(
+            [str(s) for s in added_snaps]))
         add_snaps_to_model_assertion(model, added_snaps, release)
         add_snaps_to_model_assertion(model_dangerous, added_snaps, release)
         changed = True

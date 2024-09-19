@@ -20,6 +20,7 @@ This is some comment and description, followed by some non-snap seeds
  * snap:firefox
  * snap:gnome-42-2204
  * snap:gtk-common-themes  # Here is a comment
- * snap:snap-store
+ * snap:snap-store=2/stable/ubuntu-24.04
    * snap:snapd-desktop-integration  # This one a bit malformed
- * snap:firmware-updater [amd64]
+ * snap:firmware-updater=1/stable/ubuntu-24.04 [amd64]
+ * snap:subiquity/classic
