@@ -48,12 +48,6 @@
             "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
         },
         {
-            "name": "gnome-42-2204",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
-        },
-        {
             "name": "gtk-common-themes",
             "type": "app",
             "default-channel": "latest/edge",
