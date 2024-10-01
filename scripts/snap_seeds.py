@@ -229,13 +229,13 @@ def add_snaps_to_model_assertion(model, snaps, release):
         return
     dangerous = True if "dangerous" in model["grade"] else False
     for snap in snaps:
+        snap_info = get_snap_info(snap.name)
         entry = {
             "name": snap.name,
-            "type": "app",
+            "type": snap_info["channel-map"][0]["type"],
             "default-channel": snap.snap_default_channel(),
             "id": None,
         }
-        snap_info = get_snap_info(snap.name)
         if is_in_sync_exclude_list(snap.name, snap_info):
             continue
         entry["id"] = snap_info["snap-id"]
@@ -243,7 +243,7 @@ def add_snaps_to_model_assertion(model, snaps, release):
         if dangerous:
             entry["default-channel"] = "latest/edge"
         model["snaps"].append(entry)
-        
+
 
 def check_snap_seeds(release, repository=".", arch="amd64", dry_run=False):
     seeds = ["minimal", "desktop-minimal"]
