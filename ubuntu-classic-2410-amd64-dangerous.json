@@ -94,6 +94,12 @@
             "type": "app",
             "default-channel": "latest/edge",
             "id": "HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj"
+        },
+        {
+            "name": "gnome-42-2204",
+            "type": "app",
+            "default-channel": "latest/edge",
+            "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
         }
     ]
 }
