@@ -60,12 +60,6 @@
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
         },
         {
-            "name": "gnome-46-2404",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "ew7OxpbRTxfK7ImpIygRR85lkxvU7Pzt"
-        },
-        {
             "name": "firmware-updater",
             "type": "app",
             "default-channel": "latest/edge",

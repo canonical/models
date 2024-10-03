@@ -60,12 +60,6 @@
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
         },
         {
-            "name": "gnome-46-2404",
-            "type": "app",
-            "default-channel": "latest/stable/ubuntu-24.10",
-            "id": "ew7OxpbRTxfK7ImpIygRR85lkxvU7Pzt"
-        },
-        {
             "name": "firmware-updater",
             "type": "app",
             "default-channel": "1/stable/ubuntu-24.10",
