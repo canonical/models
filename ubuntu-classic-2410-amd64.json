@@ -94,6 +94,12 @@
             "type": "app",
             "default-channel": "latest/stable/ubuntu-24.10",
             "id": "HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj"
+        },
+        {
+            "name": "gnome-42-2204",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-24.10",
+            "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
         }
     ]
 }
