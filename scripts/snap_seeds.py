@@ -106,7 +106,7 @@ def fetch_snaps_from_seed(release, seed, seeded_snaps):
 def add_implicitly_seeded_snaps(release, seeded_snaps):
     # Sometimes some snaps are implicitly seeded in the images. Let's add
     # them to the list.
-    implicit = {"oracular": {"snapd", "bare", "core22", "core24"},
+    implicit = {"oracular": {"snapd", "bare", "core22"},
                 "noble":    {"snapd", "bare", "core22"},
                 "mantic":   {"snapd", "bare", "core22"}}
     series = get_series_version(release)
