@@ -56,11 +56,6 @@ snaps:
     type: app
   -
     default-channel: latest/edge
-    id: ew7OxpbRTxfK7ImpIygRR85lkxvU7Pzt
-    name: gnome-46-2404
-    type: app
-  -
-    default-channel: latest/edge
     id: EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP
     name: firmware-updater
     type: app
@@ -79,21 +74,16 @@ snaps:
     id: gjf3IPXoRiipCu9K0kVu52f0H56fIksg
     name: snap-store
     type: app
-  -
-    default-channel: latest/edge
-    id: HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj
-    name: mesa-2404
-    type: app
 timestamp: 2024-06-18T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZvMlsgAKCRDgT5vottzAEp1TD/9QwK84e9RcRS2rEYNHfDijO1PHEP0f+YH1
-fk0yDjjGBVceLJnGEhz3JkMD0LldrdbuMbnfupvMSqbtv0KKq5Fs21KcVK9DGCZuJqw1WJKwDgeX
-Vb1eief5WfMqBBWeHTRuFK5f2+Ock8OR24ykQl/egbIAIv+qoKrStguTlxipZSjyQNkm7YUw3hOl
-Hka4jCtRNR/GTH6V3KbroBYfZiM57r8ggkIfaHaeqIoQtJVmglUXHwalwh03XQd5PfGWRUvWt7fV
-8QupvSSbnC7TotgXRhWPpCZHhKrQc0fgjcG8dM5EhxXlLgetUdUSesFQQbycPax+uY16rTu38QVc
-G7WT7ezWrRdIuZ/vRxAnYpi2RK8vIpNxO/r7a0KMgO+3vqd7UTYwD6fdxuWs7w/KERmmj5RoehuV
-giqR+wiQcWEa4oHjbdSrI7UYfezSGPK4ndHmajN0/v2sWBYAb6FF9S9FJZsmVn6k61V2eeIsj1Sy
-V37VS2EkDRdNi2hgCeDAFrkFoZUN4wEuVMFYbUb413aoIdblck/NS5dLFU509dPuVURE/wG3m6Xs
-pV7aOfVHWnC0kMaOp5f0CDh2O7eg5+ifoeW3iWu+6EFKNtBsxaHkKQ117QBGRApGHRa1o4rMeQDL
-gU3WJew/Q3ydVm81735yuMHQiLHd64OFNkaHRnF9BQ==
+AcLBXAQAAQoABgUCZv8eAAAKCRDgT5vottzAEs/0D/9kephLFqP5IsisBwPHl73y9KEMEMfPhicq
+gTUOL2U3HBOn83TbYtofhGqQHQp2Kf0Ub8CB8VRS3pYRZ7l7JCbkzMJNlBReEcZN5j/9NBe7b3jP
+MIQCg1r5o1PVK9hDwu0Dch1FNqVZrRuKXrbsZYyiMyG0CD/NzAPqWehDGZwCkvZOymf7+6i8KsfJ
+SnrcAWcEMckjGX+TEYJ0HsCcoyXl7cLQpWs/xm+/tQ0RFRfzDSaDWQTmwOzf7YW9XMgDxEY81mwh
+FcusMKta6Jl6D/fZ/lfg1+ggcnBEaaBK1t2AgWKsuGEfKceV6PT8P7gL78zfjGpodIjPP8x/e1cE
+D6MTZvUMMIF12DL2+QkTFgc6byt3Ur1UuKqVmPhlaL9wkCdLLU49Y6gQ2BbFM13wvO94TEaeFEcL
+L2sPIdWK4sCzG2Cinbv+5qASNfi8wjiMCAK0SEiBmIn30cYXAiit7Oc3PJ2TyqFYL5Wd740SUbxF
+CsrIJUor+DnM/S604MToYKSCG9hQNpRblh5vTSrBAU4Ykz3G7Qo+TsmBE3xe1w1iceFsTkKaNtwE
+hEsQ8SOynXrVQP6ZyV5A5r1YrYQIphZHeMuJYsWcAE6o+moa7dk8kptQDyotp2QqNda0v0YECdH+
+tcsuSOwabl3Pq/9t89qZKkBampuAy+GnY1Xo3e/1Kg==

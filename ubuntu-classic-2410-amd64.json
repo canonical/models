@@ -66,12 +66,6 @@
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
         },
         {
-            "name": "gnome-46-2404",
-            "type": "app",
-            "default-channel": "latest/stable/ubuntu-24.10",
-            "id": "ew7OxpbRTxfK7ImpIygRR85lkxvU7Pzt"
-        },
-        {
             "name": "firmware-updater",
             "type": "app",
             "default-channel": "1/stable/ubuntu-24.10",
@@ -94,12 +88,6 @@
             "type": "app",
             "default-channel": "2/stable/ubuntu-24.10",
             "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
-        },
-        {
-            "name": "mesa-2404",
-            "type": "app",
-            "default-channel": "latest/stable/ubuntu-24.10",
-            "id": "HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj"
         }
     ]
 }
