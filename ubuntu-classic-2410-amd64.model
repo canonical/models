@@ -55,11 +55,6 @@ snaps:
     name: snapd-desktop-integration
     type: app
   -
-    default-channel: latest/stable/ubuntu-24.10
-    id: ew7OxpbRTxfK7ImpIygRR85lkxvU7Pzt
-    name: gnome-46-2404
-    type: app
-  -
     default-channel: 1/stable/ubuntu-24.10
     id: EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP
     name: firmware-updater
@@ -79,26 +74,16 @@ snaps:
     id: gjf3IPXoRiipCu9K0kVu52f0H56fIksg
     name: snap-store
     type: app
-  -
-    default-channel: latest/stable/ubuntu-24.10
-    id: HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj
-    name: mesa-2404
-    type: app
-  -
-    default-channel: latest/stable
-    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
-    name: core24
-    type: base
 timestamp: 2024-06-18T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZvw6GQAKCRDgT5vottzAEm5tEACaymSGrvucwR1I5RAgExErk1OtS5BfpMgS
-VQtpdW8gXGEacKF0MWXLrwlMw2XOz7j6h8KsCoYeaAsaXWy4m7LOyZ83Qe88JIjau+gBLkLJ4+si
-ZriIfpSix6weg7f4QIhcatUr+g6Lc8k8kxShuiGw7As42P+fgmFYuvNoDZi3kSDIWSHpNAfXc7xL
-ps++lkjFV+unBXqTN1KHFCCJDoKdKVPMpXtHr0YtbvViLteDhAQS1ltvgtGdRGHEY1EVopMEGf8w
-xl6XxcSD/sP5cMUWURAZLzyFgoGLPPpXmjWXVjquyDRz14gkT7uMbeEHLD/XKPsoZmjtVqjjIsFc
-nHbCeaW4RAx5VRTx6RPFMPeyP3NOAU4dh0m9yPuR9go23bANtx4bXn78qt59mS/sDCuzQKsNUMuM
-dHQQaPBHvCC/HWoF0/Hk+Q39L93Tb4l+sSYKWpKacWlZX8pzzZcjcLM05bt33t7V0TGur976egDM
-ErHGItwkDKKSAhr8vxcRobTKXy+0kStpH+kr2IQWqx0TdQ9uKIsZWf5hE8zxSuXA6eBykvvQkl+W
-7DJyXG5r3I9ATaCIfLXCBk8Wws7oWgLo3IPAUV2t/iDCFzxQe9vilIqxTncASJr+JgR+lijVirrb
-2ll84X7DWmMRCxICESPl3MITbcibY6oxj2Li7QYwFA==
+AcLBXAQAAQoABgUCZv8eAQAKCRDgT5vottzAEu4rD/9UbdQMAYBD9kJnKZpgDQLK6WCV4DU4vBF0
+exKeVREhjGlcGNTKZDBTu/thVu9xCbGdKFxucoBr3y5kGmRkFaHXqzCGUcGOIRnGqlLHAwskcsHY
+LJYvPcUl6+UJhLHEN+kz50iPuEOe2qdmwAYyOTpkhWatFI8gjOyUN79aiMIPvbuKxmz6reozxi92
+bPhr0emR20Moc23x8ANNc04FY062eJI1gXBWfakk8whQvUk+++sJZDUXcd6yfR7HtIhZaBlgLSOG
+wIO74vlTaGNqbnOik2LhI/75Rpmelb3H2qukcBl6x847Pt588hERQHvy7LwrLTiqDFoWC2QaRa5U
+VCoV0QOjmoPbc3SESLyQbjbC01I1rYgPnsVOZ6jiI8lx6ODH5But3ziA4Z2ikosQoc4EwpkJa/yk
+1ca6/MgHxSD4A4TDn031zs4hPQxF33xPB3/4AJHmNwae+9yeoLF9Fen/NaE6GsNA9JsXvTt4qplu
+U6oiKIBuRj6MyyIf1RALSF1jZUQblif5exbkp+q0mdbaTvLCOEBuVzildhtpmS3ZbNYgwp7VPSjM
+KNwBBQiu4Ewdlhn0801ruI+eGwR5KVhIrSFdcjsU39jLG7SkWM5NO74t1x75gvUXsmti3WswbIPO
+JlxI5Z1CQv+Uqbg5qZkt/v4EuptvA1CzEcoBzTa05w==
