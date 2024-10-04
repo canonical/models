@@ -84,12 +84,6 @@
             "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
         },
         {
-            "name": "mesa-2404",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj"
-        },
-        {
             "name": "gnome-42-2204",
             "type": "app",
             "default-channel": "latest/edge",
