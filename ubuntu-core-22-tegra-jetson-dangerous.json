@@ -1,7 +1,7 @@
 {
     "type": "model",
     "series": "16",
-    "model": "ubuntu-core-22-tegra-igx-dangerous",
+    "model": "ubuntu-core-22-tegra-jetson-dangerous",
     "architecture": "arm64",
     "authority-id": "canonical",
     "brand-id": "canonical",
@@ -12,13 +12,13 @@
         {
             "name": "tegra",
             "type": "gadget",
-            "default-channel": "22-igx/edge",
+            "default-channel": "22-jetson/edge",
             "id": "9pjCtYlNoT9Fx6RiHMhhBoIG6ZYXBvJc"
         },
         {
             "name": "tegra-kernel",
             "type": "kernel",
-            "default-channel": "22-igx/edge",
+            "default-channel": "22-jetson/edge",
             "id": "Rjyoy6Zhe9mlkBQqmVzaUdPB2TblFSwV"
         },
         {
