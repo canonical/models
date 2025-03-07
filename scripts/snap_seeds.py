@@ -8,7 +8,7 @@ import subprocess
 
 from functools import lru_cache
 
-SEED_BASE_URL = "https://ubuntu-archive-team.ubuntu.com/seeds/ubuntu.%s/%s"
+SEED_BASE_URL = "https://ubuntu-archive-team.ubuntu.com/seeds/%s.%s/%s"
 MODEL_ASSERTION_JSON = "ubuntu-classic-%s-%s%s.json"
 
 
@@ -85,14 +85,15 @@ class SeededSnap:
 
 
 def get_seed_url(release, seed):
-    return SEED_BASE_URL % (release, seed)
+    flavor, seed_name = seed
+    return SEED_BASE_URL % (flavor, release, seed_name)
 
 def fetch_snaps_from_seed(release, seed, seeded_snaps):
     series = get_series_version(release)
     url = get_seed_url(release, seed)
     response = requests.get(url)
     if response.status_code != 200:
-        print("Failed to fetch seed %s" % seed)
+        print("Failed to fetch seed %s from %s" % (seed, url))
         return
     for line in response.text.splitlines():
         line_stripped = line.strip()
@@ -108,7 +109,9 @@ def add_implicitly_seeded_snaps(release, seeded_snaps):
     # them to the list.
     implicit = {"oracular": {"snapd", "bare", "core22"},
                 "noble":    {"snapd", "bare", "core22"},
-                "mantic":   {"snapd", "bare", "core22"}}
+                "mantic":   {"snapd", "bare", "core22"},
+                "plucky":   {"snapd", "bare", "core22", "core24"},
+               }
     series = get_series_version(release)
     for snap in implicit[release]:
         seeded_snaps.add(SeededSnap(series, snap, None, None, None))
@@ -246,7 +249,7 @@ def add_snaps_to_model_assertion(model, snaps, release):
         
 
 def check_snap_seeds(release, repository=".", arch="amd64", dry_run=False):
-    seeds = ["minimal", "desktop-minimal"]
+    seeds = [("platform", "minimal"), ("ubuntu", "desktop-minimal")]
     seeded_snaps = set()
     model_snaps = set()
     changed = False
