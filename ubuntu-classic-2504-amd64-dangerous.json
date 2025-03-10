@@ -66,12 +66,6 @@
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
         },
         {
-            "name": "gnome-46-2404",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "ew7OxpbRTxfK7ImpIygRR85lkxvU7Pzt"
-        },
-        {
             "name": "firmware-updater",
             "type": "app",
             "default-channel": "latest/edge",
@@ -94,12 +88,6 @@
             "type": "app",
             "default-channel": "latest/edge",
             "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
-        },
-        {
-            "name": "mesa-2404",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj"
         }
     ]
 }
