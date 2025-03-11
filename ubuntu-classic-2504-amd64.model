@@ -1,0 +1,99 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: ubuntu-classic-2504-amd64
+architecture: amd64
+base: core24
+classic: true
+distribution: ubuntu
+grade: signed
+snaps:
+  -
+    default-channel: classic-25.04/stable
+    id: UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH
+    name: pc
+    type: gadget
+  -
+    components:
+      nvidia-550-ko:
+        presence: optional
+      nvidia-550-user:
+        presence: optional
+    default-channel: 24/edge/nvidia-components-dev
+    id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
+    name: pc-kernel
+    type: kernel
+  -
+    default-channel: latest/stable
+    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    name: core22
+    type: base
+  -
+    default-channel: latest/stable
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
+    name: core24
+    type: base
+  -
+    default-channel: latest/stable
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: latest/stable
+    id: EISPgh06mRh1vordZY9OZ34QHdd7OrdR
+    name: bare
+    type: base
+  -
+    default-channel: latest/stable/ubuntu-25.04
+    id: 3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk
+    name: firefox
+    type: app
+  -
+    default-channel: latest/stable/ubuntu-25.04
+    id: lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3
+    name: gnome-42-2204
+    type: app
+  -
+    default-channel: latest/stable/ubuntu-25.04
+    id: jZLfBRzf1cYlYysIjD2bwSzNtngY0qit
+    name: gtk-common-themes
+    type: app
+  -
+    default-channel: latest/stable/ubuntu-25.04
+    id: IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu
+    name: snapd-desktop-integration
+    type: app
+  -
+    default-channel: 1/stable/ubuntu-25.04
+    id: EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP
+    name: firmware-updater
+    type: app
+  -
+    default-channel: 1/stable/ubuntu-25.04
+    id: FppXWunWzuRT2NUT9CwoBPNJNZBYOCk0
+    name: desktop-security-center
+    type: app
+  -
+    default-channel: 1/stable/ubuntu-25.04
+    id: aoc5lfC8aUd2VL8VpvynUJJhGXp5K6Dj
+    name: prompting-client
+    type: app
+  -
+    default-channel: 2/stable/ubuntu-25.04
+    id: gjf3IPXoRiipCu9K0kVu52f0H56fIksg
+    name: snap-store
+    type: app
+timestamp: 2024-10-30T12:00:00.0Z
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCZ8+91wAKCRDgT5vottzAElaFD/9cwt6iJhWyTO6IxEEt35djQoQEXOLxEmje
+krqx3TVSM8BVCdRXBrUlU4Uj2xHTQnbAKtLlZYh8eYlDtPw1MRxVAijykUAhumXvohbySCpCkEcZ
+lFujIjLgQFvvUpTR9j1DNL7h7p4ZZDevSUGPVxf436V+4HpUF+UhPnZAHEpy4Vwi6B5CZZDn9JLu
+VL20QIiUa8rBpLUAU3TGNJsTygeLfZBrGU8jRiFEV6YHH9XS0TWYZrolvS3V0Cr7OXubxWeeBJgW
+y8Lxp88Dp7cg8B74weFG9GjqgZDP4X8BRhVLQprhs1MGFTtfV1/0viWDpNLW1FYHH3iae4nLx55j
+7AfydLAYs1DBSZliN3mLxR0vt40Bl4vhgiz3uKbwlnPPNo3ZlPY6zJIE2BkjjL46AcFgSbd5Z0HW
+iH2KoDzXzGWQUIYGenNQuWj14pHv8j6LPSiPxq+FAhHJv5O1KcMM9X9bR6hBgTArudVKnEeleSlm
+zYY0J3mdANwQviQwdCLQjwmuV7ZPH7Jg+uV/PoRITZjtz/TTEzkKgVSJl6ATEKImoRRgfa88eMDS
+C5jUR3XWNvZcj3GPbXIlJEi/HrTdjLIfMDBqbTSwHXmYm9oBZN37OwUPvR4l0blqoVxDa9L5+XVo
+UnbiP807fY7LyfYdp12BnktXWUkOYew9knyr/fdQgA==
