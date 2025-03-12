@@ -20,16 +20,8 @@
         {
             "name": "pc-kernel",
             "type": "kernel",
-            "default-channel": "24/edge/nvidia-components-dev",
-            "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza",
-            "components": {
-                "nvidia-550-ko": {
-                    "presence": "optional"
-                },
-                "nvidia-550-user": {
-                    "presence": "optional"
-                }
-            }
+            "default-channel": "25.04/stable",
+            "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
         },
         {
             "name": "core22",
