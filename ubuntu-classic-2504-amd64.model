@@ -15,12 +15,7 @@ snaps:
     name: pc
     type: gadget
   -
-    components:
-      nvidia-550-ko:
-        presence: optional
-      nvidia-550-user:
-        presence: optional
-    default-channel: 24/edge/nvidia-components-dev
+    default-channel: 25.04/stable
     id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
     name: pc-kernel
     type: kernel
@@ -87,13 +82,13 @@ snaps:
 timestamp: 2024-10-30T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZ8+91wAKCRDgT5vottzAElaFD/9cwt6iJhWyTO6IxEEt35djQoQEXOLxEmje
-krqx3TVSM8BVCdRXBrUlU4Uj2xHTQnbAKtLlZYh8eYlDtPw1MRxVAijykUAhumXvohbySCpCkEcZ
-lFujIjLgQFvvUpTR9j1DNL7h7p4ZZDevSUGPVxf436V+4HpUF+UhPnZAHEpy4Vwi6B5CZZDn9JLu
-VL20QIiUa8rBpLUAU3TGNJsTygeLfZBrGU8jRiFEV6YHH9XS0TWYZrolvS3V0Cr7OXubxWeeBJgW
-y8Lxp88Dp7cg8B74weFG9GjqgZDP4X8BRhVLQprhs1MGFTtfV1/0viWDpNLW1FYHH3iae4nLx55j
-7AfydLAYs1DBSZliN3mLxR0vt40Bl4vhgiz3uKbwlnPPNo3ZlPY6zJIE2BkjjL46AcFgSbd5Z0HW
-iH2KoDzXzGWQUIYGenNQuWj14pHv8j6LPSiPxq+FAhHJv5O1KcMM9X9bR6hBgTArudVKnEeleSlm
-zYY0J3mdANwQviQwdCLQjwmuV7ZPH7Jg+uV/PoRITZjtz/TTEzkKgVSJl6ATEKImoRRgfa88eMDS
-C5jUR3XWNvZcj3GPbXIlJEi/HrTdjLIfMDBqbTSwHXmYm9oBZN37OwUPvR4l0blqoVxDa9L5+XVo
-UnbiP807fY7LyfYdp12BnktXWUkOYew9knyr/fdQgA==
+AcLBXAQAAQoABgUCZ9KrAgAKCRDgT5vottzAEqaOEACecH0VUlotBTzcr+GV1CprnX9x/CB0AtqB
+tS6BmFvf385A+Ce2QWkyM5LSy5+AyN5Ujmn3K9niWqWvN3gqr1cXlviiFQuLh8Btb0dHT+Zj48Jv
+lKI5WMJHDwp9rUQ5pQHpKz4hdhrrrz5m+T17WAp9PkPFlCDS6VQ54a3vhCR6U4fKzx3b9BEX4few
+h4efotBDGzoGl1ed82oSB4sUV0K8yugxaMVexTn82xJ0pUkCqIuWnW84/usH7e+vStpqGft8sR2Q
+qli3HjLX1ctm8MzTyBn1nGrEQmqqkgPo8OCIsIt/Lqi9rTUdoAl4sre9ErTdXPz0aim4I+uB4gfl
+PA8vCdJrMAF3MWUxNZZfYWV9Y8OzTJpjfp4X0zC0fUw99vHS1Soxua9PWF8h3OPLBvemTiZhfJyu
+SaYa8pUNtPXXwpFQvRaxMFj59g83DbZ14xny36+fYiAFk6zp5x61Fa3QQDueHpliyKCJOShjyisz
+i1g8Rza0iXEp6T6aBc3p+fLmxhOP+FeA8MO+d5WlGksObSwK3Us4HonVKgfVuZRObvRuPFGJDY0w
+yo/mV+YbBrSfVPSF8OC5Dh1i+ApzQ5vGlnEB5ZBDdMZhznuD2oSBN6WEtCn8tuZ4zJHoN0k9O3QI
+mvqL6aI4gL4A2uLneC96fu4YMVEdLisiXalUb9s/FA==
