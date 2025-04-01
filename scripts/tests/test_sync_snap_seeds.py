@@ -95,7 +95,9 @@ class TestSnapSeeds(unittest.TestCase):
         mock_get.return_value.status_code = 200
         # Calling the function under test
         seeded_snaps = set()
-        fetch_snaps_from_seed("noble", "desktop-minimal", seeded_snaps)
+        fetch_snaps_from_seed(
+            "noble", ("ubuntu", "desktop-minimal"), seeded_snaps,
+        )
         # Asserting the expected result
         expected = set((
             SeededSnap("24.04", "gtk-common-themes", "latest", "stable", "ubuntu-24.04", False),
