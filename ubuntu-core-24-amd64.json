@@ -5,7 +5,8 @@
     "architecture": "amd64",
     "authority-id": "canonical",
     "brand-id": "canonical",
-    "timestamp": "2024-04-19T08:42:32+00:00",
+    "timestamp": "2025-04-14T08:42:32+00:00",
+    "revision": "2",
     "base": "core24",
     "grade": "signed",
     "snaps": [
@@ -38,6 +39,27 @@
             "type": "app",
             "default-channel": "24/stable",
             "id": "ASctKBEHzVt3f1pbZLoekCvcigRjtuqw",
+            "presence": "optional"
+        },
+        {
+            "name": "network-manager",
+            "type": "app",
+            "default-channel": "24/stable",
+            "id": "RmBXKl6HO6YOC2DE4G2q1JzWImC04EUy",
+            "presence": "optional"
+        },
+        {
+            "name": "modem-manager",
+            "type": "app",
+            "default-channel": "24/stable",
+            "id": "KtwxgRlwCAVKFw92BUdt1WloH1Va3QPo",
+            "presence": "optional"
+        },
+        {
+            "name": "bluez",
+            "type": "app",
+            "default-channel": "24/stable",
+            "id": "JmzJi9kQvHUWddZ32PDJpBRXUpGRxvNS",
             "presence": "optional"
         }
     ]

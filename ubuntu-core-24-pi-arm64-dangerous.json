@@ -40,6 +40,27 @@
             "default-channel": "24/stable",
             "id": "ASctKBEHzVt3f1pbZLoekCvcigRjtuqw",
             "presence": "optional"
+        },
+        {
+            "name": "network-manager",
+            "type": "app",
+            "default-channel": "24/stable",
+            "id": "RmBXKl6HO6YOC2DE4G2q1JzWImC04EUy",
+            "presence": "optional"
+        },
+        {
+            "name": "modem-manager",
+            "type": "app",
+            "default-channel": "24/stable",
+            "id": "KtwxgRlwCAVKFw92BUdt1WloH1Va3QPo",
+            "presence": "optional"
+        },
+        {
+            "name": "bluez",
+            "type": "app",
+            "default-channel": "24/stable",
+            "id": "JmzJi9kQvHUWddZ32PDJpBRXUpGRxvNS",
+            "presence": "optional"
         }
     ]
 }
