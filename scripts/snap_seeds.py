@@ -111,6 +111,7 @@ def add_implicitly_seeded_snaps(release, seeded_snaps):
                 "noble":    {"snapd", "bare", "core22"},
                 "mantic":   {"snapd", "bare", "core22"},
                 "plucky":   {"snapd", "bare", "core22", "core24"},
+                "questing":   {"snapd", "bare", "core22", "core24"},
                }
     series = get_series_version(release)
     for snap in implicit[release]:
