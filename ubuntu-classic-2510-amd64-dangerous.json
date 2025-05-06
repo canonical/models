@@ -42,12 +42,6 @@
             "id": "EISPgh06mRh1vordZY9OZ34QHdd7OrdR"
         },
         {
-            "name": "gnome-42-2204",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
-        },
-        {
             "name": "snapd-desktop-integration",
             "type": "app",
             "default-channel": "latest/edge",
@@ -88,12 +82,6 @@
             "type": "app",
             "default-channel": "latest/edge",
             "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
-        },
-        {
-            "name": "gnome-42-2204",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
         },
         {
             "name": "snapd-desktop-integration",
