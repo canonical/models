@@ -82,6 +82,12 @@
             "type": "app",
             "default-channel": "latest/edge",
             "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
+        },
+        {
+            "name": "snapd-desktop-integration",
+            "type": "app",
+            "default-channel": "latest/edge",
+            "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
         }
     ]
 }
