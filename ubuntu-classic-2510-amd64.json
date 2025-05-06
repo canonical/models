@@ -88,6 +88,12 @@
             "type": "app",
             "default-channel": "latest/stable/ubuntu-25.10",
             "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
+        },
+        {
+            "name": "snapd-desktop-integration",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-25.10",
+            "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
         }
     ]
 }
