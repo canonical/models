@@ -48,12 +48,6 @@
             "id": "EISPgh06mRh1vordZY9OZ34QHdd7OrdR"
         },
         {
-            "name": "snapd-desktop-integration",
-            "type": "app",
-            "default-channel": "latest/stable/ubuntu-25.04",
-            "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
-        },
-        {
             "name": "firmware-updater",
             "type": "app",
             "default-channel": "1/stable/ubuntu-25.04",
@@ -90,10 +84,10 @@
             "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
         },
         {
-            "name": "snapd-desktop-integration",
+            "name": "gnome-42-2204",
             "type": "app",
             "default-channel": "latest/stable/ubuntu-25.10",
-            "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
+            "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
         }
     ]
 }
