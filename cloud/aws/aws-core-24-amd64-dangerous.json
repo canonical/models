@@ -1,0 +1,37 @@
+{
+    "type": "model",
+    "series": "16",
+    "model": "aws-core-24-amd64-dangerous",
+    "architecture": "amd64",
+    "authority-id": "canonical",
+    "brand-id": "canonical",
+    "timestamp": "2025-05-19T07:49:42+00:00",
+    "base": "core24",
+    "grade": "dangerous",
+    "snaps": [
+        {
+            "name": "aws-gadget",
+            "type": "gadget",
+            "default-channel": "24/edge",
+            "id": "mfDoEMcyOtXRpzrpIFuNDkJ2oAQWOquG"
+        },
+        {
+            "name": "pc-kernel",
+            "type": "kernel",
+            "default-channel": "24/beta",
+            "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
+        },
+        {
+            "name": "core24",
+            "type": "base",
+            "default-channel": "latest/edge",
+            "id": "dwTAh7MZZ01zyriOZErqd1JynQLiOGvM"
+        },
+        {
+            "name": "snapd",
+            "type": "snapd",
+            "default-channel": "latest/edge",
+            "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        }
+    ]
+}
