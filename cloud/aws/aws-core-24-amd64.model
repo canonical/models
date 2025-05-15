@@ -1,0 +1,42 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: aws-core-24-amd64
+architecture: amd64
+base: core24
+grade: signed
+snaps:
+  -
+    default-channel: 24/stable
+    id: mfDoEMcyOtXRpzrpIFuNDkJ2oAQWOquG
+    name: aws-gadget
+    type: gadget
+  -
+    default-channel: 24/stable
+    id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
+    name: pc-kernel
+    type: kernel
+  -
+    default-channel: latest/stable
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
+    name: core24
+    type: base
+  -
+    default-channel: latest/stable
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+timestamp: 2025-05-19T07:49:42+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCaC8vGQAKCRDgT5vottzAEodyD/46Y6qn0wONW5c6Efmvv7DpTa1kcnS9zZ9q
+pECJMksqR8B3cFJ2IUsul4jYMFeSj/czB8qEBp5WmhpmylW6USa55kLM+cNISkg6NH7Bia6sdd1h
+Xv9Y/SDqUEekfcUQe4b5V+fHAr+SoD+9lDKCuC2Nf59A4ao1XaBUyh5MQN0Pbwz4Uhl8xpvtAbMp
+8oxLpdwpyFNDnQJdePeW4/t9+Go6AyY/nSwdLx3s1puYn+4nwoYKpnEu0/ZqbhhDMqc+IlaJZ+ym
+Xzgwu1qyMqvaAoOItFdyUKEZqZgW8wR8bCEKYvVmNyLmNqF2K/3542dF6zV/ZP+lhnK/rxsHkJSc
+6rd3QIki/V6yMpaIi9Iaqrq8XgxZYJv6/05rXdB4s05Zu3sFJ1vG0v3PGIXCGtLlJP/YGR9KD/LS
+NDmFrDk6COeW1FucbkwHxpC98HkX1CL26vTKZTGTCJqtvGFZrknyA1LWnZRuYZDavaysV77uHij7
+6jq/QO+WtqGkvGR0vIuveAV1v2dNoybB0iI/vscUGqygkZ8YqOgFp8wTn85pafqr41ilcTy/OcLz
+I7KKvz/WijeKFPrga9MbCThFX2Dew0LwPM0Pe3k/ni8vEdmW8vF7AZ5BYdmahr++zCazNQr8rwst
+T4Z1mPtSiovLN2jqr0MNS0atQYDdJLDrb6dZzm3GeQ==
