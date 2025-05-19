@@ -1,0 +1,38 @@
+{
+  "type": "model",
+  "authority-id": "canonical",
+  "revision": "1",
+  "series": "16",
+  "brand-id": "canonical",
+  "model": "mediatek-genio",
+  "architecture": "arm64",
+  "base": "core22",
+  "grade": "signed",
+  "timestamp": "2022-12-14T11:40:45+00:00",
+  "snaps": [
+    {
+      "default-channel": "22/stable",
+      "id": "7TAD6GcCXwugAvC6c96rEU6NxPrqhuD4",
+      "name": "mediatek-genio",
+      "type": "gadget"
+    },
+    {
+      "default-channel": "22/stable",
+      "id": "xFMGLRAkDsbHq5JyD7pilRTPRyDDDu28",
+      "name": "mediatek-genio-kernel",
+      "type": "kernel"
+    },
+    {
+      "default-channel": "latest/stable",
+      "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT",
+      "name": "core22",
+      "type": "base"
+    },
+    {
+      "default-channel": "latest/stable",
+      "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4",
+      "name": "snapd",
+      "type": "snapd"
+    }
+  ]
+}
