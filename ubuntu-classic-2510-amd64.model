@@ -1,0 +1,94 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: ubuntu-classic-2510-amd64
+architecture: amd64
+base: core24
+classic: true
+distribution: ubuntu
+grade: signed
+snaps:
+  -
+    default-channel: classic-25.10/stable
+    id: UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH
+    name: pc
+    type: gadget
+  -
+    default-channel: 25.10/stable
+    id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
+    name: pc-kernel
+    type: kernel
+  -
+    default-channel: latest/stable
+    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    name: core22
+    type: base
+  -
+    default-channel: latest/stable
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
+    name: core24
+    type: base
+  -
+    default-channel: latest/stable
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: latest/stable
+    id: EISPgh06mRh1vordZY9OZ34QHdd7OrdR
+    name: bare
+    type: base
+  -
+    default-channel: 1/stable/ubuntu-25.04
+    id: EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP
+    name: firmware-updater
+    type: app
+  -
+    default-channel: 1/stable/ubuntu-25.04
+    id: FppXWunWzuRT2NUT9CwoBPNJNZBYOCk0
+    name: desktop-security-center
+    type: app
+  -
+    default-channel: 1/stable/ubuntu-25.04
+    id: aoc5lfC8aUd2VL8VpvynUJJhGXp5K6Dj
+    name: prompting-client
+    type: app
+  -
+    default-channel: 2/stable/ubuntu-25.04
+    id: gjf3IPXoRiipCu9K0kVu52f0H56fIksg
+    name: snap-store
+    type: app
+  -
+    default-channel: latest/stable/ubuntu-25.10
+    id: jZLfBRzf1cYlYysIjD2bwSzNtngY0qit
+    name: gtk-common-themes
+    type: app
+  -
+    default-channel: latest/stable/ubuntu-25.10
+    id: 3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk
+    name: firefox
+    type: app
+  -
+    default-channel: latest/stable/ubuntu-25.10
+    id: lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3
+    name: gnome-42-2204
+    type: app
+  -
+    default-channel: latest/stable/ubuntu-25.10
+    id: IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu
+    name: snapd-desktop-integration
+    type: app
+timestamp: 2025-05-01T12:00:00.0Z
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCaBpC0wAKCRDgT5vottzAEhmlD/49Qh9xR4d9mC5cdfoj4jZDZ/IS8y2x8PSt
+gnFUWXE9Gm0PgPfa6R550d3WZwzgHfNgyLLbMzLeIJHbaJDizEj3ouEBsDj66/w4vEcHe0rkpayb
+iPiWcDb8nHT5CgdpOlW35B6FJ/++XGE5ag3OAamz2kIEWdBgwYk2XhkLErVQOg+VBxG0xsra5HTb
+fuTBfKZ8j2S13CsTuwZLY6GgrgoQUgCPAvAPfJJnezGG90/M0gjCE1PRrh9TPDYMiGOSuRhez0aj
+SryjzCINe6BBzFKbjSVLktxtlt+7rNZmFrqr/Wkg5qUoo+NH5damKJjL1HN8sBD3oyUaCxqGai/b
+0cDv1MJnglQXG1iLPvFmcG7eqaSLOtwe/Vr0HgMtrmPhOdJsv50uA7NtxDz56ojjOYHvQ85wZz9n
+b2JPCLmOk6GaPVmbOZtgyaQ+ICFcoqIHdpncm+gNZzYVTkR+OfItRIKPFr5+zlg5zRHHnPbWTlxM
+4WddnQbSPzY7sQp7+hT2E+Io95fD0El8Nvztztby7l5IAJ2ddhAQmYIRfuPKhYdUR7ULa8Q+tSUv
+tsRANKsdM4geHpfoyrVgNckVSM/pli0xDvJJ0nbQWcYmxxzKLyNWtn/4HsLYxj8illI9CtqVg8sv
+fka6dXDM0p3yrN4TlT1HVzxlN4MyekoLRu2+zm7TWg==
