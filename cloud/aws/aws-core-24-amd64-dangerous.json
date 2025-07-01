@@ -16,7 +16,7 @@
             "id": "mfDoEMcyOtXRpzrpIFuNDkJ2oAQWOquG"
         },
         {
-            "name": "pc-kernel",
+            "name": "aws-kernel",
             "type": "kernel",
             "default-channel": "24/beta",
             "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
