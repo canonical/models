@@ -13,7 +13,7 @@ snaps:
     name: aws-gadget
     type: gadget
   -
-    default-channel: 24/beta
+    default-channel: 24/stable
     id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
     name: aws-kernel
     type: kernel
@@ -30,13 +30,13 @@ snaps:
 timestamp: 2025-05-19T07:49:42+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCaGQE6AAKCRDgT5vottzAElSlD/9DqXwFeOEspVA/YVakuqKktxkPbGU55v84
-sxePsgDe+oqo98UhSqRVEgYLem50Rjc9hG4O96Tfoh5dfX8LbGiaIcUzlpBUkdjE9y9aLP9Qn3I/
-uOe9gY2BF6siNaCM8SRhwTwbiICdfpNJsSWs9ajH9Ck15Qha8iwC6iC423Wh4CWf6qwiEHJypsdx
-+p4bSmgouzSvDdzI8lpV8Ny87k3ui4oLXfe9TR3gsAUOeHQBCmciFywlwDOQSZifLzwK8bq8Ovt4
-HcpuuMSxthW4WafHfmkRNTM0YRMVUkm5elmApMXOFmR5H+pWzaeyvZUpEquwcYvBBp6qqNDcBsdn
-QGbvF9zlbihDieGstXRar2iwBkyBFN0UB2yx23IuP/CuuQAVXKAgpyehPVBECWMGE+vlHSrF1Yts
-hjWI0by/khkz05ax3MFL0HohAbqDppfRlUoTYqAMGXyU/yzonsJatJIA3I1jaY47qJSEc8J6L6gz
-Mg9SHv4gcFH3CBUwUE+Sz0VYf4UyUHaaQf6zUBsANk3YLKL6/AXe1IVNWUNLhUBIvdu2Wl0sfyPu
-sjyCBKcbSL+9L45Lkt5eJAmK+3UKdHl37jHoFYN0stfq2x9UfyRJMEg1PDzHBxMmH+f6RR5fxWb0
-E9MDc+YKekhMUn8n/Ybjs7S8ujTKrYqFZFmO/m3DuQ==
+AcLBXAQAAQoABgUCaIOb5gAKCRDgT5vottzAEndTD/0f6x8WBBkGRtSnBdZyiB9SxQuYuKt9PkeX
+v3TGlOScjOCuqSDU8AWrSlZXxLRI4abPtwqgWjiH18wnh4jGI73QeszOzZqaDQrECBWlS3Cg2Tje
+VTQOYaH51Zr+EeJRa3rQ6kwOe9Z3wyriJqrIDaS9U/6N0E//xDdIJidH/yTSj5EBhtaOKmzqMQZ4
+WFw5fM8RtbtL6pa8wIA0EdgxGv8G9oGX4M966jjtbtoHLF4AXcvpzDd8gSBIFNwlmJsV85pQPe2q
+7JK4P3cAtPOvRhRvEcJd0ID5SiXhLFk4jeg3fY6ZNuXsbHizBVdU/9J8lSJmCmbMTthvUwIyneJy
+G/3eQYa5Q4aVZLtSny7ryv7V27xaPOgREmjSDzSkUc/t/HgvseRMR0RIVO+Yvk+fEPRR4vnZzLiu
+Js0A32bfy5cZQDX7ICCmv19Wbe9uirRB2JauXi1bs1pDu7ZlgZiFwZ1zxv95Y/8dOHebmSdS/FQ/
+2VHOfooSLqMJTuzQtkE5MkEsyVvUF6LsilVxa+4195jUtOyVtmmJOnxoy2z6Wftbcn+j8FJBUPRt
+TlzLE4W5dIHvBZeE8+wo5AZIFoJG/fS12SiCX4BvsWSlBoSbJ9FPXPYSUQcHI7eWCmVbpIc7A3qJ
+e4wlXrfvtAGNvvrdl66iw/wuLO9fdCvcdv3O/lde7A==
