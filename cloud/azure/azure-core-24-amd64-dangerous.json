@@ -1,0 +1,43 @@
+{
+    "type": "model",
+    "series": "16",
+    "model": "azure-core-24-amd64",
+    "architecture": "amd64",
+    "authority-id": "canonical",
+    "brand-id": "canonical",
+    "timestamp": "2025-07-29T20:53:33+00:00",
+    "base": "core24",
+    "grade": "dangerous",
+    "snaps": [
+        {
+            "name": "azure-gadget",
+            "type": "gadget",
+            "default-channel": "24/edge",
+            "id": "ix2UbhTKGMg7FOL29vAcxQn0qktk7eSa"
+        },
+        {
+            "name": "pc-kernel",
+            "type": "kernel",
+            "default-channel": "24/edge",
+            "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
+        },
+        {
+            "name": "core24",
+            "type": "base",
+            "default-channel": "latest/edge",
+            "id": "dwTAh7MZZ01zyriOZErqd1JynQLiOGvM"
+        },
+        {
+            "name": "snapd",
+            "type": "snapd",
+            "default-channel": "latest/edge",
+            "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        },
+        {
+            "name": "waagent",
+            "type": "app",
+            "default-channel": "24/edge",
+            "id": "fRhDiEoI3Ey1HmMdfWaLetIPVN6npr8U"
+        }
+    ]
+}
