@@ -1,0 +1,47 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: azure-core-24-amd64
+architecture: amd64
+base: core24
+grade: signed
+snaps:
+  -
+    default-channel: 24/stable
+    id: ix2UbhTKGMg7FOL29vAcxQn0qktk7eSa
+    name: azure-gadget
+    type: gadget
+  -
+    default-channel: 24/stable
+    id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
+    name: pc-kernel
+    type: kernel
+  -
+    default-channel: latest/stable
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
+    name: core24
+    type: base
+  -
+    default-channel: latest/stable
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: 24/beta
+    id: fRhDiEoI3Ey1HmMdfWaLetIPVN6npr8U
+    name: waagent
+    type: app
+timestamp: 2025-07-29T20:53:33+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCaIlHLAAKCRDgT5vottzAEmKKD/0RCdhx5eszWukkS340LejHcbpBbKNdmeu1
+nlseP1/dm7JFaen+Vg8jBbcGVw2L8qf1R6u+ju2mxMhGVrqZVdyge191KkYH2kfrtXvvrO27UOhD
+8ks562Gf1yhtdDGqvDasTJdWuAFgcdkFBFua1SUFuquV4pNnzx6ctM3XFMIHAyNCAVerCNjTxCJw
+gsKwwrkh09IYswMFj3eV95CHvzf21kaeG9kMLKCbQXLEDluPYNJEV2lm62aML8Zn1xwmoV4fMcYK
+i6BcIz8r1IV6Pd+/JeAnsH+u9VJPJyok1Q44vmL04fWMMK/IicZ+1KEXlQZWDTGE10q9Kgg/7foZ
+RkrzSK1HN3zlrh3lRBxgRSvDRDbBWbqq8Hg8AQnGumtuZiyaQHQWC43+lLfSBgcNgHeueYxz6SQQ
+G9liOku7DANdKzjZ3Vcktf1H1kkZpjZN+77ktXc7OZjt/2hdZPgO1ceFvceh7ui/bH3mJpA4ye8j
+RIyQW/vok1HcM3CgG0SfqycZvLQMct2Kone1k6xY7EEEhZlB8P1/phSdfVMAfYW1Ndi0lS+Lekgq
+vQ4vUK3H6OEFH/r+wCFxDUsnGY10HtFdRnV0kbVQOirOoR19TJ0VTNnwfveor4jTx0zLxkvtFIZg
+L4Nkx8WPTeZjjW1eBjD6/Y9JdNQDQ9vu0IiFOFrsSw==
