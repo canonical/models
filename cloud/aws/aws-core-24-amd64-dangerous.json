@@ -8,6 +8,7 @@
     "timestamp": "2025-05-19T07:49:42+00:00",
     "base": "core24",
     "grade": "dangerous",
+    "revision": "1",
     "snaps": [
         {
             "name": "aws-gadget",
