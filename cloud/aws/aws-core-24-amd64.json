@@ -8,7 +8,7 @@
     "timestamp": "2025-05-19T07:49:42+00:00",
     "base": "core24",
     "grade": "signed",
-    "revision": "1",
+    "revision": "2",
     "snaps": [
         {
             "name": "aws-gadget",
@@ -20,7 +20,7 @@
             "name": "aws-kernel",
             "type": "kernel",
             "default-channel": "24/stable",
-            "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
+            "id": "zZzOPntd6WZMak6vQYmLBUk2gfIdnme9"
         },
         {
             "name": "core24",

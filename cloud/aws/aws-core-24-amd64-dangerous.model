@@ -1,6 +1,6 @@
 type: model
 authority-id: canonical
-revision: 1
+revision: 2
 series: 16
 brand-id: canonical
 model: aws-core-24-amd64-dangerous
@@ -15,7 +15,7 @@ snaps:
     type: gadget
   -
     default-channel: 24/beta
-    id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
+    id: zZzOPntd6WZMak6vQYmLBUk2gfIdnme9
     name: aws-kernel
     type: kernel
   -
@@ -31,13 +31,13 @@ snaps:
 timestamp: 2025-05-19T07:49:42+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCaJDb8AAKCRDgT5vottzAEu0MD/sE2M1ij2ueTZm2H0jFm4kCdtmk4guEi7vD
-IkPKsliNPmuVAtaLtHbp8cnLt81MEwOTmxKT9wWCXCniZ088k1/DUOCUUxGjV3d5mSf9nSnnvkDp
-Bl9BxPVqp3BJ8wuzzfVR+MfkmDT+ZdkwrgsHOJSv/RNc2XTxsRRyE6a0EsdFHaEWl3oon3SIIzTs
-IHZP/+o0Xhn6G/s6hwpCbtuNOog8bTju5hUih5RzK+3ZaMlotzUFowd2I9PEvlPYnrLf0cgn5Ezg
-TvKAFdvMRGjHj8FLev4waDAPWqlxCOoF8HwIucaDw7LLntkyg2oqVkyWyQKiy9Xdy5w1YQmODx15
-7M4BDFZqjQiHa4VfM+ezSmmexSJVHaDQiHlMoJht9BhvGTD9Jw663cTgsO5dqrtaBEh84EuiDy8t
-eCjx63sZvG4hEjdwtQHHywwMtPnvRrD9HbSJoJuv63pW0eimuxKs07q8g7p3rjHuTtcXGDu9f5JR
-4tRR+w6BK6vXkChYF9OBWcKsZG7moGpRYAUKsjtlfIwjOmPXLkzHY9lFcKREJt4XQzm53E04DRTE
-1IHnBLWwl3epQ0Zv+n2k7ULZnGY0e5brw8NZhxSjTwxcFWEi16U5QdCsBW3IE6XRdAE4fwJ7MvO6
-nBtaZuHf7Lh85gvS+q4M+VhyFWoc324/tVGkue/Z+A==
+AcLBXAQAAQoABgUCaJJ31AAKCRDgT5vottzAEgzPD/9P9IK9P3tcszSs+kQ1m1lKSE8JtvICj7/2
+O4s5rg+uW/oZtICCEwSuWHYcG9XQyVTXW8Td02eZUpN7HtgD1iYuBEvamswIGctpWR9pQuHa79Du
+0qN4f/OehPQy68FmcQ+wu2x/DVXKG3Eb6qCxTiUqOayGkRQ6gMyR5l7OiGxvAz4e5KGasrkMGqBF
+W3o5SZsTf+AbZ67FrrUThAto5sZN8HnYyWPKd5ay5QzrnZzUMqDPOlt4NDlbvka7FhmaY5hX4AJP
+t1jkv3O8ARzeauclVTRDet6S9BujCS6Viv45AmMDoZ+/lW+/UEsg1fLWp4B7RCPwgdkgX0K1Pp08
+fmuvenUx25RD1tNNWdo6Mr7DolWeJRLdZSIUxOfRt5jGKMa219zoiCUFI5fnSPDVYyIfCFD8blH2
+WkUaTg4KD1YCpsVKIousP5B5dML6aik5EkAwHPM6K3Lr6P3OnIr6CLPeVYdo+eGfNEOIqKciqyEk
+cN1fa5xbKiL585M15pjv24N94Awac/FveBSjGu6pTDm11aU4NqPIjAgd7CK8KSOnVojBBD2l4MVQ
+NEh9/f+ixG2lvzFumdWcOPzAmWuN+D/G59g1KJfjwnmt4PrWJxvGLz7DSRDDRXHBRyOOQpizcMhe
+3P75hGdEY91T1zlK5kldbcVmmACHbafQ21p3FnU3nA==
