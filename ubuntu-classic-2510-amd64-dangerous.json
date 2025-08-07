@@ -66,12 +66,6 @@
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
         },
         {
-            "name": "snap-store",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
-        },
-        {
             "name": "desktop-security-center",
             "type": "app",
             "default-channel": "latest/edge",
@@ -88,6 +82,12 @@
             "type": "app",
             "default-channel": "latest/edge",
             "id": "EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP"
+        },
+        {
+            "name": "snap-store",
+            "type": "app",
+            "default-channel": "latest/edge",
+            "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
         }
     ]
 }
