@@ -48,12 +48,6 @@
             "id": "EISPgh06mRh1vordZY9OZ34QHdd7OrdR"
         },
         {
-            "name": "desktop-security-center",
-            "type": "app",
-            "default-channel": "1/stable/ubuntu-25.04",
-            "id": "FppXWunWzuRT2NUT9CwoBPNJNZBYOCk0"
-        },
-        {
             "name": "snap-store",
             "type": "app",
             "default-channel": "2/stable/ubuntu-25.04",
@@ -82,12 +76,6 @@
             "type": "app",
             "default-channel": "latest/stable/ubuntu-25.10",
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
-        },
-        {
-            "name": "snap-store",
-            "type": "app",
-            "default-channel": "2/stable/ubuntu-25.10",
-            "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
         },
         {
             "name": "desktop-security-center",

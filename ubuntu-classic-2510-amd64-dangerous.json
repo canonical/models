@@ -42,18 +42,6 @@
             "id": "EISPgh06mRh1vordZY9OZ34QHdd7OrdR"
         },
         {
-            "name": "desktop-security-center",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "FppXWunWzuRT2NUT9CwoBPNJNZBYOCk0"
-        },
-        {
-            "name": "snap-store",
-            "type": "app",
-            "default-channel": "latest/edge",
-            "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
-        },
-        {
             "name": "gtk-common-themes",
             "type": "app",
             "default-channel": "latest/edge",
