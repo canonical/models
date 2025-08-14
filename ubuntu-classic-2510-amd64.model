@@ -40,22 +40,22 @@ snaps:
     name: bare
     type: base
   -
-    default-channel: 1/stable/ubuntu-25.04
+    default-channel: 1/stable/ubuntu-25.10
     id: EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP
     name: firmware-updater
     type: app
   -
-    default-channel: 1/stable/ubuntu-25.04
+    default-channel: 1/stable/ubuntu-25.10
     id: FppXWunWzuRT2NUT9CwoBPNJNZBYOCk0
     name: desktop-security-center
     type: app
   -
-    default-channel: 1/stable/ubuntu-25.04
+    default-channel: 1/stable/ubuntu-25.10
     id: aoc5lfC8aUd2VL8VpvynUJJhGXp5K6Dj
     name: prompting-client
     type: app
   -
-    default-channel: 2/stable/ubuntu-25.04
+    default-channel: 2/stable/ubuntu-25.10
     id: gjf3IPXoRiipCu9K0kVu52f0H56fIksg
     name: snap-store
     type: app
@@ -79,16 +79,16 @@ snaps:
     id: IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu
     name: snapd-desktop-integration
     type: app
-timestamp: 2025-05-01T12:00:00.0Z
+timestamp: 2025-08-06T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCaBpC0wAKCRDgT5vottzAEhmlD/49Qh9xR4d9mC5cdfoj4jZDZ/IS8y2x8PSt
-gnFUWXE9Gm0PgPfa6R550d3WZwzgHfNgyLLbMzLeIJHbaJDizEj3ouEBsDj66/w4vEcHe0rkpayb
-iPiWcDb8nHT5CgdpOlW35B6FJ/++XGE5ag3OAamz2kIEWdBgwYk2XhkLErVQOg+VBxG0xsra5HTb
-fuTBfKZ8j2S13CsTuwZLY6GgrgoQUgCPAvAPfJJnezGG90/M0gjCE1PRrh9TPDYMiGOSuRhez0aj
-SryjzCINe6BBzFKbjSVLktxtlt+7rNZmFrqr/Wkg5qUoo+NH5damKJjL1HN8sBD3oyUaCxqGai/b
-0cDv1MJnglQXG1iLPvFmcG7eqaSLOtwe/Vr0HgMtrmPhOdJsv50uA7NtxDz56ojjOYHvQ85wZz9n
-b2JPCLmOk6GaPVmbOZtgyaQ+ICFcoqIHdpncm+gNZzYVTkR+OfItRIKPFr5+zlg5zRHHnPbWTlxM
-4WddnQbSPzY7sQp7+hT2E+Io95fD0El8Nvztztby7l5IAJ2ddhAQmYIRfuPKhYdUR7ULa8Q+tSUv
-tsRANKsdM4geHpfoyrVgNckVSM/pli0xDvJJ0nbQWcYmxxzKLyNWtn/4HsLYxj8illI9CtqVg8sv
-fka6dXDM0p3yrN4TlT1HVzxlN4MyekoLRu2+zm7TWg==
+AcLBXAQAAQoABgUCaJuDnwAKCRDgT5vottzAEqjkD/4+SAjC0APhGmSh73ewaUe57Nbs4qDfrUJZ
+P8aaq9UO3siLmp1og/3OwbuMhddmqxvurYqe0jby6Qbv7NbCcI7YZvn4wDxnessWeYJnOd1Le8UC
+cOmhckh7WZzQreR2SjIRq9ElGGI4RIft4Ex6H2EYG3A9EpTdwfZ1jmnwUlw6qqPEjXJv/PKtcpm0
+qrWetewWMyZF5JmoZUyCWd4xP0y3VpbrTCHvBl5C/Q63xy/KELSGYAesgBfcO1bIP/NbVWsHbvTd
+qCew5lTQx7tUIu4mnBuvt1bZ6U3jbXUu15g1EgJwsft2ker5bX8GbsJEBnz7TBgdYmrRb3DCthZ7
+tiZT2XWmOSiwMK++5BNnJkActkkCXFRVzL/f2ofUOJ96bLxk3qlPxh6bkpqUkkSkygC46123MzOZ
+dRehpGuqsZ3VrLZx8CrrwIb0nZZFeR0ZH8y1gL2uXcRPQDSOPFgwRrTLo+NzVLfdUyraRZaU50Y+
+xRzh0nT8GSFDY9QeZZwq83UDsUNILZxRBmnD7fidYDFHRNzqLPH+xYAuAakX6zGlA2foOpC1CbIs
+LUAhSzFdKJKBGucG3EumAggOCWqggc6RxY3c4eXDbrESE1RG1ndKINScNf+l/cYAwZSa6q9HKx3R
+w7sGOLj+FzSGWqBaljjQeBd1jk3udS34yaDEtLlcxQ==
