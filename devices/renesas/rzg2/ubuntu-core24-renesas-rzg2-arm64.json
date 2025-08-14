@@ -1,0 +1,45 @@
+{
+  "type": "model",
+  "authority-id": "canonical",
+  "revision": "1",
+  "series": "16",
+  "brand-id": "canonical",
+  "model": "renesas-rzg2",
+  "architecture": "arm64",
+  "base": "core24",
+  "grade": "signed",
+  "timestamp": "2025-08-14T08:03:54+00:00",
+  "snaps": [
+    {
+      "default-channel": "24/stable",
+      "id": "8icb75cOHIxavWWXmkVR2UJePXX3HFkF",
+      "name": "renesas-rz",
+      "type": "gadget"
+    },
+    {
+      "default-channel": "24/stable",
+      "id": "TfkSeypPcvFMoNky5XzwqV6pJSKZ43Hi",
+      "name": "renesas-kernel",
+      "type": "kernel"
+    },
+    {
+      "default-channel": "latest/stable",
+      "id": "dwTAh7MZZ01zyriOZErqd1JynQLiOGvM",
+      "name": "core24",
+      "type": "base"
+    },
+    {
+      "default-channel": "latest/stable",
+      "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4",
+      "name": "snapd",
+      "type": "snapd"
+    },
+    {
+      "default-channel": "24/stable",
+      "id": "ASctKBEHzVt3f1pbZLoekCvcigRjtuqw",
+      "name": "console-conf",
+      "type": "app"
+    }
+  ]
+}
+
