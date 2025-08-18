@@ -30,6 +30,12 @@
             "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
         },
         {
+            "name": "core24",
+            "type": "base",
+            "default-channel": "latest/edge",
+            "id": "dwTAh7MZZ01zyriOZErqd1JynQLiOGvM"
+        },
+        {
             "name": "snapd",
             "type": "snapd",
             "default-channel": "latest/edge",
@@ -68,25 +74,25 @@
         {
             "name": "gtk-common-themes",
             "type": "app",
-            "default-channel": "edge/ubuntu-25.10",
+            "default-channel": "latest/edge/ubuntu-25.10",
             "id": "jZLfBRzf1cYlYysIjD2bwSzNtngY0qit"
         },
         {
             "name": "firefox",
             "type": "app",
-            "default-channel": "edge/ubuntu-25.10",
+            "default-channel": "latest/edge/ubuntu-25.10",
             "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
         },
         {
             "name": "gnome-42-2204",
             "type": "app",
-            "default-channel": "edge/ubuntu-25.10",
+            "default-channel": "latest/edge/ubuntu-25.10",
             "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
         },
         {
             "name": "snapd-desktop-integration",
             "type": "app",
-            "default-channel": "edge/ubuntu-25.10",
+            "default-channel": "latest/edge/ubuntu-25.10",
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
         }
     ]
