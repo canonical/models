@@ -15,7 +15,7 @@ snaps:
     name: pc
     type: gadget
   -
-    default-channel: 25.10/edge
+    default-channel: 25.10/beta
     id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
     name: pc-kernel
     type: kernel
@@ -23,6 +23,11 @@ snaps:
     default-channel: latest/edge
     id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
     name: core22
+    type: base
+  -
+    default-channel: latest/edge
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
+    name: core24
     type: base
   -
     default-channel: latest/edge
@@ -35,55 +40,55 @@ snaps:
     name: bare
     type: base
   -
-    default-channel: latest/edge
+    default-channel: 1/edge/ubuntu-25.10
     id: EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP
     name: firmware-updater
     type: app
   -
-    default-channel: latest/edge
+    default-channel: 1/edge/ubuntu-25.10
     id: FppXWunWzuRT2NUT9CwoBPNJNZBYOCk0
     name: desktop-security-center
     type: app
   -
-    default-channel: latest/edge
+    default-channel: 1/edge/ubuntu-25.10
     id: aoc5lfC8aUd2VL8VpvynUJJhGXp5K6Dj
     name: prompting-client
     type: app
   -
-    default-channel: latest/edge
+    default-channel: 2/edge/ubuntu-25.10
     id: gjf3IPXoRiipCu9K0kVu52f0H56fIksg
     name: snap-store
     type: app
   -
-    default-channel: latest/edge
+    default-channel: latest/edge/ubuntu-25.10
     id: jZLfBRzf1cYlYysIjD2bwSzNtngY0qit
     name: gtk-common-themes
     type: app
   -
-    default-channel: latest/edge
+    default-channel: latest/edge/ubuntu-25.10
     id: 3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk
     name: firefox
     type: app
   -
-    default-channel: latest/edge
+    default-channel: latest/edge/ubuntu-25.10
     id: lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3
     name: gnome-42-2204
     type: app
   -
-    default-channel: latest/edge
+    default-channel: latest/edge/ubuntu-25.10
     id: IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu
     name: snapd-desktop-integration
     type: app
 timestamp: 2025-05-01T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCaBpC0wAKCRDgT5vottzAEmTaD/4+m7UJU64O0/Nu5OimYd5aSYoi1PSH5nq6
-HK9F3vJnL0xpJRtnNgmUi1STghVa8ej2TOMvcTmgNcB+XG7xTadUEJIOu+GP7Q1WChnDQJjEFf0v
-9rL9/KI80ij00BHupRq3NZrru24TP72Rccd1I9Y1g0v6Y7eZODj6DLrIId9iIoYUqy3/jLAjoNq/
-Njm2+tlfC219gkyHQxYDtXRg5gPLpw58y9TkcaPj90WZAL1S3u/O6WvC3TSm8x1ESCx0HEfuHke8
-KcccjoTGshHKUsNHrdAs09SmJRS5m+JtgmO3yA1Fi/DiHHf6MAqxfTxao9vcu1yZlH/x710shOYS
-ySDMLllIKpU0p69Oo23uRgl/4fmuxiK/tGEYusMPTGmcy7jmnfRha6iYt4Dj3fWbZn88kkcwzheb
-RAzDItXBX/xcyqnBYt9821hDrGAgtpgNPWXx0l944VcYBoSEMx3LS+XITdiPwg08A9UZIgYBbc6z
-Pc02I4+7ObGmyxBpfFSNUxApkhph9fq97OfVe6LSnXR2p8m8EQ7tFBlIO+Wco9AeTxf6aS+vRjgd
-nhxfIfE7qlhzFEFV6BOQMPtR0zovramo3QYfig57erCLzt6YQvs/bUmdlIB5M7W6cdwC9X+jqV/f
-LHe4yOQIv4zZzcTxZeSVrlkIo2FcqpD6ishUecThqw==
+AcLBXAQAAQoABgUCaKKyiQAKCRDgT5vottzAEt+LD/9GTgoaYQg0qYohdnYYQkiWJbtNcZgLRpUf
+gPswZsBzmDLbH0XyLWB9h32gDyZ6Gdt3c9uK2hqCaNTaLJyf5eGs/7zjs9lVmEf3MNSr9FGx6Vek
+i+NPeOEjrmwjMXzi9FnTDTJzW0cMzCEzYiTHWRF8K5WCVumuzMMUCihZbuHvZCjXoIJ+RrSBMvbE
+udzmJ0NIEgCGA+r32kEkcauNTrMwXdosdTYhrKy/dcy6SrACaZzvQAwPYXy3UJEDmz6qQQ/94G9s
+5P/bqrOZVoL22H9a/6WnEulHyCNAVlotpbY3Dij1yHp5KEiFCuREP/MauLdONCY+snimwxpItm7L
+B4D92BTkhe9noiyRbSU3fLrMJGY//PKCxkQMVyvkx/aUnyqeySRCP6U7U6t09P2/WzmJULT+a+9N
+pgXrXt3k69zqI0U74R3+JwiU/VrZq6cssdwx8unKYtoOT5O3G0b7q50Lv2RyNHQSjrlSU397HKkQ
+Gnnb/w4caV+O/cKlDlXNXijZI/kxfP+tKqRHMSRLmV3I8W+/nh6YE4/NMiXVicej3tTaPtWlBI+9
+hj0Chtlk+wWD+9MjC1suJh4XLHAXbYJczSFdb3qcQq7f64v70sNoLzW4ekGUlSpbazNaX7P+Liov
+VBGXSpziQJuF4y/BSU8tCweJExhkibFEBar5SCKbvw==
