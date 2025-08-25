@@ -1,0 +1,48 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: gce-core-24-amd64
+architecture: amd64
+base: core24
+grade: signed
+snaps:
+  -
+    default-channel: 24/stable
+    id: jQb6VXJonDq7VaBo66YPjE9SVoQV84hy
+    name: gce-gadget
+    type: gadget
+  -
+    default-channel: 24/stable
+    id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
+    name: pc-kernel
+    type: kernel
+  -
+    default-channel: latest/stable
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
+    name: core24
+    type: base
+  -
+    default-channel: latest/stable
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: 24/stable
+    id: ASctKBEHzVt3f1pbZLoekCvcigRjtuqw
+    name: console-conf
+    presence: optional
+    type: app
+timestamp: 2025-08-25T14:45:00+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCaLCtmgAKCRDgT5vottzAEj75D/wOtVh8eAqejJKdYgiuhgNXqLfF0xZBnM3w
+eb5ycaiZ/eynLBPC/oUBgdu+tMbaYC+s4ev6EwdJ8mlABOtpuDOEuOjbrIx6QX0/9MTIY26h4g/N
+LC+6DrwqA7OaZgW+sEneZC1Navie6EHFEREIHkEVbodqk666UJd2A/7d7MJ+mNIZnx6tUd4e2F3p
+fXrdiy02FsZ1AT1X0V10E6jIMZhKK2LJTMQ3n1YSHVJwML9mjsMcVk1MJVSiAX7iM78x2SY+J9NB
+SF2UpB9CpNt0kVVvJF2CNuYDawb1kZIyl79k9XtktzT1X3Y1FXdw/8Uy4gNbbZI/1gyrd7FhWQUQ
+FMAlTLhLA1NT+8kcaniBv8kfY4jzQe29dOAY73lKJcmoDNW+DUbOvSryQ+LtNd+s6qLYuckkQOQq
+IfOjJXI5ORI4724dQtNsgc8CaNZuxzXNX6z4YBwk86qW3NXdqX6F8XhaXuCBrba5hf+MZo8X6PHZ
+EA8iop5/gp8KkPcaUmiyiRfmJK9n6GJr3gevmqU5pGxoIhZ+6yI4x/0hCzdvGhxzFjKBR+k3oAcZ
+hPYWxKIw4uNeShLMN3IDbAiC05XSn1TPgNtG7cbvtL091Yh4zBkCYzNRUex7v3Fw2YpjE/SwIamo
+ynlh1S9l3u4kbF38s5/M0deBCgaViLIc91zV9tVMJw==
