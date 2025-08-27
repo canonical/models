@@ -1,0 +1,52 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: ubuntu-core-24-kria-arm64-dangerous
+architecture: arm64
+base: core24
+grade: dangerous
+snaps:
+  -
+    default-channel: 24/edge
+    id: NnvDTO4E0hkNA9osrzH6OeMtNcy8Fz47
+    name: amd-kria
+    type: gadget
+  -
+    default-channel: 24/edge
+    id: IRohXhO5H6v6PRASiH1rMhXZT1rprwZc
+    name: xilinx-kernel
+    type: kernel
+  -
+    default-channel: latest/edge
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
+    name: core24
+    type: base
+  -
+    default-channel: latest/edge
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: 24/edge
+    id: ASctKBEHzVt3f1pbZLoekCvcigRjtuqw
+    name: console-conf
+    type: app
+  -
+    default-channel: latest/edge
+    id: 6EV0Xg8BtRaQWfkdtdIrXU3mTEl539q9
+    name: fpgad
+    type: app
+timestamp: 2025-08-08T11:11:34+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCaK6R+wAKCRDgT5vottzAEi0tEACpAzWZU0sRcdqGjSAw9INevPJWQM9LUbIr
+EA4g9CO/g34GUHi6cWPMvZMFNDr7fH9jXewH6wTKwowWXHRFEkIbgmyMdAAgePgoi1+c4Y3kHs5z
+ekg97SVOL/ZCEvYrFqapG+XuEG4HLBbk2Z706dYF2Xf5QKc0dG2WY8wzlPQinwyN8kB4bZXOgeVe
+4fW8drII7u66eLWbux/ab1rqTVLeArakcpeobQ50LtcC3xoAf8DMBJ/19/PBpRMWRj+weOAGkh1g
+GJOpTDsuQ/vDVrporAS97E9/+VP9fyO7jOq8CWmfjSiKrueiD0xMndP67RyXR3zQQAhxRICnirgN
+Or38oxO46wtnDhx8dE/RZh0AXRWgyAZ0hmy2V6msH7aag5zMn15I8CYbzowY7i/6IYdZRGx5vTy8
+ubQ4RxgQxXh33CMgbyGLyU2xoy1Kw8cgSvvwxICTmP+5Lf9048xzFqy2AYLFPvqpgjYYtYPf1gJE
+SbpNmorEFdOpa89c2lDkURxT+DWIW3s5aqd7Dum/NdsZ/AZ3wC3KzCuQnWb2UsxN7Xh81R7S4/aq
+LEDYWk69sgNihsW0Z5Qhvdl7NS1aYvf+W+6tQXAYI0YmH2LjyjRLV+WcHvCo/qfALedqzQsn858i
+hfutc56hLBHZEIkYD+hzYdWMVzgfdKk3GyJGPpHg7A==
