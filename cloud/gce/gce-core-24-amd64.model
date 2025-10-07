@@ -14,8 +14,8 @@ snaps:
     type: gadget
   -
     default-channel: 24/stable
-    id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
-    name: pc-kernel
+    id: XCu2oFG8cSgq2ZWmdaMyvSZhrrUhy1yi
+    name: gcp-kernel
     type: kernel
   -
     default-channel: latest/stable
@@ -36,13 +36,13 @@ snaps:
 timestamp: 2025-08-25T14:45:00+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCaLCtmgAKCRDgT5vottzAEj75D/wOtVh8eAqejJKdYgiuhgNXqLfF0xZBnM3w
-eb5ycaiZ/eynLBPC/oUBgdu+tMbaYC+s4ev6EwdJ8mlABOtpuDOEuOjbrIx6QX0/9MTIY26h4g/N
-LC+6DrwqA7OaZgW+sEneZC1Navie6EHFEREIHkEVbodqk666UJd2A/7d7MJ+mNIZnx6tUd4e2F3p
-fXrdiy02FsZ1AT1X0V10E6jIMZhKK2LJTMQ3n1YSHVJwML9mjsMcVk1MJVSiAX7iM78x2SY+J9NB
-SF2UpB9CpNt0kVVvJF2CNuYDawb1kZIyl79k9XtktzT1X3Y1FXdw/8Uy4gNbbZI/1gyrd7FhWQUQ
-FMAlTLhLA1NT+8kcaniBv8kfY4jzQe29dOAY73lKJcmoDNW+DUbOvSryQ+LtNd+s6qLYuckkQOQq
-IfOjJXI5ORI4724dQtNsgc8CaNZuxzXNX6z4YBwk86qW3NXdqX6F8XhaXuCBrba5hf+MZo8X6PHZ
-EA8iop5/gp8KkPcaUmiyiRfmJK9n6GJr3gevmqU5pGxoIhZ+6yI4x/0hCzdvGhxzFjKBR+k3oAcZ
-hPYWxKIw4uNeShLMN3IDbAiC05XSn1TPgNtG7cbvtL091Yh4zBkCYzNRUex7v3Fw2YpjE/SwIamo
-ynlh1S9l3u4kbF38s5/M0deBCgaViLIc91zV9tVMJw==
+AcLBXAQAAQoABgUCaOVitAAKCRDgT5vottzAEluXD/45xPIvbk22JqnbyLyjJiF1shk2qOIH6Sjg
+KHVlKk0vmTjfJ2c2sCb6DbzutNn0Wfo015CAtsJKWAdgLYAbUJtVlRCke0PQi2YAokWkO1Hg7UgH
+0PX995G4L7jSDqw40qVBHjKU0u4PvVSaeKtvYhSVzUQCHiz10SUsLXIKNzwPEugal5MlF2utcFQ6
+/jleoCarKkG1HSkxPWd+88jrxSNlTWSoszFPPSHbIeJPGs0f1qcp6oxVewdnrvkoxolNIBkvYA+r
+BKJVH0pHIVAB5eA67Vw+FQGcGF+1IdIsvTw8Bv2r9iA5W+Z/13PHGOKsfYGPhkybO/yQ0HsApa4T
+27pPs48RlsXKOaPge1kqIb1QtWLe97NLUWUujJ3JhBFqz7V27k4qrBPajDf8OFgzQk4qyQ/i+eyH
+X/4EGFk7xcmE/AViR7vRFIj7RSq7xngBQ410Ua+o5crC6l3pSe+veYEOC9acXC/d3XA6xagWIAcc
+iJRUnDgrd+mK95s1dH3KkoT00Vw+rZRPXkYbWGYwqz1h0B159+WK6XKnkk3KwlF/aeg+OFiYrvt6
+pjfTreH3P5JwCCElCOBpoxbA0rd29OSBmonz6nKRdw4DaE9UtacBTervpFlqzf6kLmmIDcM64xkq
+esn7f49efK7CeIO5rnovO5qzMUMUocuAA3eEjCHfyg==

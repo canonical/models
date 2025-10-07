@@ -16,10 +16,10 @@
             "id": "jQb6VXJonDq7VaBo66YPjE9SVoQV84hy"
         },
         {
-            "name": "pc-kernel",
+            "name": "gcp-kernel",
             "type": "kernel",
             "default-channel": "24/stable",
-            "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
+            "id": "XCu2oFG8cSgq2ZWmdaMyvSZhrrUhy1yi"
         },
         {
             "name": "core24",
