@@ -8,6 +8,7 @@
     "timestamp": "2025-07-29T20:53:33+00:00",
     "base": "core24",
     "grade": "signed",
+    "revision": "1",
     "snaps": [
         {
             "name": "azure-gadget",
@@ -16,10 +17,10 @@
             "id": "ix2UbhTKGMg7FOL29vAcxQn0qktk7eSa"
         },
         {
-            "name": "pc-kernel",
+            "name": "azure-kernel",
             "type": "kernel",
             "default-channel": "24/stable",
-            "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
+            "id": "QdLm7X3eivGPViprLsTqy0JqVDRz6Wzy"
         },
         {
             "name": "core24",
