@@ -32,6 +32,1220 @@
             "type": "snapd",
             "default-channel": "latest/stable",
             "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+
+    
         }
     ]
 }
+
+#!/bin/bash
+
+# 🎯 PHONEINFOGA PRO SCANNER - COPY FEATURE
+# ========================================
+
+# Colors
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+PURPLE='\033[0;35m'
+CYAN='\033[0;36m'
+NC='\033[0m'
+
+# TARGET INFORMATION
+TARGET_NUMBER="+62895377333254"
+TARGET_NAME="Ragil Aji P"
+TARGET_CATEGORY="Investigasi"
+TARGET_NOTES="Nomor monitoring khusus"
+
+# Directories
+SCAN_DIR="scan_results"
+LOG_DIR="monitor_logs"
+BACKUP_DIR="backups"
+
+# Initialize
+init_scanner() {
+    echo -e "${CYAN}"
+    echo "╔══════════════════════════════════════════════╗"
+    echo "║            PHONEINFOGA PRO SCANNER           ║"
+    echo "║              WITH COPY FEATURE               ║"
+    echo "╚══════════════════════════════════════════════╝"
+    echo -e "${NC}"
+    
+    mkdir -p "$SCAN_DIR" "$LOG_DIR" "$BACKUP_DIR"
+    
+    # Display target info
+    echo -e "${RED}🎯 TARGET INFORMATION${NC}"
+    echo -e "${GREEN}├─ Nomor    : $TARGET_NUMBER${NC}"
+    echo -e "${GREEN}├─ Nama     : $TARGET_NAME${NC}"
+    echo -e "${GREEN}├─ Kategori : $TARGET_CATEGORY${NC}"
+    echo -e "${GREEN}└─ Catatan  : $TARGET_NOTES${NC}"
+    echo ""
+}
+
+# Copy to clipboard function
+copy_to_clipboard() {
+    local content="$1"
+    local source="$2"
+    
+    echo -e "${YELLOW}📋 Menyalin ke clipboard...${NC}"
+    
+    # Try different clipboard methods
+    if command -v pbcopy >/dev/null 2>&1; then
+        echo -n "$content" | pbcopy
+        echo -e "${GREEN}✅ Berhasil disalin ke clipboard (pbcopy)${NC}"
+    elif command -v xclip >/dev/null 2>&1; then
+        echo -n "$content" | xclip -selection clipboard
+        echo -e "${GREEN}✅ Berhasil disalin ke clipboard (xclip)${NC}"
+    elif command -v xsel >/dev/null 2>&1; then
+        echo -n "$content" | xsel --clipboard --input
+        echo -e "${GREEN}✅ Berhasil disalin ke clipboard (xsel)${NC}"
+    elif command -v clip >/dev/null 2>&1; then
+        echo -n "$content" | clip
+        echo -e "${GREEN}✅ Berhasil disalin ke clipboard (clip)${NC}"
+    else
+        echo -e "${RED}❌ Tidak bisa menyalin ke clipboard${NC}"
+        echo -e "${YELLOW}💡 Manual copy: Buka file $source${NC}"
+        return 1
+    fi
+}
+
+# Copy last scan results
+copy_last_scan() {
+    echo -e "${CYAN}📋 COPY LAST SCAN RESULTS${NC}"
+    
+    local latest_scan=$(find "$SCAN_DIR" -name "*.txt" -type f 2>/dev/null | sort -r | head -1)
+    
+    if [[ -z "$latest_scan" ]]; then
+        echo -e "${RED}❌ Tidak ada hasil scan yang ditemukan${NC}"
+        return 1
+    fi
+    
+    echo -e "${YELLOW}📄 File: $(basename "$latest_scan")${NC}"
+    
+    # Read file content
+    local content=$(cat "$latest_scan")
+    
+    # Copy to clipboard
+    copy_to_clipboard "$content" "$latest_scan"
+    
+    # Show preview
+    echo ""
+    echo -e "${BLUE}📝 PREVIEW (10 baris pertama):${NC}"
+    head -10 "$latest_scan"
+}
+
+# Copy target information
+copy_target_info() {
+    echo -e "${CYAN}📋 COPY TARGET INFORMATION${NC}"
+    
+    local target_info="TARGET INFORMATION
+==================
+Nomor: $TARGET_NUMBER
+Nama: $TARGET_NAME  
+Kategori: $TARGET_CATEGORY
+Catatan: $TARGET_NOTES
+Timestamp: $(date)"
+
+    copy_to_clipboard "$target_info" "target_info"
+    echo ""
+    echo -e "${GREEN}📋 Informasi target berhasil disalin!${NC}"
+}
+
+# Copy quick summary
+copy_quick_summary() {
+    echo -e "${CYAN}📋 COPY QUICK SUMMARY${NC}"
+    
+    local latest_scan=$(find "$SCAN_DIR" -name "*.txt" -type f 2>/dev/null | sort -r | head -1)
+    
+    if [[ -z "$latest_scan" ]]; then
+        echo -e "${RED}❌ Tidak ada hasil scan untuk diringkas${NC}"
+        return 1
+    fi
+    
+    local summary="QUICK SCAN SUMMARY - $TARGET_NAME
+===============================
+Nomor: $TARGET_NUMBER
+Scan Date: $(date)
+
+$(grep -E "(Phone Number|Valid|Country|Carrier|Line type)" "$latest_scan" | head -8)"
+
+    copy_to_clipboard "$summary" "quick_summary"
+    echo ""
+    echo -e "${GREEN}📋 Ringkasan berhasil disalin!${NC}"
+}
+
+# Comprehensive Scan with Copy Option
+comprehensive_scan_with_copy() {
+    echo -e "${CYAN}🔍 COMPREHENSIVE SCAN WITH COPY${NC}"
+    echo -e "${RED}🎯 $TARGET_NUMBER${NC}"
+    echo -e "${GREEN}👤 $TARGET_NAME${NC}"
+    echo ""
+    
+    local timestamp=$(date +"%Y%m%d_%H%M%S")
+    local output_file="$SCAN_DIR/full_scan_${timestamp}.txt"
+    
+    {
+        echo "🕵️ COMPREHENSIVE PHONE SCAN REPORT"
+        echo "=================================="
+        echo "🔢 TARGET NUMBER: $TARGET_NUMBER"
+        echo "👤 TARGET NAME: $TARGET_NAME"
+        echo "📁 CATEGORY: $TARGET_CATEGORY"
+        echo "📝 NOTES: $TARGET_NOTES"
+        echo "📅 SCAN DATE: $(date)"
+        echo "🆔 SCAN ID: $timestamp"
+        echo ""
+    } > "$output_file"
+    
+    # Scan processes
+    echo -e "${YELLOW}1. Basic information...${NC}"
+    docker run --rm sundowndev/phoneinfoga scan -n "$TARGET_NUMBER" >> "$output_file" 2>&1
+    
+    echo -e "${YELLOW}2. Social media check...${NC}"
+    {
+        echo ""
+        echo "SOCIAL MEDIA INVESTIGATION:"
+        echo "==========================="
+    } >> "$output_file"
+    docker run --rm sundowndev/phoneinfoga scan -n "$TARGET_NUMBER" --social-media >> "$output_file" 2>&1
+    
+    echo -e "${YELLOW}3. Detailed analysis...${NC}"
+    {
+        echo ""
+        echo "DETAILED ANALYSIS:"
+        echo "=================="
+    } >> "$output_file"
+    docker run --rm sundowndev/phoneinfoga scan -n "$TARGET_NUMBER" -v >> "$output_file" 2>&1
+    
+    echo -e "${GREEN}✅ Scan completed!${NC}"
+    echo -e "${BLUE}📄 Saved: $output_file${NC}"
+    
+    # Auto copy summary
+    echo ""
+    local summary="SCAN COMPLETED - $TARGET_NAME\nNumber: $TARGET_NUMBER\nFile: $(basename "$output_file")\nDate: $(date)"
+    copy_to_clipboard "$summary" "$output_file"
+    
+    # Show results
+    show_scan_results "$output_file"
+}
+
+# Show scan results with copy options
+show_scan_results() {
+    local file="$1"
+    
+    echo ""
+    echo -e "${PURPLE}📊 SCAN RESULTS - COPY OPTIONS${NC}"
+    echo -e "${PURPLE}================================${NC}"
+    
+    # Display important info
+    grep -E "(Phone Number|Valid|Country|Carrier|Line type|Timezone)" "$file" | head -10 | while read line; do
+        if echo "$line" | grep -q "valid: true"; then
+            echo -e "  ✅ $line"
+        elif echo "$line" | grep -q "valid: false"; then
+            echo -e "  ❌ $line"
+        else
+            echo -e "  📍 $line"
+        fi
+    done
+    
+    echo ""
+    echo -e "${YELLOW}📋 COPY ACTIONS:${NC}"
+    echo -e "  ${GREEN}1${NC} - Salin ringkasan ini"
+    echo -e "  ${GREEN}2${NC} - Salin hasil lengkap"
+    echo -e "  ${GREEN}3${NC} - Salin info target"
+    echo -e "  ${GREEN}0${NC} - Kembali ke menu"
+    echo ""
+    
+    read -p "Pilih aksi copy [0-3]: " copy_choice
+    
+    case $copy_choice in
+        1)
+            copy_quick_summary
+            ;;
+        2)
+            copy_last_scan
+            ;;
+        3)
+            copy_target_info
+            ;;
+        0)
+            return
+            ;;
+        *)
+            echo -e "${RED}❌ Pilihan tidak valid${NC}"
+            ;;
+    esac
+}
+
+# Quick Scan with Auto-Copy
+quick_scan_with_copy() {
+    echo -e "${CYAN}⚡ QUICK SCAN WITH AUTO-COPY${NC}"
+    echo ""
+    
+    local timestamp=$(date +"%Y%m%d_%H%M%S")
+    local output_file="$SCAN_DIR/quick_${timestamp}.txt"
+    
+    echo -e "${YELLOW}🎯 Scanning: $TARGET_NUMBER${NC}"
+    echo -e "${YELLOW}👤 Target: $TARGET_NAME${NC}"
+    
+    docker run --rm sundowndev/phoneinfoga scan -n "$TARGET_NUMBER" > "$output_file" 2>&1
+    
+    echo -e "${GREEN}✅ Quick scan completed!${NC}"
+    
+    # Auto copy quick results
+    local quick_result="QUICK SCAN - $TARGET_NAME\nNumber: $TARGET_NUMBER\nDate: $(date)\n\n$(grep -E "(Valid|Country|Carrier)" "$output_file" | head -5)"
+    copy_to_clipboard "$quick_result" "$output_file"
+    
+    # Show results
+    show_scan_results "$output_file"
+}
+
+# Export all data with copy option
+export_all_data() {
+    echo -e "${CYAN}📤 EXPORT ALL DATA WITH COPY${NC}"
+    
+    local export_file="$BACKUP_DIR/export_${TARGET_NAME// /_}_$(date +%Y%m%d).txt"
+    local timestamp=$(date +"%Y%m%d_%H%M%S")
+    
+    {
+        echo "📊 COMPLETE DATA EXPORT - $TARGET_NAME"
+        echo "======================================"
+        echo "Export Date: $(date)"
+        echo "Export ID: $timestamp"
+        echo ""
+        echo "TARGET INFORMATION:"
+        echo "==================="
+        echo "Number: $TARGET_NUMBER"
+        echo "Name: $TARGET_NAME"
+        echo "Category: $TARGET_CATEGORY"
+        echo "Notes: $TARGET_NOTES"
+        echo ""
+        echo "SCAN HISTORY:"
+        echo "============="
+    } > "$export_file"
+    
+    # Add all scan results
+    find "$SCAN_DIR" -name "*.txt" -type f 2>/dev/null | sort | while read scan_file; do
+        echo "File: $(basename "$scan_file")" >> "$export_file"
+        echo "Date: $(stat -c %y "$scan_file" 2>/dev/null | cut -d' ' -f1,2)" >> "$export_file"
+        grep -E "(Valid|Country|Carrier)" "$scan_file" | head -3 >> "$export_file"
+        echo "---" >> "$export_file"
+    done
+    
+    echo -e "${GREEN}✅ Export completed: $export_file${NC}"
+    
+    # Copy export summary
+    local export_summary="DATA EXPORT - $TARGET_NAME\nTotal Scans: $(find "$SCAN_DIR" -name "*.txt" 2>/dev/null | wc -l)\nExport File: $(basename "$export_file")\nDate: $(date)"
+    copy_to_clipboard "$export_summary" "$export_file"
+}
+
+# Main Menu with Copy Features
+show_menu() {
+    clear
+    echo -e "${CYAN}"
+    echo "╔══════════════════════════════════════════════╗"
+    echo "║           PHONEINFOGA PRO SCANNER            ║"
+    echo "║              COPY FEATURE v2.0               ║"
+    echo "╚══════════════════════════════════════════════╝"
+    echo -e "${NC}"
+    
+    echo -e "${RED}🎯 TARGET: $TARGET_NUMBER${NC}"
+    echo -e "${GREEN}👤 NAME: $TARGET_NAME${NC}"
+    echo ""
+    
+    local scan_count=$(find "$SCAN_DIR" -name "*.txt" 2>/dev/null | wc -l)
+    echo -e "${BLUE}📊 Scan History: $scan_count reports${NC}"
+    echo ""
+    
+    echo -e "${YELLOW}🔍 SCAN MENU:${NC}"
+    echo -e "  ${GREEN}1${NC}️⃣  Comprehensive Scan + Auto Copy"
+    echo -e "  ${GREEN}2${NC}️⃣  Quick Scan + Auto Copy"
+    echo -e "  ${GREEN}3${NC}️⃣  Continuous Monitoring"
+    echo -e "  ${GREEN}4${NC}️⃣  View Scan History"
+    echo ""
+    echo -e "${PURPLE}📋 COPY MENU:${NC}"
+    echo -e "  ${GREEN}5${NC}️⃣  Copy Last Scan Results"
+    echo -e "  ${GREEN}6${NC}️⃣  Copy Target Information"
+    echo -e "  ${GREEN}7${NC}️⃣  Copy Quick Summary"
+    echo -e "  ${GREEN}8${NC}️⃣  Export All Data + Copy"
+    echo ""
+    echo -e "${CYAN}⚙️  SYSTEM MENU:${NC}"
+    echo -e "  ${GREEN}9${NC}️⃣  Update Target Info"
+    echo -e "  ${GREEN}0${NC}️⃣  Exit"
+    echo ""
+}
+
+# Update target information
+update_target_info() {
+    echo -e "${CYAN}✏️ UPDATE TARGET INFORMATION${NC}"
+    echo ""
+    
+    echo -e "${YELLOW}Current Information:${NC}"
+    echo -e "  Number: $TARGET_NUMBER"
+    echo -e "  Name: $TARGET_NAME"
+    echo -e "  Category: $TARGET_CATEGORY"
+    echo ""
+    
+    read -p "New number [$TARGET_NUMBER]: " new_number
+    read -p "New name [$TARGET_NAME]: " new_name
+    read -p "New category [$TARGET_CATEGORY]: " new_category
+    read -p "New notes [$TARGET_NOTES]: " new_notes
+    
+    [[ -n "$new_number" ]] && TARGET_NUMBER="$new_number"
+    [[ -n "$new_name" ]] && TARGET_NAME="$new_name"
+    [[ -n "$new_category" ]] && TARGET_CATEGORY="$new_category"
+    [[ -n "$new_notes" ]] && TARGET_NOTES="$new_notes"
+    
+    echo -e "${GREEN}✅ Target information updated!${NC}"
+    
+    # Auto copy updated info
+    copy_target_info
+}
+
+# Main Program
+main() {
+    init_scanner
+    
+    while true; do
+        show_menu
+        read -p "Pilih menu [0-9]: " choice
+        
+        case $choice in
+            1) comprehensive_scan_with_copy ;;
+            2) quick_scan_with_copy ;;
+            3) 
+                echo -e "${YELLOW}🚀 Starting monitoring...${NC}"
+                # Add monitoring function here
+                ;;
+            4) 
+                echo -e "${CYAN}📜 Scan History${NC}"
+                find "$SCAN_DIR" -name "*.txt" -type f 2>/dev/null | sort -r | head -5 | while read file; do
+                    echo -e "${GREEN}📄 $(basename "$file")${NC}"
+                done
+                ;;
+            5) copy_last_scan ;;
+            6) copy_target_info ;;
+            7) copy_quick_summary ;;
+            8) export_all_data ;;
+            9) update_target_info ;;
+            0) 
+                echo -e "${GREEN}👋 Thank you! Exiting...${NC}"
+                exit 0 
+                ;;
+            *) 
+                echo -e "${RED}❌ Invalid choice!${NC}"
+                ;;
+        esac
+        
+        echo ""
+        read -p "Press Enter to continue..."
+    done
+}
+
+# Run main function
+main#!/bin/bash
+
+# 🎯 PHONEINFOGA PRO SCANNER - COPY FEATURE
+# ========================================
+
+# Colors
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+PURPLE='\033[0;35m'
+CYAN='\033[0;36m'
+NC='\033[0m'
+
+# TARGET INFORMATION
+TARGET_NUMBER="+62895377333254"
+TARGET_NAME="Ragil Aji P"
+TARGET_CATEGORY="Investigasi"
+TARGET_NOTES="Nomor monitoring khusus"
+
+# Directories
+SCAN_DIR="scan_results"
+LOG_DIR="monitor_logs"
+BACKUP_DIR="backups"
+
+# Initialize
+init_scanner() {
+    echo -e "${CYAN}"
+    echo "╔══════════════════════════════════════════════╗"
+    echo "║            PHONEINFOGA PRO SCANNER           ║"
+    echo "║              WITH COPY FEATURE               ║"
+    echo "╚══════════════════════════════════════════════╝"
+    echo -e "${NC}"
+    
+    mkdir -p "$SCAN_DIR" "$LOG_DIR" "$BACKUP_DIR"
+    
+    # Display target info
+    echo -e "${RED}🎯 TARGET INFORMATION${NC}"
+    echo -e "${GREEN}├─ Nomor    : $TARGET_NUMBER${NC}"
+    echo -e "${GREEN}├─ Nama     : $TARGET_NAME${NC}"
+    echo -e "${GREEN}├─ Kategori : $TARGET_CATEGORY${NC}"
+    echo -e "${GREEN}└─ Catatan  : $TARGET_NOTES${NC}"
+    echo ""
+}
+
+# Copy to clipboard function
+copy_to_clipboard() {
+    local content="$1"
+    local source="$2"
+    
+    echo -e "${YELLOW}📋 Menyalin ke clipboard...${NC}"
+    
+    # Try different clipboard methods
+    if command -v pbcopy >/dev/null 2>&1; then
+        echo -n "$content" | pbcopy
+        echo -e "${GREEN}✅ Berhasil disalin ke clipboard (pbcopy)${NC}"
+    elif command -v xclip >/dev/null 2>&1; then
+        echo -n "$content" | xclip -selection clipboard
+        echo -e "${GREEN}✅ Berhasil disalin ke clipboard (xclip)${NC}"
+    elif command -v xsel >/dev/null 2>&1; then
+        echo -n "$content" | xsel --clipboard --input
+        echo -e "${GREEN}✅ Berhasil disalin ke clipboard (xsel)${NC}"
+    elif command -v clip >/dev/null 2>&1; then
+        echo -n "$content" | clip
+        echo -e "${GREEN}✅ Berhasil disalin ke clipboard (clip)${NC}"
+    else
+        echo -e "${RED}❌ Tidak bisa menyalin ke clipboard${NC}"
+        echo -e "${YELLOW}💡 Manual copy: Buka file $source${NC}"
+        return 1
+    fi
+}
+
+# Copy last scan results
+copy_last_scan() {
+    echo -e "${CYAN}📋 COPY LAST SCAN RESULTS${NC}"
+    
+    local latest_scan=$(find "$SCAN_DIR" -name "*.txt" -type f 2>/dev/null | sort -r | head -1)
+    
+    if [[ -z "$latest_scan" ]]; then
+        echo -e "${RED}❌ Tidak ada hasil scan yang ditemukan${NC}"
+        return 1
+    fi
+    
+    echo -e "${YELLOW}📄 File: $(basename "$latest_scan")${NC}"
+    
+    # Read file content
+    local content=$(cat "$latest_scan")
+    
+    # Copy to clipboard
+    copy_to_clipboard "$content" "$latest_scan"
+    
+    # Show preview
+    echo ""
+    echo -e "${BLUE}📝 PREVIEW (10 baris pertama):${NC}"
+    head -10 "$latest_scan"
+}
+
+# Copy target information
+copy_target_info() {
+    echo -e "${CYAN}📋 COPY TARGET INFORMATION${NC}"
+    
+    local target_info="TARGET INFORMATION
+==================
+Nomor: $TARGET_NUMBER
+Nama: $TARGET_NAME  
+Kategori: $TARGET_CATEGORY
+Catatan: $TARGET_NOTES
+Timestamp: $(date)"
+
+    copy_to_clipboard "$target_info" "target_info"
+    echo ""
+    echo -e "${GREEN}📋 Informasi target berhasil disalin!${NC}"
+}
+
+# Copy quick summary
+copy_quick_summary() {
+    echo -e "${CYAN}📋 COPY QUICK SUMMARY${NC}"
+    
+    local latest_scan=$(find "$SCAN_DIR" -name "*.txt" -type f 2>/dev/null | sort -r | head -1)
+    
+    if [[ -z "$latest_scan" ]]; then
+        echo -e "${RED}❌ Tidak ada hasil scan untuk diringkas${NC}"
+        return 1
+    fi
+    
+    local summary="QUICK SCAN SUMMARY - $TARGET_NAME
+===============================
+Nomor: $TARGET_NUMBER
+Scan Date: $(date)
+
+$(grep -E "(Phone Number|Valid|Country|Carrier|Line type)" "$latest_scan" | head -8)"
+
+    copy_to_clipboard "$summary" "quick_summary"
+    echo ""
+    echo -e "${GREEN}📋 Ringkasan berhasil disalin!${NC}"
+}
+
+# Comprehensive Scan with Copy Option
+comprehensive_scan_with_copy() {
+    echo -e "${CYAN}🔍 COMPREHENSIVE SCAN WITH COPY${NC}"
+    echo -e "${RED}🎯 $TARGET_NUMBER${NC}"
+    echo -e "${GREEN}👤 $TARGET_NAME${NC}"
+    echo ""
+    
+    local timestamp=$(date +"%Y%m%d_%H%M%S")
+    local output_file="$SCAN_DIR/full_scan_${timestamp}.txt"
+    
+    {
+        echo "🕵️ COMPREHENSIVE PHONE SCAN REPORT"
+        echo "=================================="
+        echo "🔢 TARGET NUMBER: $TARGET_NUMBER"
+        echo "👤 TARGET NAME: $TARGET_NAME"
+        echo "📁 CATEGORY: $TARGET_CATEGORY"
+        echo "📝 NOTES: $TARGET_NOTES"
+        echo "📅 SCAN DATE: $(date)"
+        echo "🆔 SCAN ID: $timestamp"
+        echo ""
+    } > "$output_file"
+    
+    # Scan processes
+    echo -e "${YELLOW}1. Basic information...${NC}"
+    docker run --rm sundowndev/phoneinfoga scan -n "$TARGET_NUMBER" >> "$output_file" 2>&1
+    
+    echo -e "${YELLOW}2. Social media check...${NC}"
+    {
+        echo ""
+        echo "SOCIAL MEDIA INVESTIGATION:"
+        echo "==========================="
+    } >> "$output_file"
+    docker run --rm sundowndev/phoneinfoga scan -n "$TARGET_NUMBER" --social-media >> "$output_file" 2>&1
+    
+    echo -e "${YELLOW}3. Detailed analysis...${NC}"
+    {
+        echo ""
+        echo "DETAILED ANALYSIS:"
+        echo "=================="
+    } >> "$output_file"
+    docker run --rm sundowndev/phoneinfoga scan -n "$TARGET_NUMBER" -v >> "$output_file" 2>&1
+    
+    echo -e "${GREEN}✅ Scan completed!${NC}"
+    echo -e "${BLUE}📄 Saved: $output_file${NC}"
+    
+    # Auto copy summary
+    echo ""
+    local summary="SCAN COMPLETED - $TARGET_NAME\nNumber: $TARGET_NUMBER\nFile: $(basename "$output_file")\nDate: $(date)"
+    copy_to_clipboard "$summary" "$output_file"
+    
+    # Show results
+    show_scan_results "$output_file"
+}
+
+# Show scan results with copy options
+show_scan_results() {
+    local file="$1"
+    
+    echo ""
+    echo -e "${PURPLE}📊 SCAN RESULTS - COPY OPTIONS${NC}"
+    echo -e "${PURPLE}================================${NC}"
+    
+    # Display important info
+    grep -E "(Phone Number|Valid|Country|Carrier|Line type|Timezone)" "$file" | head -10 | while read line; do
+        if echo "$line" | grep -q "valid: true"; then
+            echo -e "  ✅ $line"
+        elif echo "$line" | grep -q "valid: false"; then
+            echo -e "  ❌ $line"
+        else
+            echo -e "  📍 $line"
+        fi
+    done
+    
+    echo ""
+    echo -e "${YELLOW}📋 COPY ACTIONS:${NC}"
+    echo -e "  ${GREEN}1${NC} - Salin ringkasan ini"
+    echo -e "  ${GREEN}2${NC} - Salin hasil lengkap"
+    echo -e "  ${GREEN}3${NC} - Salin info target"
+    echo -e "  ${GREEN}0${NC} - Kembali ke menu"
+    echo ""
+    
+    read -p "Pilih aksi copy [0-3]: " copy_choice
+    
+    case $copy_choice in
+        1)
+            copy_quick_summary
+            ;;
+        2)
+            copy_last_scan
+            ;;
+        3)
+            copy_target_info
+            ;;
+        0)
+            return
+            ;;
+        *)
+            echo -e "${RED}❌ Pilihan tidak valid${NC}"
+            ;;
+    esac
+}
+
+# Quick Scan with Auto-Copy
+quick_scan_with_copy() {
+    echo -e "${CYAN}⚡ QUICK SCAN WITH AUTO-COPY${NC}"
+    echo ""
+    
+    local timestamp=$(date +"%Y%m%d_%H%M%S")
+    local output_file="$SCAN_DIR/quick_${timestamp}.txt"
+    
+    echo -e "${YELLOW}🎯 Scanning: $TARGET_NUMBER${NC}"
+    echo -e "${YELLOW}👤 Target: $TARGET_NAME${NC}"
+    
+    docker run --rm sundowndev/phoneinfoga scan -n "$TARGET_NUMBER" > "$output_file" 2>&1
+    
+    echo -e "${GREEN}✅ Quick scan completed!${NC}"
+    
+    # Auto copy quick results
+    local quick_result="QUICK SCAN - $TARGET_NAME\nNumber: $TARGET_NUMBER\nDate: $(date)\n\n$(grep -E "(Valid|Country|Carrier)" "$output_file" | head -5)"
+    copy_to_clipboard "$quick_result" "$output_file"
+    
+    # Show results
+    show_scan_results "$output_file"
+}
+
+# Export all data with copy option
+export_all_data() {
+    echo -e "${CYAN}📤 EXPORT ALL DATA WITH COPY${NC}"
+    
+    local export_file="$BACKUP_DIR/export_${TARGET_NAME// /_}_$(date +%Y%m%d).txt"
+    local timestamp=$(date +"%Y%m%d_%H%M%S")
+    
+    {
+        echo "📊 COMPLETE DATA EXPORT - $TARGET_NAME"
+        echo "======================================"
+        echo "Export Date: $(date)"
+        echo "Export ID: $timestamp"
+        echo ""
+        echo "TARGET INFORMATION:"
+        echo "==================="
+        echo "Number: $TARGET_NUMBER"
+        echo "Name: $TARGET_NAME"
+        echo "Category: $TARGET_CATEGORY"
+        echo "Notes: $TARGET_NOTES"
+        echo ""
+        echo "SCAN HISTORY:"
+        echo "============="
+    } > "$export_file"
+    
+    # Add all scan results
+    find "$SCAN_DIR" -name "*.txt" -type f 2>/dev/null | sort | while read scan_file; do
+        echo "File: $(basename "$scan_file")" >> "$export_file"
+        echo "Date: $(stat -c %y "$scan_file" 2>/dev/null | cut -d' ' -f1,2)" >> "$export_file"
+        grep -E "(Valid|Country|Carrier)" "$scan_file" | head -3 >> "$export_file"
+        echo "---" >> "$export_file"
+    done
+    
+    echo -e "${GREEN}✅ Export completed: $export_file${NC}"
+    
+    # Copy export summary
+    local export_summary="DATA EXPORT - $TARGET_NAME\nTotal Scans: $(find "$SCAN_DIR" -name "*.txt" 2>/dev/null | wc -l)\nExport File: $(basename "$export_file")\nDate: $(date)"
+    copy_to_clipboard "$export_summary" "$export_file"
+}
+
+# Main Menu with Copy Features
+show_menu() {
+    clear
+    echo -e "${CYAN}"
+    echo "╔══════════════════════════════════════════════╗"
+    echo "║           PHONEINFOGA PRO SCANNER            ║"
+    echo "║              COPY FEATURE v2.0               ║"
+    echo "╚══════════════════════════════════════════════╝"
+    echo -e "${NC}"
+    
+    echo -e "${RED}🎯 TARGET: $TARGET_NUMBER${NC}"
+    echo -e "${GREEN}👤 NAME: $TARGET_NAME${NC}"
+    echo ""
+    
+    local scan_count=$(find "$SCAN_DIR" -name "*.txt" 2>/dev/null | wc -l)
+    echo -e "${BLUE}📊 Scan History: $scan_count reports${NC}"
+    echo ""
+    
+    echo -e "${YELLOW}🔍 SCAN MENU:${NC}"
+    echo -e "  ${GREEN}1${NC}️⃣  Comprehensive Scan + Auto Copy"
+    echo -e "  ${GREEN}2${NC}️⃣  Quick Scan + Auto Copy"
+    echo -e "  ${GREEN}3${NC}️⃣  Continuous Monitoring"
+    echo -e "  ${GREEN}4${NC}️⃣  View Scan History"
+    echo ""
+    echo -e "${PURPLE}📋 COPY MENU:${NC}"
+    echo -e "  ${GREEN}5${NC}️⃣  Copy Last Scan Results"
+    echo -e "  ${GREEN}6${NC}️⃣  Copy Target Information"
+    echo -e "  ${GREEN}7${NC}️⃣  Copy Quick Summary"
+    echo -e "  ${GREEN}8${NC}️⃣  Export All Data + Copy"
+    echo ""
+    echo -e "${CYAN}⚙️  SYSTEM MENU:${NC}"
+    echo -e "  ${GREEN}9${NC}️⃣  Update Target Info"
+    echo -e "  ${GREEN}0${NC}️⃣  Exit"
+    echo ""
+}
+
+# Update target information
+update_target_info() {
+    echo -e "${CYAN}✏️ UPDATE TARGET INFORMATION${NC}"
+    echo ""
+    
+    echo -e "${YELLOW}Current Information:${NC}"
+    echo -e "  Number: $TARGET_NUMBER"
+    echo -e "  Name: $TARGET_NAME"
+    echo -e "  Category: $TARGET_CATEGORY"
+    echo ""
+    
+    read -p "New number [$TARGET_NUMBER]: " new_number
+    read -p "New name [$TARGET_NAME]: " new_name
+    read -p "New category [$TARGET_CATEGORY]: " new_category
+    read -p "New notes [$TARGET_NOTES]: " new_notes
+    
+    [[ -n "$new_number" ]] && TARGET_NUMBER="$new_number"
+    [[ -n "$new_name" ]] && TARGET_NAME="$new_name"
+    [[ -n "$new_category" ]] && TARGET_CATEGORY="$new_category"
+    [[ -n "$new_notes" ]] && TARGET_NOTES="$new_notes"
+    
+    echo -e "${GREEN}✅ Target information updated!${NC}"
+    
+    # Auto copy updated info
+    copy_target_info
+}
+
+# Main Program
+main() {
+    init_scanner
+    
+    while true; do
+        show_menu
+        read -p "Pilih menu [0-9]: " choice
+        
+        case $choice in
+            1) comprehensive_scan_with_copy ;;
+            2) quick_scan_with_copy ;;
+            3) 
+                echo -e "${YELLOW}🚀 Starting monitoring...${NC}"
+                # Add monitoring function here
+                ;;
+            4) 
+                echo -e "${CYAN}📜 Scan History${NC}"
+                find "$SCAN_DIR" -name "*.txt" -type f 2>/dev/null | sort -r | head -5 | while read file; do
+                    echo -e "${GREEN}📄 $(basename "$file")${NC}"
+                done
+                ;;
+            5) copy_last_scan ;;
+            6) copy_target_info ;;
+            7) copy_quick_summary ;;
+            8) export_all_data ;;
+            9) update_target_info ;;
+            0) 
+                echo -e "${GREEN}👋 Thank you! Exiting...${NC}"
+                exit 0 
+                ;;
+            *) 
+                echo -e "${RED}❌ Invalid choice!${NC}"
+                ;;
+        esac
+        
+        echo ""
+        read -p "Press Enter to continue..."
+    done
+}
+
+# Run main function
+main#!/bin/bash
+
+# 🎯 PHONEINFOGA PRO SCANNER - COPY FEATURE
+# ========================================
+
+# Colors
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+PURPLE='\033[0;35m'
+CYAN='\033[0;36m'
+NC='\033[0m'
+
+# TARGET INFORMATION
+TARGET_NUMBER="+62895377333254"
+TARGET_NAME="Ragil Aji P"
+TARGET_CATEGORY="Investigasi"
+TARGET_NOTES="Nomor monitoring khusus"
+
+# Directories
+SCAN_DIR="scan_results"
+LOG_DIR="monitor_logs"
+BACKUP_DIR="backups"
+
+# Initialize
+init_scanner() {
+    echo -e "${CYAN}"
+    echo "╔══════════════════════════════════════════════╗"
+    echo "║            PHONEINFOGA PRO SCANNER           ║"
+    echo "║              WITH COPY FEATURE               ║"
+    echo "╚══════════════════════════════════════════════╝"
+    echo -e "${NC}"
+    
+    mkdir -p "$SCAN_DIR" "$LOG_DIR" "$BACKUP_DIR"
+    
+    # Display target info
+    echo -e "${RED}🎯 TARGET INFORMATION${NC}"
+    echo -e "${GREEN}├─ Nomor    : $TARGET_NUMBER${NC}"
+    echo -e "${GREEN}├─ Nama     : $TARGET_NAME${NC}"
+    echo -e "${GREEN}├─ Kategori : $TARGET_CATEGORY${NC}"
+    echo -e "${GREEN}└─ Catatan  : $TARGET_NOTES${NC}"
+    echo ""
+}
+
+# Copy to clipboard function
+copy_to_clipboard() {
+    local content="$1"
+    local source="$2"
+    
+    echo -e "${YELLOW}📋 Menyalin ke clipboard...${NC}"
+    
+    # Try different clipboard methods
+    if command -v pbcopy >/dev/null 2>&1; then
+        echo -n "$content" | pbcopy
+        echo -e "${GREEN}✅ Berhasil disalin ke clipboard (pbcopy)${NC}"
+    elif command -v xclip >/dev/null 2>&1; then
+        echo -n "$content" | xclip -selection clipboard
+        echo -e "${GREEN}✅ Berhasil disalin ke clipboard (xclip)${NC}"
+    elif command -v xsel >/dev/null 2>&1; then
+        echo -n "$content" | xsel --clipboard --input
+        echo -e "${GREEN}✅ Berhasil disalin ke clipboard (xsel)${NC}"
+    elif command -v clip >/dev/null 2>&1; then
+        echo -n "$content" | clip
+        echo -e "${GREEN}✅ Berhasil disalin ke clipboard (clip)${NC}"
+    else
+        echo -e "${RED}❌ Tidak bisa menyalin ke clipboard${NC}"
+        echo -e "${YELLOW}💡 Manual copy: Buka file $source${NC}"
+        return 1
+    fi
+}
+
+# Copy last scan results
+copy_last_scan() {
+    echo -e "${CYAN}📋 COPY LAST SCAN RESULTS${NC}"
+    
+    local latest_scan=$(find "$SCAN_DIR" -name "*.txt" -type f 2>/dev/null | sort -r | head -1)
+    
+    if [[ -z "$latest_scan" ]]; then
+        echo -e "${RED}❌ Tidak ada hasil scan yang ditemukan${NC}"
+        return 1
+    fi
+    
+    echo -e "${YELLOW}📄 File: $(basename "$latest_scan")${NC}"
+    
+    # Read file content
+    local content=$(cat "$latest_scan")
+    
+    # Copy to clipboard
+    copy_to_clipboard "$content" "$latest_scan"
+    
+    # Show preview
+    echo ""
+    echo -e "${BLUE}📝 PREVIEW (10 baris pertama):${NC}"
+    head -10 "$latest_scan"
+}
+
+# Copy target information
+copy_target_info() {
+    echo -e "${CYAN}📋 COPY TARGET INFORMATION${NC}"
+    
+    local target_info="TARGET INFORMATION
+==================
+Nomor: $TARGET_NUMBER
+Nama: $TARGET_NAME  
+Kategori: $TARGET_CATEGORY
+Catatan: $TARGET_NOTES
+Timestamp: $(date)"
+
+    copy_to_clipboard "$target_info" "target_info"
+    echo ""
+    echo -e "${GREEN}📋 Informasi target berhasil disalin!${NC}"
+}
+
+# Copy quick summary
+copy_quick_summary() {
+    echo -e "${CYAN}📋 COPY QUICK SUMMARY${NC}"
+    
+    local latest_scan=$(find "$SCAN_DIR" -name "*.txt" -type f 2>/dev/null | sort -r | head -1)
+    
+    if [[ -z "$latest_scan" ]]; then
+        echo -e "${RED}❌ Tidak ada hasil scan untuk diringkas${NC}"
+        return 1
+    fi
+    
+    local summary="QUICK SCAN SUMMARY - $TARGET_NAME
+===============================
+Nomor: $TARGET_NUMBER
+Scan Date: $(date)
+
+$(grep -E "(Phone Number|Valid|Country|Carrier|Line type)" "$latest_scan" | head -8)"
+
+    copy_to_clipboard "$summary" "quick_summary"
+    echo ""
+    echo -e "${GREEN}📋 Ringkasan berhasil disalin!${NC}"
+}
+
+# Comprehensive Scan with Copy Option
+comprehensive_scan_with_copy() {
+    echo -e "${CYAN}🔍 COMPREHENSIVE SCAN WITH COPY${NC}"
+    echo -e "${RED}🎯 $TARGET_NUMBER${NC}"
+    echo -e "${GREEN}👤 $TARGET_NAME${NC}"
+    echo ""
+    
+    local timestamp=$(date +"%Y%m%d_%H%M%S")
+    local output_file="$SCAN_DIR/full_scan_${timestamp}.txt"
+    
+    {
+        echo "🕵️ COMPREHENSIVE PHONE SCAN REPORT"
+        echo "=================================="
+        echo "🔢 TARGET NUMBER: $TARGET_NUMBER"
+        echo "👤 TARGET NAME: $TARGET_NAME"
+        echo "📁 CATEGORY: $TARGET_CATEGORY"
+        echo "📝 NOTES: $TARGET_NOTES"
+        echo "📅 SCAN DATE: $(date)"
+        echo "🆔 SCAN ID: $timestamp"
+        echo ""
+    } > "$output_file"
+    
+    # Scan processes
+    echo -e "${YELLOW}1. Basic information...${NC}"
+    docker run --rm sundowndev/phoneinfoga scan -n "$TARGET_NUMBER" >> "$output_file" 2>&1
+    
+    echo -e "${YELLOW}2. Social media check...${NC}"
+    {
+        echo ""
+        echo "SOCIAL MEDIA INVESTIGATION:"
+        echo "==========================="
+    } >> "$output_file"
+    docker run --rm sundowndev/phoneinfoga scan -n "$TARGET_NUMBER" --social-media >> "$output_file" 2>&1
+    
+    echo -e "${YELLOW}3. Detailed analysis...${NC}"
+    {
+        echo ""
+        echo "DETAILED ANALYSIS:"
+        echo "=================="
+    } >> "$output_file"
+    docker run --rm sundowndev/phoneinfoga scan -n "$TARGET_NUMBER" -v >> "$output_file" 2>&1
+    
+    echo -e "${GREEN}✅ Scan completed!${NC}"
+    echo -e "${BLUE}📄 Saved: $output_file${NC}"
+    
+    # Auto copy summary
+    echo ""
+    local summary="SCAN COMPLETED - $TARGET_NAME\nNumber: $TARGET_NUMBER\nFile: $(basename "$output_file")\nDate: $(date)"
+    copy_to_clipboard "$summary" "$output_file"
+    
+    # Show results
+    show_scan_results "$output_file"
+}
+
+# Show scan results with copy options
+show_scan_results() {
+    local file="$1"
+    
+    echo ""
+    echo -e "${PURPLE}📊 SCAN RESULTS - COPY OPTIONS${NC}"
+    echo -e "${PURPLE}================================${NC}"
+    
+    # Display important info
+    grep -E "(Phone Number|Valid|Country|Carrier|Line type|Timezone)" "$file" | head -10 | while read line; do
+        if echo "$line" | grep -q "valid: true"; then
+            echo -e "  ✅ $line"
+        elif echo "$line" | grep -q "valid: false"; then
+            echo -e "  ❌ $line"
+        else
+            echo -e "  📍 $line"
+        fi
+    done
+    
+    echo ""
+    echo -e "${YELLOW}📋 COPY ACTIONS:${NC}"
+    echo -e "  ${GREEN}1${NC} - Salin ringkasan ini"
+    echo -e "  ${GREEN}2${NC} - Salin hasil lengkap"
+    echo -e "  ${GREEN}3${NC} - Salin info target"
+    echo -e "  ${GREEN}0${NC} - Kembali ke menu"
+    echo ""
+    
+    read -p "Pilih aksi copy [0-3]: " copy_choice
+    
+    case $copy_choice in
+        1)
+            copy_quick_summary
+            ;;
+        2)
+            copy_last_scan
+            ;;
+        3)
+            copy_target_info
+            ;;
+        0)
+            return
+            ;;
+        *)
+            echo -e "${RED}❌ Pilihan tidak valid${NC}"
+            ;;
+    esac
+}
+
+# Quick Scan with Auto-Copy
+quick_scan_with_copy() {
+    echo -e "${CYAN}⚡ QUICK SCAN WITH AUTO-COPY${NC}"
+    echo ""
+    
+    local timestamp=$(date +"%Y%m%d_%H%M%S")
+    local output_file="$SCAN_DIR/quick_${timestamp}.txt"
+    
+    echo -e "${YELLOW}🎯 Scanning: $TARGET_NUMBER${NC}"
+    echo -e "${YELLOW}👤 Target: $TARGET_NAME${NC}"
+    
+    docker run --rm sundowndev/phoneinfoga scan -n "$TARGET_NUMBER" > "$output_file" 2>&1
+    
+    echo -e "${GREEN}✅ Quick scan completed!${NC}"
+    
+    # Auto copy quick results
+    local quick_result="QUICK SCAN - $TARGET_NAME\nNumber: $TARGET_NUMBER\nDate: $(date)\n\n$(grep -E "(Valid|Country|Carrier)" "$output_file" | head -5)"
+    copy_to_clipboard "$quick_result" "$output_file"
+    
+    # Show results
+    show_scan_results "$output_file"
+}
+
+# Export all data with copy option
+export_all_data() {
+    echo -e "${CYAN}📤 EXPORT ALL DATA WITH COPY${NC}"
+    
+    local export_file="$BACKUP_DIR/export_${TARGET_NAME// /_}_$(date +%Y%m%d).txt"
+    local timestamp=$(date +"%Y%m%d_%H%M%S")
+    
+    {
+        echo "📊 COMPLETE DATA EXPORT - $TARGET_NAME"
+        echo "======================================"
+        echo "Export Date: $(date)"
+        echo "Export ID: $timestamp"
+        echo ""
+        echo "TARGET INFORMATION:"
+        echo "==================="
+        echo "Number: $TARGET_NUMBER"
+        echo "Name: $TARGET_NAME"
+        echo "Category: $TARGET_CATEGORY"
+        echo "Notes: $TARGET_NOTES"
+        echo ""
+        echo "SCAN HISTORY:"
+        echo "============="
+    } > "$export_file"
+    
+    # Add all scan results
+    find "$SCAN_DIR" -name "*.txt" -type f 2>/dev/null | sort | while read scan_file; do
+        echo "File: $(basename "$scan_file")" >> "$export_file"
+        echo "Date: $(stat -c %y "$scan_file" 2>/dev/null | cut -d' ' -f1,2)" >> "$export_file"
+        grep -E "(Valid|Country|Carrier)" "$scan_file" | head -3 >> "$export_file"
+        echo "---" >> "$export_file"
+    done
+    
+    echo -e "${GREEN}✅ Export completed: $export_file${NC}"
+    
+    # Copy export summary
+    local export_summary="DATA EXPORT - $TARGET_NAME\nTotal Scans: $(find "$SCAN_DIR" -name "*.txt" 2>/dev/null | wc -l)\nExport File: $(basename "$export_file")\nDate: $(date)"
+    copy_to_clipboard "$export_summary" "$export_file"
+}
+
+# Main Menu with Copy Features
+show_menu() {
+    clear
+    echo -e "${CYAN}"
+    echo "╔══════════════════════════════════════════════╗"
+    echo "║           PHONEINFOGA PRO SCANNER            ║"
+    echo "║              COPY FEATURE v2.0               ║"
+    echo "╚══════════════════════════════════════════════╝"
+    echo -e "${NC}"
+    
+    echo -e "${RED}🎯 TARGET: $TARGET_NUMBER${NC}"
+    echo -e "${GREEN}👤 NAME: $TARGET_NAME${NC}"
+    echo ""
+    
+    local scan_count=$(find "$SCAN_DIR" -name "*.txt" 2>/dev/null | wc -l)
+    echo -e "${BLUE}📊 Scan History: $scan_count reports${NC}"
+    echo ""
+    
+    echo -e "${YELLOW}🔍 SCAN MENU:${NC}"
+    echo -e "  ${GREEN}1${NC}️⃣  Comprehensive Scan + Auto Copy"
+    echo -e "  ${GREEN}2${NC}️⃣  Quick Scan + Auto Copy"
+    echo -e "  ${GREEN}3${NC}️⃣  Continuous Monitoring"
+    echo -e "  ${GREEN}4${NC}️⃣  View Scan History"
+    echo ""
+    echo -e "${PURPLE}📋 COPY MENU:${NC}"
+    echo -e "  ${GREEN}5${NC}️⃣  Copy Last Scan Results"
+    echo -e "  ${GREEN}6${NC}️⃣  Copy Target Information"
+    echo -e "  ${GREEN}7${NC}️⃣  Copy Quick Summary"
+    echo -e "  ${GREEN}8${NC}️⃣  Export All Data + Copy"
+    echo ""
+    echo -e "${CYAN}⚙️  SYSTEM MENU:${NC}"
+    echo -e "  ${GREEN}9${NC}️⃣  Update Target Info"
+    echo -e "  ${GREEN}0${NC}️⃣  Exit"
+    echo ""
+}
+
+# Update target information
+update_target_info() {
+    echo -e "${CYAN}✏️ UPDATE TARGET INFORMATION${NC}"
+    echo ""
+    
+    echo -e "${YELLOW}Current Information:${NC}"
+    echo -e "  Number: $TARGET_NUMBER"
+    echo -e "  Name: $TARGET_NAME"
+    echo -e "  Category: $TARGET_CATEGORY"
+    echo ""
+    
+    read -p "New number [$TARGET_NUMBER]: " new_number
+    read -p "New name [$TARGET_NAME]: " new_name
+    read -p "New category [$TARGET_CATEGORY]: " new_category
+    read -p "New notes [$TARGET_NOTES]: " new_notes
+    
+    [[ -n "$new_number" ]] && TARGET_NUMBER="$new_number"
+    [[ -n "$new_name" ]] && TARGET_NAME="$new_name"
+    [[ -n "$new_category" ]] && TARGET_CATEGORY="$new_category"
+    [[ -n "$new_notes" ]] && TARGET_NOTES="$new_notes"
+    
+    echo -e "${GREEN}✅ Target information updated!${NC}"
+    
+    # Auto copy updated info
+    copy_target_info
+}
+
+# Main Program
+main() {
+    init_scanner
+    
+    while true; do
+        show_menu
+        read -p "Pilih menu [0-9]: " choice
+        
+        case $choice in
+            1) comprehensive_scan_with_copy ;;
+            2) quick_scan_with_copy ;;
+            3) 
+                echo -e "${YELLOW}🚀 Starting monitoring...${NC}"
+                # Add monitoring function here
+                ;;
+            4) 
+                echo -e "${CYAN}📜 Scan History${NC}"
+                find "$SCAN_DIR" -name "*.txt" -type f 2>/dev/null | sort -r | head -5 | while read file; do
+                    echo -e "${GREEN}📄 $(basename "$file")${NC}"
+                done
+                ;;
+            5) copy_last_scan ;;
+            6) copy_target_info ;;
+            7) copy_quick_summary ;;
+            8) export_all_data ;;
+            9) update_target_info ;;
+            0) 
+                echo -e "${GREEN}👋 Thank you! Exiting...${NC}"
+                exit 0 
+                ;;
+            *) 
+                echo -e "${RED}❌ Invalid choice!${NC}"
+                ;;
+        esac
+        
+        echo ""
+        read -p "Press Enter to continue..."
