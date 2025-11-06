@@ -5,7 +5,7 @@
     "brand-id": "canonical",
     "model": "ubuntu-classic-2604-amd64-dangerous",
     "architecture": "amd64",
-    "timestamp": "2025-10-29T12:00:00.0Z",
+    "timestamp": "2025-11-06T12:00:00.0Z",
     "base": "core24",
     "grade": "dangerous",
     "classic": "true",
@@ -21,7 +21,21 @@
             "name": "pc-kernel",
             "type": "kernel",
             "default-channel": "26.04/beta",
-            "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
+            "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza",
+            "components": {
+                "nvidia-550-erd-ko": {
+                    "presence": "optional"
+                },
+                "nvidia-550-erd-user": {
+                    "presence": "optional"
+                },
+                "nvidia-570-erd-ko": {
+                    "presence": "optional"
+                },
+                "nvidia-570-erd-user": {
+                    "presence": "optional"
+                }
+            }
         },
         {
             "name": "core22",
