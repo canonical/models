@@ -20,7 +20,7 @@
         {
             "name": "pc-kernel",
             "type": "kernel",
-            "default-channel": "26/beta",
+            "default-channel": "26.04/beta",
             "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
         },
         {
