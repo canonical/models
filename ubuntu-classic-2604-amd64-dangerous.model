@@ -15,7 +15,16 @@ snaps:
     name: pc
     type: gadget
   -
-    default-channel: 26/beta
+    components:
+      nvidia-550-erd-ko:
+        presence: optional
+      nvidia-550-erd-user:
+        presence: optional
+      nvidia-570-erd-ko:
+        presence: optional
+      nvidia-570-erd-user:
+        presence: optional
+    default-channel: 26.04/beta
     id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
     name: pc-kernel
     type: kernel
@@ -79,16 +88,16 @@ snaps:
     id: IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu
     name: snapd-desktop-integration
     type: app
-timestamp: 2025-10-29T12:00:00.0Z
+timestamp: 2025-11-06T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCaQI87gAKCRDgT5vottzAEgbCD/9WkVdT0WObgaTj1X/J2T6iZ0u9Du+Mkp/C
-PT6Hi3wjB5HNewdRhUicbU9BOlOBN8nhklESOGfPrIjZhlK2l3O/WYkyOBta7MTAXEu+QON6ol3V
-5p8q92r3JB0ZHm0nPvmqrQ3TXPgrFuEay/2hfcZIctIdopQR0RgsnllraBVy5WcTffnb7J2iHszr
-ecDyMuPrXjnyLcCppimbPeZV5iwcK6sJKtZgGNMfFy1cslsgf0ekELPcNIQmuBQ8gDEt+Ossfha8
-Mks/GsjcqcUj1PutR+7Lw5P3lVuAZSac7LS0jMIQ+eg5WxdIt9MMUc3/xmwof8ngcrlUp0enBhxe
-p30iyE+YJA2rZHZQB+xWk5fONVXMM6L8a8StO1zxs/PmExG3kukbARtbLwYu+j/fDk8nMY42rBSr
-hS1Gtv445HpAx7Vih5iVS3FDeeMK5xO1tyOzvHYhovkm24s5s6U43UG4gU+dvzWmLYiWlLulBC0i
-2mvczllNsXusGAviYYo5PjHucpUgA3v5H6aLA4PkUAE45aJ+MLDNCpxJ+Kk4K1LNaza4YmnX2a2U
-jNXpu4Lljvu3L50WOWazq/MXrAvLexNasc2q8rEz7wzzCLU1OyVmckCD4xkwKSZ7SPPaUY9AlceL
-xraAcV11kUeZtKzL/QT8OjKgUAcPaC5vtUo0484HaQ==
+AcLBXAQAAQoABgUCaQypDAAKCRDgT5vottzAEmmMD/0ZwVMEu6bzSCzB2kapPqSIDs/cQRUacgGE
+rh2hgegTodsJsHu8+pnOmjvOl1F27Ynk8jGBhW0ncgPJ1+QzJDuHKbdUStOA9nrdLLSUG25QR7Dm
+BBTb+d0tpEIxijCifTs0nATY9cprmPxwczyoQFNG06zhjwMlfcjJu/sX1mppaaO4F6XsrnAJaWff
+FZJ0+3F1DS08fKLD/FveL9Gva6Hs1GSMJ/TLy5TjXr454B3L+5MEmufSbQwjAgXX7x/WL871ghIs
+kQOX1DDrmKt8bjq650kVr3dqacHu+mWWJYRQwPtFMPXJB8LQ2QSk3yHI5mF6wIwASOUITxPZBRsA
+5HLYwrSvS0qPWp0Qu3A6mi2g6CLPQloTYuVMKlsl76TvGj4emdNVctVps4a5YW6CRuhTrcRVUMvf
+Gga1yN6PA71Q2M64YgijrMaj5KvviI14TUBanaIOtM1N4jmCGXbDe3enLWPzpD474cuXLnkC5HaU
+tVFYbCpTLieApZW1dvGrfTwms9SsjFr8K4Rrtyq1JxhyIQLNCC6FCZdppEpDqwXU+D93PXMxpcv5
+rtojP7AjVjp4b/med+xkkf5DTAz0PczAAG3wfimlW1BSiIpIAU0up0iv4UNT1w+JsR2NmL9JM4di
+S3ULJVM1R1NTRQm5QCCL81ULaSr3lKZmBJ8bPxnt6A==
