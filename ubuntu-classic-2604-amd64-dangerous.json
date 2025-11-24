@@ -98,10 +98,10 @@
             "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
         },
         {
-            "name": "gnome-42-2204",
+            "name": "gnome-46-2404",
             "type": "app",
             "default-channel": "latest/edge",
-            "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
+            "id": "ew7OxpbRTxfK7ImpIygRR85lkxvU7Pzt"
         },
         {
             "name": "snapd-desktop-integration",
