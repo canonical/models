@@ -80,8 +80,8 @@ snaps:
     type: app
   -
     default-channel: latest/stable/ubuntu-26.04
-    id: lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3
-    name: gnome-42-2204
+    id: ew7OxpbRTxfK7ImpIygRR85lkxvU7Pzt
+    name: gnome-46-2404
     type: app
   -
     default-channel: latest/stable/ubuntu-26.04
@@ -91,13 +91,13 @@ snaps:
 timestamp: 2025-11-06T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCaQypDQAKCRDgT5vottzAEoE+EACg/oFw+jTN+YhqV8pl35gffElXom7h4QyW
-20RBLyG9TR1+oAnziyWIP3C9nGleCqqrHyUnLDDySVN+txjhVwRH7qr6Gkodv9ch/6MXZMjAqZaC
-zRFaD/saC+T3+GcE7OOh2/b5Q/R6y4cZnDmse1plZI45Gsb3T5jxxs+VlqvWzOL9ofw5E26OdvRb
-obgCq9THzmS+YlLa724NyfLk56xbdjgMzaZKRT/o5iURcgtnKFpS2GicP81QWxfdXxAG1MupPCO4
-dSHWpYs1V5524kgQMr9asjFX3or75V/7zWEW/xVXQa9iMzClcKv9YXUoZtU7wfjIYUz5s0K6RI6x
-e5fIycUpq1cqJQNiFlpuMwA5/cD4edmoPVgcoe9EqOcQzuBRHv5B2dNrak335/GO3lYTeVrfMSbr
-lSWEPt8Kcivr5+ldTGwpzTwmDmMedDlDI5AnWQUozLUZ0qRutyHGgnYn6Evh6Xa1qjVV43UNkJGF
-Etb3k6zzOXMo2R8vYWfd0l0NM41yuxz0P3ggSUnkalFsOh71UqDQwz7AbGWc2osv3TVFM2Wluck7
-NmC747+5pjiYjiiLpIvTJnTs+F/A7lxkHo1N8qMil/eTgqDRd5M53cEaLJEyPaZoJy6MLJ1T4pDd
-FSjOXcBWhi6RT15vlgx7XQenzUooVrnSwwWsgcIJHw==
+AcLBXAQAAQoABgUCaSV5EAAKCRDgT5vottzAEm9XEACAJggqNYeA+2EMcEtHqUzXXrsqSMRC1Z/1
++jzXBo4/Ozb0SOgatsrKmw3wDqnglxzPukiVtHdASIbbCIZ3KF0p8c3/tprnFzyeJWwvFny/NiIp
+rvFsDqcFaP6lXhPecuoTEHJ3xZb4fJNkeCRFuB1mKu/UJoGqef3jyOEtnLYPy2LW8wsIPzJ+kdb9
+r2udo/Z71a9xZGX4xd+mejRTnMzwyeFhwxzYp9xxturOYZWPCvP+CWmtshS5sOoSOKXeuCeQG2ll
+yZOWTeZpjRSiYr/SqpKYZDcgNR7j1ivERY/CbVavvmQyYhLBWcf5hsZmguHeRQZ0gNXYTI5u3DL/
+cuLqav203m3MczAV3RaJouohYTAXJFNKpup17iv4HjHAt7Tx+/gr+ky9GRarMj6LxWHc+HSCTl8C
+tlyHCZzmihrpEa4zoaaqz2FRGV3b9UrVHXBi9iis7OV39VsZmDRhUlQVl1gnoZsyvDj11Ui0/gOp
+4nd4NZPwQe4jmOwex21135yeRZ0F1Dm9Nj6GTsWs+XHK/PHSkdxdI+sDqBuAlfZs2mUI5eXSgcs/
+5bcZXIHS44S2k5yrGDGtKAiPXjgUhlwtVX+jm7XEF/MUwOqJlk8m1NCRiGfBKY7NxIl1juApzuJY
+x6lJUpHJIETALQwivpUik5kn55hhIxph3KBSMK2OWw==
