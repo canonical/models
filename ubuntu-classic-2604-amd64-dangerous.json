@@ -61,6 +61,12 @@
             "default-channel": "latest/edge",
             "id": "EISPgh06mRh1vordZY9OZ34QHdd7OrdR"
         },
+	{
+            "name": "mesa-2404",
+            "type": "app",
+            "default-channel": "latest/edge",
+            "id": "HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj"
+        },
         {
             "name": "firmware-updater",
             "type": "app",

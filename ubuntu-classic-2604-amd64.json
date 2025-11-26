@@ -62,6 +62,12 @@
             "id": "EISPgh06mRh1vordZY9OZ34QHdd7OrdR"
         },
         {
+            "name": "mesa-2404",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-26.04",
+            "id": "HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj"
+        },
+        {
             "name": "firmware-updater",
             "type": "app",
             "default-channel": "1/stable/ubuntu-26.04",
