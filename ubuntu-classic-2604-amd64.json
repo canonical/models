@@ -5,7 +5,7 @@
     "brand-id": "canonical",
     "model": "ubuntu-classic-2604-amd64",
     "architecture": "amd64",
-    "timestamp": "2025-11-06T12:00:00.0Z",
+    "timestamp": "2025-12-09T12:00:00.0Z",
     "base": "core24",
     "grade": "signed",
     "classic": "true",
