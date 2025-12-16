@@ -16,13 +16,9 @@ snaps:
     type: gadget
   -
     components:
-      nvidia-550-erd-ko:
+      nvidia-580-uda-ko:
         presence: optional
-      nvidia-550-erd-user:
-        presence: optional
-      nvidia-570-erd-ko:
-        presence: optional
-      nvidia-570-erd-user:
+      nvidia-580-uda-user:
         presence: optional
     default-channel: 26.04/beta
     id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
@@ -40,6 +36,11 @@ snaps:
     type: base
   -
     default-channel: latest/edge
+    id: cUqM61hRuZAJYmIS898Ux66VY61gBbZf
+    name: core26
+    type: base
+  -
+    default-channel: latest/edge
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
@@ -48,6 +49,11 @@ snaps:
     id: EISPgh06mRh1vordZY9OZ34QHdd7OrdR
     name: bare
     type: base
+  -
+    default-channel: latest/edge
+    id: HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj
+    name: mesa-2404
+    type: app
   -
     default-channel: 1/edge
     id: EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP
@@ -88,16 +94,16 @@ snaps:
     id: IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu
     name: snapd-desktop-integration
     type: app
-timestamp: 2025-11-06T12:00:00.0Z
+timestamp: 2025-12-09T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCaSV5DwAKCRDgT5vottzAEsNXEACEiapXIv77EkQkJBF88Psv8p8x3Y/xxPsj
-GdIqOzGK4fqX+WMecVlOTQAGSE20/vAgwY03WANYazQoLu4d5TbG0WzUKJXraah43NgvsX6vloq/
-XMMZo9xrK2RBE+ZqFZCbx2dnWpisNwHUl5BtI9R3yM5mqew/Kn/Titzjg3mFrxpPKi4dko0+0rf4
-JNlsncj172m6MRB4mTMQt7YHj2eQiITomUf54SAQzZ1iI4Tk5dWWSx/xU78VcOoP+iSu8QB9opkk
-kDMZ+g+Sfypw6GcwfrTYhS517TCdytmTzXg0DTZNEor5rqp6bQr+FyT/GIaK6lV82+oi9xoy6xiM
-UX8GdfliTApbwH0yySBIAVApM3B2mheLIslEX7BG/JR3FB67xpggCVPMW36ibWDhWXohfD9+Gu3a
-lvh/v1OIzDPnpqvwDsqbQuZEbIXPBgAciUahkKBBJMoQQdgjJ8CXZwBNVHdNNl+fnJTPIReF8O0c
-D6KiL5X0UL8G/RBTXpStyS6HjqXeginvhYm9y/PeNfAMOpEP70dba2DqX4vNhNE9oAneQo9UUfiI
-FRHUtXgqnkIMJeWGsWK+ErMeTRfQ45SJbnvSGJgxXl+CO30iYZY7sPRoJFEwW/8FwbWzHS4GwzhS
-tsvbojAlMAbGWxUXtFXJFMzbjnGC+5qodVsqcpOOnA==
+AcLBXAQAAQoABgUCaUFt7QAKCRDgT5vottzAEhdnD/92LBcQm3iw/kPao4KqGE0OhfXDFd7Z6+Qv
+A1Dlzz6Cw0tuj0r5aZH7vJQCx4kC1Eaoi8apg3XhqAyhr74/MsIwMhPPL8qcSNv8ZWruoGwFp/rx
+M6NSBKc6hrYqACYfEkBwfq9SgmIDQKFeBVudwswLK2SN58wrDNJjuWz/eJ5hUIIe3ga5ScfzO4Jr
+jTWS4kh5lpttCPFX8ouLkMgLUxijQpxFbHoF1trXJndFvavStT0yuC0y5TXzb3wJbbiF/MXZWyjV
+/4U+oQLodO77MhaD01kk2y5bZ62YuQ3MPL0fQGypon12GPHeNNcEcYWRZlFv+JkWAduWlnuefj1D
+dVWV8dQQmSZGZNiGTsIJxkY9+4B+t/OhosGDc6jEmEZcKNVi9fnl0+awkzK6scNNmupZ8NwJl8ZR
+mJSsfaBcH4paYV1x31y4uTELv+OuDWAJ3D0RoCR8H0djTBxRhsF2/JpSJasxVmSbzWHPSeM3f1aO
+ChZGwbD6J2SpzsrdogUP/9z6o8YuVnJkOxoBYuXhT1pEYTd93/hE++j3MpOqey/xw8UDbYmq5oJf
+uKaYLOMphqDm5hUCZmxQp8gTzDleZGjxYS2fOS4qFUJlvyVwsSoJMXU+6YfA6tgEQ4Dbh6zp6r78
+MjEqfWn4lL16xW2Zzr6e8xWwUrM7T3Gp4WTA7/xOeA==
