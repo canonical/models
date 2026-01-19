@@ -8,6 +8,7 @@
     "timestamp": "2025-08-25T14:45:00+00:00",
     "base": "core24",
     "grade": "signed",
+    "revision": "3",
     "snaps": [
         {
             "name": "gce-gadget",
