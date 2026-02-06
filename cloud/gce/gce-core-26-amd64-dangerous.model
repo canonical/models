@@ -1,0 +1,49 @@
+type: model
+authority-id: canonical
+revision: 1
+series: 16
+brand-id: canonical
+model: gce-core-26-amd64-dangerous
+architecture: amd64
+base: core26
+grade: dangerous
+snaps:
+  -
+    default-channel: 26/beta
+    id: jQb6VXJonDq7VaBo66YPjE9SVoQV84hy
+    name: gce-gadget
+    type: gadget
+  -
+    default-channel: 26/beta
+    id: XCu2oFG8cSgq2ZWmdaMyvSZhrrUhy1yi
+    name: gcp-kernel
+    type: kernel
+  -
+    default-channel: latest/beta
+    id: cUqM61hRuZAJYmIS898Ux66VY61gBbZf
+    name: core26
+    type: base
+  -
+    default-channel: latest/beta
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: 26/beta
+    id: ASctKBEHzVt3f1pbZLoekCvcigRjtuqw
+    name: console-conf
+    presence: optional
+    type: app
+timestamp: 2025-08-25T14:45:00+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCaYTvuQAKCRDgT5vottzAEnaFD/9xHWFNfKHEF5aFkVgTkUqIxX3ClTQbcWVJ
+vy0wJ3KxXnPjIY1HMS7U5fdPQPMMDGthD9Uzyn4Ovkbr0xMPXOzDMb0rZ6Arxd3MgiQTHniru+5o
+1Zi2VAvysGk9vKaS90prXU73eKxfT5xHe/4a/irXJHNR65JDf7nI/4pgY6t2a32aUtFvbtBGgvwm
+PH3Q6o5J++I2oY7MnRQudDcVRsa3IktQgMUXjSkW6Wa8UDG370ZXTN0lLq2U7/jBWBgd7LEWRre4
+u/onoTHFladaKf71fLandSTuDR+lohkh/Css7AdPdO8mZLHQ/50T+mu8PxhpvMKFOPP7NdC0Zquv
+bVfqc55IIAPo4go77vaBRggO8RHf3+kM2285U2rq/DUHAvnP5rb4+jgI8EDf3sWFMBmewW9DGtRW
+OMGs+t/TWaBD/plBc5ExRlcR3dt7mqvtPYXLTUb6qE+g2NNOV7JOOT+oWp1UaBx4oswafxAm4XLt
+JqzU1BBGPLvsRk9m7n2PDmO+IGcg4NQHQ8LkEMa0saAJMi/lJgq2gVg4kX8bgPPONR8N9RegJowR
+ZZ18QjQcHtmkgWzAnil8skTvSZPtmgzp2tokJ9Wq8U4Ja216vaqVOttddCHmh0+9ADlt2v23xuqE
+OYlIgj22iK/bCAfLjc4QPsMLkgCZb22kkTrWW8eb1w==
