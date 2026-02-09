@@ -36,11 +36,6 @@ snaps:
     type: base
   -
     default-channel: latest/stable
-    id: cUqM61hRuZAJYmIS898Ux66VY61gBbZf
-    name: core26
-    type: base
-  -
-    default-channel: latest/stable
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
@@ -97,13 +92,13 @@ snaps:
 timestamp: 2025-12-09T12:00:00.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCaUFt7QAKCRDgT5vottzAEvcLEACHr8CJR/z0+IauWcwM+fVciEDXZmi/gbqE
-Yo37W0v9qlqNL863UWxnIlwGk3cjwDW1TosSOPmmoNBmm7RRMY/xceZKOBxnH/REevvPi8rMgEr7
-3+NXiHN/PRQkZ+vCusxXyxAoAocM7oTDmDfm5HtsGVXXjQUB1G3ahnv9snRfKTshT9p6deiA/S1O
-tqsOr0Ykz4CLrlroRBJEmBTOub/7VRkMCUKXQkUvZ85pQRZ1jbXSb6sfq0GiWEdKxTwDb67qGTpu
-C84RfxVCDagk9h4phtkuWjoEOIxWIObxr6iuK/ol0vYfXTp/DBDSY2f+vNLrq65zN3F7eV+fA7lm
-JQkDdcTYmNchuGSsnIXWHhHJJT2FR0OtQ4/B9wzEf/WHGzhfAxb4dYFUFXTs4kBaO4I6K9EyGYpz
-Dqh9byTqQwja6zInn0eBhSUTkZZx7nQXfLQwJf8Z0uDaqrYNA1JRzvfqpMDBFWuEF1092llYPNpk
-NRv5VlorNnmdkmZZci1CYsijcCtf6seuEY+wsgxW9QqLRPLt0L4AU0m087kfO2fWwXrOG0hg58P2
-KcXhtZxXcH+U+LGqJ/QxcK/Ewfztgb/ZcNWkGKSplWjTH3e1ZQq1QJOxUw+WejHZQWDWWsFY+1JM
-KGPVrdOprRUGeqOqqqi+vCJrf8JQThmg4ZHkf2L0PQ==
+AcLBXAQAAQoABgUCaYzP9QAKCRDgT5vottzAEus2D/4jJVutpoPmDrLjNQLn2KNf/f1L2zU8ESSe
+VpFjy+9Ff7AxXckALM4eEy/J5mc+UNhHQ/7Thp4XYy2NiH14n9Lv5kVqZCz8udiEfcfLy5gGveio
+oXyGX7J5x9sq3YXV1IHS84aqJS0si80TTLCRQXUN8oUZIVRkgFOGIVVneQkn1ppNs87kNgvBT1ow
+nwr9fVvZnt5bTprCxs4R5cEUlWTJMN4l96Eh530Q+wqCjFxbTs6FADUYielsFnBDl/Q1M0fozg4F
+Ct4gBbvFGWZhp8LXiCbJvTd3PAAV1HYAgtKDKZT0NQp8qaU5DpgTDiUzIjaAJP7feSU5AYDLuVSH
+V3zD8sosg1nmPvVtuSi2q5Z+/zd6gmG+vLn5d16whNqELDnX0O9Hxarc/3DD3ANZrrbXlq/PEJNB
+Lor5osHLN4utW7CUC5MIEQ5/Z/6cSuav6rQ+bBiAOzQSHRCbhfyCGSMMINX2CE3ePw3moi9gwXeh
+vKw1iItEOxywEKbeBNEvddnGsvmzoqf9Jg53/X0yrQQVZTHYFsQlTRk9ggajdZnPjJMTqlAqjXnP
+QCsgnprvln0akW4IfEzc+IgoF5eiShJd4IidkBbbdNXRRYlHfmOG7ZvR9upJwe1M73Zfu1nQFEvT
+fly59e2Vw8O50ljOVW3jT5fW36z8h1+ttxkKwVsQJg==
