@@ -44,12 +44,6 @@
             "id": "dwTAh7MZZ01zyriOZErqd1JynQLiOGvM"
         },
         {
-            "name": "core26",
-            "type": "base",
-            "default-channel": "latest/stable",
-            "id": "cUqM61hRuZAJYmIS898Ux66VY61gBbZf"
-        },
-        {
             "name": "snapd",
             "type": "snapd",
             "default-channel": "latest/stable",
