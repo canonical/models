@@ -1,0 +1,24 @@
+name: check Nvidia components
+
+on:
+  push:
+    paths:
+      - .github/workflows/check-nvidia-components.yaml
+      - ubuntu-classic-2604-amd64.json
+  pull_request:
+    paths:
+      - .github/workflows/check-nvidia-components.yaml
+      - ubuntu-classic-2604-amd64.json
+  schedule:
+    - cron: '0 8,20 * * *'
+  workflow_dispatch:
+
+jobs:
+  ubuntu-classic-26-04:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update the classic model for Ubuntu 26.04
+        run: scripts/update-nvidia-components.py ubuntu-classic-2604-amd64.json --overwrite
+      - name: Checking if changes are staged
+        run: git diff --exit-code ubuntu-classic-2604-amd64.json
