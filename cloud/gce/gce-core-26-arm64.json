@@ -1,0 +1,45 @@
+{
+    "type": "model",
+    "series": "16",
+    "model": "gce-core-26-arm64",
+    "architecture": "arm64",
+    "authority-id": "canonical",
+    "brand-id": "canonical",
+    "timestamp": "2025-08-25T14:45:00+00:00",
+    "base": "core26",
+    "grade": "signed",
+    "revision": "1",
+    "snaps": [
+        {
+            "name": "gce-gadget",
+            "type": "gadget",
+            "default-channel": "26/stable",
+            "id": "jQb6VXJonDq7VaBo66YPjE9SVoQV84hy"
+        },
+        {
+            "name": "gcp-kernel",
+            "type": "kernel",
+            "default-channel": "26/stable",
+            "id": "XCu2oFG8cSgq2ZWmdaMyvSZhrrUhy1yi"
+        },
+        {
+            "name": "core26",
+            "type": "base",
+            "default-channel": "latest/stable",
+            "id": "cUqM61hRuZAJYmIS898Ux66VY61gBbZf"
+        },
+        {
+            "name": "snapd",
+            "type": "snapd",
+            "default-channel": "latest/stable",
+            "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        },
+        {
+            "name": "console-conf",
+            "type": "app",
+            "default-channel": "26/stable",
+            "id": "ASctKBEHzVt3f1pbZLoekCvcigRjtuqw",
+            "presence": "optional"
+        }
+    ]
+}
