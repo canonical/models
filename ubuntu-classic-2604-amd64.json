@@ -23,10 +23,10 @@
             "default-channel": "26.04/stable",
             "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza",
             "components": {
-                "nvidia-590-uda-user": {
+                "nvidia-590-uda-ko": {
                     "presence": "optional"
                 },
-                "nvidia-590-uda-ko": {
+                "nvidia-590-uda-user": {
                     "presence": "optional"
                 }
             }
