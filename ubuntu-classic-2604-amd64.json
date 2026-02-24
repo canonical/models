@@ -5,7 +5,7 @@
     "brand-id": "canonical",
     "model": "ubuntu-classic-2604-amd64",
     "architecture": "amd64",
-    "timestamp": "2025-12-09T12:00:00.0Z",
+    "timestamp": "2026-02-24T15:34:40.0Z",
     "base": "core24",
     "grade": "signed",
     "classic": "true",
@@ -23,10 +23,10 @@
             "default-channel": "26.04/stable",
             "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza",
             "components": {
-                "nvidia-580-uda-ko": {
+                "nvidia-590-uda-user": {
                     "presence": "optional"
                 },
-                "nvidia-580-uda-user": {
+                "nvidia-590-uda-ko": {
                     "presence": "optional"
                 }
             }
