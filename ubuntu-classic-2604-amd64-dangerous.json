@@ -5,7 +5,7 @@
     "brand-id": "canonical",
     "model": "ubuntu-classic-2604-amd64-dangerous",
     "architecture": "amd64",
-    "timestamp": "2025-12-09T12:00:00.0Z",
+    "timestamp": "2026-02-24T15:37:46.0Z",
     "base": "core24",
     "grade": "dangerous",
     "classic": "true",
@@ -23,10 +23,10 @@
             "default-channel": "26.04/beta",
             "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza",
             "components": {
-                "nvidia-580-uda-ko": {
+                "nvidia-590-uda-ko": {
                     "presence": "optional"
                 },
-                "nvidia-580-uda-user": {
+                "nvidia-590-uda-user": {
                     "presence": "optional"
                 }
             }
@@ -61,7 +61,7 @@
             "default-channel": "latest/edge",
             "id": "EISPgh06mRh1vordZY9OZ34QHdd7OrdR"
         },
-	{
+        {
             "name": "mesa-2404",
             "type": "app",
             "default-channel": "latest/edge",
