@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: ubuntu-core-22-tegra-jetson-dangerous
@@ -8,35 +9,35 @@ base: core22
 grade: dangerous
 snaps:
   -
-    default-channel: 22-jetson/edge
+    default-channel: 22-jetson/stable
     id: 9pjCtYlNoT9Fx6RiHMhhBoIG6ZYXBvJc
     name: tegra
     type: gadget
   -
-    default-channel: 22-jetson/edge
+    default-channel: 22-jetson/stable
     id: Rjyoy6Zhe9mlkBQqmVzaUdPB2TblFSwV
     name: tegra-kernel
     type: kernel
   -
-    default-channel: latest/edge
+    default-channel: latest/stable
     id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
     name: core22
     type: base
   -
-    default-channel: latest/edge
+    default-channel: latest/stable
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
-timestamp: 2024-04-23T15:12:16+00:00
+timestamp: 2026-02-25T07:57:57+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZ1CZ8wAKCRDgT5vottzAEm7JD/9SrvF6WT7NH8Gc1Wo8OnjvNURyto/+GBBM
-eS93ULlj2OUJz64BLSo311Yft0ZZmN57mJml6t+E27II2N+0/DcYgIlV1brSsykJIDD+Q1iCSW9M
-VV+oVSDgJAcCFQBoQKpZpi3c+dfvHdW+BOE1uUDSNHaxROZzWYPmsVIrCZxgU18GhgvmuTVtkjmk
-Ror4+NoyqBhCKppwK2Qrc7VpZHIypQZEFcqp/ILyExpr5Qwmpgzo7vKI8hQQs7lIIC5n0pguKNUo
-uXqmh1SqWJKMqHmLUzic4mnvDOJnsfkfzdy6wlBeMOeiVcGLgrcWf4uExHrapVqEzrziqYyMbosN
-Sr4GRHkkv1ijUTxFHbVdF3Hd6s4PDPT0QnflZx8gXTLyF1y6LIZTyyo5/TzHGKPkp1EcXmF7UvMi
-az2iH4S/C0LmQY9bcmg69ituB3XW3tlMacE9xNdcCAONcP6EEqQKEHa0Dtac1BGU2u3CjdX9U4MQ
-kIBM+t8HxhbC8vo87/Dc0hve4fsZyE1vGuZCR0EJKTu2+qmNNh3ZNmdxI40G6ynv3F0ZMiCywPX+
-cMbbdow8qsd+k2yEHHoWAobytC/T1mPEZKHDnf0Pq3kThy9Y0fi9r/8cZk1WYezCc0y2BGMQt4/C
-cF1zLfV3RCxp2R3guZOSLBjLQ3sNS8F4Kjva9ty+wg==
+AcLBXAQAAQoABgUCabmTmQAKCRDgT5vottzAElRjD/oD4CcIAhATSjBZ+ZNTXAeXBV2jNPZ4zezr
+j4K5M5SiuIKpq3fNd5ezcgfSJtRLIFsw9MnSuqQeJaSJRjVOISZ+1nXyFmxnoPAe/AIH7/B8vI5+
+Syn7Q4zSBiDClNv2lzmVZg87NF5nVdKiYtd+tA3CBep1ix5IL7ax7seXf8BSQ+pV1Lhn8cAFxyTM
+aHc48tW700PZ/0hDZJBRXIeHVwPxe4H+3B42hIsVHnVB8TisneyNsKKcuHNeEuWqXrF2fG6zma3s
+uSRnpiudRTe6rQPPjYcJB4ZK5r9jXmB2ZBmIrVLeVE7NZKkdlniErHjXSY+pFVyJ00n9yIhyz73g
+kgeaxdnGgl78nQEYJXZM5Gqh95Iu/aRL/5KnC29LIuLHs7l9anIAtnjzLZfei1A45PC2nCD63iCk
+w9OJCk4ZROmdSycqkpEuyQKLt210O5JJer1E5l4tiy/5D1aSckb/ONt9fDOT/ZineV9woRPXbnVD
+M8XiAXhmv31M+A5rVr0HdFbFY2fdaJZa/gYvckmeIQHrVki1A3h7QnFqPkj8ymtKYKtvaeQ1p+se
+IuAJv4rQZj4tzKCt/8iv0EkhXKNi9VBHnqy97xSoGUPPglHP8QUUr1XB9iRF6wMjcfTPtq4B/vQi
+HXgZ3DX47EJ0I8+rq4cPnckgzdxbDatfifMvCgzi6A==
