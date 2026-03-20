@@ -1,0 +1,38 @@
+{
+    "type": "model",
+    "series": "16",
+    "model": "aws-core-26-amd64",
+    "architecture": "amd64",
+    "authority-id": "canonical",
+    "brand-id": "canonical",
+    "timestamp": "2026-01-23T21:53:17+00:00",
+    "base": "core26",
+    "grade": "signed",
+    "revision": "1",
+    "snaps": [
+        {
+            "name": "aws-gadget",
+            "type": "gadget",
+            "default-channel": "26/stable",
+            "id": "mfDoEMcyOtXRpzrpIFuNDkJ2oAQWOquG"
+        },
+        {
+            "name": "aws-kernel",
+            "type": "kernel",
+            "default-channel": "26/stable",
+            "id": "zZzOPntd6WZMak6vQYmLBUk2gfIdnme9"
+        },
+        {
+            "name": "core26",
+            "type": "base",
+            "default-channel": "latest/stable",
+            "id": "cUqM61hRuZAJYmIS898Ux66VY61gBbZf"
+        },
+        {
+            "name": "snapd",
+            "type": "snapd",
+            "default-channel": "latest/stable",
+            "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        }
+    ]
+}
