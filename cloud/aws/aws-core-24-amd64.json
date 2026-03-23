@@ -8,7 +8,7 @@
     "timestamp": "2025-05-19T07:49:42+00:00",
     "base": "core24",
     "grade": "signed",
-    "revision": "3",
+    "revision": "4",
     "snaps": [
         {
             "name": "aws-gadget",
@@ -33,12 +33,6 @@
             "type": "snapd",
             "default-channel": "latest/stable",
             "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
-        },
-        {
-            "name": "ec2-instance-connect",
-            "type": "app",
-            "default-channel": "latest/stable",
-            "id": "dkikqXSj0Gt92zalwAwU6OaoCMnaYc5W"
         }
     ]
 }

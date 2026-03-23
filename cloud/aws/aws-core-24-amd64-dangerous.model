@@ -1,6 +1,6 @@
 type: model
 authority-id: canonical
-revision: 4
+revision: 5
 series: 16
 brand-id: canonical
 model: aws-core-24-amd64-dangerous
@@ -28,21 +28,16 @@ snaps:
     id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
     name: snapd
     type: snapd
-  -
-    default-channel: latest/beta
-    id: dkikqXSj0Gt92zalwAwU6OaoCMnaYc5W
-    name: ec2-instance-connect
-    type: app
 timestamp: 2025-05-19T07:49:42+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCaWknrAAKCRDgT5vottzAEtZIEACZzy5MaGWFQxk5sdEWKwf0UmueBx7fPxeB
-a9SVjIjnm69jCQj18vciOO8cn4+vSGp78uKgQktx4RL5sxISRJYALV80Wu717M2dafht9fH8+RA3
-bsYBZANQj5c6zVVYGvOoqZ5FPwg1czHLGd0lqvX7mtzcSTYYoK7IKIkkLHPfMUF92jYTlipYGbAE
-OJDyjdeMiRLK+Eb7gfSxFkwARZM4q9y4riN3mMvAAc3ErQGH4hE9umG5NMu3wLJ4fZQrwqMIJ5B+
-QGpE1JXpp0BaQ6RV/hfjz9qGbBGgKgXJmetCdAg+CUNjVi5c4chKoLxlK6NNGSG5GdX2OpJFcJpM
-Mo6BdNNlr9Zx1QqC/WkIAH0KCpPbEHXlDqobKceNUzh/Hwfqfoi7q+tbGZ9lNO4OcY4B2HT3LLsa
-kDZH1mxsFEjN/KhH1l7GFqM32HtgeiGFPYtfMMLCLy4/YYGuffpInDziKEp57AxgtBvmbQCqaPIJ
-OZjspEwF00pPoL5+z6+hUUzcyJK+sM1DvyyE5+7271rxuYeueW4CDcRI2YuUd6s/3ZGAyHXhQX7E
-hZfYgg2AacxP5Jh65g3iHZjmKmFZLg2QXJ6OmzZ8Dy+9LXwY6ucoZwo6Th1EflrhVhFcL6TI4G91
-gHWqh1jcpcpH8AD+SrtcNVUSK1Xxn7c8/R3Xj53e1g==
+AcLBXAQAAQoABgUCab158QAKCRDgT5vottzAEvIWD/wPFaRlYDg/1qfILZ57vJ8bsAOjkHm5m0kn
+UsbpNzpcHWFA/p51yXGTvp+VvVD2x+dVVteIyTFuNHqaKF+A/9mQ7XSBEgP31sX1iFL4ZyDKAXlX
+rMFBNbm7vJXbzo/gPZXSSjCzqkKxp1lhV1xYmdlX9SrUuTbcpveu//XKoJI07eIzmicXNXttbh9O
+zLTwRbyDRC9eWrkv4/+6oOFZCRIF2LaCfgY+dIivTqU+OQ9lvWfQJz9GgFV9pcKLrT9bLL6fnkP+
+oR3v8ezkyQTV6bZzBhlDm78UYRQs3LJDt2N73tOeoFevm4gtm/ofC2otVt7BJwnlLPrCpLeIswB8
+YBGzvyBXx+Sm/nuH7W+wZ//27n8H27YtIn3Ihp7LBORhzc/Sfx6ykRXh1q+lPtQp7MC/7mPalo3c
+AE9x37oxqt663dleXC4V+uxdzUeUAvTPeI0OFli8lLTYcL9uZcv/O3S4DNaB1LaFcp9Pb7LFvcq4
+J+p9f5kbcuF4P+z1d6gBM6p3ypw278WyXoYtdYo188zkycqKtgmOmzaolFzCfsJpR/wqVNx80QHa
+GDVTtdWh62d8w68fb6GQN3qqpabOhY1Ff8HxMkDm44NZiTJ2wv0vfPhqkMfQaSQoWeFiSYa0WrlL
+Bm0SvKGjGcBSTEWKu/sAcdMQP01OO7dwe+qPszOecA==
