@@ -26,11 +26,6 @@ snaps:
     type: kernel
   -
     default-channel: latest/edge
-    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
-    name: core22
-    type: base
-  -
-    default-channel: latest/edge
     id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
     name: core24
     type: base
@@ -97,13 +92,13 @@ snaps:
 timestamp: 2026-02-24T15:37:46.0Z
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCaZ3mZQAKCRDgT5vottzAEkt+EACVvAOwS1sFAgor0XxstXKa2O8gez16ECTp
-XK46Wc3hhU6/5A3U8Uo4i823j9sqVMQkwAT85XCIs4pXvdZYz0wlCKWNO/ZSQubiJay57iTg4P6N
-eoO2yC1yP0iMIuXSyBufVklPHad71ArcLcztyK/ozBBEkKBEd30B9tk+UHGC/nFJ+ZU2uOWk5Hml
-chPTDuTdu1JqJvZ9nbSnPJ6p7p8B39/2OjVyxkl7UdBMYMZMaam5bW+VPnzd9tJBzpJsuV0PVDVG
-/xrF7uu47QT2g6QjEb/sbSKmlCcdRk9dEpjbciZHrKsy8MvTdW9XioAG9hRzhsToTuJC2lHIL+Lu
-jY/CJklPOhhjmWFclF1rPieHNBE/PEQAbZexmz5KqONih4LbVAO4tNxNxkjmb3m1p8An8iVDV32w
-20QmkPRwhgvOG2SfUKrJvRQvSo0vm+sbHRgT/nlxAoHbEaYrdI8l7Q0dxB9eLWD+sUUn/ZyzegTU
-SGyrgAv7nhzxB7HfrZr3B6l9zsGGVqU0zqON+t7c0dnj1x0XTtq4NQQT+Hg++A5/XaWvStoofmWl
-POjNaFhY001UQIwfQKxIRSw5VkTIp54aFVOWoJPFsEFKqZZ2v37jDhOLpx4/sUnMc7qDIbRBMNqM
-Xg/iQkZeZGuvLpyXSwz0a98vsIRPWAcYFTfeF/lPAQ==
+AcLBXAQAAQoABgUCac1KpgAKCRDgT5vottzAEhLnEACGaGo4SA98oVixu1wjOr4mjrWToBZb5wfr
+YmHR9SvzRK27GA7A16Y0+dv9Fzz2xqvInc+VEfmzE332Pbqmj/Vcwrw08/Q01fn2IXTWYWIDI/4Y
+JmbH3Mtem98OmWAt0hkXUo60J61CawCly+cES9TSdmWoYLvtu51P85pzaUT5zYD2erLxvsKMHhxk
+8Vw3kzN9APH71Dsalme7lzNl8fdK88FOfzn/3GGjVlVh1B9w1HBgm48RXyMiUZ5dYsodFKHFR0Gn
+wy0t9Riu/spV6R3jZlc0Nev6fGBmnB9RRS+vGp8ZtI2mgHpTKqUb/qZBXaPyB3jYo+01EFeixWVo
+yB54GG0bxvT2wftoCSIi9ERR436ey+5hYC5R6oNozrmay5d1+1GeZeIbVovtUy+BLB39+iMRRBMS
+LeWhtBSm7SJhT8LTJ1EOp0NPnwlUvx0AZR9G4qh0l71+F/gHrvFO55S0tHpybdOMYGflP4/4uFmY
+j43l+mDTnfee9UcXfrOrC27/4/pHz87ml1TyinQKO8u4x9hJsLm6Faoifwmsyrq23zEtx4hAr1+I
+WL4C2455/vGMtL+0hebo35RU44qSQAD2I3ZBJHGz00vBH+36WeR/GM8cOEBp9Pqc/C/hE6zQhYDY
+4OzEPbkYcu4smedsY39RR9KPMMSSMjVkq5mlFKqDcg==
