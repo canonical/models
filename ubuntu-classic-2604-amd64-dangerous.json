@@ -32,12 +32,6 @@
             }
         },
         {
-            "name": "core22",
-            "type": "base",
-            "default-channel": "latest/edge",
-            "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
-        },
-        {
             "name": "core24",
             "type": "base",
             "default-channel": "latest/edge",
