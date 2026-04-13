@@ -1,6 +1,6 @@
 type: model
 authority-id: canonical
-revision: 1
+revision: 2
 series: 16
 brand-id: canonical
 model: azure-core-26-amd64
@@ -19,7 +19,7 @@ snaps:
     name: azure-kernel
     type: kernel
   -
-    default-channel: latest/stable
+    default-channel: cloud-init/stable
     id: cUqM61hRuZAJYmIS898Ux66VY61gBbZf
     name: core26
     type: base
@@ -36,13 +36,13 @@ snaps:
 timestamp: 2026-02-10T16:08:48+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCaYty9AAKCRDgT5vottzAEppCD/9x3Ou/SeOZcKd+t4A3YitNupkqtkxtZZtU
-+Be/3l9aytiUjSRtHwIWsQy1KQ1YlqHHydITNwmngeY4BWbnIcIyjvHov2DaXSehWf9KOvgBvzuC
-c+RkjdeciSF6Vj6DZoeQzNb/0a1mDrnQgsz4aas7KVH2Qw/NtYMYIhDRfpchkrPLG2zEpjKbNcev
-i/TQP+DKf84/jaNb6lty1qolDyh2aR9oA4TX4C/p57aD0Eco6a4kYngDcOEeYP3bsp0/U5Ynp6pt
-XXYJEV/OZ9u3TKgB3q4HP9TOY9Vx6u+0MOjxlCoSdyGdLA97WtMdeXYF4ie0k/miEAHhDKtTYFsn
-Jl4W0CmYitYF7d2vKkMqgkC8a0i95DGWCft5L8zbsW6uCwX71VGAeUw/jba2trHL1lUyAvXtdbA7
-p4k+4HaFdEcCHtNUzY1BVenC5hUfi5DVlDaq3kLNfooJ2JTokqwoKtaGeSK/q2rfBKFk4TnOPHp2
-Sd6cib71ba81s5dRObH5m+BudlcuqpTt0HE1qMgCwIyRlwVi9a1VLN87dzAnIJKGv7UvJYSQK63+
-sl7SdvWAujTRT2RnD1gsD844sCAAyV+YTAGTAU0vCnIqxmcoW6iSaOA75txejZAxdVipK2tvJzGT
-TJUNQIZEeReJCHWHvzaFBaVLZASjWCe5lgIJm6HqHQ==
+AcLBXAQAAQoABgUCadavAwAKCRDgT5vottzAEg3PD/45TYF8gs3hWQfeH6/3PZSgMMHks5bh2IJQ
+lIHOhExXjt6BIQEYWXbrtYezatzpKTFTLeTwHlEtDKoxEJKBBU+Iw0RMF9upTP87xMLoN37DNtzA
+wCfNJc0EHIbn2H7Iq0PSnV3AUiXSXhYaLUaVunKjfDpmZttkJaxTYQPYA7oK/thBn0BPnb+OBRKa
+he7gKLlLaLzpPtAG272ABqD7J47hFpJB5lmikNhfEO2z0sKAf6Fj+h3ROwMjf3uf5yB2K+LjPG7L
+zYyi1po+KSxDTw+6MHB1F56dogcn0t2GhUNz/8XzQoNdq9TJkglX7XmDn3WqOuKKLQl39iIdk+uO
+3VJDwMon0x8024s+xo+wo/H+TJRR1DlnSf3FxSNbIinBTTTBipbCbhUrjLV/NMgZs+GhJU/L/CJl
+2XGc4rbCYWLI8KDyhDhZuXk9m54F8jTbr0mK+z7/Yo9esKsojS+SB/TIMoSNu/xgKXOJ9Pgi0fmL
+MMMB2mvmOQic+DdOksmc+KlUOtz8Mx++wFNMXU9BEaAae6aZVVeGAlZF3VM2+JNTFI/A7Ax4dYMv
+gchQ6V3r3D7MhUBxLc9cWDSSw1TvQmXE7uCxx2jc9AHWPbqqmF1d7vNNhFYA6aavAgvIDCBqbbuL
+gRGBFDEr13Ei0eUel20xNd4uJSWp73Q4VJjFPuCKCQ==
