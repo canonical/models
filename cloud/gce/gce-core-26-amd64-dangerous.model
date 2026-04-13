@@ -1,6 +1,6 @@
 type: model
 authority-id: canonical
-revision: 1
+revision: 2
 series: 16
 brand-id: canonical
 model: gce-core-26-amd64-dangerous
@@ -19,7 +19,7 @@ snaps:
     name: gcp-kernel
     type: kernel
   -
-    default-channel: latest/beta
+    default-channel: cloud-init/beta
     id: cUqM61hRuZAJYmIS898Ux66VY61gBbZf
     name: core26
     type: base
@@ -37,13 +37,13 @@ snaps:
 timestamp: 2025-08-25T14:45:00+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCaYTvuQAKCRDgT5vottzAEnaFD/9xHWFNfKHEF5aFkVgTkUqIxX3ClTQbcWVJ
-vy0wJ3KxXnPjIY1HMS7U5fdPQPMMDGthD9Uzyn4Ovkbr0xMPXOzDMb0rZ6Arxd3MgiQTHniru+5o
-1Zi2VAvysGk9vKaS90prXU73eKxfT5xHe/4a/irXJHNR65JDf7nI/4pgY6t2a32aUtFvbtBGgvwm
-PH3Q6o5J++I2oY7MnRQudDcVRsa3IktQgMUXjSkW6Wa8UDG370ZXTN0lLq2U7/jBWBgd7LEWRre4
-u/onoTHFladaKf71fLandSTuDR+lohkh/Css7AdPdO8mZLHQ/50T+mu8PxhpvMKFOPP7NdC0Zquv
-bVfqc55IIAPo4go77vaBRggO8RHf3+kM2285U2rq/DUHAvnP5rb4+jgI8EDf3sWFMBmewW9DGtRW
-OMGs+t/TWaBD/plBc5ExRlcR3dt7mqvtPYXLTUb6qE+g2NNOV7JOOT+oWp1UaBx4oswafxAm4XLt
-JqzU1BBGPLvsRk9m7n2PDmO+IGcg4NQHQ8LkEMa0saAJMi/lJgq2gVg4kX8bgPPONR8N9RegJowR
-ZZ18QjQcHtmkgWzAnil8skTvSZPtmgzp2tokJ9Wq8U4Ja216vaqVOttddCHmh0+9ADlt2v23xuqE
-OYlIgj22iK/bCAfLjc4QPsMLkgCZb22kkTrWW8eb1w==
+AcLBXAQAAQoABgUCadavAwAKCRDgT5vottzAEptfD/9fPxOgY31mjietHBxiDzmIWECv++NKS3gw
+JHBN35sHoJMDd9YC0pps0Ix5RNwmTa2be44vKqlsY9khaFTplVF+ROeoOttbnvJ+Mj/ases5GIj4
+AEyjbNtzOzS0ooWab4gQaTFj0TGml89bEURYwoUtLGHF4o/p9D1cmxjDOVPvRxOW1SJdmhLV3BSo
+Ldv0J9shaDSeh6l8U1aAKBIoXlqCbs0ZVsW43jYJWugGl2ZX+RZqoLF/AndFT2WHRvONxyeSC6lJ
+qskXxRCQ4asRx1ha9YXdJrzEBLl76hbaH6RyUHJj4szsMsT45TdqBa2d3JosWajz0NNdB6S9d2O2
+Dx1lAEhi7BBnGUDgeNq56sfFQ0dEMhhm636YygzhFhLuDhhhqfbaqsHRRFOTcyAGG5QhBaIGCHmP
+pImjOYs5zkbYJfdSBi4ySlAWHve6tgN9KC+Hw6MyDxFuKtRO16BRWMuhYTyVV3tISZDXTNIUmlsT
+cpie+KwGLTYG/7DErBPx++IERY7rv4fwbYsREj5BrZqI6604d8dGNaHoOvibY4iotDrVOwy7drL8
+IaGlZIFRji1malOLJk/4w5ybYA1UT18ZWIsezRhVVcmuiSgWBq44umnYVswA5kPbGWFZkFd5yXxM
+5d/UhrGEyY3eo9lPkjrGgcmveZcxAu2/1bH38hzufg==
