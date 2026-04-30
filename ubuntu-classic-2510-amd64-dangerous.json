@@ -70,6 +70,30 @@
             "type": "app",
             "default-channel": "latest/edge",
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
+        },
+        {
+            "name": "firmware-updater",
+            "type": "app",
+            "default-channel": "latest/edge",
+            "id": "EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP"
+        },
+        {
+            "name": "prompting-client",
+            "type": "app",
+            "default-channel": "latest/edge",
+            "id": "aoc5lfC8aUd2VL8VpvynUJJhGXp5K6Dj"
+        },
+        {
+            "name": "gtk-common-themes",
+            "type": "app",
+            "default-channel": "latest/edge",
+            "id": "jZLfBRzf1cYlYysIjD2bwSzNtngY0qit"
+        },
+        {
+            "name": "gnome-42-2204",
+            "type": "app",
+            "default-channel": "latest/edge",
+            "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
         }
     ]
 }
