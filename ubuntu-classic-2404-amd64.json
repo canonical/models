@@ -43,22 +43,10 @@
             "id": "EISPgh06mRh1vordZY9OZ34QHdd7OrdR"
         },
         {
-            "name": "firefox",
-            "type": "app",
-            "default-channel": "latest/stable/ubuntu-24.04",
-            "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
-        },
-        {
             "name": "gtk-common-themes",
             "type": "app",
             "default-channel": "latest/stable/ubuntu-24.04",
             "id": "jZLfBRzf1cYlYysIjD2bwSzNtngY0qit"
-        },
-        {
-            "name": "snap-store",
-            "type": "app",
-            "default-channel": "2/stable/ubuntu-24.04",
-            "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
         },
         {
             "name": "snapd-desktop-integration",
@@ -67,22 +55,10 @@
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
         },
         {
-            "name": "firmware-updater",
-            "type": "app",
-            "default-channel": "1/stable/ubuntu-24.04",
-            "id": "EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP"
-        },
-        {
             "name": "gnome-46-2404",
             "type": "app",
             "default-channel": "latest/stable/ubuntu-24.04",
             "id": "ew7OxpbRTxfK7ImpIygRR85lkxvU7Pzt"
-        },
-        {
-            "name": "mesa-2404",
-            "type": "app",
-            "default-channel": "latest/stable/ubuntu-24.04",
-            "id": "HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj"
         }
     ]
 }
