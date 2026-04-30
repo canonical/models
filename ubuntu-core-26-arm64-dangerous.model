@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: ubuntu-core-26-arm64-dangerous
@@ -18,7 +19,7 @@ snaps:
     name: pc-kernel
     type: kernel
   -
-    default-channel: latest/stable
+    default-channel: cloud-init/stable
     id: cUqM61hRuZAJYmIS898Ux66VY61gBbZf
     name: core26
     type: base
@@ -33,16 +34,16 @@ snaps:
     name: console-conf
     presence: optional
     type: app
-timestamp: 2026-04-07T08:00:00+00:00
+timestamp: 2026-04-30T08:00:00+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCadmKOQAKCRDgT5vottzAEgbmEACQJzaDT5gLnTfmUZg+xIaAPUvVaV/5QFYj
-QvSfeo+xo7WdnJOQ+bM9iMzuEcyUonpqhtXAN/Rt1MRxMoVihhkANS4bULtmP5irguYolHy/pBwP
-rbyMg/rGf783/WmyozvVI+aw/UTdgseuJ/ypoiSRF7Ad3et15T00peTbNFFcu8lW+I1UYavR/G03
-M0MC7fIi9Ha7gRnBaByHd4RWbHtIj3bJT3eqYaUzWR2wKuZREqJqFjONXeg6thYk3Gx67JU8HTYm
-KCxRI6/zjJWMAbyAkGOsZA0JGgrq9VXmprtiqMMAMB1SD27MBMXnRtLjQ1IQ2pgo1ZrHnip0A35D
-LYUwl6pJc67AAGlKgVZa+o5VRqeaQfEChNoExcaPsjIyrT3ZocgWB3GjOkUdvBGvdkMigcnU/Am2
-WIuh0sZgrf3asCas0LBkrTGOfhNsP8eGntTI73eXC6HDc4JNU9/4LttvWe4i3fcb118cASEI6cqF
-+vcQCp0oUxKEKl6T1NrASlJCWAAEvOWDu27kjxJqZWK3lr4pUB6+JIBlKTu4vwwb7/Jj3zVDd5QE
-AkbpLgG5N8SGP9jvvQWdrxRhK9vRFSmwgqZYafIQ/0c6uQ91OaoX6DB1yM2zrCFBP83Ctuf0EvW8
-ZIjPZPlZUSRVZliXif8kaYh0mW2L7qedR3LWgd4hcw==
+AcLBXAQAAQoABgUCafOBAAAKCRDgT5vottzAEtnpD/0ZyPEMaXUof7ybtzbhZqpx+wd5eAvIZaR5
+hHc27sLQwB8F1GmPXQEaNulRQsIb/zKb0apizgc6rXfUMrY7awHFF5JML+RwQjixsqx1DI2SuGk8
+Qi8I8dMxLO8k4/TYhPbdLI5SO9Gpr4DL6cgNjDlf3ZxAwpL6TaqeKCUFb3DIbjGby0N4ZcEZgJo+
+5D0F4dfv6LLMsGWDNnrzpLFp9UPp7X/uG4SgFNmQGlN5A4VN66iv+O8bVrE2O85jLkGs5OwAgD3T
++AMYouOzM2npipXRrm7/JEa8klnH311kU0jrQhzkidqu84AcCMExGbOaPjQkL3ET7kCPe8Cs5QFF
+tT91fzmgLy8nhVCkM69UyBpZFXwCE+UikwomhN5iF56O87MaROGdKZbOT3IbekkMhE441vdCtk//
+uOyw1BHuY5qG5E00W6cDVYmnkfo9GS4lSePCM+d/6YjzBiT7lr17f8tjfJqdkG5CM6JVCDvLQXb9
+Rdq1MFsyEaXQI8vl3xbG1kGWUzlWDGQ4TF0oOVtnYoXWfBqMJsZRgrSZ4Jg9lBleRRAk39T3r4om
+Org3t1fFLweGVx5rWFI+E1g9Nr2GGqb1C5oCAn9UiaN/W+dWHAlkzVPl9X9F+dAuiRN4JgAx6lPO
+TrtwHc9UAsILLazSwsrVGOD9LzaksIH5rjCS+lb3qw==

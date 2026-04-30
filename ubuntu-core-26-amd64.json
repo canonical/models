@@ -5,7 +5,8 @@
     "architecture": "amd64",
     "authority-id": "canonical",
     "brand-id": "canonical",
-    "timestamp": "2026-04-07T08:00:00+00:00",
+    "revision": "2",
+    "timestamp": "2026-04-30T08:00:00+00:00",
     "base": "core26",
     "grade": "signed",
     "snaps": [
@@ -24,7 +25,7 @@
         {
             "name": "core26",
             "type": "base",
-            "default-channel": "latest/stable",
+            "default-channel": "cloud-init/stable",
             "id": "cUqM61hRuZAJYmIS898Ux66VY61gBbZf"
         },
         {

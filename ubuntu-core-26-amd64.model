@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: ubuntu-core-26-amd64
@@ -18,7 +19,7 @@ snaps:
     name: pc-kernel
     type: kernel
   -
-    default-channel: latest/stable
+    default-channel: cloud-init/stable
     id: cUqM61hRuZAJYmIS898Ux66VY61gBbZf
     name: core26
     type: base
@@ -33,16 +34,16 @@ snaps:
     name: console-conf
     presence: optional
     type: app
-timestamp: 2026-04-07T08:00:00+00:00
+timestamp: 2026-04-30T08:00:00+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCadmKOQAKCRDgT5vottzAEk5ZD/47wHlWk+ZxqTh0NatV7pukIaca/fsTuvB8
-wBlaqBrMswFK6yh+jSsxpLrTtMyOrQ96GlhRw64B9X0k3PxEpKAFFChpYvzEWSTaUnPj5tEqemhb
-9SNs4SxfQEA219frohoi7i1FtzbZxSj7Su9EKPJHbi0n8tVUBFM2Wl26i27HTs86xhtkmLCe6OMN
-8aCjNL98JJNF/ER34tBWRhsL1QDS8QMqDLnojkwSU7NIkpLX12TNDTNVXHVrANA8Zv4WqIc4m1cj
-qkHyjB90DhiVvZwj63kgrhwhpMsh3wHLSVyhuV+lG9s88iJ3pIPaM966w5C9BRTf9cvXqD/j2XN2
-0wsVa0eXPR4tRQMy+DF3I0g+f9sqiAOzr9GKR3Jt109F+UcPr2UoRpvu5jcQWqwGsAfsINbJTWLf
-WZfhAI5J2ED7nc50dq2iz0DkOr/+0MiDmEZR1xpchSQdrWHkbLkmPYoJkJQFnjkqz47rilRzkWGV
-APVmoV1frpWIizDxoNGyd64lzbyHdgV10sy46Bj/4EfX5TMiv/wv//fN/I8QPL1M0G87JV4DsZ5S
-/P8Igy6Ob7jiR8GINVuH2Xby/mmWdRV4OuRRMoTNjvVPIiXI6aBEPs8pSduuWM4pW6J3sn7zzoDq
-xQnaa2Qg8ugcpH9ZqufMQEttrALLFJdez0Kb+spLtg==
+AcLBXAQAAQoABgUCafOBAAAKCRDgT5vottzAEjFjD/9ZZpJfMblQCxKLbmDM1dwqXZsuFJyEkdAT
+lQ3M/vhSusBIevje23Yetq3eCMsWz0Rk5F/hxrA6NxatQ6nISSwubEDLiamp45vMWT37/5lZNrKk
+SkueSO6cM8ArylAdZtsKRE/o8Sau+EdPdRtbJUaOX67zfjR4qdx8pVTbTwsEqhlgSs03z8/6+xXz
+kRoeE9N5R2GJJ2bp7WsBtQzDXLIwayjUX9tV9RsTSQk+qzxQLyB7wCly6GrG+GZEtvvdjplmP094
+FOP16sgiHJuM6oDBrHijWb38Fr4PZ29kaHG9eNWNSyla4lDwZo2vlgyDzhfZoLddWAQ9iUYRyPSf
+oUWRKuhoAW61ybYrUCYDpij7W/kkyUOakzFQa///EnsX4vfC2J2o1aJsN3OWXLnoH1g1woLvxT8e
+Xz5O27VxdSeAwApDsiLg2OSfsFDs+fduF93lOwPel5BnZQ7U+No3xV0K958lI04Qh2537fjSTBe4
+C2Bp7bvMbwfU44Ng2E7yv9SBPFVMdyP1QeWueB75V/yAqON8K887iwWXX2DR1ON3mVPDFNIRy/Dd
+/9MVNjyqoPylpDIlbT+bb+yT2ciG/18XAZ2L6VNzbTRbsXrHpcQMYGXd3piFqkkeRKPnxRMXslwb
+NidK9JkLNg/vITyKyE7Trf81mBEcIyoeprZX0OKXsQ==

@@ -1,5 +1,6 @@
 type: model
 authority-id: canonical
+revision: 2
 series: 16
 brand-id: canonical
 model: ubuntu-core-26-arm64
@@ -18,7 +19,7 @@ snaps:
     name: pc-kernel
     type: kernel
   -
-    default-channel: latest/stable
+    default-channel: cloud-init/stable
     id: cUqM61hRuZAJYmIS898Ux66VY61gBbZf
     name: core26
     type: base
@@ -33,16 +34,16 @@ snaps:
     name: console-conf
     presence: optional
     type: app
-timestamp: 2026-04-07T08:00:00+00:00
+timestamp: 2026-04-30T08:00:00+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCadmKOQAKCRDgT5vottzAEnpmEAC3dAfVALESawaMCW7wMZPVvTr04fWUQUVo
-fZTWiCmOcrDjjT2CGoXEb+Tji+pSGW6UXoCSHnPA2PEYN/DFsqR1+CKCbvO2Q5fQCxcVCLCpLarg
-DJSaPwc+XB5V36rMS4fZyVXmsfQ3zkB3TUXZGLMsygCP89xO5GqFG1mnJwX+UxFSSbFIq7jHsWXF
-oHhHV/MxtO9ZJWMAfP51PH2pVE6hDkL4PO9iTQJGqooYaFrXzOk7permDM5dkwtFEdm1NaHWrKuo
-bUJaoMez20OTtKmz9Yv09Um4y9sX3T43Qk8VEm0eIjIH7SgNrHoE3Emu57ggV81dcQk2iJr8KS98
-r5A6L5V13Bpqy7yxvTDuFW8o6+TBXr7u0+91bY/Sv+S8jXYYnqjTkegEdzFu/C8yhm0wY2DSVHmN
-Gv1vr6/ETpc0uzK+wTNdJjQ2RmmTli58stxDRS4KFRRpQrvBZ0ckDjJxgseCjIaCuCwH/aXs64mJ
-4RllVQMuhIorJ1ywDh1FtUfszYZWtrw75uPONliaNQThTtWAPYsUDAhgL7+GA0jjCgKeRulT6C15
-z6tkZFeS329jFyIgn8s2Sbu7gj2ZV8DxJrmXMep0HDodAdDcor3fvoG/yOgRrdiIC6IDdm2luoIH
-0rl/AwoT8sQLk2zqPrh5NYXG5ACST5Gj4G+5IfcDCw==
+AcLBXAQAAQoABgUCafOBAQAKCRDgT5vottzAErJWEACuV8WbmoW4uklLBT4qNxqbI/LeOeuGgHd3
+4VToQzR5AsRPGzA3uQdMzY9qlkuQGlHksPQEIj2ZtnjsPz9zaBrZgga/zl6KbCvSGg7ldBA2cKOv
+iI/5LNwUoQYM67e5XdbPJL4qnUN8Ok4ADhqYuZqKB+ZXNrwf5lUyklA3qcgo52ch/QBgZl0yvQEF
+LNsvyap2rawPSoFsXiKGhC6AFp8u4vMz0IJUaCx2IXGs4CgWCj2MGDqouvny5zrF5nUtwObvsxX5
+LHdFRf44jHlX8H42P3njkx8qqLkduaRp9J1i80/vZGKKp+/3+TtWW0YZUDarWWoem1Mz7oc2UvoY
+OV12J8h+fGfVPzpxz2fL6pMCLluxWtCxnghRFt5XG6OQ7pVvUfP/wpCn+MJmBU8kiLSz+mJLMqgt
+NYwcwYWnPBiCRmSC+uoKdZZcHpavlp9Z4+LpNSvDabyasqoMnd6cvwSwS8onNCl4A1WpkbCV9m2m
+YaWHe51W254GUxY1fTEgA+/Y2J8fBRPDcSyZPLbpj8pxkcaDrVcC6mabq2DgaZvODyLXZ5Q8z6Ng
+vYgFR2kN6DEvsdfDVrCJm4I79Ph9X8gf5F5Axx5RCdfq7LbLWLWd/wnXEGuYZvfqN2e09B0VODyr
+4WVHq8/rsvIsb3kPCB5zXEVShpWTZFYcTWVtpw/Lqw==
