@@ -1,7 +1,7 @@
 {
     "type": "model",
     "series": "16",
-    "model": "azure-core-24-amd64",
+    "model": "azure-core-24-amd64-dangerous",
     "architecture": "amd64",
     "authority-id": "canonical",
     "brand-id": "canonical",
