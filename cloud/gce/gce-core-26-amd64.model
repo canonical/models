@@ -1,6 +1,6 @@
 type: model
 authority-id: canonical
-revision: 2
+revision: 3
 series: 16
 brand-id: canonical
 model: gce-core-26-amd64
@@ -29,6 +29,11 @@ snaps:
     name: snapd
     type: snapd
   -
+    default-channel: latest/stable
+    id: pFW262Ov8qp7QiCyKftmv5VlBfDxhBN2
+    name: gce-guest-suite-core
+    type: app
+  -
     default-channel: 26/stable
     id: ASctKBEHzVt3f1pbZLoekCvcigRjtuqw
     name: console-conf
@@ -37,13 +42,13 @@ snaps:
 timestamp: 2025-08-25T14:45:00+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCadavAwAKCRDgT5vottzAEvGwEACvCIWzQDYQ/hZ0t0BfC3jtODuixEHYzpiz
-OMBPEARfEim1QGimuQAEhc8xTxkqLMH6LgMDbbIU7WepgWdQiFcVbwcJpesx2nJwIJEkc+1K3e3Z
-ZjwjrN5/x84MMpadGQCtjGrf44toFzzDWWJqdrA+jVgFJZ3neC/r1zVPVlrWLmjTS0xRsfbN9iG2
-lWMvUpixzVSFwWx00Hc6ruzB0bH2R6IOXeF4bLub2YDD86dBhYyMtCDc9e/KMGi2YXAQfspAK0Of
-j3AY34wuP4X/gVMbrjr6QS6pDHvChjf7Lt3WwDPrUmaAuIzkVonO84+dlzWK/L/97KllriLDLFYD
-R0S+aqYZEnaPp+UBcGyC4Kf3JZY3/e5skDkuGn/7vqHQUjk0FbXQtTDRMOzKGylIJ77/TOHw6rWL
-pgJoRYzdIUDipN71NLRMSkT3Iu5dN61+/ow1O5NnLBMfqmkPEQnaW1sVVob36UaN9AoCB/JDupso
-cthEw46Xn3NtrI6dF50MP6k7xzy2lPmjiETr6Rog4QBPE6+B7WE+ReK4KvfHojKzNHTuq/j5xMYh
-GNOicYorU47lJLbQcygpKn7egbtuQa/ljZcrWylNwPAyVD0kALtbnRcyrykyTK61zuiXXgoFTAEh
-onFTpFlfBti6gxp9k8pjs68/GVTq0HaK5dejcYuxWg==
+AcLBXAQAAQoABgUCajZPYwAKCRDgT5vottzAEnAtD/9WQhodSFKa/BQHGHY8gxMXyXPjUAnBT5NV
+Ptl6bsnPM0p3rILMCNv6G4ODLUkRtSQ/2sTXxxZXtegQyDlFS1B9CrSXTwd/FqgcUDAm3Qs/nj3Y
+y0RDQEfXVrBRDADK90pjBBsZunbiPdl7ewzoR0Xu+cnIuwwpNHnQXwvAobJvbmb7vDB8VRkrf71G
++PlKso+eFtUIun8XDPPgB+QftsfzhEJscYzkjEaElibpXEGluKg8PNd/b89n8/f06Gi2RFRqdBlX
+i/aXn93icXxs0fyG759jFYGf4JpXMtDdpMSOsPLpdibQAHNVfX2Cx/PdnDdPbvjOxwAfB2Hlxg0R
+NnTuELOzSxKgHUjo8ygkZ6tfhk/6VGqeyeTgT23bhgHAd7cuNUUTHJJb+ke3uJcNp9lNpQyaM21s
+No+9pcWUvCegWvJpnuuisQO+Oc3QxC37brppLOM8ksy+yDCxk4wnC5SSqvZV5KBjggvagw9C3EbS
+WLoXNOSSFDE4dDZoxyGqsp14BgmLE6LXIfWrH6c0eS2FdUTJe8V0zpHCZBrYXU55e4KYbEnMlvQ9
+2Z2vmcvgXK4jhEn9mIwvAAnruLx/bv03ecVDqXQzZHUNoszmrI2kMzSFs3guDhfaRM7CH0XQBHnm
+1l7ujqamXMkMxQTomEqOlCK53bCEFDDi3oamkSaGAA==

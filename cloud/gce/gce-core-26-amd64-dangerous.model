@@ -1,6 +1,6 @@
 type: model
 authority-id: canonical
-revision: 2
+revision: 3
 series: 16
 brand-id: canonical
 model: gce-core-26-amd64-dangerous
@@ -29,6 +29,11 @@ snaps:
     name: snapd
     type: snapd
   -
+    default-channel: latest/beta
+    id: pFW262Ov8qp7QiCyKftmv5VlBfDxhBN2
+    name: gce-guest-suite-core
+    type: app
+  -
     default-channel: 26/beta
     id: ASctKBEHzVt3f1pbZLoekCvcigRjtuqw
     name: console-conf
@@ -37,13 +42,13 @@ snaps:
 timestamp: 2025-08-25T14:45:00+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCadavAwAKCRDgT5vottzAEptfD/9fPxOgY31mjietHBxiDzmIWECv++NKS3gw
-JHBN35sHoJMDd9YC0pps0Ix5RNwmTa2be44vKqlsY9khaFTplVF+ROeoOttbnvJ+Mj/ases5GIj4
-AEyjbNtzOzS0ooWab4gQaTFj0TGml89bEURYwoUtLGHF4o/p9D1cmxjDOVPvRxOW1SJdmhLV3BSo
-Ldv0J9shaDSeh6l8U1aAKBIoXlqCbs0ZVsW43jYJWugGl2ZX+RZqoLF/AndFT2WHRvONxyeSC6lJ
-qskXxRCQ4asRx1ha9YXdJrzEBLl76hbaH6RyUHJj4szsMsT45TdqBa2d3JosWajz0NNdB6S9d2O2
-Dx1lAEhi7BBnGUDgeNq56sfFQ0dEMhhm636YygzhFhLuDhhhqfbaqsHRRFOTcyAGG5QhBaIGCHmP
-pImjOYs5zkbYJfdSBi4ySlAWHve6tgN9KC+Hw6MyDxFuKtRO16BRWMuhYTyVV3tISZDXTNIUmlsT
-cpie+KwGLTYG/7DErBPx++IERY7rv4fwbYsREj5BrZqI6604d8dGNaHoOvibY4iotDrVOwy7drL8
-IaGlZIFRji1malOLJk/4w5ybYA1UT18ZWIsezRhVVcmuiSgWBq44umnYVswA5kPbGWFZkFd5yXxM
-5d/UhrGEyY3eo9lPkjrGgcmveZcxAu2/1bH38hzufg==
+AcLBXAQAAQoABgUCajZPYwAKCRDgT5vottzAErZPEACJ++rGOWLOfNGl8efwE1G0jRXoTR4CjhCr
+cztVXRmlnC0nTSYpAQrAQ1HTBZQR3e/mP4u7TBDkHGgtwfop9NrvNPUZ+ezkx1mvU/XSAW+PiH9r
+254w8QWwgE4LNCbRJRyE3jaaCJugqxfZ42KToynAGQr8T3QjHNRMxsOmQhY2tcpOUM0Lfw8DOSkN
+acWR6+/QECcHvkF9OGYOVd9pBKbG6Ae+12+Gl6r14sR9kzEo1GezkrcjlS5MgWRBZ5c6hYWuMKq0
+t5mhFxhRNc3KKaWudw8SaGTYvEs5i/8z68pW4QhcSYzJCPmAk7YwRkcrXDvBCfkVyFLXxnEuP591
+y6C8pZ6zPP7Klz2FbD1h4JHThzJawdO91zON7el4f4GhGIABM9CR6BfSOJoD45Zwt57kcNKUik8k
+c41t1IrFJtKQ9aPw+lBHhVUz9RR/WHELHTjGgKbHpq9xve3TnHlKqJhk3JHUxQaqVVXijuELI7Xv
+lpqmad94y9O7V2/bRIjjDqaOe+2MbX0X8Mh1JqkvKdmTAImEKWM0Znye1vVa6cP26Wz7eiGGsIcO
+u6id5O2nh8rVUI1s10hYVlX1BzHgfSnPj4b+oJ7jQd7hDBs3/hf5jCB+eC6UNZUhaiDTfHzEFOQF
+i8qappa8FIrARKeW9YIB9h733URewtmCj2zQPdpBHA==

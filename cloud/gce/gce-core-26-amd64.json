@@ -8,7 +8,7 @@
     "timestamp": "2025-08-25T14:45:00+00:00",
     "base": "core26",
     "grade": "signed",
-    "revision": "2",
+    "revision": "3",
     "snaps": [
         {
             "name": "gce-gadget",
@@ -33,6 +33,12 @@
             "type": "snapd",
             "default-channel": "latest/stable",
             "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        },
+        {
+            "name": "gce-guest-suite-core",
+            "type": "app",
+            "default-channel": "latest/stable",
+            "id": "pFW262Ov8qp7QiCyKftmv5VlBfDxhBN2"
         },
         {
             "name": "console-conf",
