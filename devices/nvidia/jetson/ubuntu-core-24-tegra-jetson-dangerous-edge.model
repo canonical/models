@@ -1,0 +1,48 @@
+type: model
+authority-id: canonical
+series: 16
+brand-id: canonical
+model: ubuntu-core-24-tegra-jetson
+architecture: arm64
+base: core24
+grade: dangerous
+snaps:
+  -
+    default-channel: 24-jetson/edge
+    id: 9pjCtYlNoT9Fx6RiHMhhBoIG6ZYXBvJc
+    name: tegra
+    type: gadget
+  -
+    default-channel: 24-jetson/edge
+    id: Rjyoy6Zhe9mlkBQqmVzaUdPB2TblFSwV
+    name: tegra-kernel
+    type: kernel
+  -
+    default-channel: latest/edge
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
+    name: core24
+    type: base
+  -
+    default-channel: latest/edge
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: 24/edge
+    id: ASctKBEHzVt3f1pbZLoekCvcigRjtuqw
+    name: console-conf
+    presence: optional
+    type: app
+timestamp: 2026-07-10T09:28:47+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCalEuXAAKCRDgT5vottzAEv7VEACLnOfsppotPpitFRS2y3YyK1sLIobbTbe/
+7HXZut/U2Bd95qqxwGoMPce/WBbh+Kel6gQfcXNHpRgWE94bGJ2/SqkJgSCbu1O6UIp4ppWcxfKe
+aJtr1bazjxDWIs0NEvAykPHfV44cBssjlDyVF0b0zyoJzPaPZD+ft73VqA54P7JuX+8ni/IUdDCD
+jCinxZh0RObD9xqcqcYbez55cMLyHuO6DZOHJMeFd3NIYqSvRnblt1OJBjJ+gcPDohhhe5JasyDU
+IOny4wPTMWM86wH6wqFqyRQ+pLjW0IBrK+ALdbZVzvEsVrkDlywT1OPcBqAnY0dgkUw+0lZEMacq
+/YQscc+8uQ5HSdrnHvbpPwwMP5FQEVx+Ozrt7+2gcHPJvCOY5fMYC5BDH7BYpYnBG+Cg/P78iYYY
+Fq+kIwlo7bMPUOsiRJJY4jaZAHtbTw+oPlkztmKP4IuNJBARntXydgYhl4qTHLsBNE7XfiEgiY3p
+4RuzxzKvJ8L0thUPtEadULeYlvrTisKQr7uAvAE9LLpzgS0os6NuVk7/jPF3rKjRCSI2Kp/Ik/OC
+TTeV8SYeVnT0zAx5MBNCmKqZp2MwvZqenF+aHwvZJNPrAVt6ACWxqhX79YJse9E/a7C8kv2A3cm8
+3ke673lOdf+Lho39LqzFqSfbUBnpaiKIiphzJmPMhQ==
