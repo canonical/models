@@ -1,0 +1,22 @@
+# Default ownership for repository policy and uncategorized models.
+* @canonical/ubuntu-core-devs
+
+# Automation and Ubuntu Classic seed synchronization.
+/.github/ @canonical/foundations @mwhudson @dbungert
+/scripts/ @canonical/foundations @mwhudson @dbungert
+
+# Generic Ubuntu Core models.
+/ubuntu-core-* @canonical/ubuntu-core-devs
+
+# Ubuntu Classic models.
+/ubuntu-classic-* @ogayot @didrocks
+
+# Installer models.
+/ubuntu-installer-* @canonical/foundations @dbungert
+/ubuntu-server-installer-* @canonical/foundations @dbungert
+
+# Development and legacy generic models.
+/generic-classic.model @canonical/ubuntu-core-devs
+/oracle-classic.model @canonical/ubuntu-core-devs
+/xinyi-* @canonical/ubuntu-core-devs
+/xnox-* @canonical/ubuntu-core-devs
