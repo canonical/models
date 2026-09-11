@@ -2,7 +2,7 @@ type: model
 authority-id: canonical
 series: 16
 brand-id: canonical
-model: ubuntu-core-24-tegra-jetson
+model: ubuntu-core-24-tegra-jetson-dangerous-beta
 architecture: arm64
 base: core24
 grade: dangerous
@@ -36,13 +36,13 @@ snaps:
 timestamp: 2026-07-10T09:28:47+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCalEuWwAKCRDgT5vottzAEnLDD/9OFvjG7k1Nl0RvPv9DNjjeJmzKCY/JUFVW
-cKO0PTVM39uEQL5PQLCTXCOhWXA3gZgqko0ErIkMg+lfPWzrf9l5vfvOUeZvtucalArc0dO+ZeTm
-5kDfGBJ/SuuG3COzbyFv+g/R5AUFmo0GYE9xoY7CiibaN6aJf3lWCdj4/J/8JnkuIL4ZD4YtDPNU
-64aWcPLQX3bKoRhUl8hJke4CQ9BSRqJRZPzklYaRk7a/x98wPjZeboZWvTu1pZLBaG+FUebLQSII
-ZziWquQvrj1GmHFagpbwSOvwl1iH1RCq5Bh08dFRI+Inwl3pigkltF9gFp8ybmTNi+mCMe1tqwfK
-hkKmowa/9My9Ny7+wMtBoF7sBQord+pIHduq+05QN6cyKsSJy5IgownlxKQzZETjiqYSQditbTMT
-Opa560GvAeklFMut/RoTRB3mcT+qYK3SImDJAJvsS4k6FUh7lL2kz6HN+NiL40yCj/OrsuidJ/n0
-1A5OgxIv2t33ffj/YpTAnAfXvakVL7FVyiziFRBWYfM+i1RbJ4Jjqb5eKFgNMdVQfl5hn1YzWNI/
-P/KwXW5Qi7E/yNxyuVoiJvZdVSgTOUwgIq4XI/K1e3pKnt2I49W18hDLYfEBq0Ct+qbO5vmR1dpf
-D6isnJNAcA6Z6p7haP/Q2BREIsRLEjO9xK4Lx2DoSg==
+AcLBXAQAAQoABgUCapezSQAKCRDgT5vottzAEhLHD/99DQG0LGlzEImu/fSkEt7v8cx1DMXkpw+k
+I3FZOX5BbzzrOWuxPtFcvbewabHahqU/bxwhLGy7DorY/wvDnRd42xG5hELSBhGYfeqe+KNC/fyy
+4TxwAO8Ex7q4n/VvkjFiHJ1SK0fRTzkyOrNULc5S71SAIEH14LdigJle+VVeA2ocmRKlon3Hn3hb
+TSUa9BsbNSNDlGQgiDKuAZXrbBYoQPGVKCN3xh8hExD1tCPUiUbJ5NKu6GbEhhG+YZ0jnsbUjkdg
+X47WDar4d7at/I4W8NqL6NXGPqjcPVkT7Ht/wylBNUETBgbDOkH3fCoAtEStkC8knVP7K/gmoI1X
+IlugPmN6/x5ZCqj96Ggl+oS3cypgW9uP2hJgb5iEheqtonSDMZ6yq+XX53NADRDewD3Cf6alpqD/
+cCdYveoEU1vooXDe0oVSZoTPm4m7Eq/gQF+d/e+OjoUN/DCDNBTOufQvqfy+9xBG14kcdE5jyK+a
+CVQGL0PPERdEKPrpDKR4GQ2SrI6zx0moJZ/gblPoCdbdGyoKl4mKBfTKOzmEwVxHwKDTNp311fEs
+/2rXYnIZyq/rakSGBV/egMFo/Cj71jc00wHYYlP0TBm1ImhsIrffrs0AwFPB1p2UpwkJPyPR6ydz
+3kYIkxLbTnbOezPHuSoggtEFIIUPBj1QWRwrnwl/wg==
