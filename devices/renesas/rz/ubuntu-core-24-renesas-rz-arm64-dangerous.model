@@ -1,0 +1,46 @@
+type: model
+authority-id: canonical
+revision: 1
+series: 16
+brand-id: canonical
+model: renesas-rz-dangerous
+architecture: arm64
+base: core24
+grade: dangerous
+snaps:
+  -
+    default-channel: 24/stable
+    name: renesas-rz
+    type: gadget
+  -
+    default-channel: 24/stable
+    name: renesas-kernel
+    type: kernel
+  -
+    default-channel: latest/stable
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
+    name: core24
+    type: base
+  -
+    default-channel: latest/stable
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: 24/stable
+    id: ASctKBEHzVt3f1pbZLoekCvcigRjtuqw
+    name: console-conf
+    type: app
+timestamp: 2025-11-21T12:40:32+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCatoROAAKCRDgT5vottzAEr3rD/9s0VEnBxH2gjY5FikKkGoqwzq5dJiydXKz
+Jk3Sx+ZNptH3Ucn+O0BFMajvjcPypD2AruA6y9bI7PqI8I2c6m6LBvLewHkDxlcPxwRUaxvMbv2M
+609SsiQvaJf3ao+LE3Ccc9YT6xT3m7XXyHnzxP6r7wHetGgbIjlMq+DYkvscYJCEmj5sADCuD1ns
+Ei24/s+why6b4CGqKLrxFfMMhK1OjZsn+5KA5mtAtRwjjH2BdlbiG9o2ffcqOqsoKvCVkA4FOl7M
+dOKMWXMkd5WEiV0zkFZY6oxHA0KcCzj1ispG2/tYgz9yalx8TMBAlWNF2kgnoBr0tG+r3O5cJUse
+DGac/+L60zIXtxvmh2ZxqOvSsGtswbUq4tXrsNIGaRhF4WrCueD30gIU/qZecjPX8jJ687vO/WO2
+01mN2KHI+QWG3kppaj+nhGVBfJ431su5050faeO4k5TXrg4YIDR0LjoDMx7/3lXX+czE9ACThbMj
+//LdxJrYyfDPHCX86dl7HdlnoGpwV7+cL+4Qne00+Z/W3cN8tqrV3tKlQWSFokOHQqK4iqqu9G+N
+8hEFRBwpdZj8C5IR4PZs2ilc/D5JH+6lJ2x1SsPXVTV/wXsFdloAUugo5bpGmxAmA7S0WfYttsFC
+zMQ3qn2bCzbd81Dib8Hqo5kD6Q5oAWaQPz1cImDchQ==
