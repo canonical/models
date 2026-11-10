@@ -1,0 +1,42 @@
+{
+  "type": "model",
+  "authority-id": "canonical",
+  "revision": "1",
+  "series": "16",
+  "brand-id": "canonical",
+  "model": "renesas-rz-dangerous",
+  "architecture": "arm64",
+  "base": "core24",
+  "grade": "dangerous",
+  "timestamp": "2025-11-21T12:40:32+00:00",
+  "snaps": [
+    {
+      "default-channel": "24/stable",
+      "name": "renesas-rz",
+      "type": "gadget"
+    },
+    {
+      "default-channel": "24/stable",
+      "name": "renesas-kernel",
+      "type": "kernel"
+    },
+    {
+      "default-channel": "latest/stable",
+      "id": "dwTAh7MZZ01zyriOZErqd1JynQLiOGvM",
+      "name": "core24",
+      "type": "base"
+    },
+    {
+      "default-channel": "latest/stable",
+      "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4",
+      "name": "snapd",
+      "type": "snapd"
+    },
+    {
+      "default-channel": "24/stable",
+      "id": "ASctKBEHzVt3f1pbZLoekCvcigRjtuqw",
+      "name": "console-conf",
+      "type": "app"
+    }
+  ]
+}
