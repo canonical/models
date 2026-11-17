@@ -1,0 +1,59 @@
+type: model
+authority-id: canonical
+revision: 1
+series: 16
+brand-id: canonical
+model: mediatek-genio
+architecture: arm64
+base: core24
+grade: signed
+snaps:
+  -
+    default-channel: 24/stable
+    id: 7TAD6GcCXwugAvC6c96rEU6NxPrqhuD4
+    name: mediatek-genio
+    type: gadget
+  -
+    default-channel: 24/stable
+    id: xFMGLRAkDsbHq5JyD7pilRTPRyDDDu28
+    name: mediatek-genio-kernel
+    type: kernel
+  -
+    default-channel: latest/stable
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
+    name: core24
+    type: base
+  -
+    default-channel: latest/stable
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: 24/stable
+    id: ASctKBEHzVt3f1pbZLoekCvcigRjtuqw
+    name: console-conf
+    type: app
+  -
+    components:
+      mdpd-mt8365: required
+      vpud-mt8188: required
+      vpud-mt8365: required
+      vpud-mt8391: required
+      vpud-mt8395: required
+    default-channel: latest/stable
+    id: EBEJL6hDiedvRzOMrZjGLS9Ad4jdXcRp
+    name: mediatek-genio-vcodec
+    type: app
+timestamp: 2026-09-25T02:00:00+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCatoQ7wAKCRDgT5vottzAEmdDD/wLkgdm+Gtt+LcsiMcpQxko0sSGCyVyFNmV
+dm3La8BWYT6Cn5d/E6KD/MZsgyyiGm5Eewjvm0khFhcpaZGEK1WdFzpp+s7zmV2DuDzccryIFV/G
+Khy/SbZtX2Zn6ffuWp1o0AB0OJy01DOpsSOIEJAcoxA/OwQZ6kR4K5feXTOZFZXGf/DUSGlCigEH
+whqYbaTwi/RlnMMHoc+PKCxJHDG1DQFI9Z3y2u5KJoI1+OUUm9pz6pomIGe0A/W6t37xNWUnrpec
+3o3F0McvHR/mIjbLtnGZYl1mvd4zF1ZD60ivIkPzHPxZLHCjvIDR4ClmkX886wKnHlBa4g+w5XGH
+3u/38Np8AOiQvxJgEAW2AuKuaM7RKk+zVdVedMkbjnfMJADJ+rAwbsZqCkhR93nmGFBLvf1eoWtB
+6pGVsT7sn+0pHuFkPVDp064FQCuMZNOliFngJGIsak9YeIMVIO3QFdcEnI9yu78d3ByFbd/WxMx1
+Pehv7pLuFoqYyL2KYKKRpxK1lnjJxw+VvYuxn2hO0i6I3hMwLyRPQCTR02y23NuJPkTTFT2z5XCc
++FXsec5pHY785lkRQ3A6+AG4iRN3lWblEbvUcsUayLexiGpcryo2Enr9ZABdZVPrSSlmuAaANu0E
+A9dI8H89YeyL2k/2L2LNey1YiW+j4f4kubBC+tbgbA==
