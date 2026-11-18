@@ -1,0 +1,51 @@
+{
+    "type": "model",
+    "authority-id": "canonical",
+    "brand-id": "canonical",
+    "revision": "1",
+    "series": "16",
+    "model": "ubuntu-core-24-amd-kria-dangerous",
+    "architecture": "arm64",
+    "base": "core24",
+    "grade": "dangerous",
+    "timestamp": "2026-11-10T10:08:18+00:00",
+    "snaps": [
+        {
+            "name": "amd-kria",
+            "type": "gadget",
+            "default-channel": "24/edge",
+            "id": "NnvDTO4E0hkNA9osrzH6OeMtNcy8Fz47"
+        },
+        {
+            "name": "xilinx-kernel",
+            "type": "kernel",
+            "default-channel": "24/edge",
+            "id": "IRohXhO5H6v6PRASiH1rMhXZT1rprwZc"
+        },
+        {
+            "name": "fpgad",
+            "type": "app",
+            "default-channel": "latest/edge",
+            "id": "6EV0Xg8BtRaQWfkdtdIrXU3mTEl539q9"
+        },
+        {
+            "name": "core24",
+            "type": "base",
+            "default-channel": "latest/edge",
+            "id": "dwTAh7MZZ01zyriOZErqd1JynQLiOGvM"
+        },
+        {
+            "name": "snapd",
+            "type": "snapd",
+            "default-channel": "latest/edge",
+            "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        },
+        {
+            "name": "console-conf",
+            "type": "app",
+            "default-channel": "24/edge",
+            "id": "ASctKBEHzVt3f1pbZLoekCvcigRjtuqw",
+            "presence": "optional"
+        }
+    ]
+}
