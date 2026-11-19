@@ -6,7 +6,7 @@
     "model": "ubuntu-classic-2704-amd64-dangerous",
     "architecture": "amd64",
     "timestamp": "2026-11-18T12:00:00.0Z",
-    "base": "core24",
+    "base": "core26",
     "grade": "dangerous",
     "classic": "true",
     "distribution": "ubuntu",
@@ -30,12 +30,6 @@
                     "presence": "optional"
                 }
             }
-        },
-        {
-            "name": "core24",
-            "type": "base",
-            "default-channel": "latest/edge",
-            "id": "dwTAh7MZZ01zyriOZErqd1JynQLiOGvM"
         },
         {
             "name": "core26",
@@ -112,7 +106,7 @@
         {
             "name": "hwctl",
             "type": "app",
-            "default-channel": "latest/beta",
+            "default-channel": "latest/edge",
             "id": "9gTfXKJi0rgBnay9fPx90keffqR2l9fX"
         }
     ]

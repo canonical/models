@@ -6,7 +6,7 @@
     "model": "ubuntu-classic-2704-arm64",
     "architecture": "arm64",
     "timestamp": "2026-11-18T12:00:00.0Z",
-    "base": "core24",
+    "base": "core26",
     "grade": "signed",
     "classic": "true",
     "distribution": "ubuntu",
@@ -32,10 +32,10 @@
             }
         },
         {
-            "name": "core24",
+            "name": "core26",
             "type": "base",
             "default-channel": "latest/stable",
-            "id": "dwTAh7MZZ01zyriOZErqd1JynQLiOGvM"
+            "id": "cUqM61hRuZAJYmIS898Ux66VY61gBbZf"
         },
         {
             "name": "snapd",
