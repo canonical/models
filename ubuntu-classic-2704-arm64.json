@@ -50,10 +50,10 @@
             "id": "EISPgh06mRh1vordZY9OZ34QHdd7OrdR"
         },
         {
-            "name": "mesa-2404",
+            "name": "mesa-2604",
             "type": "app",
             "default-channel": "latest/stable/ubuntu-27.04",
-            "id": "HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj"
+            "id": "PbCvWDDwzZOUyXkMjEqt1e09TQHsJJOH"
         },
         {
             "name": "firmware-updater",
@@ -92,10 +92,10 @@
             "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
         },
         {
-            "name": "gnome-46-2404",
+            "name": "gnome-core26",
             "type": "app",
             "default-channel": "latest/stable/ubuntu-27.04",
-            "id": "ew7OxpbRTxfK7ImpIygRR85lkxvU7Pzt"
+            "id": "QZqEQWHOtcwEal2DiSXdMEvvHXFcXkkh"
         },
         {
             "name": "snapd-desktop-integration",
