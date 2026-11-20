@@ -49,12 +49,6 @@
             "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
         },
         {
-            "name": "gnome-42-2204",
-            "type": "app",
-            "default-channel": "latest/stable/ubuntu-24.04",
-            "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
-        },
-        {
             "name": "gtk-common-themes",
             "type": "app",
             "default-channel": "latest/stable/ubuntu-24.04",
@@ -77,6 +71,18 @@
             "type": "app",
             "default-channel": "1/stable/ubuntu-24.04",
             "id": "EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP"
+        },
+        {
+            "name": "mesa-2404",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-24.04",
+            "id": "HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj"
+        },
+        {
+            "name": "gnome-46-2404",
+            "type": "app",
+            "default-channel": "latest/stable/ubuntu-24.04",
+            "id": "ew7OxpbRTxfK7ImpIygRR85lkxvU7Pzt"
         }
     ]
 }
