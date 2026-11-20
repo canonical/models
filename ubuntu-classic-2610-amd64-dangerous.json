@@ -3,9 +3,10 @@
     "series": "16",
     "authority-id": "canonical",
     "brand-id": "canonical",
+    "revision": "3",
     "model": "ubuntu-classic-2610-amd64-dangerous",
     "architecture": "amd64",
-    "timestamp": "2026-05-06T11:17:20.0Z",
+    "timestamp": "2026-05-21T16:56:20.0Z",
     "base": "core24",
     "grade": "dangerous",
     "classic": "true",
@@ -20,7 +21,7 @@
         {
             "name": "pc-kernel",
             "type": "kernel",
-            "default-channel": "26.10/edge",
+            "default-channel": "26.10/beta",
             "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza",
             "components": {
                 "nvidia-590-uda-ko": {
