@@ -3,10 +3,10 @@
     "series": "16",
     "authority-id": "canonical",
     "brand-id": "canonical",
-    "model": "ubuntu-classic-2610-amd64",
+    "model": "ubuntu-classic-2704-amd64",
     "architecture": "amd64",
-    "timestamp": "2026-05-06T11:17:20.0Z",
-    "base": "core24",
+    "timestamp": "2026-11-18T12:00:00.0Z",
+    "base": "core26",
     "grade": "signed",
     "classic": "true",
     "distribution": "ubuntu",
@@ -14,28 +14,28 @@
         {
             "name": "pc",
             "type": "gadget",
-            "default-channel": "classic-26.10/stable",
+            "default-channel": "classic-27.04/stable",
             "id": "UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH"
         },
         {
             "name": "pc-kernel",
             "type": "kernel",
-            "default-channel": "26.10/stable",
+            "default-channel": "27.04/stable",
             "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza",
             "components": {
-                "nvidia-590-uda-ko": {
+                "nvidia-615-uda-open-ko": {
                     "presence": "optional"
                 },
-                "nvidia-590-uda-user": {
+                "nvidia-615-uda-user": {
                     "presence": "optional"
                 }
             }
         },
         {
-            "name": "core24",
+            "name": "core26",
             "type": "base",
             "default-channel": "latest/stable",
-            "id": "dwTAh7MZZ01zyriOZErqd1JynQLiOGvM"
+            "id": "cUqM61hRuZAJYmIS898Ux66VY61gBbZf"
         },
         {
             "name": "snapd",
@@ -50,58 +50,64 @@
             "id": "EISPgh06mRh1vordZY9OZ34QHdd7OrdR"
         },
         {
-            "name": "mesa-2404",
+            "name": "mesa-2604",
             "type": "app",
-            "default-channel": "latest/stable/ubuntu-26.10",
-            "id": "HyhSEBPv3vHsW6uOHkQR384NgI7S6zpj"
+            "default-channel": "latest/stable/ubuntu-27.04",
+            "id": "PbCvWDDwzZOUyXkMjEqt1e09TQHsJJOH"
         },
         {
             "name": "firmware-updater",
             "type": "app",
-            "default-channel": "1/stable/ubuntu-26.10",
+            "default-channel": "1/stable/ubuntu-27.04",
             "id": "EI0D1KHjP8XiwMZKqSjuh6W8zvcowUVP"
         },
         {
             "name": "desktop-security-center",
             "type": "app",
-            "default-channel": "1/stable/ubuntu-26.10",
+            "default-channel": "1/stable/ubuntu-27.04",
             "id": "FppXWunWzuRT2NUT9CwoBPNJNZBYOCk0"
         },
         {
             "name": "prompting-client",
             "type": "app",
-            "default-channel": "1/stable/ubuntu-26.10",
+            "default-channel": "1/stable/ubuntu-27.04",
             "id": "aoc5lfC8aUd2VL8VpvynUJJhGXp5K6Dj"
         },
         {
             "name": "snap-store",
             "type": "app",
-            "default-channel": "2/stable/ubuntu-26.10",
+            "default-channel": "2/stable/ubuntu-27.04",
             "id": "gjf3IPXoRiipCu9K0kVu52f0H56fIksg"
         },
         {
             "name": "gtk-common-themes",
             "type": "app",
-            "default-channel": "latest/stable/ubuntu-26.10",
+            "default-channel": "latest/stable/ubuntu-27.04",
             "id": "jZLfBRzf1cYlYysIjD2bwSzNtngY0qit"
         },
         {
             "name": "firefox",
             "type": "app",
-            "default-channel": "latest/stable/ubuntu-26.10",
+            "default-channel": "latest/stable/ubuntu-27.04",
             "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
         },
         {
-            "name": "gnome-46-2404",
+            "name": "gnome-core26",
             "type": "app",
-            "default-channel": "latest/stable/ubuntu-26.10",
-            "id": "ew7OxpbRTxfK7ImpIygRR85lkxvU7Pzt"
+            "default-channel": "latest/stable/ubuntu-27.04",
+            "id": "QZqEQWHOtcwEal2DiSXdMEvvHXFcXkkh"
         },
         {
             "name": "snapd-desktop-integration",
             "type": "app",
-            "default-channel": "latest/stable/ubuntu-26.10",
+            "default-channel": "latest/stable/ubuntu-27.04",
             "id": "IrwRHakqtzhFRHJOOPxKVPU0Kk7Erhcu"
+        },
+        {
+            "name": "hwctl",
+            "type": "app",
+            "default-channel": "latest/stable",
+            "id": "9gTfXKJi0rgBnay9fPx90keffqR2l9fX"
         }
     ]
 }
