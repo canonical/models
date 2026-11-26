@@ -1,0 +1,54 @@
+type: model
+authority-id: canonical
+revision: 1
+series: 16
+brand-id: canonical
+model: ubuntu-core-24-amd-kria-beta
+architecture: arm64
+base: core24
+grade: signed
+snaps:
+  -
+    default-channel: 24/beta
+    id: NnvDTO4E0hkNA9osrzH6OeMtNcy8Fz47
+    name: amd-kria
+    type: gadget
+  -
+    default-channel: 24/beta
+    id: IRohXhO5H6v6PRASiH1rMhXZT1rprwZc
+    name: xilinx-kernel
+    type: kernel
+  -
+    default-channel: latest/beta
+    id: 6EV0Xg8BtRaQWfkdtdIrXU3mTEl539q9
+    name: fpgad
+    type: app
+  -
+    default-channel: latest/beta
+    id: dwTAh7MZZ01zyriOZErqd1JynQLiOGvM
+    name: core24
+    type: base
+  -
+    default-channel: latest/beta
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: 24/beta
+    id: ASctKBEHzVt3f1pbZLoekCvcigRjtuqw
+    name: console-conf
+    presence: optional
+    type: app
+timestamp: 2026-11-10T10:04:16+00:00
+sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
+
+AcLBXAQAAQoABgUCavzAlAAKCRDgT5vottzAEt9dD/45n7DZbO4zs5FzX8RreOXuL2KAqurXy6jB
+uLZEfKxBJnr3yI0IyrzedXJx3tRpQ3wcQsS3rG7ausOQ0/Eiuq/VG8Kbco8DksCwrB93t4+/eb32
+xfr6lymdfZpd1BUf9YJzxVaR/eZ7CoDoLzn46x6Q0GF55bXucHX52uS3iOZYk2kk0z+Bb5z77u33
+YamDBIBlDNDBkUWIXTaqNPBGP5kPrsHOKW2MtDWay+23JE6jSWF5D4C74AXkPWpHZVp9bfmRtqyE
+KFVjEzNhvkrag8DwEBg/yNDOg57h4CR62jhJpQNqlpnuY4+xQsRN5HRKjW9oDOhJrCUu/XVgxqBa
+xzbNwnW4VDWPV1ZhkCzT/32PhBhb8FRRjRzGPCmvBh7nuRhu0+rfMwaonAi2IduRmwcc/B15ytwc
+qaAnskBB+UvMiCFghuPFOxiIr5kY/n4AdXCkyAZjTuJLgjvNQKBtnQ9ZgR1xEtYyJX1QGnVf2+ri
+q5bfFxrqdgES4nc8buQQ9RIxaFgV874g0osTrOG0Q3IfKE68hSKOENf6mawsHEEioK/OdFsjIqlR
+xezSQgvx95iRnBiutWtmUIOTOT9vKj80NxhWB6oi7NtXMi2H/Ypb8lpxtQrFmEdMxZRi0Nt7u5TD
+M31B6bB0G/hx5AHK0/FTLompqu0+M8uZkXU1v0qOjg==
